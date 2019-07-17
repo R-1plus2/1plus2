@@ -152,27 +152,7 @@
       top: 32px;
   }
   
-  .page-festival .after, 
-  .page-festival .iframe {
-      max-width: 100%;
-  }
-  .page-festival iframe{
-      height:250px;
-  }
-  .page-festival .edito {
-      max-width: 100%;
-      padding: 0 15px;
-      line-height: 25px;
-      font-size: 14px;
-  }
-  .page-festival .edito ul {
-      padding: 20px 30px 20px 45px;
-  }
-  .diapo .image {
-      width: 33%;
-      padding-top: 33%;
-      position: relative;
-  }
+  
   
   
 }
@@ -292,25 +272,7 @@
       height: 2px;
   }
   
-  .page-festival .after, 
-  .page-festival .iframe {
-      max-width: 100%;
-  }
-  .page-festival iframe{
-      height:250px;
-  }
-  .page-festival .edito {
-      max-width: 100%;
-      padding: 0 15px;
-  }
-  .page-festival .edito ul {
-      padding: 20px 30px 20px 45px;
-  }
-  .diapo .image {
-      width: 33%;
-      padding-top: 33%;
-      position: relative;
-  }
+  
 
 }
 
