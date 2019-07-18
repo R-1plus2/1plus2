@@ -1,28 +1,33 @@
 {
-  "cover": "/images/uploads/lesjours-couv.jpg",
-  "title": "Les Jours Photographiques",
-  "soustitre": "Résidence 2017",
-  "date": "2017",
+  "cover": "/images/uploads/film-2018-couv.jpg",
+  "title": "1+2=4",
+  "soustitre": "Résidence 2018",
+  "date": "2018",
   "body": {
-    "description": "DOCUMENTAIRE - 26 MINUTES\n\n### UN FILM DE CLÉMENTINE CARRIÉ\n\n_avec Israel Ariño, Leslie Moquin et Christian Sanna_",
-    "content": "**Tenu au jour le jour comme un journal, le film questionne trois photographes sur leur nécessité de faire des photographies. Suivant leur travail sur 2 mois, il témoigne de leur acharnement à comprendre, détourner ou sublimer le réel qui les entoure. Les mouvements inhérents aux processus créatifs de chaque photographe induisent la forme audiovisuelle et narrative du film. Ce sont comme des prises de notes rassemblées dans un journal vidéographique qui, au final, questionne les liens entre la photographie et le temps.**",
+    "description": "### UN FILM DE NESTOR (alias Noé Cuéllar)\n\n**MUSIQUE ORIGINALE:** Nestor (alias Noé Cuéllar)  \n**DIRECTION ARTISTIQUE**: Philippe Guionie  \nFILM DE CRÉATION - 26 MINUTES  \n_avec SMITH, Camille Carbonaro et Prune Phi_",
+    "content": "**Tenu au jour le jour comme un journal, le film questionne trois photographes sur leur nécessité de faire des photographies. Suivant leur travail sur 2 mois, il témoigne de leur acharnement à comprendre, détourner ou sublimer le réel qui les entoure. Les mouvements inhérents aux processus créatifs de chaque photographe induisent la forme audiovisuelle et narrative du film. Ce sont comme des prises de notes rassemblées dans un journal vidéographique qui, au final, questionne les liens entre la photographie et le temps.**\n\nDans son premier projet vidéo-documentaire, le point de vue de NESTOR révèle les trajectoires indépendantes de chacune des recherches faites par les artistes de la Résidence 1+2 à travers l’enregistrement sonore et visuel d’objets représentatifs ainsi que de l’environnement menant à chaque jeu convergent d’identité. Produit sur les lieux de production de chaque oeuvre, le documentaire est composé d’une bande son originale imaginée en réponse aux sons périphériques et au hasard.\n\nDans un décor à la fois sombre et délicat, Nestor (alias Noé Cuéllar) nous emmène dans l’intimité du processus de création des artistes de la résidence 2018 : SMITH, Camille Carbonaro et Prune Phi. Les actions des photographes, saisies sur le vif, retransmettent fidèlement et avec sensibilité, les dessous du processus de création. Le temps d’un instant, nous nous retrouvons dans les milieux où les artistes ont été inspirés, où ils ont dialogué, où ils ont créé. Ils nous exposent leurs questionnements et les anecdotes guidant leurs projets dont le fil rouge est la quête d’identité.\n\n**BIOGRAPHIE :** _Noé Cuellar est compositeur et photographe. Il développe une recherche musicale entre instruments à vent multiformes (orgue à soufflet-pompe, harmonium, accordéon) et synthèse modulaire. Faisant converser les sons intentionnels et accidentels, l’approche de Noé Cuellar en matière d’instrumentation est centrée sur le flux d’air enregistré et simulé, et l’abstraction des instruments électroniques. En collaboration avec Joseph Kramer, il fonde en 2009 le duo Coppice, à l’origine de nombreux albums, performances live, installations sonores et films centrés sur la relation de la musique à ses objets. Il a réalisé plusieurs oeuvres pour l’Experimental Sound Studio en partenariat avec le Chicago Park District et le Chicago Film Archives, diffusées au Musée d’Art Contemporain de Chicago, au Goethe-Institut ou à l’Université de Chicago, ainsi qu’en de nombreux lieux et festivals américains. Sa musique est diffusée par plusieurs labels internationaux._\n\nÀ chaque édition, la Résidence 1+2 invite un.e réalisateur.trice et produit un film de format 26’. Ce film de création est une «carte blanche» dont le fil rouge est la vie au sein de la Résidence 1+2. Alternant approche documentaire ou fictionnel, il donne à voir le travail de recherches des photographes, leurs productions, questionnements ou doutes, leur complicité,… Grâce à ce support filmique, les spectateurs entrent dans l’intimité du processus de création artistique des deux mois de résidence, à Toulouse. Chaque court-métrage est partie prenante de la collection de films de la Résidence 1+2. Il est projeté en avant-première lors du week-end inaugural (mi-octobre) suivi d’un cycle de projections commentées à la Cinémathèque de Toulouse ou dans des festivals de cinéma.",
     "readmore": {
       "readtexte": "en savoir plus",
       "readlien": "#"
     },
     "link": [
       {
-        "linktexte": "Clémentine Carrié",
-        "linklien": "https://www.clementinecarrie.com"
+        "linktexte": "Future Vessel",
+        "linklien": "www.futurevessel.com"
       }
     ]
   },
   "galeries": {
-    "iframe": "<iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/83EkKzi8Np4\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-    "images": []
+    "iframe": "<iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/7Fw_boF5mmI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "images": [
+      {
+        "image": "/images/uploads/film-2018-galerie1.jpg",
+        "alt": "1+2=4 © Nestor / Résidence 1+2 2018"
+      }
+    ]
   },
   "seo": {
     "descriptionseo": "Tenu au jour le jour comme un journal, le film questionne trois photographes sur leur nécessité de faire des photographies. Suivant leur travail sur 2 mois, il témoigne de leur acharnement à comprendre, détourner ou sublimer le réel qui les entoure. Les mouvements inhérents aux processus créatifs de chaque photographe induisent la forme audiovisuelle et narrative du film. Ce sont comme des prises de notes rassemblées dans un journal vidéographique qui, au final, questionne les liens entre la photographie et le temps.",
-    "thumbnail": "/images/uploads/lesjours-couv.jpg"
+    "thumbnail": "/images/uploads/film-2018-galerie1.jpg"
   }
 }
