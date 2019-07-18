@@ -1,49 +1,33 @@
 {
-  "cover": "/images/uploads/couv2019.jpg",
-  "title": "The future was yesterday (teaser)",
-  "soustitre": "Résidence 2019",
-  "date": "2019",
+  "cover": "/images/uploads/film-2017-couv.jpg",
+  "title": "Les Jours - Cahiers Photographiques",
+  "soustitre": "Résidence 2017",
+  "date": "2017",
   "body": {
-    "description": "\n### UN FILM DE CITIZEN JIF\n\nFILM DE CREATION - 26 MINUTES  \n_avec Matthieu Gafsou, Matilda Holloway et Manon Lanjouère_",
-    "content": "**Après Marjorie Calle en 2016 avec Diana Alice Léa, Clémentine Carrié en 2017 avec Les jours - Cahiers photographiques et Noé Cuéllar en 2018 avec 1+2=4, Citizen JiF est le nouveau réalisateur 2019 de la Résidence 1+2 « Photographie & Sciences ».**\n\nCette année, la Résidence 1+2 a confié à cet artiste polymorphe la réalisation de son film de création (format 26 mn) pour son édition 2019. Citizen JiF réalisera également le programme «Création Capsules 2019» un nouveau format de vidéos très courtes, illustrant les actualités de la Résidence 1+2. Cette carte blanche d’une année, véritable création inédite est à suivre tous les 15 jours, sur les réseaux sociaux de la Résidence 1+2.\n\n`À chaque édition, la Résidence 1+2 invite un.e réalisateur. trice et produit un film de format 26’. Ce film de création est une «carte blanche» dont le fil rouge est la vie au sein de la Résidence 1+2. Alternant approche documentaire ou fictionnel, il donne à voir le travail de recherches des photographes, leurs productions, questionnements ou doutes, leur complicité,... Grâce à ce support filmique, les spectateurs entrent dans l’intimité du processus de création artistique des deux mois de résidence à Toulouse. Chaque court-métrage est partie prenante de la collection de films de la Résidence 1+2. Il est projeté en avant-première lors du week-end inaugural (mi-octobre) suivi d’un cycle de projections commentées à la Cinémathèque de Toulouse ou dans des festivals de cinéma.`",
+    "description": "### UN FILM DE CLÉMENTINE CARRIÉ\n**MUSIQUE ORIGINALE:** Augustin Charnet  \n**DIRECTION ARTISTIQUE:** Philippe Guionie  \nFILM DE CRÉATION – 26 MINUTES\n\n_avec Israel Ariño, Leslie Moquin et Christian Sanna_",
+    "content": "** \"Les Jours - Cahiers photographiques\", est un film de création réalisé par Clémentine Carrié dans le cadre du programme de la Résidence 1+2. Durant les 2 mois de résidence, la réalisatrice suit les 3 photographes de l’édition 2017 dans leurs pérégrinations. Avec Israel Ariño, Leslie Moquin & Christian Sanna.**\n\nTenu au jour le jour, comme un journal de bord, le film « Les Jours - Cahiers photographiques » de Clémentine Carrié retranscrit, avec justesse, la vie quotidienne de 3 photographes en résidence et les questionne sur leur nécessité à faire des photographies. Dès leur arrivée, avec l’équipe qui les entoure, nous suivons ce trio dans leur quête perpétuelle et leurs pérégrinations personnelles et communes. Adepte de la chambre photographique et du collodion humide, l’alchimiste Israel Ariño nous fait partager la magie des procédés anciens, tandis  que Leslie Moquin cherche et teste le vent d’autan. Christian Sanna suit l’épopée de l’aéropostale sur les pas de Latécoère. Tous les trois, nous font vivre leurs singularités, leurs doutes et leurs rencontres. Véritable ôde à la création, ce film témoigne de leur acharnement à comprendre, détourner et sublimer le réel qui les entoure. Chacun à son rythme, à sa manière, se fait l’écho de la même question fondatrice : “Pourquoi photographiez-vous ?” Les mouvements inhérents aux processus créatifs de chaque photographe induisent la forme audiovisuelle et narrative du film. Le film ressemble à des prises de notes rassemblées dans un journal vidéographique qui, au final, questionne les liens entre la photographie et le temps.\n\n**BIOGRAPHIE :** _Clémentine Carrié est née en 1991 dans le Lot. Après une licence de philosophie, elle sort diplômée en 2015 de l'Ecole Nationale Supérieure d'Audio-Visuel (l'ENSAV) de Toulouse. En 2017, prolongeant ses études par un diplôme en Création Audio-visuelle \"Réalisation\" (DURCA à l'ENSAV), elle réalise un moyen-métrage pour la Cinémathèque de Toulouse & l'Institut Jean Vigo. Composé de films d’archives amateurs (1910-1980), Filmer les Pyrénées(52min), réinterprète la vie quotidienne dans ces montagnes (Sélectionné au Festival des Créations Télévisuelles de Luchon en 2017, au Festival CinéMed en 2018). Intriguée par l'enfance et les images qu'il nous en reste, son film La peau du désert (23min), raconte l'histoire d'un jeune couple qui, attendant un enfant, voit un événement étrange survenir. En 2018, elle réalise Gronde Marmaille (14min40), son premier court-métrage de fiction produit par Duno Films._\n\n`À chaque édition, la Résidence 1+2 invite un.e réalisateur.trice et produit un film de format 26’. Ce film de création est une «carte blanche» dont le fil rouge est la vie au sein de la Résidence 1+2. Alternant approche documentaire ou fictionnel, il donne à voir le travail de recherches des photographes, leurs productions, questionnements ou doutes, leur complicité,… Grâce à ce support filmique, les spectateurs entrent dans l’intimité du processus de création artistique des deux mois de résidence, à Toulouse. Chaque court-métrage est partie prenante de la collection de films de la Résidence 1+2. Il est projeté en avant-première lors du week-end inaugural (mi-octobre) suivi d’un cycle de projections commentées à la Cinémathèque de Toulouse ou dans des festivals de cinéma.`",
     "readmore": {
-      "readtexte": "RESIDENCE 2019",
-      "readlien": "http://www.1plus2.fr/"
+      "readtexte": "RÉSIDENCE 2017",
+      "readlien": "#"
     },
     "link": [
       {
-        "linktexte": "Citizen Jif",
-        "linklien": "https://www.citizenjif.com/"
+        "linktexte": "Clémentine Carrié",
+        "linklien": "http://www.clementinecarrie.com"
       }
     ]
   },
   "galeries": {
-    "iframe": "<iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/OAj30suncEs\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "iframe": "<iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/83EkKzi8Np4\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
     "images": [
       {
-        "image": "/images/uploads/film2019.jpg",
-        "alt": "extrait Teaser Résidence 1+2 2019 © Citizen Jif"
-      },
-      {
-        "image": "/images/uploads/2018film-1.jpg",
-        "alt": ""
-      },
-      {
-        "image": "/images/uploads/2018film-2.jpg"
-      },
-      {
-        "image": "/images/uploads/2018film-3.jpg"
-      },
-      {
-        "image": "/images/uploads/2018film-4.jpg"
-      },
-      {
-        "image": "/images/uploads/2018film-5.jpg"
+        "image": "/images/uploads/film-2017-galerie1.jpg",
+        "alt": "©Clémentine Carrié / Résidence 1+2 2017"
       }
     ]
   },
   "seo": {
-    "descriptionseo": "Cette année, la Résidence 1+2 a confié à Citizen Jif, artiste polymorphe, la réalisation de son film de création (format 26 mn) pour son édition 2019. Il réalisera également le programme «Création Capsules 2019» illustrant les actualités de la Résidence 1+2 à suivre tous les 15 jours, sur les réseaux sociaux de la Résidence 1+2.",
-    "thumbnail": "/images/uploads/film2019.jpg"
+    "descriptionseo": "Les Jours - Cahiers photographiques, est un film de création réalisé par Clémentine Carrié dans le cadre du programme de la Résidence 1+2. Durant les 2 mois de résidence, la réalisatrice suit les 3 photographes de l’édition 2017 dans leurs pérégrinations. Avec Israel Ariño, Leslie Moquin & Christian Sanna",
+    "thumbnail": "/images/uploads/film-2017-galerie1.jpg"
   }
 }
