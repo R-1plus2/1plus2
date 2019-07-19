@@ -1,0 +1,56 @@
+{
+  "cover": "/images/uploads/smith-couv.jpg",
+  "title": "Astrobleme",
+  "soustitre": "SMITH",
+  "date": "2018",
+  "body": {
+    "description": "** Livret d’opéra photographique co-écrit avec l’écrivain Lucien Raphmaj, et réalisé avec le concours de partenaires du domaine spatial implantés à Toulouse (l’IRAP, le Pic du Midi de Bigorre, la Cité de l’Espace). « Astroblème » (mot composé de ástron, « astre », et de blêma, « coup », qui désigne l’ensemble des traces laissées par l’impact d’une météorite ou d’un astéroïde sur Terre) réunit textes et images pour relater les péripéties croisées d’un humain atteint de désidération, et d’une météorite martienne, NWA 10170 – en transit entre deux mondes. **",
+    "savoirplus": [
+      {
+        "linktexte": "RESIDENCE 2018"
+      },
+      {
+        "linktexte": "COFFRET 2018",
+        "linklien": "#"
+      }
+    ],
+    "link": [
+      {
+        "linktexte": "SMITH",
+        "linklien": "https://smith.pictures"
+      },
+      {
+        "linktexte": "Editions Filigranes",
+        "linklien": "http://www.filigranes.com"
+      }
+    ]
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/smith-couv.jpg",
+        "alt": "« Astroblème » Couverture © SMITH / Résidence 1+2"
+      },
+      {
+        "image": "/images/uploads/smith-1.jpg",
+        "alt": "« Astroblème » © SMITH / Résidence 1+2"
+      },
+      {
+        "image": "/images/uploads/smith-2.jpg"
+      },
+      {
+        "image": "/images/uploads/smith-3.jpg"
+      },
+      {
+        "image": "/images/uploads/smith-4.jpg"
+      },
+      {
+        "image": "/images/uploads/smith-5.jpg"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "Livret d’opéra photographique co-écrit avec l’écrivain Lucien Raphmaj, et réalisé avec le concours de partenaires du domaine spatial implantés à Toulouse (l’IRAP, le Pic du Midi de Bigorre, la Cité de l’Espace). « Astroblème » (mot composé de ástron, « astre », et de blêma, « coup », qui désigne l’ensemble des traces laissées par l’impact d’une météorite ou d’un astéroïde sur Terre) réunit textes et images pour relater les péripéties croisées d’un humain atteint de désidération, et d’une météorite martienne, NWA 10170 – en transit entre deux mondes.",
+    "thumbnail": "/images/uploads/smith-couv.jpg"
+  }
+}
