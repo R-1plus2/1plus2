@@ -455,6 +455,7 @@ main {
     border: 2px solid var(--color-1);
     font-style: italic;
 		margin-bottom: 15px;
+    margin-right: 10px;
 		display: inline-block;
 }
 .more-link {
