@@ -1,0 +1,43 @@
+{
+  "cover": "/images/uploads/sanna-couv.jpg",
+  "title": "Carnet de Vol",
+  "soustitre": "Christian Sanna",
+  "date": "2017",
+  "body": {
+    "description": "###a faire",
+    "content": "**texte**",
+    "savoirplus": [
+      {
+        "linktexte": "RESIDENCE 2017"
+      }
+    ],
+    "link": [
+      {
+        "linktexte": "COFFRET 2017"
+      }
+    ]
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/sanna-couv.jpg"
+      },
+      {
+        "image": "/images/uploads/sanna-1.jpg"
+      },
+      {
+        "image": "/images/uploads/sanna-2.jpg"
+      },
+      {
+        "image": "/images/uploads/sanna-3.jpg"
+      },
+      {
+        "image": "/images/uploads/sanna-4.jpg"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "texte seo",
+    "thumbnail": "/images/uploads/sanna-couv.jpg"
+  }
+}
