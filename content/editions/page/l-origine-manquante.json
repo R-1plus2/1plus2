@@ -22,6 +22,10 @@
   "galeries": {
     "images": [
       {
+        "image": "/images/uploads/coffret-2018-couv.png",
+        "alt": "L'Origine Manquante – Coffret 2018 - Editions Filigranes / 1+2"
+      },
+      {
         "image": "/images/uploads/coffret-2018-galerie1.jpg",
         "alt": "L'Origine Manquante – Coffret 2018 - Editions Filigranes / 1+2"
       }
