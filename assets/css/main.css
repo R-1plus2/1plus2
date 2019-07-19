@@ -375,7 +375,7 @@ main {
 	    width:calc(100% - 30px);
 			height: 35vh;
 	}
-	.page-article-edition .diapo .image:first-child,
+	.page-article-editions .diapo .image:first-child,
 	.page-article-factory .diapo .image:first-child,
   .page-article-horslesmurs .diapo .image:first-child{
 	    height: 70vh;
@@ -391,7 +391,7 @@ main {
 			height: auto;
 			max-height: 100%;
 	}
-		.page-article-edition .diapo .image:first-child img,
+		.page-article-editions .diapo .image:first-child img,
 		.page-article-factory .diapo .image:first-child img,
     .page-article-film .diapo img {
 		    height: 100%;
