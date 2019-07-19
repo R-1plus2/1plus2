@@ -36,19 +36,28 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/sanna-couv.jpg"
+        "image": "/images/uploads/sanna-couv.jpg",
+        "alt": "Carnet de Vol, Couverture © Christian Sanna / Résidence 1+2 2017"
       },
       {
-        "image": "/images/uploads/sanna-1.jpg"
+        "image": "/images/uploads/sanna-0.jpg",
+        "alt": "Carnet de Vol © Christian Sanna / Résidence 1+2 2017"
       },
       {
-        "image": "/images/uploads/sanna-2.jpg"
+        "image": "/images/uploads/sanna-1.jpg",
+        "alt": "Carnet de Vol © Christian Sanna / Résidence 1+2 2017"
       },
       {
-        "image": "/images/uploads/sanna-3.jpg"
+        "image": "/images/uploads/sanna-2.jpg",
+        "alt": "Carnet de Vol © Christian Sanna / Résidence 1+2 2017"
       },
       {
-        "image": "/images/uploads/sanna-4.jpg"
+        "image": "/images/uploads/sanna-3.jpg",
+        "alt": "Carnet de Vol © Christian Sanna / Résidence 1+2 2017"
+      },
+      {
+        "image": "/images/uploads/sanna-4.jpg",
+        "alt": "Carnet de Vol © Christian Sanna / Résidence 1+2 2017"
       }
     ]
   },
