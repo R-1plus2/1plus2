@@ -1,0 +1,68 @@
+{
+  "cover": "/images/uploads/arino-couv.jpg",
+  "title": "Le Partage des Eaux",
+  "soustitre": "Israel Ariño",
+  "date": "2017",
+  "body": {
+    "description": "###",
+    "commander": [
+      {
+        "linktexte": "COMMANDER",
+        "linklien": "https://www.filigranes.com/livre/12-traversees/"
+      }
+    ],
+    "content": "**texte**",
+    "savoirplus": [
+      {
+        "linktexte": "RESIDENCE 2017",
+        "linklien": "#"
+      },
+      {
+        "linktexte": "COFFRET 2017",
+        "linklien": "#"
+      }
+    ],
+    "link": [
+      {
+        "linktexte": "Israel Ariño",
+        "linklien": "http://israelarino.com/"
+      },
+      {
+        "linktexte": "Editions Filigranes",
+        "linklien": "https://www.filigranes.com"
+      }
+    ]
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/arino-couv.jpg",
+        "alt": "Le Partage des Eaux, couverture © Israel Ariño / Résidence 1+2 2017"
+      },
+      {
+        "image": "/images/uploads/arino-1.jpg",
+        "alt": "Le Partage des Eaux © Israel Ariño / Résidence 1+2 2017"
+      },
+      {
+        "image": "/images/uploads/arino-2.jpg",
+        "alt": "Le Partage des Eaux © Israel Ariño / Résidence 1+2 2017"
+      },
+      {
+        "image": "/images/uploads/arino-3.jpg",
+        "alt": "Le Partage des Eaux © Israel Ariño / Résidence 1+2 2017"
+      },
+      {
+        "image": "/images/uploads/arino-4.jpg",
+        "alt": "Le Partage des Eaux © Israel Ariño / Résidence 1+2 2017"
+      },
+      {
+        "image": "/images/uploads/arino-5.jpg",
+        "alt": "Le Partage des Eaux © Israel Ariño / Résidence 1+2 2017"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "texte seo",
+    "thumbnail": "/images/uploads/arino-5.jpg"
+  }
+}
