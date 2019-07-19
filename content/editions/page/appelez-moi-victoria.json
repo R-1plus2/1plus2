@@ -1,0 +1,64 @@
+{
+  "cover": "/images/uploads/carbonaro-couv.jpg",
+  "title": "Appelez-Moi Victoria",
+  "soustitre": "Camille Carbonaro",
+  "date": "2018",
+  "body": {
+    "description": "### Editions Filigranes\n**AUTEUR.E :** Camille Carbonaro\n\n**TEXTES :** Dominique ROUX,  \n_enseignant, critique et historien de la photographie._\n\nFormat : 175 X 250 mm  \nLangues : Français / Anglais  \nTirage : 500 exemplaires  \nISBN : 978-2-35046-457-2 ",
+    "commander": [
+      {
+        "linktexte": "COMMANDER",
+        "linklien": "https://www.filigranes.com/livre/12-lorigine-manquante/"
+      }
+    ],
+    "content": "**Le projet de Camille Carbonaro est une archéologie visuelle qui explore les notions de mémoire, de généalogie et d’exil : un questionnement lié aux conséquences de l’immigration et de l’intégration italiennes en France.**  \n\n`La Résidence 1+2 et les Éditions Filigranes co-produisent chaque année un coffret comportant les trois ouvrages des photographes en résidence. Cette édition, inédite dans son concept, est présentée en deux langues (français & anglais) et structurée au sein d’une Collection «Toulouse».`",
+    "savoirplus": [
+      {
+        "linktexte": "RESIDENCE 2018",
+        "linklien": "#"
+      },
+      {
+        "linktexte": "COFFRET 2018",
+        "linklien": "#"
+      }
+    ],
+    "link": [
+      {
+        "linktexte": "Camille Barbonaro",
+        "linklien": "https://camillecarbonaro.com/"
+      },
+      {
+        "linktexte": "Editions Filigranes",
+        "linklien": "http://www.filigranes.com"
+      }
+    ]
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/carbonaro-couv.jpg",
+        "alt": "Appelez-Moi Victoria, Couverture © Camille Carbonaro / Résidence 1+2"
+      },
+      {
+        "image": "/images/uploads/carbonaro-2.jpg",
+        "alt": "Appelez-Moi Victoria © Camille Carbonaro / Résidence 1+2"
+      },
+      {
+        "image": "/images/uploads/carbonaro-3.jpg",
+        "alt": "Appelez-Moi Victoria © Camille Carbonaro / Résidence 1+2"
+      },
+      {
+        "image": "/images/uploads/carbonaro-4.jpg",
+        "alt": "Appelez-Moi Victoria © Camille Carbonaro / Résidence 1+2"
+      },
+      {
+        "image": "/images/uploads/carbonaro-5.jpg",
+        "alt": "Appelez-Moi Victoria © Camille Carbonaro / Résidence 1+2"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "Le projet de Camille Carbonaro est une archéologie visuelle qui explore les notions de mémoire, de généalogie et d’exil : un questionnement lié aux conséquences de l’immigration et de l’intégration italiennes en France.",
+    "thumbnail": "/images/uploads/carbonaro-2.jpg"
+  }
+}
