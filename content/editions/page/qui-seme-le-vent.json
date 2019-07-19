@@ -1,0 +1,54 @@
+{
+  "cover": "/images/uploads/moquin-couv.jpg",
+  "title": "qui seme le vent",
+  "soustitre": "Leslie Moquin",
+  "date": "2017",
+  "body": {
+    "description": "### Editions Filigranes\n\n**AUTEURE :** Leslie Moquin\n\n**TEXTES :** Dominique ROUX,\\\n_enseignant, critique et historien de la photographie._\n\nFormat : 175 X 250 mm\\\nLangues : Français / Anglais\\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-433-6",
+    "commander": [
+      {
+        "linktexte": "COMMANDER",
+        "linklien": "https://www.filigranes.com/livre/12-traversees/"
+      }
+    ],
+    "content": "**Qui sème le vent est le fruit d’une résidence / commande sur le territoire toulousain (résidence 1+2 / janvier - février 2017 avec Israel Ariño et Christian Sanna). Il fera l'objet d'une publication aux éditions Filigranes en octobre 2017.**\n\nCe travail mêle documents d’archives scientifiques (provenant de Météo France et de l’Institut de mécanique des fluides de Banlève) et archives inventées, faits divers et histoires à dormir debout, images trouvées et images fabriquées. C’est une recherche chimérique, étayée par de véritables expériences, en quête du vent mauvais.\n\n`La Résidence 1+2 et les Éditions Filigranes co-produisent chaque année un coffret comportant les trois ouvrages des photographes en résidence. Cette édition, inédite dans son concept, est présentée en deux langues (français & anglais) et structurée au sein d’une Collection «Toulouse».`",
+    "link": [
+      {
+        "linktexte": "Leslie Moquin",
+        "linklien": "http://www.lesliemoquin.com/"
+      },
+      {
+        "linktexte": "Editions Filigranes",
+        "linklien": "https://www.filigranes.com"
+      }
+    ]
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/moquin-couv.jpg",
+        "alt": "Qui Sème Le Vent, Couverture © Leslie Moquin / Résidence 1+2 2017"
+      },
+      {
+        "image": "/images/uploads/moquin-1.jpg",
+        "alt": "Qui Sème Le Vent © Leslie Moquin / Résidence 1+2 2017"
+      },
+      {
+        "image": "/images/uploads/moquin-2.jpg",
+        "alt": "Qui Sème Le Vent © Leslie Moquin / Résidence 1+2 2017"
+      },
+      {
+        "image": "/images/uploads/moquin-3.jpg",
+        "alt": "Qui Sème Le Vent © Leslie Moquin / Résidence 1+2 2017"
+      },
+      {
+        "image": "/images/uploads/moquin-5.jpg",
+        "alt": "Qui Sème Le Vent © Leslie Moquin / Résidence 1+2 2017"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "Qui sème le vent est le fruit d’une résidence / commande sur le territoire toulousain (résidence 1+2 / janvier - février 2017 avec Israel Ariño et Christian Sanna). Il fera l'objet d'une publication aux éditions Filigranes en octobre 2017.",
+    "thumbnail": "/images/uploads/moquin-1.jpg"
+  }
+}
