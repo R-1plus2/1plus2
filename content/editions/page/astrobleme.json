@@ -4,7 +4,13 @@
   "soustitre": "SMITH",
   "date": "2018",
   "body": {
-    "description": "** Livret d’opéra photographique co-écrit avec l’écrivain Lucien Raphmaj, et réalisé avec le concours de partenaires du domaine spatial implantés à Toulouse (l’IRAP, le Pic du Midi de Bigorre, la Cité de l’Espace). « Astroblème » (mot composé de ástron, « astre », et de blêma, « coup », qui désigne l’ensemble des traces laissées par l’impact d’une météorite ou d’un astéroïde sur Terre) réunit textes et images pour relater les péripéties croisées d’un humain atteint de désidération, et d’une météorite martienne, NWA 10170 – en transit entre deux mondes. **",
+    "description": "** Livret d’opéra photographique co-écrit avec l’écrivain Lucien Raphmaj, et réalisé avec le concours de partenaires du domaine spatial implantés à Toulouse (l’IRAP, le Pic du Midi de Bigorre, la Cité de l’Espace).**  \n\n « Astroblème » (mot composé de ástron, « astre », et de blêma, « coup », qui désigne l’ensemble des traces laissées par l’impact d’une météorite ou d’un astéroïde sur Terre) réunit textes et images pour relater les péripéties croisées d’un humain atteint de désidération, et d’une météorite martienne, NWA 10170 – en transit entre deux mondes.\n\nComment peut-on définir, observer, et nous ré-approprier la dimension cosmique de notre généalogie ? Il s’agit de mettre en lumière les zones de jonction entre la recherche artistique et la recherche scientifique, en créant de nouvelles formes à même de modifier notre rapport à la conception de nos origines, et notre nostalgie des étoiles.\n\n`La Résidence 1+2 et les Éditions Filigranes co-produisent chaque année un coffret comportant les trois ouvrages des photographes en résidence. Cette édition, inédite dans son concept, est présentée en deux langues (français & anglais) et structurée au sein d’une Collection «Toulouse».`",
+    "commander": [
+      {
+        "linktexte": "COMMANDER",
+        "linklien": "https://www.filigranes.com/livre/12-lorigine-manquante/"
+      }
+    ],
     "savoirplus": [
       {
         "linktexte": "RESIDENCE 2018"
