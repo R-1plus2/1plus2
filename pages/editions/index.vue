@@ -51,10 +51,17 @@ export default {
       $("body").removeClass('red-page yellow-page blue-page');
       this.titre();
       this.ea();
+      this.annee();
   },
   destroyed() {
   },
   methods: {
+      annee(){
+        $('.date').each( function( ) {     
+           var modif = $(this).html().substr(0, 4);
+           $(this).html(modif);
+        });
+      },
       titre(){
           var modif = 'EDITIONS';
           $('.page-title').html( modif );           
