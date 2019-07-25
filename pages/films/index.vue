@@ -3,7 +3,7 @@
     <article v-for="f in films" class="small-article">
         <nuxt-link class="article-padding" :to="f._path+'/'">
             <img class="cover" :src="f.cover">
-            <div class="content">
+            <div class="content" :data-date="f.date">
                 <h3 class="title-article">{{ f.title }}</h3>
                 <hr>
                 <p class="description-article">{{ f.soustitre }}</p>
@@ -15,6 +15,8 @@
 </template>
 <script>
   import $ from 'jquery'
+  let Isotope;
+  if (process.browser) { Isotope = require("isotope-layout"); }
   // export
 export default {
     layout: 'default',
@@ -38,12 +40,14 @@ export default {
         _path: `/films/${key.replace('.json', '').replace('./', '')}`
       }));
       return {
-        films
+        films,
+        grid: null
       };
     },
   mounted() {
       $("body").removeClass('red-page yellow-page blue-page');
       this.titre();
+      this.ea();
   },
   destroyed() {
   },
@@ -51,6 +55,19 @@ export default {
       titre(){
           var modif = 'FILMS';
           $('.page-title').html( modif );           
+      },
+      ea() {
+        var grid = new Isotope(".page-film", {
+          itemSelector: ".small-article",
+          getSortData : {
+           date : function ($elem) {
+            return $($elem).find('.content').attr('data-date');
+           }
+          },
+          sortBy : 'date',
+          sortAscending : false
+        });
+        grid.layout();
       }
   }
 }
