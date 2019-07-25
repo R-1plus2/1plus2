@@ -130,6 +130,12 @@
         titre(){
             var modif = '<a href="/hors-les-murs/" >HORS LES MURS</a>';
             $('.page-title').html( modif );           
+        },
+        markdownEdit(){
+            $('.main-description img').each( function( ) {
+                var code = $(this).html();
+                $(this).parent().html(code);
+            });
         }
     }
   };
