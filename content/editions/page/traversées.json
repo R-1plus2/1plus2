@@ -1,0 +1,42 @@
+{
+  "cover": "/images/uploads/couv-coffret-2017.png",
+  "title": "Traversées",
+  "soustitre": "Coffret 2017",
+  "date": "2017",
+  "body": {
+    "description": "### Editions Filigranes\n**AUTEUR.E.S :** Israel Ariño, Leslie Moquin, Christian Sanna\n\n**TEXTES :** Dominique ROUX,  \n_enseignant, critique et historien de la photographie._\n\nFormat : 175 X 250 mm  \nLangues : Français / Anglais  \nPrix : 25,00 €  \nTirage : 500 exemplaires  \nISBN : 978-2-35046-457-2 \n",
+    "commander": [
+      {
+        "linktexte": "COMMANDER",
+        "linklien": "https://www.filigranes.com/livre/12-traversees/"
+      }
+    ],
+    "content": "### Chaque année, la Résidence 1+2 co-produit avec les éditions Filigranes, un coffret de trois ouvrages dédiés aux trois photographes de l’année. Traversé[e]s est le titre du coffret 2017, avec les ouvrages de Israel Arino, Leslie Moquin, Christian Sanna.\n\nPour cette deuxième édition, nous avons choisi Israel Ariño (Espagne), Leslie Moquin (France) et Christian Sanna (Italie/Madagascar). Issus de générations et d’horizons différents, leurs expressions photographiques interrogent les thèmes de l’eau, du vent et de l’air… dans une vision d’auteur subjective et assumée. Ces trois regards, associés pour la première fois, sont entrés en résonance pendant deux mois suscitant des productions protéiformes et transversales.\nNous souhaitons montrer à l’international toute la richesse et la diversité de ces patrimoines revisités. Nous affirmons notre caractère transversal avec des passerelles revendiquées vers le design, le cinéma d’auteur, la recherche scientifique, les musiques actuelles,… autant de disciplines présentes dans une programmation riche et diverse au Musée Paul-Dupuy à Toulouse (13 octobre-19 novembre).\n\n**« Le Partage des eaux »** (Israel Ariño)\\\n**Qui Sème Le Vent** (Leslie Moquin)\\\n**Carnet de Vol** (Christian Sanna)\n\n`La Résidence 1+2 et les Éditions Filigranes co-produisent chaque année un coffret comportant les trois ouvrages des photographes en résidence. Cette édition, inédite dans son concept, est présentée en deux langues (français & anglais) et structurée au sein d’une Collection «Toulouse».`",
+    "savoirplus": [
+      {
+        "linktexte": "RÉSIDENCE 2017",
+        "linklien": "#"
+      }
+    ],
+    "link": [
+      {
+        "linktexte": "Editions Filigranes",
+        "linklien": "http://www.filigranes.com"
+      }
+    ]
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/couv-coffret-2017.png"
+      },
+      {
+        "image": "/images/uploads/coffret-2017-galerie1.jpg"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "Chaque année, la Résidence 1+2 co-produit avec les éditions Filigranes, un coffret de trois ouvrages dédiés aux trois photographes de l’année. Traversé[e]s est le titre du coffret 2017, avec les ouvrages de Israel Arino, Leslie Moquin, Christian Sanna.",
+    "thumbnail": "/images/uploads/coffret-2017-galerie1.jpg"
+  }
+}
