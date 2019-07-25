@@ -60,8 +60,9 @@ export default {
           $('.page-title').html( modif );           
       },
       annee(){
-          $('.date').each( function( ) {              
-              $(this).html().substr(0, 3);
+          $('.date').each( function( ) {     
+              console.log($(this).html().substr(0, 3));
+              
           });
       },
       ea() {
