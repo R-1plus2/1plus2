@@ -61,8 +61,7 @@ export default {
       },
       annee(){
           $('.date').each( function( ) {     
-              modif = $(this).html().substr(0, 4);
-              $(this).html(modif);
+              $(this).html().substr(0, 4);
           });
       },
       ea() {
