@@ -427,6 +427,9 @@ main {
     margin: 0 0 30px;
     line-height: 2vw;
 }
+.content {
+    font-size: 14px;
+}
 .content h2,
 .content h3,
 .content h4{
@@ -434,10 +437,15 @@ main {
 }
 .main-content p {
     margin: 0 0 15px;
-		font-size: 18px;
 }
 .main-content p:last-child {
     color: var(--color-1);
+}
+.main-description {
+    text-align: center;
+}
+.main-description p {
+    text-align: justify;
 }
 .main-description a {
     color: #000;
