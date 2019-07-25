@@ -49,6 +49,7 @@ export default {
   mounted() {
       $("body").removeClass('red-page yellow-page blue-page');
       this.titre();
+      this.annee();
       this.ea();
   },
   destroyed() {
@@ -57,6 +58,11 @@ export default {
       titre(){
           var modif = 'FILMS';
           $('.page-title').html( modif );           
+      },
+      annee(){
+          $('.date').each( function( ) {              
+              $(this).html().substr(0, 3);
+          });
       },
       ea() {
         var grid = new Isotope(".grid", {
