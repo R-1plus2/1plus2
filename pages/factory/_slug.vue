@@ -78,6 +78,7 @@
       $("body").addClass('blue-page');
       this.diapo();
       this.titre();
+      this.markdownEdit();
     },
     destroyed() {
     },
@@ -130,6 +131,11 @@
         titre(){
             var modif = '<a href="/factory/" >FACTORY</a>';
             $('.page-title').html( modif );           
+        },
+        markdownEdit(){
+            $('.main-description img').each( function( ) {              
+                $(this).unwrap();
+            });
         }
 
 
