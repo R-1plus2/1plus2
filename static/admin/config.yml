@@ -26,11 +26,11 @@ collections:
       - {label: "Image de couverture", name: "cover", widget: "image", required: false}
       - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
-      - {label: "Date de publication", name: "date", widget: "string", required: false}
+      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
       - label: "Article"
         name: "body"
         widget: "object"
-        fields: 
+        fields:
           - {label: "Intro", name: "description", widget: "markdown", required: false}
           - {label: "Article", name: "content", widget: "markdown", required: false}
           - label: "En savoir plus"
@@ -49,7 +49,7 @@ collections:
       - label: "Galeries"
         name: "galeries"
         widget: "object"
-        fields: 
+        fields:
           - {label: "Iframe", name: "iframe", widget: "markdown", required: false}
           - label: "Images"
             name: "images"
@@ -61,7 +61,7 @@ collections:
       - label: "SEO"
         name: "seo"
         widget: "object"
-        fields: 
+        fields:
           - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
           - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
   - name: "factory"
@@ -74,11 +74,11 @@ collections:
       - {label: "Image de couverture", name: "cover", widget: "image", required: false}
       - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
-      - {label: "Date de publication", name: "date", widget: "string", required: false}
+      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
       - label: "Article"
         name: "body"
         widget: "object"
-        fields: 
+        fields:
           - {label: "Intro", name: "description", widget: "markdown", required: false}
           - {label: "Article", name: "content", widget: "markdown", required: false}
           - {label: "Informations", name: "readmore", widget: "markdown", required: false}
@@ -92,7 +92,7 @@ collections:
       - label: "Galeries"
         name: "galeries"
         widget: "object"
-        fields: 
+        fields:
           - label: "Images"
             name: "images"
             widget: "list"
@@ -103,7 +103,7 @@ collections:
       - label: "SEO"
         name: "seo"
         widget: "object"
-        fields: 
+        fields:
           - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
           - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
   - name: "editions"
@@ -116,11 +116,11 @@ collections:
       - {label: "Image de couverture", name: "cover", widget: "image", required: false}
       - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
-      - {label: "Date de publication", name: "date", widget: "string", required: false}
+      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
       - label: "Article"
         name: "body"
         widget: "object"
-        fields: 
+        fields:
           - {label: "Informations", name: "description", widget: "markdown", required: false}
           - label: "Commander"
             name: "commander"
@@ -136,18 +136,18 @@ collections:
             required: false
             fields:
               - { label: Texte, name: linktexte, widget: string }
-              - { label: Lien, name: linklien, widget: string }  
+              - { label: Lien, name: linklien, widget: string }
           - label: "Liens"
             name: "link"
             widget: "list"
             required: false
             fields:
               - { label: Texte, name: linktexte, widget: string }
-              - { label: Lien, name: linklien, widget: string }          
+              - { label: Lien, name: linklien, widget: string }
       - label: "Galeries"
         name: "galeries"
         widget: "object"
-        fields: 
+        fields:
           - label: "Images"
             name: "images"
             widget: "list"
@@ -158,7 +158,7 @@ collections:
       - label: "SEO"
         name: "seo"
         widget: "object"
-        fields: 
+        fields:
           - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
           - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
   - name: "horslesmurs"
@@ -171,11 +171,11 @@ collections:
       - {label: "Image de couverture", name: "cover", widget: "image", required: false}
       - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
-      - {label: "Date de publication", name: "date", widget: "string", required: false}
+      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
       - label: "Article"
         name: "body"
         widget: "object"
-        fields: 
+        fields:
           - {label: "Intro", name: "description", widget: "markdown", required: false}
           - {label: "Article", name: "content", widget: "markdown", required: false}
           - {label: "Informations", name: "readmore", widget: "markdown", required: false}
@@ -189,7 +189,7 @@ collections:
       - label: "Galeries"
         name: "galeries"
         widget: "object"
-        fields: 
+        fields:
           - label: "Images"
             name: "images"
             widget: "list"
@@ -200,7 +200,7 @@ collections:
       - label: "SEO"
         name: "seo"
         widget: "object"
-        fields: 
+        fields:
           - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
           - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
   - name: "expositions"
@@ -213,11 +213,11 @@ collections:
       - {label: "Image de couverture", name: "cover", widget: "image", required: false}
       - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
-      - {label: "Date de publication", name: "date", widget: "string", required: false}
+      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
       - label: "Article"
         name: "body"
         widget: "object"
-        fields: 
+        fields:
           - {label: "Intro", name: "description", widget: "markdown", required: false}
           - {label: "Article", name: "content", widget: "markdown", required: false}
           - label: "En savoir plus"
@@ -236,7 +236,7 @@ collections:
       - label: "Galeries"
         name: "galeries"
         widget: "object"
-        fields: 
+        fields:
           - label: "Images"
             name: "images"
             widget: "list"
@@ -247,6 +247,6 @@ collections:
       - label: "SEO"
         name: "seo"
         widget: "object"
-        fields: 
+        fields:
           - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
           - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
