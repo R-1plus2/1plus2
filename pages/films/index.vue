@@ -1,16 +1,18 @@
 <template>
   <main class="page-film">
-    <article v-for="f in films" class="small-article">
-        <nuxt-link class="article-padding" :to="f._path+'/'">
-            <img class="cover" :src="f.cover">
-            <div class="content" :data-date="f.date">
-                <h3 class="title-article">{{ f.title }}</h3>
-                <hr>
-                <p class="description-article">{{ f.soustitre }}</p>
-                <small class="date">{{ f.date }}</small>
-            </div>
-        </nuxt-link>
-    </article>
+    <div class="grid">
+        <article v-for="f in films" class="small-article">
+            <nuxt-link class="article-padding" :to="f._path+'/'">
+                <img class="cover" :src="f.cover">
+                <div class="content" :data-date="f.date">
+                    <h3 class="title-article">{{ f.title }}</h3>
+                    <hr>
+                    <p class="description-article">{{ f.soustitre }}</p>
+                    <small class="date">{{ f.date }}</small>
+                </div>
+            </nuxt-link>
+        </article>
+    </div>
   </main>
 </template>
 <script>
@@ -57,7 +59,7 @@ export default {
           $('.page-title').html( modif );           
       },
       ea() {
-        var grid = new Isotope(".page-film", {
+        var grid = new Isotope(".grid", {
           itemSelector: ".small-article",
           getSortData : {
            date : function ($elem) {
