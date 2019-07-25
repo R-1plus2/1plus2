@@ -260,7 +260,9 @@ main {
 		font-size:0;
 }
 	.small-article {
-	    position: relative;
+	    position: relative !important;
+      top: auto !important;
+      left: auto !important;
 	    display: inline-block;
 	    width: 25%;
 	    overflow: hidden;
