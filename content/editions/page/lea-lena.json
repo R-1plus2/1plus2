@@ -1,0 +1,41 @@
+{
+  "cover": "/images/uploads/patrix-couv.png",
+  "title": "Lea + Lena",
+  "soustitre": "Lea Patrix",
+  "date": "2016",
+  "body": {
+    "description": "### Editions Filigranes\n**AUTEURE :** Lea Patrix\n\n**TEXTES :** Dominique ROUX,  \n_enseignant, critique et historien de la photographie._\n\nFormat : 220 X 305 mm  \nLangues : Français / Anglais  \nPrix : 27,00 €  \nTirage : 500 exemplaires  \nISBN : 978-2-35046-406-0\n",
+    "commander": [
+      {
+        "linktexte": "COMMANDER",
+        "linklien": "https://www.filigranes.com/livre/12/"
+      }
+    ],
+    "content": "`La Résidence 1+2 et les Éditions Filigranes co-produisent chaque année un coffret comportant les trois ouvrages des photographes en résidence. Cette édition, inédite dans son concept, est présentée en deux langues (français & anglais) et structurée au sein d’une Collection «Toulouse».`",
+    "savoirplus": [
+      {
+        "linktexte": "RÉSIDENCE 2016"
+      },
+      {
+        "linktexte": "COFFRET 2016"
+      }
+    ],
+    "link": [
+      {
+        "linktexte": "Editions Filigranes",
+        "linklien": "https://www.filigranes.com/livre/12/"
+      }
+    ]
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/coffret-2016-galerie4.jpg"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "#",
+    "thumbnail": "/images/uploads/coffret-2016-galerie4.jpg"
+  }
+}
