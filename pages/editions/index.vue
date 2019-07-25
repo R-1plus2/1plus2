@@ -1,9 +1,10 @@
 <template>
   <main class="page-editions">
+    <div class="grid">
     <article v-for="e in editions" class="small-article">
         <nuxt-link class="article-padding" :to="e._path+'/'">
             <img class="cover" :src="e.cover">
-            <div class="content">
+            <div class="content" :data-date="e.date">
                 <h3 class="title-article">{{ e.title }}</h3>
                 <hr>
                 <p class="description-article">{{ e.soustitre }}</p>
@@ -11,10 +12,13 @@
             </div>
         </nuxt-link>
     </article>
+    </div>
   </main>
 </template>
 <script>
   import $ from 'jquery'
+  let Isotope;
+  if (process.browser) { Isotope = require("isotope-layout"); }
   import VueLazyload from 'vue-lazyload'
   // export
 export default {
@@ -39,12 +43,14 @@ export default {
         _path: `/editions/${key.replace('.json', '').replace('./', '')}`
       }));
       return {
-        editions
+        editions,
+        grid: null
       };
     },
   mounted() {
       $("body").removeClass('red-page yellow-page blue-page');
       this.titre();
+      this.ea();
   },
   destroyed() {
   },
@@ -52,6 +58,19 @@ export default {
       titre(){
           var modif = 'EDITIONS';
           $('.page-title').html( modif );           
+      },
+      ea() {
+        var grid = new Isotope(".grid", {
+          itemSelector: ".small-article",
+          getSortData : {
+           date : function ($elem) {
+            return $($elem).find('.content').attr('data-date');
+           }
+          },
+          sortBy : 'date',
+          sortAscending : false
+        });
+        grid.layout();
       }
   }
 }
