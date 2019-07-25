@@ -134,7 +134,7 @@
         },
         markdownEdit(){
             $('.main-description img').each( function( ) {
-                var code = $(this).html();
+                var code = $(this).parent().html();
                 $(this).parent().html(code);
                 
                 var modif = $(this).parent().html(code);
