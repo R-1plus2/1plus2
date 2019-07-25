@@ -133,14 +133,8 @@
             $('.page-title').html( modif );           
         },
         markdownEdit(){
-            $('.main-description img').each( function( ) {
-                var code = $(this).parent().html();
-                $(this).parent().html(code);
-                
-                var modif = $(this).parent().html(code);
-  
-                console.log(code);
-                console.log(modif);
+            $('.main-description img').each( function( ) {              
+                $(this).unwrap();
             });
         }
     }
