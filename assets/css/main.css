@@ -465,12 +465,18 @@ main {
 		margin-bottom: 15px;
     margin-right: 10px;
 		display: inline-block;
+    transition: all .3s ease;
 }
 .more-link {
     position: relative;
     display: block;
     text-decoration: none;
     color: var(--color-1);
+    transition: all .3s ease;
+}
+.link:hover, .more-link:hover {
+    color: #000;
+    border: 2px solid #000;
 }
 
 .intro {
