@@ -290,6 +290,10 @@ main {
             height:auto;
             width:auto;
 				}
+        .page-expositions .cover {
+            max-height: none;
+            width: 100%;
+        }
 				.small-article:hover .cover {
 						transform: translate(-50%, -50%) scale(1);
 				}
@@ -377,7 +381,8 @@ main {
 	}
 	.page-article-editions .diapo .image:first-child,
 	.page-article-factory .diapo .image:first-child,
-  .page-article-horslesmurs .diapo .image:first-child{
+  .page-article-horslesmurs .diapo .image:first-child,
+  .page-article-expositions .diapo .image:first-child{
 	    height: 70vh;
 	}
 	.diapo img {
