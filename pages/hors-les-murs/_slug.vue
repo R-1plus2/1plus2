@@ -134,7 +134,9 @@
         markdownEdit(){
             $('.main-description img').each( function( ) {
                 var code = $(this).html();
-                $(this).parent().html(code);
+                var modif = $(this).parent().html(code);
+                console.log(code);
+                console.log(modif);
             });
         }
     }
