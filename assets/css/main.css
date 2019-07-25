@@ -442,7 +442,7 @@ main {
     color: var(--color-1);
 }
 .main-description {
-    text-align: center;
+    text-align: left;
 }
 .main-description p {
     text-align: justify;
