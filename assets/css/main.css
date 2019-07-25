@@ -490,7 +490,8 @@ main {
     margin: 0;
 }
 .page-factory .small-article:nth-child(2),
-.page-horslesmurs .small-article:nth-child(2) {
+.page-horslesmurs .small-article:nth-child(2),
+.page-expositions .small-article:first-child{
     width: 50%;
     height: calc((100vw - 250px ) / 2);
 }
