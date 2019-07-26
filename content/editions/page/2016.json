@@ -27,6 +27,9 @@
   "galeries": {
     "images": [
       {
+        "image": "/images/uploads/couv-coffret-2016.png"
+      },
+      {
         "image": "/images/uploads/coffret-2016-galerie1.jpg"
       },
       {
@@ -40,8 +43,7 @@
       },
       {
         "image": "/images/uploads/coffret-2016-galerie5.jpg"
-      },
-      {}
+      }
     ]
   },
   "seo": {
