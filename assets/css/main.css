@@ -473,6 +473,10 @@ main {
 		display: inline-block;
     transition: all .3s ease;
 }
+.link:hover {
+    color: #fff;
+    background: var(--color-3);
+}
 .more-link {
     position: relative;
     display: block;
@@ -480,9 +484,12 @@ main {
     color: var(--color-1);
     transition: all .3s ease;
 }
-.link:hover, .more-link:hover {
-    color: #fff;
+.more-link:hover {
+    color: var(--color-1);
     background: red;
+    text-decoration: underline;
+        text-decoration-color: currentcolor;
+    text-decoration-color: var(--color-3);
 }
 
 .intro {
@@ -501,6 +508,7 @@ main {
     width: 50%;
     height: calc((100vw - 250px ) / 2);
 }
+
 .blue-page .small-article .content{
 		background: var(--color-3);
 }
@@ -563,7 +571,6 @@ main {
     padding: 15px;
     margin: 0 0 30px;
 }
-
 .yellow-page .main-description a{
     color: #000;
 }
