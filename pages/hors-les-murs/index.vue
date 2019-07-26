@@ -7,10 +7,11 @@
           renforçant son ancrage local, régional ou national et s’ouvrant à d’autres publics. La Résidence 1+2 a pour ambition de créer une pépinière de jeunes
           photographes et un réseau d’entreprises et institutions, sensibles aux expressions artistiques.</p>
     </div>
+    <div class="grid">
     <article  v-for="h in horslesmurs"  class="small-article">
         <nuxt-link class="article-padding" :to="h._path+'/'">
             <img class="cover" :src="h.cover">
-            <div class="content" :data-date="f.date">
+            <div class="content" :data-date="h.date">
                 <h3 class="title-article">{{ h.title }}</h3>
                 <hr>
                 <p class="description-article">{{ h.soustitre }}</p>
@@ -18,6 +19,7 @@
             </div>
         </nuxt-link>
     </article>
+    </grid>
   </main>
 </template>
 <script>
