@@ -76,11 +76,17 @@
       $("body").removeClass('red-page yellow-page blue-page');
       this.diapo();
       this.titre();
+      this.annee();
     },
     destroyed() {
     },
     methods: {
-
+        annee(){
+          $('.date').each( function( ) {     
+             var modif = $(this).html().substr(0, 4);
+             $(this).html(modif);
+          });
+        },
         diapo() {
           var count=0;
           var slideIndex = 1;
