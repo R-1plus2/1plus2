@@ -10,7 +10,7 @@
     <article  v-for="h in horslesmurs"  class="small-article">
         <nuxt-link class="article-padding" :to="h._path+'/'">
             <img class="cover" :src="h.cover">
-            <div class="content">
+            <div class="content" :data-date="f.date">
                 <h3 class="title-article">{{ h.title }}</h3>
                 <hr>
                 <p class="description-article">{{ h.soustitre }}</p>
@@ -23,6 +23,8 @@
 <script>
   import $ from 'jquery'
   import VueLazyload from 'vue-lazyload'
+  let Isotope;
+  if (process.browser) { Isotope = require("isotope-layout"); }
   // export
 export default {
     layout: 'default',
@@ -46,20 +48,40 @@ export default {
         _path: `/hors-les-murs/${key.replace('.json', '').replace('./', '')}`
       }));
       return {
-        horslesmurs
+        horslesmurs,
+        grid: null
       };
     },
   mounted() {
       $("body").removeClass('red-page blue-page');
       $("body").addClass('yellow-page');
       this.titre();
-  },
-  destroyed() {
+      this.ea();
+      this.annee();
   },
   methods: {
       titre(){
           var modif = 'HORS LES MURS';
-          $('.page-title').html( modif );           
+          $('.page-title').html( modif );
+      },
+      annee(){
+          $('.date').each( function( ) {
+             var modif = $(this).html().substr(0, 4);
+             $(this).html(modif);
+          });
+      },
+      ea() {
+        var grid = new Isotope(".grid", {
+          itemSelector: ".small-article",
+          getSortData : {
+           date : function ($elem) {
+            return $($elem).find('.content').attr('data-date');
+           }
+          },
+          sortBy : 'date',
+          sortAscending : false
+        });
+        grid.layout();
       }
   }
 }

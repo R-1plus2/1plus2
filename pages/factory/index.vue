@@ -11,7 +11,7 @@
       <article  v-for="f in factory"  class="small-article">
         <nuxt-link class="article-padding" :to="f._path+'/'">
             <img class="cover" :src="f.cover">
-            <div class="content">
+            <div class="content" :data-date="f.date">
                 <h3 class="title-article">{{ f.title }}</h3>
                 <hr>
                 <p class="description-article">{{ f.soustitre }}</p>

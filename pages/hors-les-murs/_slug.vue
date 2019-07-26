@@ -9,14 +9,11 @@
         <div id="myModal" class="modal">
             <span class="close-modal cursor">&times;</span>
             <div class="modal-content">
-
                 <div v-for="i in galeries.images" class="mySlides">
                     <img :src="i.image" :alt="i.alt">
                 </div>
-
                 <a class="prev">&#10094;</a>
                 <a class="next">&#10095;</a>
-
             </div>
             <div class="caption-container">
                 <p id="caption"></p>
@@ -67,23 +64,21 @@
         ]
       }
     },
-    updated() {
-
-    },
-    beforeMount(){
-
-    },
     mounted() {
       $("body").removeClass('red-page blue-page');
       $("body").addClass('yellow-page');
       this.diapo();
       this.titre();
       this.markdownEdit();
-    },
-    destroyed() {
+      this.annee();
     },
     methods: {
-
+        annee(){
+            $('.date').each( function( ) {
+               var modif = $(this).html().substr(0, 4);
+               $(this).html(modif);
+            });
+        },
         diapo() {
             var count=0;
             var slideIndex = 1;
@@ -130,10 +125,10 @@
         },
         titre(){
             var modif = '<a href="/hors-les-murs/" >HORS LES MURS</a>';
-            $('.page-title').html( modif );           
+            $('.page-title').html( modif );
         },
         markdownEdit(){
-            $('.main-description img').each( function( ) {              
+            $('.main-description img').each( function( ) {
                 $(this).unwrap();
             });
         }
