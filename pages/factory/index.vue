@@ -7,7 +7,8 @@
           renforçant son ancrage local, régional ou national et s’ouvrant à d’autres publics. La Résidence 1+2 a pour ambition de créer une pépinière de jeunes
           photographes et un réseau d’entreprises et institutions, sensibles aux expressions artistiques.</p>
     </div>
-    <article  v-for="f in factory"  class="small-article">
+    <div class="grid">
+      <article  v-for="f in factory"  class="small-article">
         <nuxt-link class="article-padding" :to="f._path+'/'">
             <img class="cover" :src="f.cover">
             <div class="content">
@@ -18,9 +19,12 @@
             </div>
         </nuxt-link>
     </article>
+    </div>
   </main>
 </template>
 <script>
+  let Isotope;
+  if (process.browser) { Isotope = require("isotope-layout"); }
   import $ from 'jquery'
   import VueLazyload from 'vue-lazyload'
   // export
@@ -46,20 +50,43 @@ export default {
         _path: `/factory/${key.replace('.json', '').replace('./', '')}`
       }));
       return {
-        factory
+        factory,
+        grid: null
       };
     },
   mounted() {
       $("body").removeClass('red-page yellow-page');
       $("body").addClass('blue-page');
       this.titre();
+      this.ea();
+      this.annee();
+
   },
   destroyed() {
   },
   methods: {
+      annee(){
+          $('.date').each( function( ) {
+             var modif = $(this).html().substr(0, 4);
+             $(this).html(modif);
+          });
+      },
       titre(){
           var modif = 'FACTORY';
-          $('.page-title').html( modif );           
+          $('.page-title').html( modif );
+      },
+      ea() {
+        var grid = new Isotope(".grid", {
+          itemSelector: ".small-article",
+          getSortData : {
+           date : function ($elem) {
+            return $($elem).find('.content').attr('data-date');
+           }
+          },
+          sortBy : 'date',
+          sortAscending : false
+        });
+        grid.layout();
       }
   }
 }

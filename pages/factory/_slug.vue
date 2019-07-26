@@ -9,14 +9,11 @@
         <div id="myModal" class="modal">
             <span class="close-modal cursor">&times;</span>
             <div class="modal-content">
-
                 <div v-for="i in galeries.images" class="mySlides">
                     <img :src="i.image" :alt="i.alt">
                 </div>
-
                 <a class="prev">&#10094;</a>
                 <a class="next">&#10095;</a>
-
             </div>
             <div class="caption-container">
                 <p id="caption"></p>
@@ -34,7 +31,6 @@
             <p class="no-margin">LIENS &#62;</p>
             <a target="_blank" v-for="i in body.link" :href="i.linklien" class="more-link">{{ i.linktexte}}</a>
         </div>
-
     </div>
   </main>
 </template>
@@ -55,7 +51,6 @@
         slideIndex: 1
       }
     },
-
     head() {
       return {
         title: '1+2 – Photographie & Sciences | ' +this.title,
@@ -67,34 +62,29 @@
         ]
       }
     },
-    updated() {
-
-    },
-    beforeMount(){
-
-    },
     mounted() {
       $("body").removeClass('red-page yellow-page');
       $("body").addClass('blue-page');
       this.diapo();
       this.titre();
+      this.annee();
       this.markdownEdit();
     },
-    destroyed() {
-    },
     methods: {
-
+        annee(){
+            $('.date').each( function( ) {
+               var modif = $(this).html().substr(0, 4);
+               $(this).html(modif);
+            });
+        },
         diapo() {
             var count=0;
             var slideIndex = 1;
             console.log(slideIndex);
-
-
             $('.image').each( function( ) {
                 count += 1;
                 $(this).find( "img" ).attr('data-slide', count);
             });
-
             $('.close-modal').on( 'click', function() {
                 $("#myModal").css('display','none');
             });
@@ -103,16 +93,12 @@
                 slideIndex = $(this).find( "img" ).attr("data-slide");
                 showSlides(slideIndex);
             });
-
             $('.prev').on( 'click', function() {
                 showSlides(slideIndex -= 1);
-
             });
             $('.next').on( 'click', function() {
                 showSlides(slideIndex += 1);
             });
-
-
             function showSlides(n) {
               var i;
               var slides = document.getElementsByClassName("mySlides");
@@ -123,22 +109,19 @@
               for (i = 0; i < slides.length; i++) {
                 slides[i].style.display = "none";
               }
-
               slides[slideIndex-1].style.display = "block";
               captionText.innerHTML = dots[slideIndex-1].alt;
             }
         },
         titre(){
             var modif = '<a href="/factory/" >FACTORY</a>';
-            $('.page-title').html( modif );           
+            $('.page-title').html( modif );
         },
         markdownEdit(){
-            $('.main-description img').each( function( ) {              
+            $('.main-description img').each( function( ) {
                 $(this).unwrap();
             });
         }
-
-
     }
   };
 </script>
