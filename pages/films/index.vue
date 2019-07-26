@@ -49,18 +49,18 @@ export default {
   mounted() {
       $("body").removeClass('red-page yellow-page blue-page');
       this.titre();
-      this.annee();
       this.ea();
+      this.annee();  
   },
   destroyed() {
   },
   methods: {
       titre(){
           var modif = 'FILMS';
-          $('.page-title').html( modif );           
+          $('.page-title').html( modif );
       },
       annee(){
-          $('.date').each( function( ) {     
+          $('.date').each( function( ) {
              var modif = $(this).html().substr(0, 4);
              $(this).html(modif);
           });

@@ -71,8 +71,15 @@
       $("body").removeClass('red-page yellow-page blue-page');
       this.diapo();
       this.titre();
+      this.annee();
     },
     methods: {
+      annee(){
+          $('.date').each( function( ) {
+             var modif = $(this).html().substr(0, 4);
+             $(this).html(modif);
+          });
+      },
       diapo() {
         var count=0;
         var slideIndex = 1;
@@ -95,7 +102,7 @@
             console.log(slideIndex);
         });
         $('.next').on( 'click', function() {
-            showSlides(slideIndex += 1);            
+            showSlides(slideIndex += 1);
             console.log(slideIndex);
         });
         function showSlides(n) {
@@ -114,7 +121,7 @@
       },
       titre(){
           var modif = '<a href="/films/" >FILMS</a>';
-          $('.page-title').html( modif );           
+          $('.page-title').html( modif );
       }
     }
   };
