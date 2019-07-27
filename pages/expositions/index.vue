@@ -1,20 +1,24 @@
 <template>
   <main class="page-expositions">
-    <article v-for="e in expositions" class="small-article">
-        <nuxt-link class="article-padding" :to="e._path+'/'">
-            <img class="cover" :src="e.cover">
-            <div class="content">
-                <h3 class="title-article">{{ e.title }}</h3>
-                <hr>
-                <p class="description-article">{{ e.soustitre }}</p>
-                <small class="date">{{ e.date }}</small>
-            </div>
-        </nuxt-link>
-    </article>
+    <div class="grid">
+      <article v-for="e in expositions" class="small-article">
+          <nuxt-link class="article-padding" :to="e._path+'/'">
+              <img class="cover" :src="e.cover">
+              <div class="content" :data-date="e.date">
+                  <h3 class="title-article">{{ e.title }}</h3>
+                  <hr>
+                  <p class="description-article">{{ e.soustitre }}</p>
+                  <small class="date">{{ e.horaires }}</small>
+              </div>
+          </nuxt-link>
+      </article>
+    </div>
   </main>
 </template>
 <script>
-  import $ from 'jquery'
+import $ from 'jquery'
+let Isotope;
+if (process.browser) { Isotope = require("isotope-layout"); }
   // export
 export default {
     layout: 'default',
@@ -38,19 +42,34 @@ export default {
         _path: `/expositions/${key.replace('.json', '').replace('./', '')}`
       }));
       return {
-        expositions
+        expositions,
+        grid: null
       };
     },
   mounted() {
       $("body").removeClass('red-page yellow-page blue-page');
       this.titre();
+      this.ea();
   },
   destroyed() {
   },
   methods: {
       titre(){
           var modif = 'EXPOSITIONS';
-          $('.page-title').html( modif );           
+          $('.page-title').html( modif );
+      },
+      ea() {
+        var grid = new Isotope(".grid", {
+          itemSelector: ".small-article",
+          getSortData : {
+           date : function ($elem) {
+            return $($elem).find('.content').attr('data-date');
+           }
+          },
+          sortBy : 'date',
+          sortAscending : false
+        });
+        grid.layout();
       }
   }
 }

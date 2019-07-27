@@ -21,7 +21,7 @@
         </div>
     </div>
     <div class="right-side">
-        <small class="date">{{ date }}</small>
+        <small class="date">{{ horaires }}</small>
         <h3 class="title-article">{{ title }}</h3>
         <p class="description-article">{{ soustitre }}</p>
         <div class="content">
@@ -110,7 +110,7 @@
       },
       titre(){
           var modif = '<a href="/expositions/" >EXPOSITIONS</a>';
-          $('.page-title').html( modif );           
+          $('.page-title').html( modif );
       }
     }
   };
