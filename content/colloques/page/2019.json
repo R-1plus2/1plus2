@@ -12,11 +12,11 @@
         "article": [
           {
             "horaire": "08H30",
-            "information": "Je suis le texte "
+            "information": "**REVEIL CREATIF > Ouverture du colloque avec le parrain 2019 Sylvestre Maurice**, astrophysicien à l'intitut de recherche en astrophysique et planétologie (IRAP, CNRS/UT3 - Paul Sabatier/CNES), astronome à l'observatoire Midi-pyrénées, et planétologue, spécialiste de l'exploration du système solaire."
           },
           {
             "horaire": "10H00",
-            "information": "Je suis le second texte"
+            "information": "**Discours inauguraux** par **Francis Grass**, adjoint au Maire en charge de la Coordination des politiques Culturelles de la Ville de Toulouse et **Philippe Guionie**, directeur de la Résidence 1+2."
           }
         ]
       },
