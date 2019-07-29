@@ -738,3 +738,16 @@ main {
 		margin: 0;
 		line-height: 35px;
 }
+
+/* page colloques slug */
+.layout-colloques-slug .right-side {
+    float: left;
+}
+.layout-colloques-slug .main-description strong {
+    color: var(--color-1);
+    font-size: 22px;
+}
+.layout-colloques-slug .main-description a {
+    color: var(--color-1);
+    text-decoration: none;
+}
