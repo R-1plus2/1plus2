@@ -29,5 +29,9 @@
         "alt": "Image 1"
       }
     ]
+  },
+  "seo": {
+    "descriptionseo": "Description SEO",
+    "thumbnail": "/images/uploads/affiche2019-web.jpg"
   }
 }
