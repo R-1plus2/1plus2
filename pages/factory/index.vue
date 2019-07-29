@@ -87,6 +87,7 @@ export default {
           sortAscending : false
         });
         grid.layout();
+        $('.grid').addClass('test');
       }
   }
 }
