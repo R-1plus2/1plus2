@@ -795,20 +795,19 @@ main {
   }
   .accordeon__content {
       opacity: 0;
-      transition: all .5s .5s;
+      transition: all .5s ease .5s;
       display: block;
       justify-content: space-between;
-      border-bottom: 5px solid #FFB413;
       padding-bottom: 20px;
   }
 .accordeon__info {
     display: flex;
     margin: 15px 0;
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid var(--color-1);
 }
 .accordeon__info .horaires {
     width: 15%;
-    color: red;
+    color: var(--color-1);
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
