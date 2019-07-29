@@ -300,3 +300,9 @@ collections:
             fields:
               - { label: image, name: image, widget: image }
               - { label: alt, name: alt, widget: string }
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        fields:
+          - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
+          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
