@@ -12,7 +12,7 @@
                   <p>{{ a.horaire }}</p>
                   <h4>{{ a.titre }}</h4>
                 </div>
-                <div class="accordeon__icon-box">
+                <div class="accordeon__icon">
                   <i class="fas fa-angle-down collapsible__icon"></i>
                 </div>
               </div>
