@@ -26,10 +26,10 @@ export default {
     transition: { name: 'intro', mode: 'out-in' },
     head() {
      return {
-        title: 'EXPOSITIONS | 1+2 – Photographie & Sciences',
+        title: 'COLLOQUES | 1+2 – Photographie & Sciences',
         meta: [
           { hid: 'description', name: 'description', content: `1+2 est un programme de création artistique à vocation européenne, ancré à Toulouse, associant la photographie et les sciences.` },
-          { 'property': 'og:title', 'content': `EXPOSITIONS | 1+2 – Photographie & Sciences`, 'vmid': 'og:titre' },
+          { 'property': 'og:title', 'content': `COLLOQUES | 1+2 – Photographie & Sciences`, 'vmid': 'og:titre' },
           { 'property': 'og:description', 'content': `1+2 est un programme de création artistique à vocation européenne, ancré à Toulouse, associant la photographie et les sciences.` },
           { 'property': 'og:image', 'content': ``, 'vmid': 'og:image' }
         ]
