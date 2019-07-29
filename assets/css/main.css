@@ -740,6 +740,10 @@ main {
 }
 
 /* page colloques slug */
+.layout-colloques-slug .image {
+    width: calc(100% - 30px);
+    height: 30vh;
+}
 .layout-colloques-slug .right-side {
     float: left;
 }
