@@ -85,6 +85,7 @@ export default {
         });
         grid.layout();
         $('.grid .small-article:first-child').addClass('big-one');
+        
       }
   }
 }
