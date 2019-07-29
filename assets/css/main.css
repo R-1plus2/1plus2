@@ -767,16 +767,17 @@ main {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      height: 35px;
+      height: 75px;
       z-index: 1;
       cursor: pointer;
   }
     .accordeon__titre p {
         font-weight: 600;
+        margin: 0;
     }
     .accordeon__titre h4 {
         font-weight: 600;
-        font-size: 1.5vw;
+        font-size: 1.7vw;
         line-height: 2vw;
         color:var(--color-1);
     }
