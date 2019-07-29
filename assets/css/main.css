@@ -799,11 +799,11 @@ main {
       overflow: hidden;
       height: 0;
       padding: 0px;
-      transition: all .5s;
+      transition: all .3s;
   }
   .accordeon__content {
       opacity: 0;
-      transition: all .5s ease;
+      transition: all .3s ease;
       display: block;
       justify-content: space-between;
   }
@@ -819,7 +819,7 @@ main {
       width: 15%;
       color: var(--color-1);
       font-size: 16px;
-      font-weight: 600;
+      font-weight: 700;
       letter-spacing: 1px;
   }
   .information {
@@ -834,7 +834,7 @@ main {
       color: #000;
   }
   .accordeon__icon {
-      transition: all .2s;
+      transition: all .3s;
       transform: rotate(0);
       font-size: 30px;
       color: var(--color-1);
@@ -849,5 +849,5 @@ main {
   }
   .accordeon--open .accordeon__content {
       opacity: 1;
-      transition:all .5s ease .5s;
+      transition:all .3s ease .3s;
   }
