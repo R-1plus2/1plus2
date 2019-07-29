@@ -12,11 +12,11 @@
         "article": [
           {
             "horaire": "08H30",
-            "titre": "Je suis le texte "
+            "information": "Je suis le texte "
           },
           {
             "horaire": "10H00",
-            "titre": "Je suis le second texte"
+            "information": "Je suis le second texte"
           }
         ]
       },
@@ -26,11 +26,11 @@
         "article": [
           {
             "horaire": "11h00",
-            "titre": "je suis un texte"
+            "information": "je suis un texte"
           },
           {
             "horaire": "11h45",
-            "titre": "je suis un texte 2"
+            "information": "je suis un texte 2"
           }
         ]
       }
