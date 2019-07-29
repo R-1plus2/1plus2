@@ -746,7 +746,7 @@ main {
 }
 .page-article-colloques .image {
     width: calc(100% - 30px);
-    height: 30vh;
+    height: 30vh !important;
 }
 .page-article-colloques .right-side {
     float: left;
