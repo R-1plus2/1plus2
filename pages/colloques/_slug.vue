@@ -20,7 +20,7 @@
                 <div class="accordeon__content">
                   <div class="accordeon__info" v-for="b in a.article">
                       <div class="horaires">{{ b.horaire }}</div>
-                      <vue-markdown>{{ b.information }}</vue-markdown>
+                      <vue-markdown class="information">{{ b.information }}</vue-markdown>
                   </div>
                 </div>
               </div>
