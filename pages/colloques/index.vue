@@ -37,9 +37,9 @@ export default {
     },
     data() {
       const context = require.context('~/content/expositions/page/', false, /\.json$/);
-      const expositions = context.keys().map(key => ({
+      const colloques = context.keys().map(key => ({
         ...context(key),
-        _path: `/expositions/${key.replace('.json', '').replace('./', '')}`
+        _path: `/colloques/${key.replace('.json', '').replace('./', '')}`
       }));
       return {
         expositions,
