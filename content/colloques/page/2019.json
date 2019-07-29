@@ -27,6 +27,14 @@
       {
         "image": "/images/uploads/2018film-1.jpg",
         "alt": "Image 1"
+      },
+      {
+        "image": "/images/uploads/2018film-5.jpg",
+        "alt": "Image 2"
+      },
+      {
+        "image": "/images/uploads/2018film-2.jpg",
+        "alt": "Image 3"
       }
     ]
   },
