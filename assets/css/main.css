@@ -502,9 +502,7 @@ main {
 .intro p {
     margin: 0;
 }
-.big-one,
-.page-horslesmurs .small-article:nth-child(2),
-.page-expositions .small-article:first-child{
+.big-one{
     width: 50%;
     height: calc((100vw - 250px ) / 2);
 }
