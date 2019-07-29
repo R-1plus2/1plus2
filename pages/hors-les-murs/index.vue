@@ -83,8 +83,9 @@ export default {
           sortBy : 'date',
           sortAscending : false
         });
-        grid.layout();
         $('.grid .small-article:first-child').addClass('big-one');
+        grid.layout();
+        
         
       }
   }
