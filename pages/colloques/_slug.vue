@@ -1,6 +1,6 @@
 <template>
   <main class="page-article-colloques">
-    <div class="left-side">
+    <div class="right-side">
         <small class="date">{{ horaires }}</small>
         <h3 class="title-article">{{ title }}</h3>
         <p class="description-article">{{ soustitre }}</p>
@@ -8,7 +8,7 @@
             <vue-markdown class="main-description">{{ body.description }}</vue-markdown>
         </div>
     </div>
-    <div class="right-side">
+    <div class="left-side">
         <div class="diapo">
             <div v-for="i in galeries.images" class="image">
               <img class="selected" :src="i.image" :alt="i.alt">
