@@ -19,7 +19,7 @@
               <div class="accordeon__body">
                 <div class="accordeon__content">
                   <div class="accordeon__info" v-for="b in a.article">
-                      <small>{{ b.horaire }}</small>
+                      <div class="horaires">{{ b.horaire }}</div>
                       <p>{{ b.titre }}</p>
                   </div>
                 </div>
