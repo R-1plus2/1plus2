@@ -36,13 +36,13 @@ export default {
       }
     },
     data() {
-      const context = require.context('~/content/expositions/page/', false, /\.json$/);
+      const context = require.context('~/content/colloques/page/', false, /\.json$/);
       const colloques = context.keys().map(key => ({
         ...context(key),
         _path: `/colloques/${key.replace('.json', '').replace('./', '')}`
       }));
       return {
-        expositions,
+        colloques,
         grid: null
       };
     },
