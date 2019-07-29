@@ -798,21 +798,24 @@ main {
       display: block;
       justify-content: space-between;
   }
-.accordeon__info {
-    display: flex;
-    margin: 15px 0;
-    border-bottom: 3px solid var(--color-1);
-}
-.accordeon__info .horaires {
-    width: 15%;
-    color: var(--color-1);
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 1px;
-}
-.accordeon__info p {
-    margin: 0;
-}
+  .accordeon__info {
+      display: flex;
+      padding: 15px 0;
+      border-bottom: 3px solid var(--color-1);
+  }
+  .accordeon__info:last-child {
+      border: none;
+  }
+  .accordeon__info .horaires {
+      width: 15%;
+      color: var(--color-1);
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 1px;
+  }
+  .accordeon__info p {
+      margin: 0;
+  }
   .accordeon--open .accordeon__icon {
       color: #000;
   }
