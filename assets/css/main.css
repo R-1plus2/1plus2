@@ -797,6 +797,19 @@ main {
       border-bottom: 5px solid #FFB413;
       padding-bottom: 20px;
   }
+.accordeon__info {
+    display: flex;
+}
+.accordeon__info .horaires {
+    width: 15%;
+    color: red;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.accordeon__info p {
+    margin: 0;
+}
   .accordeon--open .accordeon__icon {
       color: #000;
   }
