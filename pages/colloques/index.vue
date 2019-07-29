@@ -1,14 +1,14 @@
 <template>
   <main class="page-colloques">
     <div class="grid">
-      <article v-for="e in expositions" class="small-article">
-          <nuxt-link class="article-padding" :to="e._path+'/'">
-              <img class="cover" :src="e.cover">
-              <div class="content" :data-date="e.date">
-                  <h3 class="title-article">{{ e.title }}</h3>
+      <article v-for="c in colloques" class="small-article">
+          <nuxt-link class="article-padding" :to="c._path+'/'">
+              <img class="cover" :src="c.cover">
+              <div class="content" :data-date="c.date">
+                  <h3 class="title-article">{{ c.title }}</h3>
                   <hr>
-                  <p class="description-article">{{ e.soustitre }}</p>
-                  <small class="date">{{ e.horaires }}</small>
+                  <p class="description-article">{{ c.soustitre }}</p>
+                  <small class="date">{{ c.horaires }}</small>
               </div>
           </nuxt-link>
       </article>
