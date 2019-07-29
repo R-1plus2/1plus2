@@ -435,6 +435,7 @@ main {
 }
 .content {
     font-size: 14px;
+    line-height: 16px;
 }
 .content h2,
 .content h3,
@@ -740,30 +741,33 @@ main {
 }
 
 /* page colloques slug */
-.layout-colloques-slug .image {
+.page-article-colloques .description-article {
+    margin: 0 0 15px;
+}
+.page-article-colloques .image {
     width: calc(100% - 30px);
     height: 30vh;
 }
-.layout-colloques-slug .right-side {
+.page-article-colloques .right-side {
     float: left;
     padding: 0 100px 50px;
     width: calc(50% - 200px);
 }
-.layout-colloques-slug .right-side .date::before {
+.page-article-colloques .right-side .date::before {
     left:100px;
 }
-.layout-colloques-slug .main-description strong {
+.page-article-colloques .main-description strong {
     color: var(--color-1);
     font-size: 1.4em;
 }
-.layout-colloques-slug .main-description a {
+.page-article-colloques .main-description a {
     color: var(--color-1);
     text-decoration: none;
 }
 /* WIDGET - ACCORDEON */
   /* Accordeon */
   .accordeon {
-      margin: 30px auto 0;
+      margin: 20px auto 0;
       display: flex;
       flex-direction: column;
   }
@@ -805,7 +809,7 @@ main {
   }
   .accordeon__info {
       display: flex;
-      padding: 15px 0;
+      padding: 10px 0;
       border-bottom: 3px solid var(--color-1);
   }
   .accordeon__info:last-child {
@@ -840,7 +844,7 @@ main {
       transform: rotate(180deg);
   }
   .accordeon--open .accordeon__body {
-      padding: 10px 0px 10px;
+      padding: 0 0 10px;
       height: 100%;
   }
   .accordeon--open .accordeon__content {
