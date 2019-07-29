@@ -1,3 +1,32 @@
 {
-  "title": "COLLOQUES 2019"
+  "cover": "/images/uploads/affiche2019-web.jpg",
+  "title": "COLLOQUES 2019",
+  "horaires": "SAMEDI 12 OCTOBRE",
+  "body": {
+    "description": "**08h30 à 18h00 au Théàtre de la Cité**\nThéatre de la Cité - 1 rue Pierre Bodis - Toulouse\n[www.theatre-cite.com](www.theatre-cite.com)",
+    "accordeon": [
+      {
+        "horaire": "08H30 > 11H00",
+        "titre": "Présentation de l'édition 2019",
+        "article": [
+          {
+            "horaire": "08H30",
+            "titre": "Je suis le texte "
+          },
+          {
+            "horaire": "10H00",
+            "titre": "Je suis le second texte"
+          }
+        ]
+      }
+    ]
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/2018film-1.jpg",
+        "alt": "Image 1"
+      }
+    ]
+  }
 }
