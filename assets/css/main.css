@@ -758,7 +758,7 @@ main {
 /* WIDGET - ACCORDEON */
   /* Accordeon */
   .accordeon {
-      margin: 50px auto 0;
+      margin: 30px auto 0;
       display: flex;
       flex-direction: column;
   }
@@ -798,7 +798,6 @@ main {
       transition: all .5s ease;
       display: block;
       justify-content: space-between;
-      padding-bottom: 20px;
   }
 .accordeon__info {
     display: flex;
