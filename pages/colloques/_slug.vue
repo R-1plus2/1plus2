@@ -86,6 +86,7 @@
       document.querySelectorAll('.accordeon').forEach(el => el.addEventListener('click', e => {
         e.currentTarget.classList.toggle('accordeon--open')
       }));
+      $('.accordeon').addClass('accordeon--open');
     },
     methods: {
       diapo() {
