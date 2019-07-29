@@ -16,6 +16,14 @@ collections:
       - {label: "Article", name: "description", widget: "markdown", required: false}
       - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
       - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
+  - name: "categorie"
+    label: "Categorie"
+    folder: "content/categorie/page"
+    create: true
+    slug: "{{slug}}"
+    format: 'json'
+    fields:
+      - {label: "Nom", name: "title", widget: "string", tagname: "h1", required: true}
   - name: "films"
     label: "Films"
     folder: "content/films/page"
@@ -251,3 +259,43 @@ collections:
         fields:
           - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
           - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
+  - name: "colloques"
+    label: "Colloques"
+    folder: "content/colloques/page"
+    create: true
+    slug: "{{slug}}"
+    format: 'json'
+    fields:
+      - {label: "Image de couverture", name: "cover", widget: "image", required: false}
+      - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Horaires", name: "horaires", widget: "string", required: false}
+      - label: "Article"
+        name: "body"
+        widget: "object"
+        fields:
+          - {label: "Intro", name: "description", widget: "markdown", required: false}
+          - label: "Accordeon"
+            name: "accordeon"
+            widget: "list"
+            required: false
+            fields:
+              - { label: Horaire, name: horaire, widget: string }
+              - { label: Titre, name: titre, widget: string }
+              - label: "Article"
+                name: "article"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: Horaire, name: horaire, widget: string }
+                  - { label: Titre, name: titre, widget: string }
+      - label: "Galeries"
+        name: "galeries"
+        widget: "object"
+        fields:
+          - label: "Images"
+            name: "images"
+            widget: "list"
+            required: false
+            fields:
+              - { label: image, name: image, widget: image }
+              - { label: alt, name: alt, widget: string }
