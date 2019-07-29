@@ -754,7 +754,7 @@ main {
 /* WIDGET - ACCORDEON */
   /* Accordeon */
   .accordeon {
-      margin: 10px auto;
+      margin: 30px auto 0;
       display: flex;
       flex-direction: column;
   }
@@ -771,6 +771,15 @@ main {
       z-index: 1;
       cursor: pointer;
   }
+    .accordeon__titre p {
+        font-weight: 600;
+    }
+    .accordeon__titre h4 {
+        font-weight: 600;
+        font-size: 1.5vw;
+        line-height: 2vw;
+        color:var(--color-1);
+    }
   .accordeon__body {
       border-top: none;
       margin-top: -10px;
