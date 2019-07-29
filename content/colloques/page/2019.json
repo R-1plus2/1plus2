@@ -17,6 +17,14 @@
           {
             "horaire": "10H00",
             "information": "**Discours inauguraux** par **Francis Grass**, adjoint au Maire en charge de la Coordination des politiques Culturelles de la Ville de Toulouse et **Philippe Guionie**, directeur de la Résidence 1+2."
+          },
+          {
+            "horaire": "10H15",
+            "information": "**Projection du film de création 2019** de la Résidence 1+2 (format 26'). Réalistaur: Citizen JiF."
+          },
+          {
+            "horaire": "11H00",
+            "information": "Projection suivie d'une discussion avec le réalisateur et **Franck Lubet**, responsable de la programmation à la Cinémathèque de Toulouse."
           }
         ]
       },
@@ -31,6 +39,20 @@
           {
             "horaire": "11h45",
             "information": "je suis un texte 2"
+          }
+        ]
+      },
+      {
+        "horaire": "14H00 > 15H40",
+        "titre": "Sciences & photographie émergente",
+        "article": [
+          {
+            "horaire": "14H",
+            "information": "Je suis un texte"
+          },
+          {
+            "horaire": "15H",
+            "information": "Je suis un texte."
           }
         ]
       }
