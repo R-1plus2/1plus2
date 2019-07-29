@@ -19,6 +19,20 @@
             "titre": "Je suis le second texte"
           }
         ]
+      },
+      {
+        "horaire": "11H00 > 12H30",
+        "titre": "Photographie & concept d'éffondrement",
+        "article": [
+          {
+            "horaire": "11h00 > 11h45",
+            "titre": "je suis un texte"
+          },
+          {
+            "horaire": "11h45 > 12h30",
+            "titre": "je suis un texte 2"
+          }
+        ]
       }
     ]
   },
