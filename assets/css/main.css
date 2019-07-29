@@ -745,7 +745,7 @@ main {
 }
 .layout-colloques-slug .main-description strong {
     color: var(--color-1);
-    font-size: 22px;
+    font-size: 1.4em;
 }
 .layout-colloques-slug .main-description a {
     color: var(--color-1);
@@ -777,7 +777,7 @@ main {
     }
     .accordeon__titre h4 {
         font-weight: 600;
-        font-size: 1.7vw;
+        font-size: 1.8vw;
         line-height: 2vw;
         color:var(--color-1);
     }
