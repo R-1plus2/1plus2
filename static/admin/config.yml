@@ -288,7 +288,7 @@ collections:
                 required: false
                 fields:
                   - { label: Horaire, name: horaire, widget: string }
-                  - { label: Titre, name: titre, widget: string }
+                  - { label: Information, name: information, widget: markdown }
       - label: "Galeries"
         name: "galeries"
         widget: "object"
