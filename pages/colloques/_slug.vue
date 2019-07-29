@@ -1,5 +1,5 @@
 <template>
-  <main class="page-article-expositions">
+  <main class="page-article-colloques">
     <div class="left-side">
         <div class="diapo">
             <div v-for="i in galeries.images" class="image">
