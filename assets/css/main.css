@@ -381,9 +381,9 @@ main {
 			height: 35vh;
 	}
 	.page-article-editions .diapo .image:first-child,
-	.page-article-factory .diapo .image:first-child,
   .page-article-horslesmurs .diapo .image:first-child,
-  .page-article-expositions .diapo .image:first-child{
+  .page-article-expositions .diapo .image:first-child,
+  .big-one{
 	    height: 70vh;
 	}
 	.diapo img {
@@ -398,8 +398,8 @@ main {
 			max-height: 100%;
 	}
 		.page-article-editions .diapo .image:first-child img,
-		.page-article-factory .diapo .image:first-child img,
-    .page-article-film .diapo img {
+    .page-article-film .diapo img ,
+    .big-one img{
 		    height: 100%;
 				width:auto;
         max-width: none;
