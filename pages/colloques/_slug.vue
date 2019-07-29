@@ -89,6 +89,9 @@
       $("body").removeClass('red-page yellow-page blue-page');
       this.diapo();
       this.titre();
+            document.querySelectorAll('.accordeon').forEach(el => el.addEventListener('click', e => {
+        e.currentTarget.classList.toggle('accordeon--open')
+      }));
     },
     methods: {
       diapo() {
