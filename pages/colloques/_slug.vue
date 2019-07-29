@@ -9,6 +9,7 @@
             <div class="accordeon" v-for="a in body.accordeon">
               <div class="accordeon__head">
                 <div class="accordeon__titre">
+                  <p>{{ a.horaire }}</p>
                   <h4>{{ a.titre }}</h4>
                 </div>
                 <div class="accordeon__icon-box">
@@ -89,7 +90,7 @@
       $("body").removeClass('red-page yellow-page blue-page');
       this.diapo();
       this.titre();
-            document.querySelectorAll('.accordeon').forEach(el => el.addEventListener('click', e => {
+      document.querySelectorAll('.accordeon').forEach(el => el.addEventListener('click', e => {
         e.currentTarget.classList.toggle('accordeon--open')
       }));
     },
