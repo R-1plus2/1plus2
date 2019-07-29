@@ -787,7 +787,6 @@ main {
     }
   .accordeon__body {
       border-top: none;
-      margin-top: -10px;
       overflow: hidden;
       height: 0;
       padding: 0px;
