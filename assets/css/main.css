@@ -823,6 +823,7 @@ main {
       transform: rotate(0);
       font-size: 30px;
       color: var(--color-1);
+      padding-left: 15px;
   }
   .accordeon--open .accordeon__icon {
       transform: rotate(180deg);
