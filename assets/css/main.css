@@ -795,7 +795,7 @@ main {
   }
   .accordeon__content {
       opacity: 0;
-      transition: all .5s ease .5s;
+      transition: all .5s ease;
       display: block;
       justify-content: space-between;
       padding-bottom: 20px;
@@ -833,4 +833,5 @@ main {
   }
   .accordeon--open .accordeon__content {
       opacity: 1;
+      transition:all .5s ease .5s;
   }
