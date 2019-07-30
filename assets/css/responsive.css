@@ -356,7 +356,7 @@
       left: 15px;
   }
   .page-article-colloques .image {
-      width: calc(100% - 30px);
+      width: calc(100% - 15px);
   }
 }
 
