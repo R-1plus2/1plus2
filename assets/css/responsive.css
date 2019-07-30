@@ -278,6 +278,12 @@
   .page-article-colloques .image {
       width: calc(100% - 30px);
   }
+  .page-article-colloques .right-side .date {
+      position:relative;
+  }
+  .page-article-colloques .right-side .date::before {
+      left: 0;
+  }
 
 }
 
