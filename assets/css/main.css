@@ -751,7 +751,11 @@ main {
 .page-article-colloques .right-side {
     float: left;
     padding: 0 100px 50px;
-    width: calc(50% - 200px);
+    width: calc(60% - 200px);
+  
+}
+.page-article-colloques .left-side {
+    width: 40%;  
 }
 .page-article-colloques .right-side .date::before {
     left:100px;
@@ -789,7 +793,7 @@ main {
         margin: 0;
     }
     .accordeon__titre h4 {
-        font-weight: 600;
+        font-weight: 700;
         font-size: 2.3em;
         line-height: 1em;
         color:var(--color-1);
