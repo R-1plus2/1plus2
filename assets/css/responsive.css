@@ -373,7 +373,7 @@
   .page-article-colloques .right-side {
       float: left;
       padding: 0 15px 50px;
-      width: calc(50% - 30px);
+      width: calc(60% - 30px);
   }
   .page-article-colloques .right-side .date::before {
       left: 15px;
@@ -408,7 +408,7 @@
   .page-article-colloques .right-side {
       float: left;
       padding: 0 50px 50px;
-      width: calc(50% - 100px);
+      width: calc(60% - 100px);
   }
   .page-article-colloques .right-side .date::before {
       left: 50px;
