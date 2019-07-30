@@ -177,6 +177,9 @@
   .page-article-colloques .left-side {
       width: 100%;
   }
+  .page-article-colloques .main-description strong {
+      font-size: 1.3em;
+  }
   
 }
 
