@@ -296,6 +296,18 @@
   .page-article-colloques .right-side .date::before {
       left: 0;
   }
+   .right-side .title-article {
+      font-size: 2.5em;
+  }
+  .right-side .description-article {
+      font-size: 1.5em;
+  }
+  .accordeon__titre h4 {
+      font-size: 2em;
+  }
+  .page-article-colloques .left-side {
+      width: 100%;
+  }
 
 }
 
@@ -370,6 +382,15 @@
       left: 15px;
       height: 2px;
   }
+  .right-side .title-article {
+      font-size: 2.5em;
+  }
+  .right-side .description-article {
+      font-size: 1.5em;
+  }
+  .accordeon__titre h4 {
+      font-size: 2em;
+  }
   .page-article-colloques .right-side {
       float: left;
       padding: 0 15px 50px;
@@ -381,6 +402,7 @@
   .page-article-colloques .image {
       width: calc(100% - 15px);
   }
+  
 }
 
 @media only screen and (min-width: 1264px) and (max-width: 1904px) {
