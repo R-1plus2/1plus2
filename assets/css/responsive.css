@@ -271,8 +271,13 @@
       left: 15px;
       height: 2px;
   }
-  
-  
+  .page-article-colloques .right-side {
+      padding: 15px;
+      width: calc(100% - 30px);
+  }
+  .page-article-colloques .image {
+      width: calc(100% - 30px);
+  }
 
 }
 
