@@ -152,8 +152,8 @@
       top: 32px;
   }
   .page-article-colloques .right-side {
-      padding: 15px;
-      width: calc(100% - 30px);
+      padding: 15px 0;
+      width: 100%;
   }
   .page-article-colloques .image {
       width: calc(100% - 15px);
@@ -163,9 +163,20 @@
   }
   .page-article-colloques .right-side .date::before {
       left: 0;
+      top: 14px;
   }
-  
-  
+  .page-article-colloques .title-article {
+      margin: 15px 0 0;
+  }
+  .accordeon__titre h4 {
+      font-size: 1.3em;
+  }
+  .accordeon__info .horaires {
+      font-size: 14px;
+  }
+  .page-article-colloques .left-side {
+      width: 100%;
+  }
   
 }
 
