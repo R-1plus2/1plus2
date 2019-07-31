@@ -1,8 +1,8 @@
 <template>
   <main class="page-article-photographe">
     <div class="left-side">
-        <img class="" :src="cover" :alt="title">
         <div class="diapo">
+            <img class="" :src="cover" :alt="title">
             <div v-for="i in galeries.images" class="image">
               <img class="selected" :src="i.image" :alt="i.alt">
             </div>
@@ -30,12 +30,11 @@
             <p class="no-margin">LIENS &#62;</p>
             <a target="_blank" v-for="i in body.link" :href="i.linklien" class="more-link">{{ i.linktexte}}</a>
         </div>
-
     </div>
   </main>
 </template>
 <script>
- import $ from 'jquery'
+  import $ from 'jquery'
   import VueMarkdown from 'vue-markdown'
   export default {
     layout: 'default',
@@ -61,9 +60,6 @@
         ]
       }
     },
-    updated() {},
-    beforeMount() {},
-    destroyed() {},
     mounted() {
       $("body").removeClass('red-page yellow-page blue-page');
       this.diapo();
