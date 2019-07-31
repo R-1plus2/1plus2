@@ -13,16 +13,21 @@ collections:
     format: 'json'
     fields:
       - {label: "Nom", name: "title", widget: "string", tagname: "h1", required: true}
-      - label: "Catégories"
-        name: "cat"
-        widget: "relation"
-        collection: "categorie"
-        searchFields: ["title"]
-        valueField: "title"
-        displayFields: ["title"]
-      - {label: "Article", name: "description", widget: "markdown", required: false}
-      - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
-      - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
+      - label: "Tag"
+        name: "catt"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Catégories"
+            name: "cat"
+            widget: "relation"
+            collection: "categorie"
+            searchFields: ["title"]
+            valueField: "title"
+            displayFields: ["title"]
+          - {label: "Article", name: "description", widget: "markdown", required: false}
+          - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
+          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
   - name: "categorie"
     label: "Categorie"
     folder: "content/categorie/page"
