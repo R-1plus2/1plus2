@@ -1,2 +1,17 @@
 {
+  "title": "Matthieu Gafsou",
+  "soustitre": "Photographe",
+  "date": "2019/07/31",
+  "body": {
+    "content": "Matthieu Gafsou est un photographe franco-suisse né à Aubonne le 1er octobre 1981. Il est lauréat du Prix HSBC pour la photographie en 2009. Il vit à Lausanne, en Suisse. Il participe depuis 2006 à de nombreuses expositions collectives et personnelles.",
+    "link": [
+      {
+        "linktexte": "Site internet",
+        "linklien": "https://www.gafsou.ch/"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "Matthieu Gafsou est un photographe franco-suisse né à Aubonne le 1er octobre 1981. Il est lauréat du Prix HSBC pour la photographie en 2009. Il vit à Lausanne, en Suisse. Il participe depuis 2006 à de nombreuses expositions collectives et personnelles."
+  }
 }
