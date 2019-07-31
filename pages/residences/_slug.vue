@@ -5,10 +5,10 @@
   <p class="description-article">{{ soustitre }}</p>
   <div class="content">
       <vue-markdown class="bloc bloc1">{{ bloc.bloc1 }}</vue-markdown>
-      <a target="_blank" v-for="i in phot" :href="r._path+'/'" class="more-link">
+      <nuxt-link v-for="i in phot" :to="i._path+'/'" class="more-link">
         <img :src="i.photoo">
         {{ i.photo}}
-      </a>
+      </nuxt-link>
   </div>
   </main>
 </template>
