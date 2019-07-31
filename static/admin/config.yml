@@ -6,7 +6,7 @@ public_folder: "/images/uploads"
 display_url: https://1plus2.netlify.com/
 collections:
   - name: "actualites"
-    label: "Actualites"
+    label: "📰 Actualités"
     folder: "content/actualites/page"
     create: true
     slug: "{{slug}}"
@@ -41,13 +41,15 @@ collections:
             valueField: "title"
             displayFields: ["title"]
   - name: "categorie"
-    label: "Categorie"
+    label: "🔖 Categories"
     folder: "content/categorie/page"
     create: true
     slug: "{{slug}}"
     format: 'json'
     fields:
       - {label: "Nom", name: "title", widget: "string", tagname: "h1", required: true}
+  - name: "sep"
+    label: "--------"
   - name: "films"
     label: "📕 Films"
     folder: "content/films/page"
@@ -236,7 +238,7 @@ collections:
           - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
           - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
   - name: "expositions"
-    label: "Expositions"
+    label: "📓 Expositions"
     folder: "content/expositions/page"
     create: true
     slug: "{{slug}}"
