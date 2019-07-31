@@ -48,6 +48,49 @@ collections:
     format: 'json'
     fields:
       - {label: "Nom", name: "title", widget: "string", tagname: "h1", required: true}
+  - name: "photographes"
+    label: "📷 Photographes"
+    folder: "content/photographes/page"
+    create: true
+    slug: "{{slug}}"
+    format: 'json'
+    fields:
+      - {label: "Image de couverture", name: "cover", widget: "image", required: false}
+      - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
+      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
+      - label: "Article"
+        name: "body"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Article", name: "content", widget: "markdown", required: false}
+          - label: "Liens"
+            name: "link"
+            widget: "list"
+            required: false
+            fields:
+              - { label: Texte, name: linktexte, widget: string }
+              - { label: Lien, name: linklien, widget: string }
+      - label: "Galeries"
+        name: "galeries"
+        widget: "object"
+        required: false
+        fields:
+          - label: "Images"
+            name: "images"
+            widget: "list"
+            required: false
+            fields:
+              - { label: image, name: image, widget: image }
+              - { label: alt, name: alt, widget: string }
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
+          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
   - name: "sep1"
     label: "--------"
     folder: "content/"
@@ -336,9 +379,9 @@ collections:
   - name: "sep2"
     label: "--------"
     folder: "content/"
-  - name: "photographes"
-    label: "📷 Photographes"
-    folder: "content/photographes/page"
+  - name: "residences"
+    label: "📓 Résidences"
+    folder: "content/residences/page"
     create: true
     slug: "{{slug}}"
     format: 'json'
@@ -347,12 +390,31 @@ collections:
       - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
       - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
+      - label: "Photographes"
+        name: "phot"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Photographe"
+            name: "photo"
+            widget: "relation"
+            collection: "photographes"
+            searchFields: ["title"]
+            valueField: "title"
+            displayFields: ["title"]
+          - {label: "Photo du photographe", name: "photoo", widget: "image", required: false}
       - label: "Article"
         name: "body"
         widget: "object"
-        required: false
         fields:
+          - {label: "Edito", name: "description", widget: "markdown", required: false}
           - {label: "Article", name: "content", widget: "markdown", required: false}
+          - label: "En savoir plus"
+            name: "readmore"
+            widget: "object"
+            fields:
+              - { label: Texte, name: readtexte, widget: string }
+              - { label: Lien, name: readlien, widget: string }
           - label: "Liens"
             name: "link"
             widget: "list"
@@ -363,7 +425,6 @@ collections:
       - label: "Galeries"
         name: "galeries"
         widget: "object"
-        required: false
         fields:
           - label: "Images"
             name: "images"
@@ -375,7 +436,6 @@ collections:
       - label: "SEO"
         name: "seo"
         widget: "object"
-        required: false
         fields:
           - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
           - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
