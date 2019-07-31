@@ -5,7 +5,7 @@
   <p class="description-article">{{ soustitre }}</p>
   <div class="content">
       <vue-markdown class="bloc bloc1">{{ bloc.bloc1 }}</vue-markdown>
-      <a target="_blank" v-for="i in phot" :href="'/photographes/'+ i.photo" class="more-link">
+      <a target="_blank" v-for="i in phot" :href="r._path+'/'" class="more-link">
         <img :src="i.photoo">
         {{ i.photo}}
       </a>
