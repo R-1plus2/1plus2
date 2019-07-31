@@ -41,7 +41,7 @@ collections:
             valueField: "title"
             displayFields: ["title"]
   - name: "categorie"
-    label: "🔖 Categories"
+    label: "🔖 Catégories"
     folder: "content/categorie/page"
     create: true
     slug: "{{slug}}"
