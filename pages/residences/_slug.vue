@@ -4,8 +4,7 @@
   <h3 class="title-article">{{ title }}</h3>
   <p class="description-article">{{ soustitre }}</p>
   <div class="content">
-      <vue-markdown class="bloc">{{ bloc.bloc1 }}</vue-markdown>
-      <vue-markdown class="main-content">{{ body.content }}</vue-markdown>
+      <vue-markdown class="bloc bloc1">{{ bloc.bloc1 }}</vue-markdown>
       <a target="_blank" v-for="i in phot" :href="'/photographes/'+ i.photo" class="more-link">
         <img :src="i.photoo">
         {{ i.photo}}
