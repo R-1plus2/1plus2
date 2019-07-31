@@ -49,7 +49,7 @@ collections:
     fields:
       - {label: "Nom", name: "title", widget: "string", tagname: "h1", required: true}
   - name: "films"
-    label: "Films"
+    label: "📕 Films"
     folder: "content/films/page"
     create: true
     slug: "{{slug}}"
@@ -97,7 +97,7 @@ collections:
           - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
           - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
   - name: "factory"
-    label: "Factory"
+    label: "📘 Factory"
     folder: "content/factory/page"
     create: true
     slug: "{{slug}}"
@@ -139,7 +139,7 @@ collections:
           - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
           - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
   - name: "editions"
-    label: "Editions"
+    label: "📕 Editions"
     folder: "content/editions/page"
     create: true
     slug: "{{slug}}"
@@ -194,7 +194,7 @@ collections:
           - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
           - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
   - name: "horslesmurs"
-    label: "Hors Les Murs"
+    label: "📒 Hors Les Murs"
     folder: "content/hors-les-murs/page"
     create: true
     slug: "{{slug}}"
@@ -284,7 +284,7 @@ collections:
           - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
           - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
   - name: "colloques"
-    label: "Colloques"
+    label: "📕 Colloques"
     folder: "content/colloques/page"
     create: true
     slug: "{{slug}}"
