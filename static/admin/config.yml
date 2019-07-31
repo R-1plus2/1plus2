@@ -13,7 +13,7 @@ collections:
     format: 'json'
     fields:
       - {label: "Nom", name: "title", widget: "string", tagname: "h1", required: true}
-      - label: "Tag"
+      - label: "Tag 🏷"
         name: "catt"
         widget: "list"
         required: false
@@ -28,6 +28,18 @@ collections:
       - {label: "Article", name: "description", widget: "markdown", required: false}
       - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
       - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
+      - label: "Article relative"
+        name: "relative"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Article"
+            name: "relart"
+            widget: "relation"
+            collection: "actualites"
+            searchFields: ["title"]
+            valueField: "title"
+            displayFields: ["title"]
   - name: "categorie"
     label: "Categorie"
     folder: "content/categorie/page"
