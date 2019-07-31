@@ -403,6 +403,22 @@ collections:
             valueField: "title"
             displayFields: ["title"]
           - {label: "Photo du photographe", name: "photoo", widget: "image", required: false}
+      - label: "Bloc texte"
+        name: "bloc"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Bloc texte 1", name: "bloc1", widget: "markdown", required: false}
+          - {label: "Bloc texte 2", name: "bloc2", widget: "markdown", required: false}
+          - {label: "Bloc texte 3", name: "bloc3", widget: "markdown", required: false}
+          - {label: "Bloc texte 4", name: "bloc4", widget: "markdown", required: false}
+      - label: "Bloc parrain"
+        name: "parrain"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Article", name: "article", widget: "markdown", required: false}
+          - {label: "Image", name: "img", widget: "image", required: false}
       - label: "SEO"
         name: "seo"
         widget: "object"
