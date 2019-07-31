@@ -14,12 +14,12 @@ collections:
     fields:
       - {label: "Nom", name: "title", widget: "string", tagname: "h1", required: true}
       - label: "Catégories"
-          name: "categories"
-          widget: "relation"
-          collection: "categorie"
-          searchFields: ["title"]
-          valueField: "title"
-          displayFields: ["title"]
+        name: "cat"
+        widget: "relation"
+        collection: "categorie"
+        searchFields: ["title"]
+        valueField: "title"
+        displayFields: ["title"]
       - {label: "Article", name: "description", widget: "markdown", required: false}
       - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
       - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
