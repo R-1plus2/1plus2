@@ -25,7 +25,6 @@
         <h3 class="title-article">{{ title }}</h3>
         <p class="description-article">{{ soustitre }}</p>
         <div class="content">
-            <vue-markdown class="main-description">{{ body.description }}</vue-markdown>
             <vue-markdown class="main-content">{{ body.content }}</vue-markdown>
             <p class="no-margin">LIENS &#62;</p>
             <a target="_blank" v-for="i in body.link" :href="i.linklien" class="more-link">{{ i.linktexte}}</a>
