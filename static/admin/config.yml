@@ -25,9 +25,9 @@ collections:
             searchFields: ["title"]
             valueField: "title"
             displayFields: ["title"]
-          - {label: "Article", name: "description", widget: "markdown", required: false}
-          - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
-          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
+      - {label: "Article", name: "description", widget: "markdown", required: false}
+      - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
+      - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
   - name: "categorie"
     label: "Categorie"
     folder: "content/categorie/page"
