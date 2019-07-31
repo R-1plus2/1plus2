@@ -403,36 +403,6 @@ collections:
             valueField: "title"
             displayFields: ["title"]
           - {label: "Photo du photographe", name: "photoo", widget: "image", required: false}
-      - label: "Article"
-        name: "body"
-        widget: "object"
-        fields:
-          - {label: "Edito", name: "description", widget: "markdown", required: false}
-          - {label: "Article", name: "content", widget: "markdown", required: false}
-          - label: "En savoir plus"
-            name: "readmore"
-            widget: "object"
-            fields:
-              - { label: Texte, name: readtexte, widget: string }
-              - { label: Lien, name: readlien, widget: string }
-          - label: "Liens"
-            name: "link"
-            widget: "list"
-            required: false
-            fields:
-              - { label: Texte, name: linktexte, widget: string }
-              - { label: Lien, name: linklien, widget: string }
-      - label: "Galeries"
-        name: "galeries"
-        widget: "object"
-        fields:
-          - label: "Images"
-            name: "images"
-            widget: "list"
-            required: false
-            fields:
-              - { label: image, name: image, widget: image }
-              - { label: alt, name: alt, widget: string }
       - label: "SEO"
         name: "seo"
         widget: "object"
