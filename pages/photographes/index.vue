@@ -1,14 +1,14 @@
 <template>
   <main class="page-photographe">
     <div class="grid">
-        <article v-for="f in photographe" class="small-article">
-            <nuxt-link class="article-padding" :to="f._path+'/'">
-                <img class="cover" :src="f.cover">
-                <div class="content" :data-date="f.date">
-                    <h3 class="title-article">{{ f.title }}</h3>
+        <article v-for="p in photographe" class="small-article">
+            <nuxt-link class="article-padding" :to="p._path+'/'">
+                <img class="cover" :src="p.cover">
+                <div class="content" :data-date="p.date">
+                    <h3 class="title-article">{{ p.title }}</h3>
                     <hr>
-                    <p class="description-article">{{ f.soustitre }}</p>
-                    <small class="date">{{ f.date }}</small>
+                    <p class="description-article">{{ p.soustitre }}</p>
+                    <small class="date">{{ p.date }}</small>
                 </div>
             </nuxt-link>
         </article>
@@ -36,10 +36,10 @@ export default {
       }
     },
     data() {
-      const context = require.context('~/content/photographe/page/', false, /\.json$/);
+      const context = require.context('~/content/photographes/page/', false, /\.json$/);
       const photographe = context.keys().map(key => ({
         ...context(key),
-        _path: `/photographe/${key.replace('.json', '').replace('./', '')}`
+        _path: `/photographes/${key.replace('.json', '').replace('./', '')}`
       }));
       return {
         photographe,
