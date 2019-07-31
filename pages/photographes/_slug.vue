@@ -1,6 +1,7 @@
 <template>
   <main class="page-article-photographe">
     <div class="left-side">
+        <img class="" :src="cover" :alt="title">
         <div class="diapo">
             <div v-for="i in galeries.images" class="image">
               <img class="selected" :src="i.image" :alt="i.alt">
