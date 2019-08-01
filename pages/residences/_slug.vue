@@ -10,7 +10,7 @@
       </div>
       <div class="articles-content">
       
-          <a v-for="i in phot" :href="i.photo" class="more-link photographe-lien">
+          <a v-for="i in phot" :href="i.photo" class="photographe-lien">
             <img class="photographe-image" :src="i.photoo"/>
             <p class="photographe-nom">{{ i.photo}}</p>
           </a>
