@@ -5,7 +5,10 @@
   <p class="description-article">{{ soustitre }}</p>
   <div class="content">
       <vue-markdown class="bloc bloc1">{{ bloc.bloc1 }}</vue-markdown>
-      <nuxt-link v-for="i in phot" :to="i._path+'/'" class="more-link">
+      <vue-markdown class="bloc bloc2">{{ bloc.bloc2 }}</vue-markdown>
+      <vue-markdown class="bloc bloc3">{{ bloc.bloc3 }}</vue-markdown>
+      <vue-markdown class="bloc bloc4">{{ bloc.bloc4 }}</vue-markdown>
+      <nuxt-link v-for="i in phot" :to="i.photo.toLowerCase()'/'" class="more-link">
         <img :src="i.photoo">
         {{ i.photo}}
       </nuxt-link>
