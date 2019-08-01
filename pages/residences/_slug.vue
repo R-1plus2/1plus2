@@ -62,7 +62,7 @@
                var NewStr = modif.toLowerCase().replace(/\s/g, "_");
                console.log(modif);
                console.log(NewStr);
-               $('this').attr("href", NewStr );
+               $(this).attr("href", NewStr );
           });
       },
       diapo() {
