@@ -1000,6 +1000,7 @@ main {
       cursor: pointer;
       letter-spacing: 0px;
       transition: all .3s ease;
+      position: absolute;
   }
   .extend:hover {
       letter-spacing: 2px;
