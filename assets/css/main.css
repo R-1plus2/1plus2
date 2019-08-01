@@ -857,6 +857,13 @@ main {
   }
 
 
+  /* page photographe slug */
+  .diapo .cover-photographe {
+      top: 0;
+      transform: none;
+      left: 0;
+  }
+
   /* page résidences */
   .entete {
       height: 50vh;
