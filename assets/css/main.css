@@ -867,3 +867,15 @@ main {
       max-height: none;
       transform: translate(-50%,-50%) scale(1);
   }
+  .container {
+      font-size: initial;
+      text-align: center;
+      color: var(--color-1);
+  }
+  .container h2, 
+  .container h3 {
+      font-size: 3.5em;
+      font-weight: 700;
+      line-height: 1em;
+      margin: 0;
+  }
