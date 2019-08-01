@@ -1,6 +1,8 @@
 <template>
   <main class="page-article-residences">
-      <img class="cover" :src="cover"/>
+      <div class="entete">
+          <img class="cover" :src="cover"/>
+      </div>
       <h2>EDITIONS <small class="date">{{ date }}</small></h2>
       <h3 class="title-article">{{ title }}</h3>
       <p class="description-article">{{ soustitre }}</p>
