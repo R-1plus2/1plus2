@@ -1085,6 +1085,7 @@ main {
       width: calc(60% - 50px);
       display: inline-block;
       padding-right: 50px;
+      text-align: justify;
   }
   .parrain h3 {
       margin: 0;
