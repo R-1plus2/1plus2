@@ -1043,8 +1043,8 @@ main {
       padding: 15px;
       overflow: hidden;
       position: relative;
-      display: inline-table;
-      height: 420px;
+      display: inline-block;
+      height: 300px;
       font-size: initial;
       text-align: center;
       background:  var(--color-1);
@@ -1063,8 +1063,10 @@ main {
       box-shadow: -15px 15px gray;
   }
   .center {
-      display: table-cell;
-      vertical-align: middle;
+      display: block;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
   }
   .bloc h2 {
       font-size: 2em;
