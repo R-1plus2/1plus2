@@ -20,10 +20,10 @@
             <p class="photographe-nom">{{ i.photo}}</p>
           </a>
       
-          <vue-markdown class="bloc bloc1">{{ bloc.bloc1 }}</vue-markdown>
-          <vue-markdown class="bloc bloc2">{{ bloc.bloc2 }}</vue-markdown>
-          <vue-markdown class="bloc bloc3">{{ bloc.bloc3 }}</vue-markdown>
-          <vue-markdown class="bloc bloc4">{{ bloc.bloc4 }}</vue-markdown>
+          <div class="bloc bloc1"><vue-markdown class="center">{{ bloc.bloc1 }}</vue-markdown></div>
+          <div class="bloc bloc2"><vue-markdown class="center">{{ bloc.bloc2 }}</vue-markdown></div>
+          <div class="bloc bloc3"><vue-markdown class="center">{{ bloc.bloc3 }}</vue-markdown></div>
+          <div class="bloc bloc4"><vue-markdown class="center">{{ bloc.bloc4 }}</vue-markdown></div>
           
       </div>
       <div class="parrain">
