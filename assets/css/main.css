@@ -1095,6 +1095,7 @@ main {
       left: 50%;
       position: relative;
       transform: translateX(-50%);
+      max-height: 600px;
   }
   .parrain a {
       color: #fff;
