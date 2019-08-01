@@ -3,18 +3,23 @@
       <div class="entete">
           <img class="cover" :src="cover"/>
       </div>
-      <h2>EDITIONS <small class="date">{{ date }}</small></h2>
-      <h3 class="title-article">{{ title }}</h3>
-      <p class="description-article">{{ soustitre }}</p>
-      <div class="content">
-          <vue-markdown class="bloc bloc1">{{ bloc.bloc1 }}</vue-markdown>
-          <vue-markdown class="bloc bloc2">{{ bloc.bloc2 }}</vue-markdown>
-          <vue-markdown class="bloc bloc3">{{ bloc.bloc3 }}</vue-markdown>
-          <vue-markdown class="bloc bloc4">{{ bloc.bloc4 }}</vue-markdown>
+      <div class="container">
+          <h2>EDITIONS <small class="date">{{ date }}</small></h2>
+          <h3 class="title-article">{{ title }}</h3>
+          <p class="description-article">{{ soustitre }}</p>
+      </div>
+      <div class="articles-content">
+      
           <a v-for="i in phot" :href="i.photo" class="more-link photographe-lien">
             <img class="photographe-image" :src="i.photoo"/>
             <p class="photographe-nom">{{ i.photo}}</p>
           </a>
+      
+          <vue-markdown class="bloc bloc1">{{ bloc.bloc1 }}</vue-markdown>
+          <vue-markdown class="bloc bloc2">{{ bloc.bloc2 }}</vue-markdown>
+          <vue-markdown class="bloc bloc3">{{ bloc.bloc3 }}</vue-markdown>
+          <vue-markdown class="bloc bloc4">{{ bloc.bloc4 }}</vue-markdown>
+          
       </div>
   </main>
 </template>
