@@ -16,7 +16,7 @@
   import $ from 'jquery'
   import uiLogo from '~/components/ui/logo.vue'
   import uiMenu from '~/components/ui/menu.vue'
-  import uiMenu from '~/components/ui/footer.vue'
+  import uiFooter from '~/components/ui/footer.vue'
   export default {
     components: {
         uiLogo,
