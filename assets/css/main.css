@@ -932,3 +932,11 @@ main {
       margin: 0px;
       padding-left: 15px;
   }
+  .edito-title {
+      text-align: center;
+      font-size: 2em;
+      line-height: 1em;
+      margin: 15px 0;
+      font-weight: 700;
+      color: red;
+  }
