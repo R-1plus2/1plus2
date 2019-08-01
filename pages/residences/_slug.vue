@@ -58,9 +58,9 @@
              $(this).html(modif);
           });
           $('.photographe-lien').each( function( ) {
-             var modif = $("photographe-nom").value();
-             var modiff = modif.toLowerCase().replace(/\s/g, "-");
-             $(this).attr("href", modif)
+               var modif = $(this).children('.photographe-nom').html();
+               var NewStr = modif.toLowerCase().replace(/\s/g, "_");
+               $('this').attr("html", NewStr );
           });
       },
       diapo() {
