@@ -8,6 +8,7 @@
     </header>
     <transition name="intro" mode="out-in" appear>
       <router-view :key="$route.fullPath"></router-view>
+      <ui-footer/>
     </transition>
   </div>
 </template>
@@ -15,10 +16,12 @@
   import $ from 'jquery'
   import uiLogo from '~/components/ui/logo.vue'
   import uiMenu from '~/components/ui/menu.vue'
+  import uiMenu from '~/components/ui/footer.vue'
   export default {
     components: {
         uiLogo,
-        uiMenu
+        uiMenu,
+        uiFooter
     },
     mounted () {
     }
