@@ -14,7 +14,7 @@
           </div>
       </div>
       <div class="articles-content">
-      
+          <h3>LES PHOTOGRAPHES</h3>
           <a v-for="i in phot" :href="i.photo" class="photographe-lien">
             <div class="photographe-image">
                 <img :src="i.photoo"/>
