@@ -21,6 +21,10 @@
           <vue-markdown class="bloc bloc4">{{ bloc.bloc4 }}</vue-markdown>
           
       </div>
+      <div class="parrain">
+          <vue-markdown class="parrain-content">{{ parrain.article }}</vue-markdown>
+          <img :src="parrain.img"/>
+      </div>
   </main>
 </template>
 <script>
