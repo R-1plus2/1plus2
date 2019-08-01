@@ -67,7 +67,9 @@
       this.diapo();
       this.titre();
       this.annee();
-      this.edito();
+       $('.extend').on( 'click', function() {
+          $(".edito").toggleClass( "open" );
+      });
     },
     methods: {
       annee(){
@@ -125,12 +127,8 @@
       titre(){
           var modif = '<a href="/residences/" >RESIDENCES</a>';
           $('.page-title').html( modif );
-      },
-      edito(){
-          $('.extend').on( 'click', function() {
-              $(".edito").toggleClass( "open" );
-          });
       }
+
     }
   };
 </script>
