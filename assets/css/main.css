@@ -871,6 +871,7 @@ main {
       font-size: initial;
       text-align: center;
       color: var(--color-1);
+      margin: 30px 0 50px;
   }
   .container h2, 
   .container h3 {
@@ -878,4 +879,42 @@ main {
       font-weight: 700;
       line-height: 1em;
       margin: 0;
+      position: relative;
+  }
+  .container h2 b {
+      font-weight: 700;
+  }
+  .page-article-residences .container .title-article::after {
+      content: '';
+      height: 2px;
+      width: 20px;
+      background: red;
+      position: absolute;
+      bottom: -15px;
+      left: 50%;
+      transform: translatex(-50%);
+  }
+  .description-article {
+      margin: 30px auto 0;
+      font-size: 1.5em;
+      max-width: 600px;
+      line-height: 1.2em;
+  }
+  .photographe-lien {
+      width: 30%;
+      padding-top: 30%;
+      overflow: hidden;
+      position: relative;
+      display: inline-block;
+  }
+  .articles-content .photographe-lien:nth-child(2){
+      margin:0 5%;
+  }
+  .photographe-image {
+      position: absolute;
+      height: 100%;
+      width: auto;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
   }
