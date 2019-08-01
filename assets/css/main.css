@@ -855,3 +855,15 @@ main {
       opacity: 1;
       transition:all .3s ease .3s;
   }
+
+
+  /* page résidences */
+  .entete {
+      height: 50vh;
+      overflow: hidden;
+      position: relative;
+  }
+  .entete .cover {
+      max-height: none;
+      transform: translate(-50%,-50%) scale(1);
+  }
