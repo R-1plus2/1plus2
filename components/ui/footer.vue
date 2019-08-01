@@ -8,7 +8,7 @@
       <a target="_blank" href=""><i class="fab fa-spotify"></i></a>
     </div>
     <div class="copyright">
-      <p>© www.electro-alternativ.com - 15E - Tous droits réservés</p>
+      <p>© www.1plus2.fr - Tous droits réservés</p>
     </div>
   </footer>
 </template>
