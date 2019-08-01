@@ -1052,9 +1052,48 @@ main {
       letter-spacing: 1px;
       border: 2px solid #fff;
       padding: 5px 15px;
+      transition:all .3s ease;
   }
-.bloc:hover a {
-    background: #fff;
-    color: var(--color-1);
-    border-color: var(--color-1);
-}
+  .bloc:hover a {
+      background: #fff;
+      color: var(--color-1);
+      border-color: var(--color-1);
+  }
+  .parrain {
+      background: red;
+      overflow: hidden;
+      padding: 50px;
+      font-size: initial;
+      color: #fff;
+      position: relative;
+  }
+  .parrain-content {
+      width: calc(60% - 50px);
+      display: inline-block;
+      padding-right: 50px;
+  }
+  .parrain h3 {
+      margin: 0;
+      font-size: 1.5em;
+  }
+  .parrain h2 {
+      margin: 0;
+      font-size: 4em;
+      line-height: 1em;
+  }
+  .parrain-image {
+      width: calc((100% - 100px) * .4);
+      display: inline-block;
+      margin-top: 45px;
+      float: right;
+      height: calc(100% - 145px);
+      position: absolute;
+      overflow: hidden;
+  }
+  .parrain img {
+      height: 100%;
+      display: block;
+      left: 50%;
+      position: relative;
+      transform: translateX(-50%);
+  }
