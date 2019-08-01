@@ -15,16 +15,20 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/mattieu-gafsou-1.jpg"
+        "image": "/images/uploads/mattieu-gafsou-1.jpg",
+        "alt": "Mattieu GAFSOU 1"
       },
       {
-        "image": "/images/uploads/mattieu-gafsou-2.jpg"
+        "image": "/images/uploads/mattieu-gafsou-2.jpg",
+        "alt": "Mattieu GAFSOU 2"
       },
       {
-        "image": "/images/uploads/mattieu-gafsou-3.jpg"
+        "image": "/images/uploads/mattieu-gafsou-3.jpg",
+        "alt": "Mattieu GAFSOU 3"
       },
       {
-        "image": "/images/uploads/mattieu-gafsou-4.jpg"
+        "image": "/images/uploads/mattieu-gafsou-4.jpg",
+        "alt": "Mattieu GAFSOU 4"
       }
     ]
   },
