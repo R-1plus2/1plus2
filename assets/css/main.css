@@ -1039,11 +1039,12 @@ main {
       font-size: 3em;
   }
   .bloc {
-      width: 45%;
+      width: calc(45% - 30px);
+      padding: 15px;
       overflow: hidden;
       position: relative;
       display: inline-table;
-      height: 300px;
+      height: 420px;
       font-size: initial;
       text-align: center;
       background:  var(--color-1);
