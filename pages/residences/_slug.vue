@@ -12,11 +12,6 @@
         <img class="photographe-image" :src="i.photoo"/>
         <p class="photographe-nom">{{ i.photo}}</p>
       </a>
-      $('.photographe-lien').each( function( ) {
-         var modif = $("photographe-nom").value();
-         var modiff = modif.toLowerCase().replace(/\s/g, "-");
-         $(this).value("src", modif)
-      });
   </div>
   </main>
 </template>
@@ -62,9 +57,10 @@
              var modif = $(this).html().substr(0, 4);
              $(this).html(modif);
           });
-          $('.photographe').each( function( ) {
-             var modif = '<a href="/photographes/" ></a>';
-             $('.page-title').html( modif );
+          $('.photographe-lien').each( function( ) {
+             var modif = $("photographe-nom").value();
+             var modiff = modif.toLowerCase().replace(/\s/g, "-");
+             $(this).attr("href", modif)
           });
       },
       diapo() {
