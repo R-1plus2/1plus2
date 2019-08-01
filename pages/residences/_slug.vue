@@ -60,7 +60,7 @@
           $('.photographe-lien').each( function( ) {
                var modif = $(this).children('.photographe-nom').html();
                var NewStr = modif.toLowerCase().replace(/\s/g, "_");
-               $('this').attr("html", NewStr );
+               $('this').attr("href", NewStr );
           });
       },
       diapo() {
