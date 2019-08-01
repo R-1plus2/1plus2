@@ -863,6 +863,7 @@ main {
       transform: none;
       left: 15px;
       max-width: calc(100% - 30px);
+      margin: 0 auto 15px;
   }
 
   /* page résidences */
@@ -914,14 +915,24 @@ main {
       overflow: hidden;
       position: relative;
       display: inline-block;
+      font-size: initial;
+      text-align: center;
+      text-decoration: none;
+      color: red;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom:50px;
+  }
+  .photographe-nom {
+      margin: 5px 0 0;
   }
   .articles-content .photographe-lien:nth-child(2){
-      margin:0 5%;
+      margin:0 5% 50px;
   }
   .photographe-image {
       position: absolute;
-      height: 100%;
-      width: auto;
+      height: auto;
+      width: 100%;
       top: 0;
       left: 50%;
       transform: translateX(-50%);
@@ -948,7 +959,6 @@ main {
       border: 10px solid red;
       color: #000;
       height: 300px;
-      transition: all .3s ease;
       position: relative;
       overflow: hidden;
   }
@@ -992,4 +1002,23 @@ main {
   }
   .edito.open .extend::before {
       display: block;
+  }
+  .bloc {
+      width: 45%;
+      overflow: hidden;
+      position: relative;
+      display: inline-block;
+      height: 300px;
+      font-size: initial;
+      text-align: center;
+      background: red;
+      margin-bottom: 75px;
+      color:#fff;
+  }
+  .bloc1, .bloc3 {
+      margin-right: 10%;
+      box-shadow: 15px 15px gray;
+  }
+  .bloc2, .bloc4 {
+      box-shadow: -15px 15px gray;
   }
