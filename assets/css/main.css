@@ -925,17 +925,32 @@ main {
   }
   .photographe-nom {
       margin: 5px 0 0;
+      transition:all .3s ease;
   }
-  .articles-content .photographe-lien:nth-child(2){
+  .articles-content .photographe-lien:nth-child(3){
       margin:0 5% 50px;
   }
   .photographe-image {
       position: absolute;
       height: auto;
       width: 100%;
+      padding-top: 100%;
       top: 0;
+      overflow: hidden;
+  }
+  .photographe-image img {
+      top: 50%;
+      position: absolute;
       left: 50%;
-      transform: translateX(-50%);
+      transform: translate(-50%, -50%) scale(1.1);
+      width: 100%;
+      transition:all .3s ease;
+  }
+  .photographe-lien:hover img {
+      transform: translate(-50%, -50%) scale(1);
+  }
+  .photographe-lien:hover .photographe-nom {
+      color:#000;
   }
   .edito {
       padding: 15px;
