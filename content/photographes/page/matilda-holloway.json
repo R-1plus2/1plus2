@@ -1,6 +1,35 @@
 {
-  "cover": "/images/uploads/2018film-2.jpg",
+  "cover": "/images/uploads/mathilda-holloway-1.jpg",
   "title": "MATILDA HOLLOWAY",
-  "soustitre": "2019",
-  "date": "2019/08/01"
+  "soustitre": "Jeune photographe",
+  "date": "2019/08/01",
+  "body": {
+    "content": "Matilda Holloway est née en 1989. Elle est cinéaste, photographe et traductrice audiovisuelle et littéraire. Elle mène depuis 2017 un doctorat de recherche-création en Études Audiovisuelles qui interroge la dimension hétérotopique du médium audiovisuel, son potentiel à faire découvrir et à créer des espaces autres.\n\nS’inspirant du genre de la science-fiction et de l’imaginaire du roman gothique anglais comme du fantastique, sa pratique expérimente les modes narratifs, questionne nos modes de perception et concerne de manière plus générale les manières dont le rapport humain au monde peut être repensé à l’époque contemporaine.\n\nElle vit et travaille à Toulouse.",
+    "link": [
+      {
+        "linktexte": "Site internet",
+        "linklien": " www.matildaholloway.com"
+      }
+    ]
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/mathilda-holloway-1.jpg",
+        "alt": "Mathilda HOLLOWAY 1"
+      },
+      {
+        "image": "/images/uploads/mathilda-holloway-2.jpg",
+        "alt": "Mathilda HOLLOWAY 2"
+      },
+      {
+        "image": "/images/uploads/mathilda-holloway-3.jpg",
+        "alt": "Mathilda HOLLOWAY 3"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "Matilda Holloway est née en 1989. Elle est cinéaste, photographe et traductrice audiovisuelle et littéraire. Elle mène depuis 2017 un doctorat de recherche-création en Études Audiovisuelles qui interroge la dimension hétérotopique du médium audiovisuel, son potentiel à faire découvrir et à créer des espaces autres.",
+    "thumbnail": "/images/uploads/mathilda-holloway-2.jpg"
+  }
 }
