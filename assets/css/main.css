@@ -994,7 +994,7 @@ main {
       top: 27px;
       left: 50%;
       transform: translatex(-50%);
-      color: red;
+      color:  var(--color-1);
       display: none;
   }
   .edito.open .extend {
@@ -1007,13 +1007,17 @@ main {
       width: 45%;
       overflow: hidden;
       position: relative;
-      display: inline-block;
+      display: inline-table;
       height: 300px;
       font-size: initial;
       text-align: center;
-      background: red;
+      background:  var(--color-1);
       margin-bottom: 75px;
       color:#fff;
+      transition:all .3s ease;
+  }
+  .bloc:hover {
+      background: #000;
   }
   .bloc1, .bloc3 {
       margin-right: 10%;
@@ -1022,3 +1026,35 @@ main {
   .bloc2, .bloc4 {
       box-shadow: -15px 15px gray;
   }
+  .center {
+      display: table-cell;
+      vertical-align: middle;
+  }
+  .bloc h2 {
+      font-size: 2em;
+      margin: 0;
+      font-weight: 100;
+      line-height: 1.2em;
+  }
+  .bloc h3 {
+      font-size: 2em;
+      line-height: 1.2em;
+      margin: 0;
+      letter-spacing: 1px;
+      transition:all .3s ease;
+  }
+  .bloc:hover .center h3:nth-child(2) {
+      color:  var(--color-1);
+  }
+  .bloc a {
+      color: #fff;
+      text-decoration: none;
+      letter-spacing: 1px;
+      border: 2px solid #fff;
+      padding: 5px 15px;
+  }
+.bloc:hover a {
+    background: #fff;
+    color: var(--color-1);
+    border-color: var(--color-1);
+}
