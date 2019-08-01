@@ -861,7 +861,8 @@ main {
   .diapo .cover-photographe {
       top: 0;
       transform: none;
-      left: 0;
+      left: 15px;
+      max-width: calc(100% - 30px);
   }
 
   /* page résidences */
