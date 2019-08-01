@@ -7,7 +7,10 @@
           <h2>EDITIONS <b class="date">{{ date }}</b></h2>
           <h3 class="title-article">{{ title }}</h3>
           <p class="description-article">{{ soustitre }}</p>
-          <vue-markdown class="edito">{{ edito }}</vue-markdown>
+          <vue-markdown class="edito">
+              {{ edito }}
+              <div class="extend">-Lire plus-</div>
+          </vue-markdown>
       </div>
       <div class="articles-content">
       
@@ -116,6 +119,11 @@
           slides[slideIndex-1].style.display = "block";
           captionText.innerHTML = dots[slideIndex-1].alt;
         }
+        
+        $('.extend').on( 'click', function() {
+            $(".edito").toggleClass( "open" );
+        });
+        
       },
       titre(){
           var modif = '<a href="/residences/" >RESIDENCES</a>';
