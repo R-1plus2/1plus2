@@ -7,9 +7,9 @@
       <ui-menu/>
     </header>
     <transition name="intro" mode="out-in" appear>
-      <router-view :key="$route.fullPath"></router-view>
-      <ui-footer/>
+      <router-view :key="$route.fullPath"></router-view>      
     </transition>
+    <ui-footer/>
   </div>
 </template>
 <script>
