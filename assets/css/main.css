@@ -924,4 +924,5 @@ main {
       max-width: 80%;
       margin: 50px auto;
       border: 10px solid var(--color-1);
+      color:#000;
   }
