@@ -16,7 +16,9 @@
       <div class="articles-content">
       
           <a v-for="i in phot" :href="i.photo" class="photographe-lien">
-            <img class="photographe-image" :src="i.photoo"/>
+            <div class="photographe-image">
+                <img :src="i.photoo"/>
+            </div>
             <p class="photographe-nom">{{ i.photo}}</p>
           </a>
       
