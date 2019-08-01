@@ -9,7 +9,7 @@
           <p class="description-article">{{ soustitre }}</p>
           <div class="edito">
               <p class="edito-title">EDITO</p>
-              <vue-markdown>{{ edito }}</vue-markdown>
+              <vue-markdown class="content-edito">{{ edito }}</vue-markdown>
               <div class="extend">-Lire plus-</div>
           </div>
       </div>
