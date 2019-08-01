@@ -28,7 +28,9 @@
       </div>
       <div class="parrain">
           <vue-markdown class="parrain-content">{{ parrain.article }}</vue-markdown>
-          <img :src="parrain.img"/>
+          <div class="parrain-image"
+              <img :src="parrain.img"/>
+          </div>
       </div>
   </main>
 </template>
