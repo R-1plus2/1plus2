@@ -1001,6 +1001,7 @@ main {
       letter-spacing: 0px;
       transition: all .3s ease;
       position: absolute;
+      color: var(--color-1);
   }
   .extend:hover {
       letter-spacing: 2px;
@@ -1014,7 +1015,7 @@ main {
       top: 5px;
       left: 50%;
       transform: translatex(-50%);
-      color:  var(--color-1);
+      color: var(--color-1);
       display: none;
       letter-spacing: 2px;
       transition: all.3s ease;
