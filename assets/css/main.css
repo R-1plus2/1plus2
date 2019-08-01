@@ -1030,6 +1030,14 @@ main {
   .edito.open .extend::before {
       display: block;
   }
+.articles-content {
+    font-size: initial;
+}
+.articles-content h3 {
+    text-align: center;
+    color: var(--color-1);
+    font-size: 3em;
+}
   .bloc {
       width: 45%;
       overflow: hidden;
