@@ -4,7 +4,7 @@
       <nav>
           <ul class="nav">
             <li><nuxt-link to="/actualites/" class="menu-link">ACTUALITES</nuxt-link></li>
-            <li><nuxt-link to="/residences*/" class="color-red menu-link">RESIDENCES</nuxt-link></li>
+            <li><nuxt-link to="/residences/" class="color-red menu-link">RESIDENCES</nuxt-link></li>
             <li><nuxt-link to="/colloques/" class="color-red menu-link">COLLOQUES</nuxt-link></li>
             <li><nuxt-link to="/factory/" class="color-blue menu-link">FACTORY</nuxt-link></li>
             <li><nuxt-link to="/hors-les-murs/" class="color-yellow menu-link">HORS LES MURS</nuxt-link></li>
