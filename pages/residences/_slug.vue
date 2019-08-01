@@ -7,6 +7,7 @@
           <h2>EDITIONS <b class="date">{{ date }}</b></h2>
           <h3 class="title-article">{{ title }}</h3>
           <p class="description-article">{{ soustitre }}</p>
+          <vue-markdown class="edito">{{ edito }}</vue-markdown>
       </div>
       <div class="articles-content">
       
