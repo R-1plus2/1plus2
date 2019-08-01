@@ -918,3 +918,10 @@ main {
       left: 50%;
       transform: translateX(-50%);
   }
+  .edito {
+      padding: 15px;
+      text-align: justify;
+      max-width: 80%;
+      margin: 50px auto;
+      border: 10px solid var(--color-1);
+  }
