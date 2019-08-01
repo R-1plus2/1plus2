@@ -926,3 +926,9 @@ main {
       border: 10px solid var(--color-1);
       color:#000;
   }
+  blockquote {
+      font-weight: 700;
+      border-left: 5px solid black;
+      margin: 0px;
+      padding-left: 15px;
+  }
