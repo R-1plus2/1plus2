@@ -1,5 +1,8 @@
 <template>
   <footer id="footer">
+    <div class="footer-menu"> 
+      <div class="menu-select">MENU</div>
+    </div>
     <div class="reseaux">
       <a target="_blank" href=""><i class="fab fa-facebook-f"></i></a>
       <a target="_blank" href=""><i class="fab fa-instagram"></i></a>
