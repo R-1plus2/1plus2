@@ -1143,3 +1143,12 @@ main {
   .parrain-content p:last-child {
       margin-bottom: 0;
   }
+
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 250px);
+    padding-left: 200px;
+    padding-right: 50px;
+}
