@@ -258,6 +258,9 @@ main {
     position: relative;
     padding: 50px 50px 50px 200px;
 		font-size:0;
+    margin-bottom: 50px;
+    z-index: 1;
+    background: #fff;
 }
 	.small-article {
 	    position: relative;
@@ -1151,4 +1154,5 @@ main {
     width: calc(100% - 250px);
     padding-left: 200px;
     padding-right: 50px;
+    z-index: 0;
 }
