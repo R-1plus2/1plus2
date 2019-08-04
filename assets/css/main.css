@@ -1109,9 +1109,7 @@ main {
       position: relative;
   }
   .parrain-content {
-      width: calc(60% - 50px);
-      display: inline-block;
-      padding-right: 50px;
+      display: block;
       text-align: justify;
   }
   .parrain h3 {
@@ -1124,13 +1122,13 @@ main {
       line-height: 1em;
   }
   .parrain-image {
-      width: calc((100% - 100px) * .4);
+      width: 40%;
       display: inline-block;
-      margin-top: 45px;
-      float: right;
-      height: calc(100% - 145px);
-      position: absolute;
+      margin: 10px 0 30px 30px;
+      height: 595px;
+      position: relative;
       overflow: hidden;
+      float: right;
   }
   .parrain img {
       height: 100%;
