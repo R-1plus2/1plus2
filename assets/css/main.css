@@ -993,6 +993,7 @@ main {
   }
   .content-edito {
       position:relative;
+      font-size: 14px;
   }
   .extend {
       text-align: center;
@@ -1111,14 +1112,15 @@ main {
   .parrain-content {
       display: block;
       text-align: justify;
+      font-size: 14px;
   }
   .parrain h3 {
       margin: 0;
-      font-size: 1.5em;
+      font-size: 1.3em;
   }
   .parrain h2 {
       margin: 0;
-      font-size: 4em;
+      font-size: 3.2em;
       line-height: 1em;
   }
   .parrain-image {
