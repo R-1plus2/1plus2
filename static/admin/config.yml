@@ -418,6 +418,7 @@ collections:
         widget: "object"
         required: false
         fields:
+          - {label: "Nom", name: "name", widget: "string", required: false}
           - {label: "Article", name: "article", widget: "markdown", required: false}
           - {label: "Image", name: "img", widget: "image", required: false}
       - label: "SEO"
