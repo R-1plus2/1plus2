@@ -73,6 +73,7 @@ export default {
       ea() {
         var grid = new Isotope(".grid", {
           itemSelector: ".article",
+          layoutMode: 'masonry',
           getSortData : {
            date : function ($elem) {
             return $($elem).find('.content').attr('data-date');
@@ -82,8 +83,7 @@ export default {
           sortAscending : false
         });
         
-        var $sortedItems = grid.data('isotope').$filteredAtoms;
-        $sortedItems.first().addClass('first');
+        $(grid.data('isotope').filteredItems[0].element).addClass('first');
 
 
       }
