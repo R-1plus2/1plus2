@@ -1,5 +1,6 @@
 <template>
   <main class="page-actu">
+  <div id="filters" class="button-group">  <button class="button is-checked" data-filter="*">show all</button></div>
   <div class="grid">
     <article class="article" v-for="a in actualites" >
         <nuxt-link class="article-padding" :to="a._path+'/'">
@@ -80,8 +81,23 @@ export default {
           sortBy : 'date',
           sortAscending : false
         });
+        
+        // change is-checked class on buttons
+        $('.button-group').each( function( i, buttonGroup ) {
+          var $buttonGroup = $( buttonGroup );
+          $buttonGroup.on( 'click', 'button', function() {
+                $buttonGroup.find('.is-checked').removeClass('is-checked');
+                $( this ).addClass('is-checked');
+
+                // start added code which makes first item have class ".first"
+                $(".grid").find('.first').removeClass('first');
+                $($container.data('isotope').filteredItems[0].element).addClass('first');
+
+                //end addition
+          });
+        });
        
-        grid.filteredItems[0].element.addClass('big-article');
+        grid.layout();
 
       }
   }
