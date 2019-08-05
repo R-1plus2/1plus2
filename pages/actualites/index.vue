@@ -17,9 +17,9 @@
   </main>
 </template>
 <script>
-  let Isotope;
-  if (process.browser) { Isotope = require("isotope-layout"); }
   import $ from 'jquery'
+  let Isotope;
+  if (process.browser) { Isotope = require("isotope-layout"); }  
   import VueLazyload from 'vue-lazyload'
   // export
 export default {
@@ -81,8 +81,9 @@ export default {
           sortBy : 'date',
           sortAscending : false
         });
+        
+        grid.layout(); 
         $('.grid .article:first-child').addClass('big-article');
-        grid.layout();  
       }
   }
 }
