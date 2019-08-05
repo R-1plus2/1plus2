@@ -71,7 +71,7 @@ export default {
         $('.grid .article:first-child').addClass('big-article');
      },
       ea() {
-        var $container = new Isotope(".grid", {
+        var grid = new Isotope(".grid", {
           itemSelector: ".article",
           getSortData : {
            date : function ($elem) {
@@ -82,8 +82,9 @@ export default {
           sortAscending : false
         });
         
+        var $sortedItems = grid.data('isotope').$filteredAtoms;
+        $sortedItems.first().addClass('first');
 
-        $($container.isotope().filteredItems[0].element).addClass('big-article');
 
       }
   }
