@@ -587,6 +587,7 @@ main {
     float: left;
 		background:transparent;
 		transition:all .3s ease;
+    background: #fff;
 }
 .article:hover{
 		background:var(--color-2);
@@ -605,6 +606,12 @@ main {
     position: relative;
     display: block;
     overflow: hidden;
+}
+.article .cover {
+    max-height: none;
+}
+.article:hover .cover {
+    transform: translate(-50%,-50%) scale(1);
 }
 .big-article .thumb {
     width: calc(50% - 30px);
