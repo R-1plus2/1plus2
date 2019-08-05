@@ -1,15 +1,15 @@
 <template>
   <main class="page-actu">
   <div class="grid">
-    <article class="article" v-for="a in actualites" :data-date="e.date">
+    <article class="article" v-for="a in actualites" >
         <nuxt-link class="article-padding" :to="a._path+'/'">
             <div class="thumb">
                 <img class="cover" :src="a.thumbnail">
             </div>
-            <div class="content">
+            <div class="content" :data-date="e.date">
                 <p class="description-article"><b v-for="c in a.catt">{{ c.cat }}</b></p>
                 <h3 class="title-article">{{ a.title }}</h3>
-                <vue-markdown class="description">{{ body.description }}</vue-markdown>
+                <vue-markdown class="description">{{ a.description }}</vue-markdown>
             </div>
         </nuxt-link>
       </article>
@@ -19,19 +19,20 @@
 <script>
   import $ from 'jquery'
   import VueLazyload from 'vue-lazyload'
+  import VueMarkdown from 'vue-markdown'
   // export
 export default {
     layout: 'default',
-    components: { VueLazyload },
+    components: { VueLazyload, VueMarkdown },
     transition: { name: 'intro', mode: 'out-in' },
     head() {
       return {
-        title: 'Programmation | Electrobotik Invasion - le 2 & 3 Août 2019',
+        title: 'ACTUALITÉS | 1+2 – Photographie & Sciences',
         meta: [
-          { hid: 'description', name: 'description', content: 'Electrobotik Invasion Festival, le 2 & 3 Août 2019, Circuit Paul Ricard - Le Castelet (83).' },
-          { 'property': 'og:title', 'content': 'Electrobotik Invasion - le 2 & 3 Août 2019', 'vmid': 'og:title' },
-          { 'property': 'og:description', 'content': 'Electrobotik Invasion Festival, le 2 & 3 Août 2019, Circuit Paul Ricard - Le Castelet (83).' },
-          { 'property': 'og:image', 'content': 'images/uploads/link_share.jpg', 'vmid': 'og:image' }
+          { hid: 'description', name: 'description', content: `1+2 est un programme de création artistique à vocation européenne, ancré à Toulouse, associant la photographie et les sciences.` },
+          { 'property': 'og:title', 'content': `ACTUALITÉS | 1+2 – Photographie & Sciences`, 'vmid': 'og:titre' },
+          { 'property': 'og:description', 'content': `1+2 est un programme de création artistique à vocation européenne, ancré à Toulouse, associant la photographie et les sciences.` },
+          { 'property': 'og:image', 'content': ``, 'vmid': 'og:image' }
         ]
       }
     },
@@ -48,15 +49,34 @@ export default {
   mounted() {
       $("body").removeClass('red-page yellow-page blue-page');
       this.titre();
-  },
-  destroyed() {
+      this.ea();
+      this.annee();
   },
   methods: {
-      titre(){
-          var modif = 'ACTUALITES';
-          $('.page-title').html( modif );           
+     titre(){
+      var modif = 'ACTUALITES';
+      $('.page-title').html( modif );           
+     }
+     annee(){
+          $('.date').each( function( ) {
+             var modif = $(this).html().substr(0, 4);
+             $(this).html(modif);
+          });
+     },
+      ea() {
+        var grid = new Isotope(".grid", {
+          itemSelector: ".article",
+          getSortData : {
+           date : function ($elem) {
+            return $($elem).find('.content').attr('data-date');
+           }
+          },
+          sortBy : 'date',
+          sortAscending : false
+        });
+        $('.grid .article:first-child').addClass('big-one');
+        grid.layout();  
       }
   }
 }
 </script>
-
