@@ -80,20 +80,7 @@ export default {
           sortBy : 'date',
           sortAscending : false
         });
-        
-        function onArrange() {
-        console.log('arrange done');
-        }
-        // bind event listener
-        iso.on( 'arrangeComplete', onArrange );
-        // un-bind event listener
-        iso.off( 'arrangeComplete', onArrange );
-        // bind event listener to be triggered just once
-        iso.once( 'arrangeComplete', function() {
-          console.log('arrange done, just this one time');
-        });
-        
-        grid.layout();
+
      }
   }
 }
