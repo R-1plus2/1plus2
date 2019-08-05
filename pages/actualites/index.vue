@@ -65,10 +65,9 @@ export default {
            $(this).html(modif);
         });
         $('.category').each( function( ) {
-           var modif = $(this).html().after( $( "<p>,</p>" ) );
-           $(this).html(modif);
+
         });
-        $('.grid .article:first-child').addClass('big-article');
+
      },
       ea() {
         var grid = new Isotope(".grid", {
