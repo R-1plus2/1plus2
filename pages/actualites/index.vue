@@ -83,7 +83,8 @@ export default {
         });
         
         grid.layout(); 
-        $('.grid .article:first-child').addClass('big-article');
+        $(grid.data('isotope').filteredItems[0].element).addClass('big-article');
+
       }
   }
 }
