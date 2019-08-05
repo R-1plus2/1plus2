@@ -1,5 +1,5 @@
 <template>
-  <main class="page-article-actu">
+  <div id="main" class="page-article-actu">
     <div class="article-slug">
         <small class="date">{{ date }}</small>
         <img :src="thumbnail" class="thumbnail">
@@ -30,7 +30,7 @@
         </div>
       </div>
     </div>
-  </main>
+  </div>
 </template>
 <script>
   import $ from 'jquery'
