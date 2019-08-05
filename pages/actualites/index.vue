@@ -45,7 +45,7 @@ export default {
       }));
       return {
         actualites,
-        isotope: null
+        grid: null
       };
     },
   mounted() {
@@ -70,22 +70,31 @@ export default {
 
      },
      ea() {
-      
-              var $container = $('.grid').isotope({
-                itemSelector: ".article",
-                getSortData : {
-                 date : function ($elem) {
-                  return $($elem).find('.content').attr('data-date');
-                 }
-                },
-                sortBy : 'date',
-                sortAscending : false
-              });
-
-              $($container.data('isotope').filteredItems[0].element).addClass('first');          
-
-       
-    }
+        var grid = new Isotope(".grid", {
+          itemSelector: ".small-article",
+          getSortData : {
+           date : function ($elem) {
+            return $($elem).find('.content').attr('data-date');
+           }
+          },
+          sortBy : 'date',
+          sortAscending : false
+        });
+        
+        function onArrange() {
+        console.log('arrange done');
+        }
+        // bind event listener
+        iso.on( 'arrangeComplete', onArrange );
+        // un-bind event listener
+        iso.off( 'arrangeComplete', onArrange );
+        // bind event listener to be triggered just once
+        iso.once( 'arrangeComplete', function() {
+          console.log('arrange done, just this one time');
+        });
+        
+        grid.layout();
+     }
   }
 }
 </script>
