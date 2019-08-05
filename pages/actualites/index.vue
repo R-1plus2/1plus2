@@ -81,7 +81,7 @@ export default {
           sortAscending : false
         });
         $(grid.filteredItems[0].element).addClass('big-article');
-        setTimeout(function(){grid.layout(); }, 10);
+        setTimeout(function(){grid.layout(); }, 100);
      }
   }
 }
