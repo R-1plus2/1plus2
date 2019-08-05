@@ -10,6 +10,7 @@
         </div>
     </div>
     <div class="sidebar">
+    <p>sidebar</p>
     </div>
   </main>
 </template>
