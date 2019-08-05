@@ -10,6 +10,8 @@
             <vue-markdown>{{ description }}</vue-markdown>
         </div>
     </div>
+    <div class="sidebar">
+    </div>
   </main>
 </template>
 <script>
@@ -25,11 +27,15 @@
       return page;
     },
     data() {
+      const context = require.context('~/content/categorie/page/', false, /\.json$/);
+      const categories = context.keys().map(key => ({
+        ...context(key),
+        _path: `/categorie/${key.replace('.json', '').replace('./', '')}`
+      }));
       return {
-        slideIndex: 1
-      }
+        categories
+      };
     },
-
     head() {
       return {
         title: '1+2 – Photographie & Sciences | ' +this.title,
@@ -47,10 +53,10 @@
       this.titre();
     },
     methods: {
-        titre(){
-            var modif = '<a href="/actualites/" >ACTUALITES</a>';
-            $('.page-title').html( modif );           
-        }
+      titre(){
+          var modif = '<a href="/actualites/" >ACTUALITES</a>';
+          $('.page-title').html( modif );           
+      }
     }
   };
 </script>
