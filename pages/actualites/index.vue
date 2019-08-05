@@ -9,7 +9,7 @@
             <div class="content" :data-date="a.date">
                 <p class="description-article"><b v-for="c in a.catt">{{ c.cat }}</b></p>
                 <h3 class="title-article">{{ a.title }}</h3>
-                <vue-markdown class="description">{{ a.description }}</vue-markdown>
+                <p class="description">{{ a.intro }}</p>
             </div>
         </nuxt-link>
       </article>
@@ -21,11 +21,10 @@
   if (process.browser) { Isotope = require("isotope-layout"); }
   import $ from 'jquery'
   import VueLazyload from 'vue-lazyload'
-  import VueMarkdown from 'vue-markdown'
   // export
 export default {
     layout: 'default',
-    components: { VueLazyload, VueMarkdown },
+    components: { VueLazyload },
     transition: { name: 'intro', mode: 'out-in' },
     head() {
       return {
