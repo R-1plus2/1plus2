@@ -68,6 +68,7 @@ export default {
            var modif = $(this).html().after( $( "<p>,</p>" ) );
            $(this).html(modif);
         });
+        $('.grid .article:first-child').addClass('big-article');
      },
       ea() {
         var grid = new Isotope(".grid", {
@@ -80,7 +81,6 @@ export default {
           sortBy : 'date',
           sortAscending : false
         });
-        $('.grid .article:first-child').addClass('big-one');
         grid.layout();  
       }
   }
