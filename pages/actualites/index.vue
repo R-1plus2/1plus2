@@ -1,19 +1,18 @@
 <template>
   <main class="page-actu">
-  <div id="filters" class="button-group">  <button class="button is-checked" data-filter="*">show all</button></div>
-  <div class="grid">
-    <article class="article" v-for="a in actualites" >
-        <nuxt-link class="article-padding" :to="a._path+'/'">
-            <div class="thumb">
-                <img class="cover" :src="a.thumbnail">
-            </div>
-            <div class="content" :data-date="a.date">
-                <p class="description-article"><b class="category" v-for="c in a.catt">{{ c.cat }}</b></p>
-                <h3 class="title-article">{{ a.title }}</h3>
-                <p class="description">{{ a.intro }}</p>
-            </div>
-        </nuxt-link>
-      </article>
+    <div class="grid">
+      <article class="article" v-for="a in actualites" >
+          <nuxt-link class="article-padding" :to="a._path+'/'">
+              <div class="thumb">
+                  <img class="cover" :src="a.thumbnail">
+              </div>
+              <div class="content" :data-date="a.date">
+                  <p class="description-article"><b class="category" v-for="c in a.catt">{{ c.cat }}</b></p>
+                  <h3 class="title-article">{{ a.title }}</h3>
+                  <p class="description">{{ a.intro }}</p>
+              </div>
+          </nuxt-link>
+       </article>
     </div>
   </main>
 </template>
@@ -82,8 +81,8 @@ export default {
           sortAscending : false
         });
               
-        grid.find('.article')[0].addClass('big-article');       
-        
+        $(grid.filteredItems[0].element).addClass('big-article');      
+        grid.reloadItems()
                
         
 
