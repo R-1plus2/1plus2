@@ -65,7 +65,7 @@ export default {
            $(this).html(modif);
         });
         $('.category').each( function( ) {
-           var modif = $(this).after( document.createTextNode( "," ) );
+           var modif = $(this).html().after( document.createTextNode( "," ) );
            $(this).html(modif);
         });
      },
