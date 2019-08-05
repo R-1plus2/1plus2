@@ -83,7 +83,7 @@ export default {
         });
         
 
-        $($container.data('isotope').filteredItems[0].element).addClass('big-article');
+        $($container.isotope().filteredItems[0].element).addClass('big-article');
 
       }
   }
