@@ -10,7 +10,25 @@
         </div>
     </div>
     <div class="sidebar">
-    <p>sidebar</p>
+      <div class="accordeon">
+        <div class="accordeon__head">
+          <div class="accordeon__titre">
+            <p>AAAAA</p>
+            <h4>AAAAAAAA</h4>
+          </div>
+          <div class="accordeon__icon">
+            <i class="fas fa-angle-down collapsible__icon"></i>
+          </div>
+        </div>
+        <div class="accordeon__body">
+          <div class="accordeon__content">
+            <div class="accordeon__info" >
+                <div class="horaires">AAAAAAA</div>
+                <vue-markdown class="information">AAAAAAAA</vue-markdown>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 </template>
@@ -41,6 +59,11 @@
       $("body").removeClass('red-page yellow-page blue-page');
       this.diapo();
       this.titre();
+      document.querySelectorAll('.accordeon').forEach(el => el.addEventListener('click', e => {
+        $('.accordeon').removeClass('accordeon--open');
+        e.currentTarget.classList.toggle('accordeon--open');
+      }));
+      $('.accordeon:nth-child(2)').addClass('accordeon--open');
     },
     methods: {
       titre(){
