@@ -59,7 +59,7 @@ export default {
      titre(){
       var modif = 'ACTUALITES';
       $('.page-title').html( modif );           
-     }
+     },
      annee(){
           $('.date').each( function( ) {
              var modif = $(this).html().substr(0, 4);
