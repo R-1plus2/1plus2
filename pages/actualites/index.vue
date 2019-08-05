@@ -83,9 +83,9 @@ export default {
         });
                
                
-        $(grid.filteredItems[0].element).addClass('first');
+        $(grid.filteredItems[0].element).addClass('big-article').layout();
                
-        grid.layout();
+        
 
       }
   }
