@@ -26,16 +26,6 @@
       let page = await import('~/content/actualites/page/' + params.slug + '.json');
       return page;
     },
-    data() {
-      const context = require.context('~/content/categorie/page/', false, /\.json$/);
-      const categories = context.keys().map(key => ({
-        ...context(key),
-        _path: `/categorie/${key.replace('.json', '').replace('./', '')}`
-      }));
-      return {
-        categories
-      };
-    },
     head() {
       return {
         title: '1+2 – Photographie & Sciences | ' +this.title,
