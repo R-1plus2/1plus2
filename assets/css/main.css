@@ -586,7 +586,7 @@ main {
     font-size: initial;
     float: left;
 		background:transparent;
-		transition:all .3s ease;
+		transition:background .3s ease, transform 0s ease !important;
     background: #fff;
 }
 .article:hover{
@@ -594,6 +594,7 @@ main {
 }
 .big-article {
     width: 100%;
+    opacity: 1;
 }
 .article .article-padding {
     background: transparent;
