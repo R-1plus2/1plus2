@@ -6,7 +6,7 @@
             <div class="thumb">
                 <img class="cover" :src="a.thumbnail">
             </div>
-            <div class="content" :data-date="e.date">
+            <div class="content" :data-date="a.date">
                 <p class="description-article"><b v-for="c in a.catt">{{ c.cat }}</b></p>
                 <h3 class="title-article">{{ a.title }}</h3>
                 <vue-markdown class="description">{{ a.description }}</vue-markdown>
@@ -17,6 +17,8 @@
   </main>
 </template>
 <script>
+  let Isotope;
+  if (process.browser) { Isotope = require("isotope-layout"); }
   import $ from 'jquery'
   import VueLazyload from 'vue-lazyload'
   import VueMarkdown from 'vue-markdown'
