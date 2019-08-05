@@ -91,7 +91,7 @@ export default {
 
                 // start added code which makes first item have class ".first"
                 $(".grid").find('.first').removeClass('first');
-                $($container.data('isotope').filteredItems[0].element).addClass('first');
+                $(grid.data('isotope').filteredItems[0].element).addClass('first');
 
                 //end addition
           });
