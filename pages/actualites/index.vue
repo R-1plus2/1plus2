@@ -69,21 +69,23 @@ export default {
         });
 
      },
-      ea() {
-        var $container = $('.grid').isotope({
-          itemSelector: ".article",
-          getSortData : {
-           date : function ($elem) {
-            return $($elem).find('.content').attr('data-date');
-           }
-          },
-          sortBy : 'date',
-          sortAscending : false
-        });
-               
-        $($container.data('isotope').filteredItems[0].element).addClass('first');
+     ea() {
+        $( function() {        
+              var $container = $('.grid').isotope({
+                itemSelector: ".article",
+                getSortData : {
+                 date : function ($elem) {
+                  return $($elem).find('.content').attr('data-date');
+                 }
+                },
+                sortBy : 'date',
+                sortAscending : false
+              });
 
-      }
+              $($container.data('isotope').filteredItems[0].element).addClass('first');          
+       });
+       
+    }
   }
 }
 </script>
