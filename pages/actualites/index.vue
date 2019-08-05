@@ -73,7 +73,6 @@ export default {
       ea() {
         var grid = new Isotope(".grid", {
           itemSelector: ".article",
-          layoutMode: 'masonry',
           getSortData : {
            date : function ($elem) {
             return $($elem).find('.content').attr('data-date');
@@ -82,7 +81,7 @@ export default {
           sortBy : 'date',
           sortAscending : false
         });
-        
+        grid.layout();
         $(grid.filteredItems[0].element).addClass('big-article');
 
 
