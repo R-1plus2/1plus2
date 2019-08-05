@@ -82,7 +82,7 @@ export default {
         });
         
         $(grid.filteredItems[0].element).addClass('big-article');
-        grid.isotope( 'reloadItems' );
+        $grid.isotope('layout');
 
       }
   }
