@@ -1,20 +1,19 @@
 <template>
   <main class="page-actu">
-    <article class="article">
-        <a class="article-padding" href="article-actu.html">
+  <div class="grid">
+    <article class="article" v-for="a in actualites" :data-date="e.date">
+        <nuxt-link class="article-padding" :to="a._path+'/'">
             <div class="thumb">
-                <img class="cover" src="">
+                <img class="cover" :src="a.thumbnail">
             </div>
             <div class="content">
-                <p class="description-article">film - Résidence 1+2 - 2017 - coulisses</p>
-                <h3 class="title-article">News, Titre maximum trois ligne sans césure donc éviter la succéssion de ...</h3>
-                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.</p>
+                <p class="description-article"><b v-for="c in a.catt">{{ c.cat }}</b></p>
+                <h3 class="title-article">{{ a.title }}</h3>
+                <vue-markdown class="description">{{ body.description }}</vue-markdown>
             </div>
-        </a>
-    </article>
+        </nuxt-link>
+      </article>
+    </div>
   </main>
 </template>
 <script>
