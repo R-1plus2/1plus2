@@ -81,22 +81,10 @@ export default {
           sortBy : 'date',
           sortAscending : false
         });
-        
-        // change is-checked class on buttons
-        $('.button-group').each( function( i, buttonGroup ) {
-          var $buttonGroup = $( buttonGroup );
-          $buttonGroup.on( 'click', 'button', function() {
-                $buttonGroup.find('.is-checked').removeClass('is-checked');
-                $( this ).addClass('is-checked');
-
-                // start added code which makes first item have class ".first"
-                $(".grid").find('.first').removeClass('first');
-                $(grid.data('isotope-layout').filteredItems[0].element).addClass('first');
-
-                //end addition
-          });
-        });
-       
+               
+               
+        $(grid.filteredItems[0].element).addClass('first');
+               
         grid.layout();
 
       }
