@@ -6,7 +6,6 @@
         <h3 class="title-article">{{ title }}</h3>
         <p class="description-article">{{ soustitre }}</p>
         <div class="content">
-            <strong>{{ intro }}</strong>
             <vue-markdown>{{ description }}</vue-markdown>
         </div>
     </div>
