@@ -82,7 +82,7 @@ export default {
           sortAscending : false
         });
         
-        grid.layout(); 
+
         $(grid.data('isotope').filteredItems[0].element).addClass('big-article');
 
       }
