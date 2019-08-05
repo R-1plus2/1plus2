@@ -43,7 +43,8 @@ export default {
         _path: `/actualites/${key.replace('.json', '').replace('./', '')}`
       }));
       return {
-        actualites
+        actualites,
+        grid: null
       };
     },
   mounted() {
