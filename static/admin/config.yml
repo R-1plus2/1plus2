@@ -13,6 +13,10 @@ collections:
     format: 'json'
     fields:
       - {label: "Nom", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
+      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
+      - {label: "Intro", name: "intro", widget: "markdown", required: false}
+      - {label: "Article", name: "description", widget: "markdown", required: false}
       - label: "Tag 🏷"
         name: "catt"
         widget: "list"
@@ -25,7 +29,6 @@ collections:
             searchFields: ["title"]
             valueField: "title"
             displayFields: ["title"]
-      - {label: "Article", name: "description", widget: "markdown", required: false}
       - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
       - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
       - label: "Article relative"
