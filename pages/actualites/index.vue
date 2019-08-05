@@ -83,7 +83,7 @@ export default {
           sortAscending : false
         });
         
-        $(grid.data('isotope').filteredItems[0].element).addClass('first');
+        $(grid.filteredItems[0].element).addClass('first');
 
 
       }
