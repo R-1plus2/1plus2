@@ -71,7 +71,7 @@ export default {
      },
      ea() {
         var grid = new Isotope(".grid", {
-          itemSelector: ".small-article",
+          itemSelector: ".article",
           getSortData : {
            date : function ($elem) {
             return $($elem).find('.content').attr('data-date');
