@@ -45,7 +45,7 @@ export default {
       }));
       return {
         actualites,
-        grid: null
+        isotope: null
       };
     },
   mounted() {
@@ -70,7 +70,7 @@ export default {
 
      },
      ea() {
-        $( function() {        
+      
               var $container = $('.grid').isotope({
                 itemSelector: ".article",
                 getSortData : {
@@ -83,7 +83,7 @@ export default {
               });
 
               $($container.data('isotope').filteredItems[0].element).addClass('first');          
-       });
+
        
     }
   }
