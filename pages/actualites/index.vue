@@ -80,11 +80,13 @@ export default {
           sortBy : 'date',
           sortAscending : false
         });
-              
-        $(grid.filteredItems[0].element).addClass('big-article');      
-        grid.reloadItems()
                
+        /*    $(grid.filteredItems[0].element).addClass('big-article');      */
+               
+        grid.layout();
         
+        var test= grid.filteredItems[0].element.html()
+        console.log(test);
 
       }
   }
