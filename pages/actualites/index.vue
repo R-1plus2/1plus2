@@ -80,7 +80,7 @@ export default {
           sortBy : 'date',
           sortAscending : false
         });
-        grid.layout().filteredItems[0].element.addClass('big-article');
+        $(grid.filteredItems[0].element).addClass('big-article');
 
      }
   }
