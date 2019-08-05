@@ -81,6 +81,7 @@ export default {
           sortBy : 'date',
           sortAscending : false
         });
+        $('.grid .article:first-child').addClass('big-article');
         grid.layout();  
       }
   }
