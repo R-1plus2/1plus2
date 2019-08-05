@@ -82,7 +82,7 @@ export default {
           sortAscending : false
         });
         
-        $(grid.filteredItems[0].element).addClass('first');
+        $(grid.filteredItems[0].element).addClass('big-article');
 
 
       }
