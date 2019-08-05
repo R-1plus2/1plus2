@@ -597,7 +597,7 @@ main {
 .article .article-padding {
     background: transparent;
 }
-.article:first-child .article-padding {
+.big-article .article-padding {
 		font-size: 0;
 }
 .thumb {
@@ -606,13 +606,13 @@ main {
     display: block;
     overflow: hidden;
 }
-.article:first-child .thumb {
+.big-article .thumb {
     width: calc(50% - 30px);
     display: inline-block;
     position: absolute;
     height: 100%;
 }
-.article:first-child .content {
+.big-article .content {
     width: 50%;
     position: relative;
     display: inline-block;
@@ -625,7 +625,7 @@ main {
 .article .description-article {
     display: none;
 }
-.article:first-child .description-article {
+.big-article .description-article {
     display: block;
     text-transform: uppercase;
     font-weight: 600;
@@ -637,7 +637,7 @@ main {
     line-height: 2vw;
     margin: 15px 0;
 }
-.article:first-child .title-article {
+.big-article .title-article {
     font-size: 2.5vw;
     line-height: 3vw;
 }
