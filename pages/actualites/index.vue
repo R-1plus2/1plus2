@@ -7,7 +7,7 @@
                 <img class="cover" :src="a.thumbnail">
             </div>
             <div class="content" :data-date="a.date">
-                <p class="description-article"><b v-for="c in a.catt">{{ c.cat }}</b></p>
+                <p class="description-article"><b class="category" v-for="c in a.catt">{{ c.cat }}</b></p>
                 <h3 class="title-article">{{ a.title }}</h3>
                 <p class="description">{{ a.intro }}</p>
             </div>
@@ -60,10 +60,14 @@ export default {
       $('.page-title').html( modif );           
      },
      annee(){
-          $('.date').each( function( ) {
-             var modif = $(this).html().substr(0, 4);
-             $(this).html(modif);
-          });
+        $('.date').each( function( ) {
+           var modif = $(this).html().substr(0, 4);
+           $(this).html(modif);
+        });
+        $('.category').each( function( ) {
+           var modif = $(this).html().after( document.createTextNode( "," ) );
+           $(this).html(modif);
+        });
      },
       ea() {
         var grid = new Isotope(".grid", {
