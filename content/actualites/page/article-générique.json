@@ -13,7 +13,10 @@
   "description": "Donec at luctus felis, quis luctus nisl. Curabitur tincidunt, urna non vehicula facilisis, lectus nisi volutpat augue, eu porttitor tortor libero vitae libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis non mi porta, pulvinar eros in, hendrerit mi. Integer sollicitudin rhoncus mollis. Nunc ac tortor vitae lacus pellentesque aliquet. Praesent elit ex, mattis ut lorem eu, maximus lobortis dolor. Aliquam lectus quam, pharetra et maximus suscipit, hendrerit eu purus. Suspendisse arcu purus, euismod vitae nibh nec, facilisis bibendum lectus. Sed quis quam justo. Nulla vitae lectus in risus mattis hendrerit eu nec quam. Vivamus et est tortor. Maecenas vel finibus purus. Suspendisse mi eros, ornare gravida pretium quis, ullamcorper vel nibh. Maecenas id mattis velit, sed varius urna. Fusce aliquam dolor ac aliquet pulvinar.\n\nCurabitur et mauris ex. Aliquam aliquam porta mi, et ullamcorper metus mattis id. Cras aliquam iaculis convallis. Nulla tincidunt ex pharetra, tristique ex at, pellentesque lorem. Maecenas consectetur finibus cursus. Maecenas commodo, ante in pretium suscipit, neque arcu laoreet magna, ut venenatis quam tellus sollicitudin nunc. Vivamus eget rhoncus risus, eu gravida nulla. Maecenas quis bibendum lectus.",
   "catt": [
     {
-      "cat": "Sciences"
+      "cat": "sciences"
+    },
+    {
+      "cat": "photographies"
     }
   ]
 }
