@@ -72,6 +72,7 @@
       this.diapo();
       this.titre();
       this.annee();
+      this.sticky();
     },
     methods: {
       annee(){
@@ -79,6 +80,10 @@
              var modif = $(this).html().substr(0, 4);
              $(this).html(modif);
           });
+      },
+      sticky(){
+          var height= $('.right-side').outerHeight();
+          $('.page-article-film).css('min-height', height);
       },
       diapo() {
         var count=0;
