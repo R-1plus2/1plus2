@@ -3,7 +3,7 @@
       <div class="accordeon">
           <div class="accordeon__head">
               <div class="accordeon__titre">
-                  <h4>CATÉGORIES {{title}}</h4>
+                  <h4>CATÉGORIES {{cate.title}}</h4>
               </div>
               <div class="accordeon__icon">
                   <i class="fas fa-angle-down collapsible__icon"></i>
@@ -12,7 +12,7 @@
           <div class="accordeon__body">
               <div class="accordeon__content">
                   <div class="accordeon__info" >
-                      <div class="horaires" v-for="c in catt">{{ c.texte }}</div>
+                      <div class="horaires" v-for="c in cate.catt">{{ c.texte }}</div>
                   </div>
               </div>
           </div>
@@ -24,8 +24,8 @@
 import $ from 'jquery'
 export default {
   async asyncData({ params }) {
-    let page = await import('~/content/categorie/page/2019.json');
-    return page;
+    let cate = await import('~/content/categorie/page/2019.json');
+    return cate;
   },
   mounted: () => { 
   },
