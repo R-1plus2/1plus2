@@ -280,6 +280,7 @@ main {
 		    position: relative;
 				display: block;
 				text-decoration: none;
+        min-height: 320px;
 		}
 				.cover {
 				    max-width: 100%;
