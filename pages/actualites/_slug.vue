@@ -2,8 +2,8 @@
   <main class="page-article-actu">
       <div class="article-slug">
           <small class="date">{{ date }}</small>
-          <img :src="thumbnail" class="thumbnail">
           <h3 class="title-article">{{ title }}</h3>
+          <img :src="thumbnail" class="thumbnail">          
           <p class="description-article">{{ soustitre }}</p>
           <div class="content">
               <vue-markdown>{{ description }}</vue-markdown>
