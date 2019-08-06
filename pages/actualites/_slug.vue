@@ -11,7 +11,7 @@
               <vue-markdown>{{ description }}</vue-markdown>
           </div>
       </div>
-      <ui-sidebar/>
+      <ui-sidebar :title="items.title"/>
   </main>
 </template>
 <script>
@@ -21,6 +21,7 @@
   import uiSidebar from '~/components/ui/sidebar.vue'
   export default {
     layout: 'default',
+    props: ['title'],    
     transition: { name: 'intro', mode: 'out-in' },
     components: { VueMarkdown, VueLazyload, uiSidebar },
     async asyncData({ params }) {
