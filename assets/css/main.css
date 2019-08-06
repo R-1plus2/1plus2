@@ -595,7 +595,8 @@ main {
 .big-article {
     width: 100%;
     opacity: 1;
-    min-height: 350px;
+    min-height: 350px;    
+		transition:background .3s ease, transform 0s ease !important;
 }
 .article .article-padding {
     background: transparent;
