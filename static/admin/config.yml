@@ -52,7 +52,7 @@ collections:
     fields:
       - {label: "Nom", name: "title", widget: "string", tagname: "h1", required: true}
       - label: "Categorie"
-        name: "catt"
+        name: "cattt"
         widget: "list"
         required: false
         fields:
