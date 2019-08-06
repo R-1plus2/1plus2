@@ -12,6 +12,7 @@
           <div class="accordeon__body">
               <div class="accordeon__content">
                   <div class="accordeon__info" >
+                     <div class="horaires" v-for="c in categorie.cattt">{{ c.texte }}</div>
                   </div>
               </div>
           </div>
