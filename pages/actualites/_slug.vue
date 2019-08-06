@@ -13,8 +13,7 @@
           <div class="accordeon">
               <div class="accordeon__head">
                   <div class="accordeon__titre">
-                      <p>AAAAA</p>
-                      <h4>AAAAAAAA</h4>
+                      <h4>CATÉGORIES</h4>
                   </div>
                   <div class="accordeon__icon">
                       <i class="fas fa-angle-down collapsible__icon"></i>
@@ -23,8 +22,7 @@
               <div class="accordeon__body">
                   <div class="accordeon__content">
                       <div class="accordeon__info" >
-                          <div class="horaires">AAAAAAA</div>
-                          <vue-markdown class="information">AAAAAAAA</vue-markdown>
+                          <div class="horaires">{{ categorie.title }}</div>
                       </div>
                   </div>
               </div>
@@ -43,6 +41,16 @@
     async asyncData({ params }) {
       let page = await import('~/content/actualites/page/' + params.slug + '.json');
       return page;
+    },
+    data() {
+      const context = require.context('~/content/categorie/page/', false, /\.json$/);
+      const categorie = context.keys().map(key => ({
+        ...context(key),
+        _path: `/categorie/${key.replace('.json', '').replace('./', '')}`
+      }));
+      return {
+        categorie
+      };
     },
     head() {
       return {
@@ -65,7 +73,7 @@
     },
     methods: {
       titre(){
-          var modif = '<a href="/actualites/" >ACTUALITES</a>';
+          var modif = '<a href="/actualites/" >ACTUALITÉS</a>';
           $('.page-title').html( modif );           
       }
     }
