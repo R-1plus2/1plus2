@@ -12,7 +12,7 @@
           <div class="accordeon__body">
               <div class="accordeon__content">
                   <div class="accordeon__info" >
-                      <div class="horaires" v-for="c in cate.catt">{{ c.texte }}</div>
+                      <div class="horaires" v-for="c in categorie.cattt">{{ c.texte }}</div>
                   </div>
               </div>
           </div>
@@ -22,16 +22,10 @@
 
 <script>
 import $ from 'jquery'
+import categorie from '~/content/categorie/page/2019.json'
 export default {
-  data() {
-    const cate = await import('~/content/categorie/page/2019.json');
-    return {
-      cate
-    };
-  },
-  mounted: () => { 
-  },
-  methods: {
+  asyncData ({ params }) {
+    return { categorie }
   }
 }
 </script>
