@@ -653,11 +653,14 @@ main {
     color: #000;
     text-align: justify;
 }
+.page-article-actu .content a {
+    color: #000;
+}
 
 
 /* page actu slug */
 .page-article-actu .article-slug {
-    width: calc(70% - 100px);
+    width: calc(70% - 150px);
     position: relative;
     overflow: hidden;
     display: inline-block;
@@ -673,13 +676,35 @@ main {
 }
 .page-article-actu .title-article {
     font-size: 3em;
-    color: red;
+    color: var(--color-1);
     line-height: 1em;
+    margin: 30px 0 0;
+}
+.page-article-actu .cover {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    height: 350px;
+    overflow: hidden;
     margin: 50px 0;
 }
 .page-article-actu .thumbnail {
-    height: 350px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
+.page-article-actu .description-article {
+    margin: 0 0 15px;
+    max-width: none;
+}
+.page-article-actu .content {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
 
 /* Lightbox */
 .modal {
