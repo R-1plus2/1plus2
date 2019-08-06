@@ -1,36 +1,36 @@
 <template>
-  <div id="main" class="page-article-actu">
-    <div class="article-slug">
-        <small class="date">{{ date }}</small>
-        <img :src="thumbnail" class="thumbnail">
-        <h3 class="title-article">{{ title }}</h3>
-        <p class="description-article">{{ soustitre }}</p>
-        <div class="content">
-            <vue-markdown>{{ description }}</vue-markdown>
-        </div>
-    </div>
-    <div class="sidebar">
-      <div class="accordeon">
-        <div class="accordeon__head">
-          <div class="accordeon__titre">
-            <p>AAAAA</p>
-            <h4>AAAAAAAA</h4>
+  <main class="page-article-actu">
+      <div class="article-slug">
+          <small class="date">{{ date }}</small>
+          <img :src="thumbnail" class="thumbnail">
+          <h3 class="title-article">{{ title }}</h3>
+          <p class="description-article">{{ soustitre }}</p>
+          <div class="content">
+              <vue-markdown>{{ description }}</vue-markdown>
           </div>
-          <div class="accordeon__icon">
-            <i class="fas fa-angle-down collapsible__icon"></i>
-          </div>
-        </div>
-        <div class="accordeon__body">
-          <div class="accordeon__content">
-            <div class="accordeon__info" >
-                <div class="horaires">AAAAAAA</div>
-                <vue-markdown class="information">AAAAAAAA</vue-markdown>
-            </div>
-          </div>
-        </div>
       </div>
-    </div>
-  </div>
+      <div class="sidebar">
+          <div class="accordeon">
+              <div class="accordeon__head">
+                  <div class="accordeon__titre">
+                      <p>AAAAA</p>
+                      <h4>AAAAAAAA</h4>
+                  </div>
+                  <div class="accordeon__icon">
+                      <i class="fas fa-angle-down collapsible__icon"></i>
+                  </div>
+              </div>
+              <div class="accordeon__body">
+                  <div class="accordeon__content">
+                      <div class="accordeon__info" >
+                          <div class="horaires">AAAAAAA</div>
+                          <vue-markdown class="information">AAAAAAAA</vue-markdown>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </main>
 </template>
 <script>
   import $ from 'jquery'
@@ -59,10 +59,9 @@
       $("body").removeClass('red-page yellow-page blue-page');
       this.titre();
       document.querySelectorAll('.accordeon').forEach(el => el.addEventListener('click', e => {
-        $('.accordeon').removeClass('accordeon--open');
         e.currentTarget.classList.toggle('accordeon--open');
       }));
-      $('.accordeon:nth-child(2)').addClass('accordeon--open');
+
     },
     methods: {
       titre(){
