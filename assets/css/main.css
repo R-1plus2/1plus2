@@ -654,13 +654,14 @@ main {
     text-align: justify;
 }
 
+
 /* page actu slug */
-.article-slug {
+.page-article-actu .article-slug {
     width: calc(70% - 100px);
     position: relative;
     overflow: hidden;
     display: inline-block;
-    padding-right: 100px;
+    padding: 0 100px 0 50px;
     font-size: initial;
 }
 .page-article-actu .sidebar {
@@ -669,6 +670,15 @@ main {
     position: relative;
     display: inline-block;
     font-size: initial;
+}
+.page-article-actu .title-article {
+    font-size: 3em;
+    color: red;
+    line-height: 1em;
+    margin: 50px 0;
+}
+.page-article-actu .thumbnail {
+    height: 350px;
 }
 
 /* Lightbox */
