@@ -661,12 +661,14 @@ main {
     overflow: hidden;
     display: inline-block;
     padding-right: 100px;
+    font-size: initial;
 }
 .page-article-actu .sidebar {
     width: 30%;
     float: right;
     position: relative;
     display: inline-block;
+    font-size: initial;
 }
 
 /* Lightbox */
