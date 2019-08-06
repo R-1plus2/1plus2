@@ -1,3 +1,14 @@
 {
-  "title": "Photographie"
+  "title": "Blog",
+  "catt": [
+    {
+      "texte": "sciences"
+    },
+    {
+      "texte": "photographies"
+    },
+    {
+      "texte": "candidatures"
+    }
+  ]
 }
