@@ -1,9 +1,11 @@
 <template>
   <footer id="footer">
     <div class="reseaux">
+        <a target="_blank" href="https://fr-fr.facebook.com/residence1plus2/"><i class="fab fa-facebook"></i></a>
+        <a target="_blank" href="https://twitter.com/residence1plus2"><i class="fab fa-twitter"></i></a>
+        <a target="_blank" href="https://www.instagram.com/residence1plus2/"><i class="fab fa-instagram"></i></a>
     </div>
-    <div class="copyright">
-      <a target="_blank" href="https://fr-fr.facebook.com/residence1plus2/"><i class="fab fa-facebook-f"></i></a>
+    <div class="copyright">      
       <p>© www.1plus2.fr - Tous droits réservés</p>
     </div>
   </footer>
