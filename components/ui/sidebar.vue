@@ -23,9 +23,11 @@
 <script>
 import $ from 'jquery'
 export default {
-  async asyncData({ params }) {
-    let cate = await import('~/content/categorie/page/2019.json');
-    return cate;
+  data() {
+    const cate = await import('~/content/categorie/page/2019.json');
+    return {
+      cate
+    };
   },
   mounted: () => { 
   },
