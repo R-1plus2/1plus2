@@ -83,7 +83,7 @@
       },
       sticky(){
           var height= $('.right-side').outerHeight();
-          $('.page-article-film).css('min-height', height);
+          $('.page-article-film').css('min-height', height);
           console.log(height);
       },
       diapo() {
