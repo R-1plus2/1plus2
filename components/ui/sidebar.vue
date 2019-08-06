@@ -3,7 +3,7 @@
       <div class="accordeon">
           <div class="accordeon__head">
               <div class="accordeon__titre">
-                  <h4>CATÉGORIES {{cate.title}}</h4>
+                  <h4>CATÉGORIES {{categorie.title}}</h4>
               </div>
               <div class="accordeon__icon">
                   <i class="fas fa-angle-down collapsible__icon"></i>
