@@ -365,6 +365,8 @@ main {
     font-size: initial;
 		padding: 0 50px 50px;
 		width: calc(50% - 100px);
+    position: sticky;
+    top: 50px;
 }
 	.left-side iframe{
 			padding: 0 15px 15px;
@@ -595,6 +597,7 @@ main {
 .big-article {
     width: 100%;
     opacity: 1;
+    min-height: 350px;
 }
 .article .article-padding {
     background: transparent;
