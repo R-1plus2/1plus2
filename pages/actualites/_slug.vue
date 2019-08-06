@@ -11,35 +11,18 @@
               <vue-markdown>{{ description }}</vue-markdown>
           </div>
       </div>
-      <div class="sidebar">
-          <div class="accordeon">
-              <div class="accordeon__head">
-                  <div class="accordeon__titre">
-                      <h4>CATÉGORIES</h4>
-                  </div>
-                  <div class="accordeon__icon">
-                      <i class="fas fa-angle-down collapsible__icon"></i>
-                  </div>
-              </div>
-              <div class="accordeon__body">
-                  <div class="accordeon__content">
-                      <div class="accordeon__info" >
-                          <div class="horaires">{{ categorie.title }}</div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
+      <ui-sidebar/>
   </main>
 </template>
 <script>
   import $ from 'jquery'
   import VueMarkdown from 'vue-markdown'
   import VueLazyload from 'vue-lazyload'
+  import uiSidebar from '~/components/ui/sidebar.vue'
   export default {
     layout: 'default',
     transition: { name: 'intro', mode: 'out-in' },
-    components: { VueMarkdown, VueLazyload },
+    components: { VueMarkdown, VueLazyload, uiSidebar },
     async asyncData({ params }) {
       let page = await import('~/content/actualites/page/' + params.slug + '.json');
       return page;
