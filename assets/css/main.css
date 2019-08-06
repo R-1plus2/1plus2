@@ -654,6 +654,20 @@ main {
     text-align: justify;
 }
 
+/* page actu slug */
+.article-slug {
+    width: calc(70% - 100px);
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding-right: 100px;
+}
+.page-article-actu .sidebar {
+    width: 30%;
+    float: right;
+    position: relative;
+    display: inline-block;
+}
 
 /* Lightbox */
 .modal {
