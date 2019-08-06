@@ -3,7 +3,9 @@
       <div class="article-slug">
           <small class="date">{{ date }}</small>
           <h3 class="title-article">{{ title }}</h3>
-          <img :src="thumbnail" class="thumbnail">          
+          <div class="cover">
+              <img :src="thumbnail" class="thumbnail">   
+          </div>
           <p class="description-article">{{ soustitre }}</p>
           <div class="content">
               <vue-markdown>{{ description }}</vue-markdown>
