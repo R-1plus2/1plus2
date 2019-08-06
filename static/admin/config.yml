@@ -26,9 +26,9 @@ collections:
             name: "cat"
             widget: "relation"
             collection: "categorie"
-            searchFields: ["title"]
-            valueField: "title"
-            displayFields: ["title"]
+            searchFields: ["catt.texte"]
+            valueField: "catt.texte"
+            displayFields: ["catt.texte"]
       - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
       - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
       - label: "Article relative"
@@ -46,11 +46,17 @@ collections:
   - name: "categorie"
     label: "🔖 Catégories"
     folder: "content/categorie/page"
-    create: true
+    create: false
     slug: "{{slug}}"
     format: 'json'
     fields:
       - {label: "Nom", name: "title", widget: "string", tagname: "h1", required: true}
+      - label: "Categorie"
+        name: "catt"
+        widget: "list"
+        required: false
+        fields:
+          - { label: Texte, name: texte, widget: string }
   - name: "photographes"
     label: "📷 Photographes"
     folder: "content/photographes/page"
