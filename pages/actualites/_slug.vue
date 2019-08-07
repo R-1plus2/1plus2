@@ -11,19 +11,23 @@
               <vue-markdown>{{ description }}</vue-markdown>
           </div>
       </div>
-      <ui-sidebar/>
+      <div>
+      <ui-articles/>
+      <ui-categories/>
+      </div>
   </main>
 </template>
 <script>
   import $ from 'jquery'
   import VueMarkdown from 'vue-markdown'
   import VueLazyload from 'vue-lazyload'
-  import uiSidebar from '~/components/ui/sidebar.vue'
+  import uiCategories from '~/components/widget/categories.vue'
+  import uiArticles from '~/components/widget/derniers-articles.vue'
   export default {
     layout: 'default',
     props: ['title'],    
     transition: { name: 'intro', mode: 'out-in' },
-    components: { VueMarkdown, VueLazyload, uiSidebar },
+    components: { VueMarkdown, VueLazyload, uiCategories, uiArticles },
     async asyncData({ params }) {
       let page = await import('~/content/actualites/page/' + params.slug + '.json');
       return page;
