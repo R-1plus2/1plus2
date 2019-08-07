@@ -3,7 +3,7 @@
       <div class="accordeon">
           <div class="accordeon__head">
               <div class="accordeon__titre">
-                  <h4>CATÉGORIES</h4>
+                  <h4>ARTICLES RÉCENTS</h4>
               </div>
               <div class="accordeon__icon">
                   <i class="fas fa-angle-down collapsible__icon"></i>
@@ -11,8 +11,9 @@
           </div>
           <div class="accordeon__body">
               <div class="accordeon__content">
-                  <div class="accordeon__info" v-for="post in posts">
+                  <div class="accordeon__info" v-for="post in posts.slice().reverse().slice(0,3)">
                      <nuxt-link class="horaires" :to="post._path+'/'">{{ post.title }}</nuxt-link>
+                     <div class="information">{{ post.date  }}</div>
                   </div>
               </div>
           </div>
@@ -25,10 +26,10 @@
     components: {
     },
     data() {
-      const context = require.context('~/content/categorie/page/', false, /\.json$/);
+      const context = require.context('~/content/actualites/page/', false, /\.json$/);
       const posts = context.keys().map(key => ({
         ...context(key),
-        _path: `/categories/${key.replace('.json', '').replace('./', '')}`
+        _path: `/actualites/${key.replace('.json', '').replace('./', '')}`
       }));
       return { posts };
     },
