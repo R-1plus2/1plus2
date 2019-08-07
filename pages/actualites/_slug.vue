@@ -14,8 +14,7 @@
       <div class="sidebar">
         <ui-categories/>
         <ui-articles/>
-        <div class="fb-page" data-href="https://www.facebook.com/residence1plus2/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/residence1plus2/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/residence1plus2/">Résidence 1+2</a></blockquote></div>
-      </div>
+        <div class="fb-page" data-href="https://www.facebook.com/residence1plus2/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/residence1plus2/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/residence1plus2/">Résidence 1+2</a></blockquote></div>      </div>
   </main>
 </template>
 <script>
