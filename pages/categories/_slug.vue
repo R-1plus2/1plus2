@@ -74,8 +74,8 @@ export default {
      ea() {
      
         var href = location.href;
-        var filter-cat = href.match(/([^\/]*)\/*$/)[1];
-        $(".grid").attr('data-cat', filter-cat);
+        var filtercat = href.match(/([^\/]*)\/*$/)[1];
+        $(".grid").attr('data-cat', filtercat);
      
         $('.article').each( function( ) {
              var cat = $(this).find('.category');
@@ -96,7 +96,7 @@ export default {
           sortAscending : false
         });
         $(grid.filteredItems[0].element).addClass('big-article');
-        setTimeout(function(){grid.layout({filter: '.'+filter-cat}); }, 100);
+        setTimeout(function(){grid.layout({filter: '.'+filtercat}); }, 100);
         
      }
   }
