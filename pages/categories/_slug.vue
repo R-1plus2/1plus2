@@ -95,7 +95,7 @@ export default {
             return $($elem).find('.content').attr('data-date');
            }
           },
-          filter: '.initial-filter-class' ,
+          filter: '.'+filtercat ,
           sortBy : 'date',
           sortAscending : false
         });
