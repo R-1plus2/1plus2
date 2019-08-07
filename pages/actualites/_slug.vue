@@ -11,7 +11,7 @@
               <vue-markdown>{{ description }}</vue-markdown>
           </div>
       </div>
-      <ui-sidebar :title="items.title"/>
+      <ui-sidebar/>
   </main>
 </template>
 <script>
