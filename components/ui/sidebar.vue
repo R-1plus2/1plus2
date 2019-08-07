@@ -12,7 +12,7 @@
           <div class="accordeon__body">
               <div class="accordeon__content">
                   <div class="accordeon__info" >
-                     
+                     <div v-for="post in posts.cattt">{{ post.texte }}</div>
                   </div>
               </div>
           </div>
@@ -21,11 +21,21 @@
 </template>
 
 <script>
-import $ from 'jquery'
-export default {
-  async asyncData({ params }) {
-    let page = await import('~/content/categorie/page/2019.json');
-    return page;
-  },
-}
+  export default {
+    components: {
+    },
+    data() {
+      const context = require.context('~/content/categorie/page/', false, /\.json$/);
+      const posts = context.keys().map(key => ({
+        ...context(key),
+        _path: `/categorie/${key.replace('.json', '').replace('./', '')}`
+      }));
+      return { posts };
+    },
+    mounted() {
+      document.querySelectorAll('.collapsible').forEach(el => el.addEventListener('click', e => {
+        e.currentTarget.classList.toggle('collapsible--open')
+      }));
+    }
+  };
 </script>
