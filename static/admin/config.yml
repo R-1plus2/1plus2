@@ -46,17 +46,11 @@ collections:
   - name: "categorie"
     label: "🔖 Catégories"
     folder: "content/categorie/page"
-    create: false
+    create: true
     slug: "{{slug}}"
     format: 'json'
     fields:
       - {label: "Nom", name: "title", widget: "string", tagname: "h1", required: true}
-      - label: "Categorie"
-        name: "cattt"
-        widget: "list"
-        required: false
-        fields:
-          - { label: Texte, name: texte, widget: string }
   - name: "photographes"
     label: "📷 Photographes"
     folder: "content/photographes/page"
