@@ -1,8 +1,5 @@
 <template>
   <main class="page-actu">
-    <div class="button-group ">
-        <button class="button is-checked" data-filter="">red</button>
-    </div>
     <div class="grid">
       <article class="article" v-for="a in actualites" >
           <nuxt-link class="article-padding" :to="a._path+'/'">
