@@ -73,6 +73,14 @@ export default {
         $(".grid").attr('data-cat', href.match(/([^\/]*)\/*$/)[1]);
      },
      ea() {
+        $('.article').each( function( ) {
+             var cat = $(this).find('.category');
+             cat.each( function( ) {
+                 var select = $(this).html();
+                 $(this).parent().parent().parent().parent('.article').addClass(select);
+             });
+        });
+        
         var grid = new Isotope(".grid", {
           itemSelector: ".article",
           getSortData : {
