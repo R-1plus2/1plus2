@@ -11,9 +11,9 @@
               <vue-markdown>{{ description }}</vue-markdown>
           </div>
       </div>
-      <div>
-      <ui-articles/>
-      <ui-categories/>
+      <div class="sidebar">
+        <ui-articles/>
+        <ui-categories/>
       </div>
   </main>
 </template>
