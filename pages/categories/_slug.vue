@@ -1,6 +1,9 @@
 <template>
   <main class="page-actu">
-    <div class="grid" data-cat="">
+    <div class="button-group ">
+        <button class="button is-checked" data-filter="">red</button>
+    </div>
+    <div class="grid">
       <article class="article" v-for="a in actualites" >
           <nuxt-link class="article-padding" :to="a._path+'/'">
               <div class="thumb">
@@ -75,7 +78,7 @@ export default {
      
         var href = location.href;
         var filtercat = href.match(/([^\/]*)\/*$/)[1];
-        $(".grid").attr('data-cat', filtercat);
+        $(".button").attr('data-filter', '.'+filtercat);
      
         $('.article').each( function( ) {
              var cat = $(this).find('.category');
@@ -92,15 +95,12 @@ export default {
             return $($elem).find('.content').attr('data-date');
            }
           },
-          filter: function( itemElem ) {
-            return filtercat;
-            console.log(filtercat);
-          },
+          filter: '.initial-filter-class' ,
           sortBy : 'date',
           sortAscending : false
         });
         $(grid.filteredItems[0].element).addClass('big-article');
-        setTimeout(function(){grid.layout({ filter: filtercat }); }, 100);
+        setTimeout(function(){grid.layout(); }, 100);
         
 
         
