@@ -1,6 +1,6 @@
 <template>
   <main class="page-actu">
-    <div class="grid">
+    <div class="grid" :class="this.$route.path">
       <article class="article" v-for="a in actualites" >
           <nuxt-link class="article-padding" :to="a._path+'/'">
               <div class="thumb">
