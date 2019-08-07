@@ -92,11 +92,16 @@ export default {
             return $($elem).find('.content').attr('data-date');
            }
           },
+          filter: function( itemElem ) {
+              var filterValue = filtercat;
+              return filterValue;
+          },
           sortBy : 'date',
           sortAscending : false
         });
         $(grid.filteredItems[0].element).addClass('big-article');
-        setTimeout(function(){grid.layout({filter: '.'+filtercat}); }, 100);
+        setTimeout(function(){grid.layout({filter: '.'+filtercat+'}); }, 100);
+        console.log('{filter: '.'+filtercat+'}')
         
      }
   }
