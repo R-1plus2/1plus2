@@ -1,6 +1,6 @@
 <template>
   <main class="page-actu">
-    <div class="grid" :class="`${this.title}">
+    <div class="grid" :class="this.title">
       <article class="article" v-for="a in actualites" >
           <nuxt-link class="article-padding" :to="a._path+'/'">
               <div class="thumb">
@@ -27,7 +27,8 @@ export default {
     components: { VueLazyload },
     transition: { name: 'intro', mode: 'out-in' },
     head() {
-      return {
+      return { 
+        name: this.title,
         title: 'ACTUALITÉS | 1+2 – Photographie & Sciences',
         meta: [
           { hid: 'description', name: 'description', content: `1+2 est un programme de création artistique à vocation européenne, ancré à Toulouse, associant la photographie et les sciences.` },
