@@ -3,7 +3,7 @@
       <div class="accordeon">
           <div class="accordeon__head">
               <div class="accordeon__titre">
-                  <h4>CATÉGORIES {{title}}</h4>
+                  <h4>CATÉGORIES</h4>
               </div>
               <div class="accordeon__icon">
                   <i class="fas fa-angle-down collapsible__icon"></i>
@@ -12,7 +12,7 @@
           <div class="accordeon__body">
               <div class="accordeon__content">
                   <div class="accordeon__info" >
-                     <div v-for="post in posts.cattt">{{ post.texte }}</div>
+                     <div v-for="post in posts">{{ post.title }}</div>
                   </div>
               </div>
           </div>
