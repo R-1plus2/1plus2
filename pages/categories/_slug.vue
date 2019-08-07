@@ -1,6 +1,6 @@
 <template>
   <main class="page-actu">
-    <div class="grid" :data-cat="">
+    <div class="grid" data-cat="">
       <article class="article" v-for="a in actualites" >
           <nuxt-link class="article-padding" :to="a._path+'/'">
               <div class="thumb">
@@ -70,7 +70,7 @@ export default {
             console.log(cons)
         });
         var href = location.href;
-        $(".grid").addClass(href.match(/([^\/]*)\/*$/)[1]);
+        $(".grid").attr('data-cat', href.match(/([^\/]*)\/*$/)[1]);
      },
      ea() {
         var grid = new Isotope(".grid", {
