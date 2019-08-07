@@ -66,7 +66,7 @@ export default {
            $(this).html(modif);
         });
         $('.category').each( function( ) {
-            cons = $(this).value();
+            cons = $(this).text();
             console.log(cons)
         });
 
