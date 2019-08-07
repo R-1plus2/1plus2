@@ -26,9 +26,9 @@ collections:
             name: "cat"
             widget: "relation"
             collection: "categorie"
-            searchFields: ["cattt.title"]
-            valueField: "cattt.title"
-            displayFields: ["cattt.title"]
+            searchFields: ["title"]
+            valueField: "title"
+            displayFields: ["title"]
       - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
       - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
       - label: "Article relative"
