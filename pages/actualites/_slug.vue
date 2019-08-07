@@ -12,8 +12,8 @@
           </div>
       </div>
       <div class="sidebar">
-        <ui-articles/>
         <ui-categories/>
+        <ui-articles/>
       </div>
   </main>
 </template>
