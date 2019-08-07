@@ -57,25 +57,19 @@ export default {
   },
   methods: {
      titre(){
-      var modif = 'ACTUALITES';
+      var modif = '<a href="/actualites/" >ACTUALITÉS</a>';
       $('.page-title').html( modif );           
      },
      annee(){
         $('.date').each( function( ) {
            var modif = $(this).html().substr(0, 4);
            $(this).html(modif);
-        });
-        $('.category').each( function( ) {
-            var cons = $(this).html();
-            
-        });
-        
+        });        
      },
      ea() {
      
         var href = location.href;
         var filtercat = href.match(/([^\/]*)\/*$/)[1];
-        $(".button").attr('data-filter', '.'+filtercat);
      
         $('.article').each( function( ) {
              var cat = $(this).find('.category');
