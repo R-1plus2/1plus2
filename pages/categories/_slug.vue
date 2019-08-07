@@ -54,6 +54,7 @@ export default {
       this.titre();
       this.ea();
       this.annee();
+      
   },
   methods: {
      titre(){
@@ -66,7 +67,7 @@ export default {
            $(this).html(modif);
         });
         $('.category').each( function( ) {
-            cons = $(this).text();
+            cons = $(this).html();
             console.log(cons)
         });
 
@@ -84,6 +85,7 @@ export default {
         });
         $(grid.filteredItems[0].element).addClass('big-article');
         setTimeout(function(){grid.layout(); }, 100);
+        
      }
   }
 }
