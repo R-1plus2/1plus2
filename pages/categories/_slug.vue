@@ -100,8 +100,8 @@ export default {
           sortAscending : false
         });
         $(grid.filteredItems[0].element).addClass('big-article');
-        setTimeout(function(){grid.layout({filter: '.'+filtercat+'}); }, 100);
-        console.log('{filter: '.'+filtercat+'}')
+        setTimeout(function(){grid.layout({filter: "." +filtercat+ " "}); }, 100);
+        console.log("{filter: '."+filtercat+"'}")
         
      }
   }
