@@ -1,19 +1,17 @@
 <template>
-  <div class="sidebar">
-      <div class="accordeon">
-          <div class="accordeon__head">
-              <div class="accordeon__titre">
-                  <h4>CATÉGORIES</h4>
-              </div>
-              <div class="accordeon__icon">
-                  <i class="fas fa-angle-down collapsible__icon"></i>
-              </div>
+  <div class="accordeon">
+      <div class="accordeon__head">
+          <div class="accordeon__titre">
+              <h4>CATÉGORIES</h4>
           </div>
-          <div class="accordeon__body">
-              <div class="accordeon__content">
-                  <div class="accordeon__info" v-for="post in posts">
-                     <nuxt-link class="horaires" :to="post._path+'/'">{{ post.title }}</nuxt-link>
-                  </div>
+          <div class="accordeon__icon">
+              <i class="fas fa-angle-down collapsible__icon"></i>
+          </div>
+      </div>
+      <div class="accordeon__body">
+          <div class="accordeon__content">
+              <div class="accordeon__info" v-for="post in posts">
+                 <nuxt-link class="horaires" :to="post._path+'/'">{{ post.title }}</nuxt-link>
               </div>
           </div>
       </div>
