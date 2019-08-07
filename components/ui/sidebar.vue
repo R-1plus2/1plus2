@@ -28,7 +28,7 @@
       const context = require.context('~/content/categorie/page/', false, /\.json$/);
       const posts = context.keys().map(key => ({
         ...context(key),
-        _path: `/categorie/${key.replace('.json', '').replace('./', '')}`
+        _path: `/categories/${key.replace('.json', '').replace('./', '')}`
       }));
       return { posts };
     },
