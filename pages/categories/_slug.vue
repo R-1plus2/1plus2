@@ -67,7 +67,7 @@ export default {
         });
         $('.category').each( function( ) {
             var cons = $(this).html();
-            console.log(cons)
+            
         });
         
      },
@@ -97,6 +97,7 @@ export default {
         });
         $(grid.filteredItems[0].element).addClass('big-article');
         setTimeout(function(){grid.layout({ filter: filtercat }); }, 100);
+        console.log(filtercat)
 
         
      }
