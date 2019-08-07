@@ -69,10 +69,14 @@ export default {
             var cons = $(this).html();
             console.log(cons)
         });
-        var href = location.href;
-        $(".grid").attr('data-cat', href.match(/([^\/]*)\/*$/)[1]);
+        
      },
      ea() {
+     
+        var href = location.href;
+        var filter-cat = href.match(/([^\/]*)\/*$/)[1];
+        $(".grid").attr('data-cat', filter-cat);
+     
         $('.article').each( function( ) {
              var cat = $(this).find('.category');
              cat.each( function( ) {
@@ -92,7 +96,7 @@ export default {
           sortAscending : false
         });
         $(grid.filteredItems[0].element).addClass('big-article');
-        setTimeout(function(){grid.layout(); }, 100);
+        setTimeout(function(){grid.layout({filter: '.'+filter-cat}); }, 100);
         
      }
   }
