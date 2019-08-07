@@ -70,7 +70,7 @@ export default {
             console.log(cons)
         });
         var href = location.href;
-        console.log(href.match(/([^\/]*)\/*$/)[1]);
+        $(".grid").addClass(href.match(/([^\/]*)\/*$/)[1]);
      },
      ea() {
         var grid = new Isotope(".grid", {
