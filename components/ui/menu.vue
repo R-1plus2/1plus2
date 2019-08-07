@@ -22,11 +22,9 @@
 <script>
   import $ from 'jquery'
   import uiLogo from '~/components/ui/logo.vue'
-  import uiSocial from '~/components/social.vue'
   export default {
     components: {
-      uiLogo,
-      uiSocial
+      uiLogo
     },
     mounted: () => {
 
