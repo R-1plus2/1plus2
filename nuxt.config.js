@@ -10,7 +10,8 @@ var dynamicRoutes = getDynamicPaths({
   '/expositions': 'expositions/page/*.json',
   '/colloques': 'colloques/page/*.json',
   '/residences': 'residences/page/*.json',
-  '/photographes': 'photographes/page/*.json'
+  '/photographes': 'photographes/page/*.json',
+  '/categories': 'categorie/page/*.json'
 });
 module.exports = {
   head: {
