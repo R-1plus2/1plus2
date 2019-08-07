@@ -11,8 +11,8 @@
           </div>
           <div class="accordeon__body">
               <div class="accordeon__content">
-                  <div class="accordeon__info">
-                     <div class="horaires" v-for="post in posts">{{ post.title }}</div>
+                  <div class="accordeon__info" v-for="post in posts">
+                     <div class="horaires">{{ post.title }}</div>
                   </div>
               </div>
           </div>
