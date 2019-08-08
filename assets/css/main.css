@@ -649,8 +649,21 @@ main {
     max-width: none;
 }
 .page-actu .category {
-    margin-right: 15px;
+    margin-right: 20px;
     color: var(--color-3);
+    position: relative;
+}
+.page-actu .category::before {
+    content: '';
+    position: absolute;
+    right: -15px;
+    height: 2px;
+    width: 10px;
+    background: blue;
+    top: 50%;
+}
+.page-actu .category:last-child::before {
+    content: none;
 }
 .page-actu .content a {
     text-decoration: none;
