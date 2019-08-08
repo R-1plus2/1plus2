@@ -874,6 +874,9 @@ main {
     color: var(--color-1);
     text-decoration: none;
 }
+
+
+
 /* WIDGET - ACCORDEON */
   /* Accordeon */
   .accordeon {
@@ -962,6 +965,34 @@ main {
       transition:all .3s ease .3s;
   }
 
+.sidebar .accordeon__head {
+    height: 50px;
+}
+.sidebar .accordeon__titre h4 {
+    font-size: initial;
+    color: #000;
+    margin: 0;
+    line-height: 50px;
+}
+.sidebar .accordeon__icon {
+    font-size: 20px;
+}
+.sidebar .accordeon:first-child .accordeon__body {
+    background: var(--color-2);
+    padding: 0;
+}
+.sidebar .accordeon__info {
+    padding: 0 15px;
+    border: none;
+}
+.sidebar .accordeon__info a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+}
 
   /* page photographe slug */
   .diapo .cover-photographe {
