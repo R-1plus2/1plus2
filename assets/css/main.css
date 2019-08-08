@@ -818,7 +818,8 @@ main {
     float: left;
     padding: 0 100px 50px;
     width: calc(60% - 200px);
-  
+    position: relative;
+    top: 0;
 }
 .page-article-colloques .left-side {
     width: 40%;  
