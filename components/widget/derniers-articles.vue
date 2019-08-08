@@ -11,7 +11,6 @@
       <div class="accordeon__body">
           <div class="accordeon__content">
               <div class="accordeon__info" v-for="post in posts.slice().reverse().slice(0,3)">
-                 <div class="horaires date">{{ post.date }}</div>
                  <nuxt-link class="information" :to="post._path+'/'">{{ post.title }}</nuxt-link>
               </div>
           </div>
