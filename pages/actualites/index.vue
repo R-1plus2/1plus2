@@ -2,16 +2,17 @@
   <main class="page-actu">
     <div class="grid">
       <article class="article" v-for="a in actualites" >
-          <nuxt-link class="article-padding" :to="a._path+'/'">
+          <div class="article-padding">
               <div class="thumb">
                   <img class="cover" :src="a.thumbnail">
               </div>
               <div class="content" :data-date="a.date">
                   <p class="description-article"><b class="category" v-for="c in a.catt">{{ c.cat }}</b></p>
-                  <h3 class="title-article">{{ a.title }}</h3>
+                  <nuxt-link :to="a._path+'/'"><h3 class="title-article">{{ a.title }}</h3></nuxt-link>
                   <p class="description">{{ a.intro }}</p>
+                  <nuxt-link :to="a._path+'/'">Lire la suite</nuxt-link>
               </div>
-          </nuxt-link>
+          </div>
        </article>
     </div>
   </main>
