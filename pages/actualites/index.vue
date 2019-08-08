@@ -10,7 +10,7 @@
                   <p class="description-article"><b class="category" v-for="c in a.catt">{{ c.cat }}</b></p>
                   <nuxt-link :to="a._path+'/'"><h3 class="title-article">{{ a.title }}</h3></nuxt-link>
                   <p class="description">{{ a.intro }}</p>
-                  <nuxt-link :to="a._path+'/'">Lire la suite</nuxt-link>
+                  <nuxt-link class="extend" :to="a._path+'/'">Lire la suite</nuxt-link>
               </div>
           </div>
        </article>
