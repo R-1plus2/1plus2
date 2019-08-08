@@ -416,7 +416,22 @@
   .page-article-colloques .image {
       width: calc(100% - 15px);
   }
-  
+  .bloc h2, .bloc h3 {
+      font-size: 1.7em;
+  }
+  .parrain {
+      padding: 15px;
+  }
+  .parrain h2 {
+      font-size: 2.5em;
+  }
+  .parrain h3 {
+      font-size: 1.1em;
+  }
+  .parrain-image {
+      margin: 10px 0 15px 15px;
+      height: 300px;
+  }
 }
 
 @media only screen and (min-width: 1264px) and (max-width: 1904px) {
