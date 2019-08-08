@@ -646,6 +646,12 @@ main {
 .page-actu .content a {
     text-decoration: none;
 }
+.page-actu .extend {
+    background: transparent;
+    width: auto;
+    position: relative;
+    color: var(--color-3);
+}
 .big-article .description-article {
     display: block;
     text-transform: uppercase;
