@@ -630,8 +630,17 @@ main {
     font-size: initial;
     left: calc(50% - 15px);
 }
+.page-actu .description-article {
+    max-width: none;
+    font-size: 1em;
+    margin: 0;
+}
 .article .content{
-		padding: 0 15px;
+		padding: 0 1px;
+}
+.big-article .content{
+		padding-left: 50px;
+    width: calc(50% - 50px);
 }
 .article .description-article {
     display: none;
