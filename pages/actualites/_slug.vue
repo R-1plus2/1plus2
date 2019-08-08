@@ -49,6 +49,7 @@
       document.querySelectorAll('.accordeon').forEach(el => el.addEventListener('click', e => {
         e.currentTarget.classList.toggle('accordeon--open');
       }));
+      $('.sidebar .accordeon:nth-child(2)').addClass('accordeon--open');
 
     },
     methods: {
