@@ -2,7 +2,7 @@
   <div class="accordeon">
       <div class="accordeon__head">
           <div class="accordeon__titre">
-              <h4>CATÉGORIES</h4>
+              <h4>sélectionner une catégorie</h4>
           </div>
           <div class="accordeon__icon">
               <i class="fas fa-angle-down collapsible__icon"></i>
