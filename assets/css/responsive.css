@@ -209,7 +209,7 @@
   }
   .bloc {
       height: 200px;
-      margin-bottom: 30px;
+      margin: 0 0 30px;
       width: calc(100% - 30px);
       box-shadow: -15px 15px gray;
       overflow: visible;
@@ -256,6 +256,20 @@
       width: calc(100% - 30px);
       padding-left: 15px;
       padding-right: 15px;
+  }
+  .reseaux {
+      display: block;
+      text-align: center;
+  }
+  .copyright {
+      float: none;
+      display: block;
+      padding: 0;
+      text-align: center;
+  }
+  .copyright p {
+      line-height: 50px;
+      font-size: 12px;
   }
   
 }
@@ -446,6 +460,20 @@
       width: calc(100% - 130px);
       padding-left: 115px;
       padding-right: 15px;
+  }
+  .reseaux {
+      display: block;
+      text-align: center;
+  }
+  .copyright {
+      float: none;
+      display: block;
+      padding: 0;
+      text-align: center;
+  }
+  .copyright p {
+      line-height: 50px;
+      font-size: 12px;
   }
 }
 
