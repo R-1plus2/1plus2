@@ -636,6 +636,16 @@ main {
 .article .description-article {
     display: none;
 }
+.page-actu .description-article {
+    max-width: none;
+}
+.page-actu .category {
+    margin-right: 15px;
+    color: var(--color-3);
+}
+.page-actu .content a {
+    text-decoration: none;
+}
 .big-article .description-article {
     display: block;
     text-transform: uppercase;
