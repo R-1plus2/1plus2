@@ -180,6 +180,40 @@
   .page-article-colloques .main-description strong {
       font-size: 1.3em;
   }
+  .entete {
+      margin-top: -15px;
+  }
+  .container h2, .container h3 {
+      font-size: 2.5em;
+  }
+  .description-article {
+      max-width: none;
+      font-size: 1.2em;
+  }
+  
+  .edito {
+      padding: 15px 15px 50px;
+      max-width: none;
+  }
+  .extend {
+      width: calc(100% - 30px);
+  }
+  .photographe-title {
+      font-size: 2em;
+  }
+  .bloc h2, .bloc h3 {
+      line-height: 1.2em;
+  }
+  .bloc p {
+      font-size: 14px;
+  }
+  .bloc {
+      height: 200px;
+      margin-bottom: 30px;
+  }
+  .parrain-image {
+      width: 100%;
+  }
   
 }
 
@@ -322,7 +356,39 @@
   .page-article-colloques .left-side {
       width: 100%;
   }
-
+  .entete {
+      margin-top: -15px;
+  }
+  .container h2, .container h3 {
+      font-size: 2.5em;
+  }
+  .description-article {
+      max-width: none;
+      font-size: 1.2em;
+  }
+  .edito {
+      padding: 15px 15px 50px;
+      max-width: none;
+  }
+  .extend {
+      width: calc(100% - 30px);
+  }
+  .photographe-title {
+      font-size: 2em;
+  }
+  .bloc h2, .bloc h3 {
+      line-height: 1.2em;
+  }
+  .bloc p {
+      font-size: 14px;
+  }
+  .bloc {
+      height: 200px;
+      margin-bottom: 30px;
+  }
+  .parrain-image {
+      width: 100%;
+  }
 }
 
 @media only screen and (min-width: 960px) and (max-width: 1263px) {
