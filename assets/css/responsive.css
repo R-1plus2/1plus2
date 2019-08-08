@@ -202,7 +202,7 @@
       font-size: 2em;
   }
   .bloc h2, .bloc h3 {
-      line-height: 1.2em;
+      font-size: 1.2em;
   }
   .bloc p {
       font-size: 14px;
@@ -212,6 +212,7 @@
       margin-bottom: 30px;
       width: calc(100% - 30px);
       box-shadow: -15px 15px gray;
+      overflow: visible;
   }
   .bloc::before {
       content: '';
@@ -230,6 +231,15 @@
       background: #fff;
       width: 30px;
       height: 15px;
+  }
+  .parrain {
+      padding: 15px;
+  }
+  .parrain h2 {
+      font-size: 2.5em;
+  }
+  .parrain h3 {
+      font-size: 1.1em;
   }
   .parrain-image {
       width: 100%;
@@ -404,7 +414,7 @@
       font-size: 2em;
   }
   .bloc h2, .bloc h3 {
-      line-height: 1.2em;
+      font-size: 1.2em;
   }
   .bloc p {
       font-size: 14px;
@@ -412,6 +422,15 @@
   .bloc {
       height: 200px;
       margin-bottom: 30px;
+  }
+ .parrain {
+      padding: 15px;
+  }
+  .parrain h2 {
+      font-size: 2.5em;
+  }
+  .parrain h3 {
+      font-size: 1.1em;
   }
   .parrain-image {
       width: 100%;
