@@ -24,8 +24,7 @@
   import uiCategories from '~/components/widget/categories.vue'
   import uiArticles from '~/components/widget/derniers-articles.vue'
   export default {
-    layout: 'default',
-    props: ['title'],    
+    layout: 'default', 
     transition: { name: 'intro', mode: 'out-in' },
     components: { VueMarkdown, VueLazyload, uiCategories, uiArticles },
     async asyncData({ params }) {
