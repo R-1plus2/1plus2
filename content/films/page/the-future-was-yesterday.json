@@ -1,11 +1,11 @@
 {
   "cover": "/images/uploads/couv2019.jpg",
-  "title": "The Future Was Yesterday (Teaser)",
+  "title": "The Future Was Yesterday",
   "soustitre": "Résidence 2019",
   "date": "2019/01/01",
   "body": {
-    "description": "### UN FILM DE CITIZEN JIF\n\nFILM DE CRÉATION – 26 MINUTES  \n_avec Matthieu Gafsou, Matilda Holloway & Manaon Lajouère_",
-    "content": "**Après Marjorie Calle en 2016 avec Diana Alice Léa, Clémentine Carrié en 2017 avec Les jours - Cahiers photographiques et Noé Cuéllar en 2018 avec 1+2=4, Citizen JiF est le nouveau réalisateur 2019 de la Résidence 1+2 « Photographie & Sciences ».**\n\nCette année, la Résidence 1+2 a confié à cet artiste polymorphe la réalisation de son film de création (format 26 mn) pour son édition 2019. Citizen JiF réalisera également le programme «Création Capsules 2019» un nouveau format de vidéos très courtes, illustrant les actualités de la Résidence 1+2. Cette carte blanche d’une année, véritable création inédite est à suivre tous les 15 jours, sur les réseaux sociaux de la Résidence 1+2.\n\n`À chaque édition, la Résidence 1+2 invite un.e réalisateur.trice et produit un film de format 26’. Ce film de création est une «carte blanche» dont le fil rouge est la vie au sein de la Résidence 1+2. Alternant approche documentaire ou fictionnel, il donne à voir le travail de recherches des photographes, leurs productions, questionnements ou doutes, leur complicité,… Grâce à ce support filmique, les spectateurs entrent dans l’intimité du processus de création artistique des deux mois de résidence, à Toulouse. Chaque court-métrage est partie prenante de la collection de films de la Résidence 1+2. Il est projeté en avant-première lors du week-end inaugural (mi-octobre) suivi d’un cycle de projections commentées à la Cinémathèque de Toulouse ou dans des festivals de cinéma.`",
+    "description": "### UN FILM DE CITIZEN JIF\n\nFILM DE CRÉATION – 26 MINUTES\\\n_avec Matthieu Gafsou, Matilda Holloway & Manaon Lanjouère_",
+    "content": "**Après Marjorie Calle en 2016 avec Diana Alice Lea, Clémentine Carrié en 2017 avec Les Jours - Cahiers photographiques et Nestor (alias Noé Cuéllar) en 2018 avec 1+2=4, Citizen JiF est le réalisateur choisi en 2019 pour le film de création (format 26 mn).**\n\n**Citizen JiF réalise également une série de 8 vidéos intitulée « Capsules ».** Sur le principe de la carte blanche, chaque capsule illustre les actualités de la Résidence 1+2, dans une création  sonore et visuelle au format court (12 secondes), à découvrir tous les 15 jours sur les réseaux sociaux du programme.\n\n« _Avoir une carte blanche pour réaliser un film de 26 minutes sur le processus de création de trois artistes photographes, en résidence, collaborant avec des scientifiques, en voilà une idée excitante ! Je ne suis pas documentariste, je ne crois à aucune forme d’objectivité issu du média vidéo. Je crois en ma sensibilité artistique, je crois aux rencontres humaines, je crois aux émotions et à la dialectique. Collapsologie, hétérotopies ou mécanique céleste, les axes de travail de Matthieu, Matilda et Manon sont éclectiques à l’image de leurs perceptions du Monde. Ce film en est une digestion très personnelle. Ce film parle de moi, de mon ego, de mes peurs, de mes angoisses, de mes espoirs, de ma relation à la vie, aux autres, à la planète, à la société. Je m’y interroge sur la créativité à travers la rencontre de trois artistes aux démarches et aux parcours différents. C’est une introspection ouverte sur les autres. _» **Citizen JiF **\n\n\n\n**BIOGRAPHIE**\n\nPhotographe, réalisateur et artiste de scène, Citizen JiF est un artiste autodidacte né à Lyon. Éclectique, il se passionne très jeune pour la littérature SF et Cyberpunk, la musique et la politique. D’abord photographe des cultures urbaines, il fait ses armes en figeant les ambiances survoltées des salles de concerts et squats qu’il fréquente pendant ses tournées avec les groupes de la scène indépendante de l’époque. Après avoir habité à Londres, il pose ses valises à Toulouse à la fin des années 90. Depuis une dizaine d’année, il travaille la vidéo et réalise des clips et des teasers pour des groupes de musiques, des compagnies de spectacles et pour ses projets personnels. Également VJ (Vidéo- Jockey) et artiste de scène, ses différentes formations «live» l’amènent dans de nombreux festivals et aux quatre coins de la planète.",
     "readmore": {
       "readtexte": "RÉSIDENCE 2019",
       "readlien": "#"
@@ -18,32 +18,17 @@
     ]
   },
   "galeries": {
-    "iframe": "<iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/OAj30suncEs\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "iframe": "<iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/UTJ9QqXFc3I\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
     "images": [
       {
-        "image": "/images/uploads/2018film-1.jpg",
-        "alt": "The Future Was Yesterday © Citizen Jif / Résidence 1+2 2019"
+        "image": "/images/uploads/film_2019_01.jpg",
+        "alt": "© Residence 1+2 / Citizen Jif"
       },
-      {
-        "image": "/images/uploads/2018film-2.jpg",
-        "alt": "The Future Was Yesterday © Citizen Jif / Résidence 1+2 2019"
-      },
-      {
-        "image": "/images/uploads/2018film-3.jpg",
-        "alt": "The Future Was Yesterday © Citizen Jif / Résidence 1+2 2019"
-      },
-      {
-        "image": "/images/uploads/2018film-4.jpg",
-        "alt": "The Future Was Yesterday © Citizen Jif / Résidence 1+2 2019"
-      },
-      {
-        "image": "/images/uploads/2018film-5.jpg",
-        "alt": "The Future Was Yesterday © Citizen Jif / Résidence 1+2 2019"
-      }
+      {}
     ]
   },
   "seo": {
     "descriptionseo": "Cette année, la Résidence 1+2 a confié à cet artiste polymorphe la réalisation de son film de création (format 26 mn) pour son édition 2019. Citizen JiF réalisera également le programme «Création Capsules 2019» un nouveau format de vidéos très courtes, illustrant les actualités de la Résidence 1+2. Cette carte blanche d’une année, véritable création inédite est à suivre tous les 15 jours, sur les réseaux sociaux de la Résidence 1+2.",
-    "thumbnail": "/images/uploads/couv2019.jpg"
+    "thumbnail": "/images/uploads/film_2019_01.jpg"
   }
 }
