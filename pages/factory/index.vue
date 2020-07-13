@@ -1,11 +1,17 @@
 <template>
   <main class="page-factory">
     <div class="intro">
-        <p> La <b>Résidence 1+2 Factory</b> est une résidence artistique en entreprises ou en institutions, partenaires ou non du programme de la <b>Résidence 1+2
-          «Photographie &#38; Sciences»</b>. Sur une période donnée, un ou une photographe propose un regard d’auteur inédit sur la structure concernée en revisitant
-          son histoire, ses modes opératoires, sa production, ses savoirs-faire. Celle-ci apparaît alors, comme un soutien actif de la création photographique,
-          renforçant son ancrage local, régional ou national et s’ouvrant à d’autres publics. La Résidence 1+2 a pour ambition de créer une pépinière de jeunes
-          photographes et un réseau d’entreprises et institutions, sensibles aux expressions artistiques.</p>
+        <p> 	Le « <b>1+2 Factory</b> » est un dispositif de résidences photographiques en institutions, 
+        territoires et/ou entreprises. Sur une période donnée, un ou une photographe propose son regard d’auteur 
+        en créant une oeuvre inédite sur l’entité concernée en revisitant son histoire, son territoire, ses modes opératoires, 
+        sa production, ses savoirs-faire. Le fruit de ce travail est présenté à l’automne suivant dans un lieu muséal 
+        à Toulouse ou sur le territoire de la métropole toulousaine (Quai des arts à Cugnaux), lors d’une exposition 
+        collective regroupant les « <b>1+2 Factory</b> » de l’année. L’ensemble des « <b>1+2 Factory</b> » est aussi présenté 
+        au «  <b>Colloque national - Photographie & Sciences</b> » durant lesquels photographes, scientifiques, entreprises, 
+        institutions, journalistes, grand public sont invité.es à s’exprimer sur ce temps de création et échanger 
+        avec différents publics. Le programme « <b>1+2 Factory</b> » a pour ambition de créer un réseau d’entreprises et 
+        d’institutions sensibles à l’art. Il constitue également une pépinière de photographes aux écritures différentes 
+        pour un partage des savoirs vers tous les publics. </p>
     </div>
     <div class="grid">
       <article  v-for="f in factory"  class="small-article">
