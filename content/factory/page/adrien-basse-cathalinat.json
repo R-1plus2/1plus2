@@ -21,21 +21,27 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/cathalinat-1.jpg",
-        "alt": "© Adrien Basse-Cathalinat"
+        "image": "/images/uploads/7.jpg"
       },
       {
-        "image": "/images/uploads/cathalinat-2.jpg",
-        "alt": "© Adrien Basse-Cathalinat"
+        "image": "/images/uploads/10.jpg"
       },
       {
-        "image": "/images/uploads/cathalinat-3.jpg",
-        "alt": "© Adrien Basse-Cathalinat"
+        "image": "/images/uploads/12.jpg"
+      },
+      {
+        "image": "/images/uploads/4.jpg"
+      },
+      {
+        "image": "/images/uploads/3.jpg"
+      },
+      {
+        "image": "/images/uploads/5.jpg"
       }
     ]
   },
   "seo": {
     "descriptionseo": "Après Hélène Bellenger, lauréate de la Factory 2018 à la Cinémathèque de Toulouse (une série exposée aux Rencontres d’Arles 2018, au Festival Circulations et au centre photographique de l’Hôtel Fontfreyde en 2019), Adrien Basse-Cathalinat, lauréat de la Factory 2019, réalise une série inédite sur les crues et l’inondabilité de la zone humide de la Confluence Garonne-Ariège.",
-    "thumbnail": "/images/uploads/cathalinat-1.jpg"
+    "thumbnail": "/images/uploads/7.jpg"
   }
 }
