@@ -93,7 +93,7 @@ export default {
           sortAscending : false
         });        
         $(grid.filteredItems[0].element).addClass('big-one');
-        setTimeout(function(){grid.layout(); }, 100);
+        setTimeout(function(){grid.layout(); }, 300);
       }
   }
 }
