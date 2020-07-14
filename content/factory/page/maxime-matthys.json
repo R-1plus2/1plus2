@@ -1,0 +1,46 @@
+{
+  "cover": "/images/uploads/factory5-1.jpg",
+  "title": "MAXIME MATTHYS",
+  "soustitre": "FACTORY #5",
+  "date": "2020/07/14",
+  "body": {
+    "description": "**Maxime Matthys est le lauréat de la seconde résidence 1+2 Factory #2020**",
+    "content": "texte serie",
+    "readmore": "**PARTENAIRE : **texte",
+    "link": [
+      {
+        "linktexte": "Maxime Matthys",
+        "linklien": "https://www.maximematthys.com/"
+      }
+    ]
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/factory5-1.jpg"
+      },
+      {
+        "image": "/images/uploads/facorty5-2.jpg"
+      },
+      {
+        "image": "/images/uploads/facorty5-3.jpg"
+      },
+      {
+        "image": "/images/uploads/facorty5-4.jpg"
+      },
+      {
+        "image": "/images/uploads/facorty5-5.jpg"
+      },
+      {
+        "image": "/images/uploads/facorty5-6.jpg"
+      },
+      {
+        "image": "/images/uploads/facorty5-7.jpg"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "**Maxime Matthys est le lauréat de la seconde résidence 1+2 Factory #2020**",
+    "thumbnail": "/images/uploads/factory5-1.jpg"
+  }
+}
