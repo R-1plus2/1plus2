@@ -1,0 +1,37 @@
+{
+  "cover": "/images/uploads/factory4-1.jpg",
+  "title": "MYRIEM KARIM",
+  "soustitre": "FACTORY #4",
+  "date": "2020/07/13",
+  "body": {
+    "description": "**Myriem Karim est la lauréate de la quatrième résidence 1+2 Factory.**",
+    "content": "Les arbres évoluent dans le paysage auquel ils appartiennent, et le modifient. Regarder un paysage est un engagement dans le monde. Il y a une extase : cette manière dont les choses ont de se tenir au-delà d’elles-mêmes. S’ouvre la dimension du temps, de ses épaisseurs sédimentaires, de ses rythmes, de ses lenteurs. Les arbres sont une promesse de mouvement permanent qui existe. Nous ne les voyons pas mobiles. Nous ne vivons pas assez longtemps pour les voir pousser.  \n\nComment rentrer dans le cadre de l’appareil photo, un arbre ? Une forêt entière ? Que discerne t-on dans une forêt et que voit-on avec la photographie dans une forêt ? Est-ce un bon outil d’observation des arbres ? Il y a une densité de la forêt contraire au rapport à l’horizon. À la vue de loin. À l’atavisme. Pour regarder les arbres, il faut basculer dans un monde où les voies de communication sont verticales. \n\nL’enjeu n’est pas tant de rendre compte du réel que de traduire des impressions de réalités. Car c’est tout ou une partie de leur vivant qui nous échappe à l’œil nu. Percevoir l’intériorité des arbres, c’est regarder à travers les branchages et feuillages, de la jeune pousse aux cellules et molécules. Collecter les expériences rassemblées autour d’eux et inscrites dans leurs membres. Toucher la matière végétale. Revenir, observer. Répéter la prise photographique. Car ils ne se présentent formellement jamais à l’identique, bien qu’enracinés au même endroit. Témoins du temps qui passe et de la composition instable des paysages.",
+    "readmore": "**PARTENAIRE** : texte",
+    "link": [
+      {
+        "linktexte": "Myriem Karim",
+        "linklien": "https://www.myriemkarim.com"
+      }
+    ]
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/factory4-1.jpg"
+      },
+      {
+        "image": "/images/uploads/factory4-2.jpg"
+      },
+      {
+        "image": "/images/uploads/factory4-3.jpg"
+      },
+      {
+        "image": "/images/uploads/factory4-4.jpg"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "Les arbres évoluent dans le paysage auquel ils appartiennent, et le modifient. Regarder un paysage est un engagement dans le monde. Il y a une extase : cette manière dont les choses ont de se tenir au-delà d’elles-mêmes. S’ouvre la dimension du temps, de ses épaisseurs sédimentaires, de ses rythmes, de ses lenteurs. Les arbres sont une promesse de mouvement permanent qui existe. Nous ne les voyons pas mobiles. Nous ne vivons pas assez longtemps pour les voir pousser.",
+    "thumbnail": "/images/uploads/factory4-1.jpg"
+  }
+}
