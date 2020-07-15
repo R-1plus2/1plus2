@@ -5,7 +5,7 @@
         territoires et/ou entreprises. Sur une période donnée, un ou une photographe propose son regard d’auteur 
         en créant une oeuvre inédite sur l’entité concernée en revisitant son histoire, son territoire, ses modes opératoires, 
         sa production, ses savoirs-faire. Le fruit de ce travail est présenté à l’automne suivant dans un lieu muséal 
-        à Toulouse ou sur le territoire de la métropole toulousaine (Quai des arts à Cugnaux), lors d’une exposition 
+        à Toulouse ou sur le territoire de la métropole toulousaine, lors d’une exposition 
         collective regroupant les « <b>1+2 Factory</b> » de l’année. L’ensemble des « <b>1+2 Factory</b> » est aussi présenté 
         au «  <b>Colloque national - Photographie & Sciences</b> » durant lesquels photographes, scientifiques, entreprises, 
         institutions, journalistes, grand public sont invité.es à s’exprimer sur ce temps de création et échanger 
