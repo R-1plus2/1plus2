@@ -1,5 +1,5 @@
 {
-  "cover": "",
+  "cover": "/images/uploads/karim-1.jpg",
   "title": "MYRIEM KARIM",
   "soustitre": "FACTORY #4",
   "date": "2020/07/13",
@@ -17,21 +17,30 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/factory4-1.jpg"
+        "image": "/images/uploads/karim-1-gallerie.jpg"
       },
       {
-        "image": "/images/uploads/factory4-2.jpg"
+        "image": "/images/uploads/karim-2-gallerie.jpg"
       },
       {
-        "image": "/images/uploads/factory4-3.jpg"
+        "image": "/images/uploads/karim-3-gallerie.jpg"
       },
       {
-        "image": "/images/uploads/factory4-4.jpg"
+        "image": "/images/uploads/karim-4-gallerie.jpg"
+      },
+      {
+        "image": "/images/uploads/karim5.jpg"
+      },
+      {
+        "image": "/images/uploads/karim6.jpg"
+      },
+      {
+        "image": "/images/uploads/karim7.jpg"
       }
     ]
   },
   "seo": {
     "descriptionseo": "Les arbres évoluent dans le paysage auquel ils appartiennent, et le modifient. Regarder un paysage est un engagement dans le monde. Il y a une extase : cette manière dont les choses ont de se tenir au-delà d’elles-mêmes. S’ouvre la dimension du temps, de ses épaisseurs sédimentaires, de ses rythmes, de ses lenteurs. Les arbres sont une promesse de mouvement permanent qui existe. Nous ne les voyons pas mobiles. Nous ne vivons pas assez longtemps pour les voir pousser.",
-    "thumbnail": ""
+    "thumbnail": "/images/uploads/karim-1.jpg"
   }
 }
