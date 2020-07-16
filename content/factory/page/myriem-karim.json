@@ -4,38 +4,49 @@
   "soustitre": "FACTORY #4",
   "date": "2020/07/13",
   "body": {
-    "description": "**Myriem Karim est la lauréate de la quatrième résidence 1+2 Factory.**",
+    "description": "",
     "content": "# ARBORESCENCES \n\nLes arbres évoluent dans le paysage auquel ils appartiennent, et le modifient. Regarder un paysage est un engagement dans le monde. Il y a une extase : cette manière dont les choses ont de se tenir au-delà d’elles-mêmes. S’ouvre la dimension du temps, de ses épaisseurs sédimentaires, de ses rythmes, de ses lenteurs. Les arbres sont une promesse de mouvement permanent qui existe. Nous ne les voyons pas mobiles. Nous ne vivons pas assez longtemps pour les voir pousser.\n\nComment rentrer dans le cadre de l’appareil photo, un arbre ? Une forêt entière ? Que discerne t-on dans une forêt et que voit-on avec la photographie dans une forêt ? Est-ce un bon outil d’observation des arbres ? Il y a une densité de la forêt contraire au rapport à l’horizon. À la vue de loin. À l’atavisme. Pour regarder les arbres, il faut basculer dans un monde où les voies de communication sont verticales.\n\nL’enjeu n’est pas tant de rendre compte du réel que de traduire des impressions de réalités. Car c’est tout ou une partie de leur vivant qui nous échappe à l’œil nu. Percevoir l’intériorité des arbres, c’est regarder à travers les branchages et feuillages, de la jeune pousse aux cellules et molécules. Collecter les expériences rassemblées autour d’eux et inscrites dans leurs membres. Toucher la matière végétale. Revenir, observer. Répéter la prise photographique. Car ils ne se présentent formellement jamais à l’identique, bien qu’enracinés au même endroit. Témoins du temps qui passe et de la composition instable des paysages.",
     "readmore": "**NATURE EN OCCITANIE** : L'Association Nature En Occitanie gère la Réserve Naturelle Régionale Confluence Garonne Ariège. Créée en 1969 et reconnue d’intérêt général, elle a pour objectif la protection et la valorisation du patrimoine naturel régional. \n\n**MYRIEM KARIM** : Née à Nanterre en 1991, Myriem Karim s’initie dès l’enfance au violon et à la danse contemporaine au Conservatoire de Montpellier. C’est par la danse qu’elle aborde le rapport du corps à l’espace, et par la littérature qu’elle débute sa pratique photographique. L’œuvre du photographe Denis Roche lui fait découvrir un possible entrelacs – littérature et photographie -. En 2016, elle termine son cycle de Master en Lettres par une étude esthétique intitulée : (Des)saisissement du Temps avec Notre Antéfixe de Denis Roche, obtenue avec mention sous la direction du philosophe Pierre Zaoui à l’Université Paris Diderot. Autodidacte, son travail photographique interroge notre rapport aux lieux et à la matière en alliant poésie et photographie, deux médiums qu’elle considère indépendants dans leur pratique mais complémentaires. Sa photographie raconte toujours l’histoire d’un corps et d’un espace paysagé mettant en relief leurs interactions et réciprocité, un regard posé à l’intérieur d’un paysage, une observation de lieux inhabités, naturels, qui questionne le rapport des traces et des empreintes mutuelles. Ses images revisitent des lieux qu’elle a déjà photographié lors de pérégrinations aléatoires (Je suis venue ici, déjà 2018). Cette répétition fait partie intégrante de sa démarche artistique et les aléas de la photographie argentique lui permettent une approche expérimentale. À l’automne 2019, elle est lauréate de la Résidence 1+2 Factory à la Réserve naturelle régionale Confluence Garonne-Ariège en partenariat avec Nature En Occitanie. En 2020, elle obtient le Grand prix MAP / CD 31 et expose sa série « Nous habitons la nudité de notre corps ». La photographie de Myriem Karim est une quête de l’originel, la recherche de ce qui nous lie au monde et au temps. Myriem Karim vit et travaille à Montpellier.",
     "link": [
       {
         "linktexte": "Myriem Karim",
         "linklien": "https://www.myriemkarim.com"
+      },
+      {
+        "linktexte": "Nature en Occitanie",
+        "linklien": "http://www.naturemp.org/"
       }
     ]
   },
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/karim-1-gallerie.jpg"
+        "image": "/images/uploads/karim-1-gallerie.jpg",
+        "alt": "©Myriem Karim, Arborescences, Résidence 1+2 Factory #4, 2020."
       },
       {
-        "image": "/images/uploads/karim-2-gallerie.jpg"
+        "image": "/images/uploads/karim-2-gallerie.jpg",
+        "alt": "©Myriem Karim, Arborescences, Résidence 1+2 Factory #4, 2020."
       },
       {
-        "image": "/images/uploads/karim-3-gallerie.jpg"
+        "image": "/images/uploads/karim-3-gallerie.jpg",
+        "alt": "©Myriem Karim, Arborescences, Résidence 1+2 Factory #4, 2020."
       },
       {
-        "image": "/images/uploads/karim-4-gallerie.jpg"
+        "image": "/images/uploads/karim-4-gallerie.jpg",
+        "alt": "©Myriem Karim, Arborescences, Résidence 1+2 Factory #4, 2020."
       },
       {
-        "image": "/images/uploads/karim5.jpg"
+        "image": "/images/uploads/karim5.jpg",
+        "alt": "©Myriem Karim, Arborescences, Résidence 1+2 Factory #4, 2020."
       },
       {
-        "image": "/images/uploads/karim6.jpg"
+        "image": "/images/uploads/karim6.jpg",
+        "alt": "©Myriem Karim, Arborescences, Résidence 1+2 Factory #4, 2020."
       },
       {
-        "image": "/images/uploads/karim7.jpg"
+        "image": "/images/uploads/karim7.jpg",
+        "alt": "©Myriem Karim, Arborescences, Résidence 1+2 Factory #4, 2020."
       }
     ]
   },
