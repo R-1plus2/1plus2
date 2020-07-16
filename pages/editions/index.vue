@@ -1,5 +1,16 @@
 <template>
   <main class="page-editions">
+   <div class="intro">
+        <p> Chaque année, <b>la Résidence 1+2</b> co-produit avec les <b>Éditions Filigranes</b>, un coffret de trois ouvrages dédiés aux trois photographes en 
+        résidence. Cette édition, inédite dans son concept, est présentée en deux langues (français & anglais) et structurée au sein 
+        d’une <b>collection «Toulouse»</b>.<br/>
+         Les <b>Éditions Filigranes</b> poursuivent un cheminement original et audacieux pour s’être spécialisées dans 
+         l’édition photographique et l’édition d’artistes. Les choix éditoriaux vont d’auteurs connus à des premiers livres. 
+         Fondées il y a 30 ans par Patrick Le Bescont, le catalogue contient près de 640 titres. La démarche éditoriale de Filigranes 
+         est de conjuguer, dans des livres singuliers, l’image et l’écriture, faisant ainsi se croiser les regards et les sensibilités 
+         d’auteurs photographes, d’artistes et d’écrivains contemporains, sans exclusion de styles ou de genres. 
+        </p>
+    </div>
     <div class="grid">
     <article v-for="e in editions" class="small-article">
         <nuxt-link class="article-padding" :to="e._path+'/'">
