@@ -261,6 +261,7 @@ main {
     margin-bottom: 100px;
     z-index: 1;
     background: #fff;
+    display:inline-block;
 }
 	.small-article {
 	    position: relative;
