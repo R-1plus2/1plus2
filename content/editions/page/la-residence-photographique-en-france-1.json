@@ -4,14 +4,14 @@
   "soustitre": "Colloque National",
   "date": "2016/01/26",
   "body": {
-    "description": "### Editions Filigranes\nFormat : 125 X 160 mm  \nLangues : Français  \nISBN : 978-2-35046-392-6",
+    "description": "### Editions Filigranes\n\nFormat : 125 X 160 mm\\\nLangue : Français\\\nPrix : 17€\\\nTirage : 500 exemplaires\nISBN : 978-2-35046-392-6",
     "commander": [
       {
         "linktexte": "COMMANDER",
         "linklien": "https://www.filigranes.com/livre/residence-photographique-france-1/"
       }
     ],
-    "content": "**Ce livre recueil le témoignage de photographes et de directeurs de résidences : Israel Ariño, Fred Boucher, François Cheval, Rémi Coignet, Patrick Delat, Chantal Delmont, Pascal Dolémieux, Fany Dupêchez, Gilles Favier, Philippe Guionie, Elisabeth Hebert, Mat Jacob, Ida Jakobs, Olivia Marsaud, Brigitte Patient, Fabienne Pavia, Rita Scaglia, Jérôme Mother.**\n\nQu’est-ce qu’une résidence photographique ? Quelle place ce mode de création occupe-t-il aujourd’hui en France ? Documenter le territoire, quelle photographie pour quels enjeux ? Quelles expériences pour les photographes ?\n\nCe colloque national se propose de répondre à ces questions. Réunis pour la première fois, neuf directeurs artistiques mais aussi des éditeurs, des photographes, témoignent et croisent leurs expériences respectives tels un état des lieux de la résidence photographique en France et le portrait en filigrane des territoires et de leurs habitants.\n\nC’est dans l’auditorium du Musée des Abattoirs de Toulouse que se lançait le 10 octobre dernier, la Résidence 1 + 2. Organisé par Philippe Guionie, ce nouveau programme de résidence photographique propose de multiplier les regards croisés entre différents photographes et villes d’Europe.\n\nCette journée d’étude placée sous l’égide des spécificités résidentielles en France, faisait appel à plusieurs types d’intervenants : responsables de centres d’art et de musées, photographes (Mat Jacob (Tendance Floue), Ida Jakobs et Israel Ariño (VU), mais aussi éditeurs. Faisant part de leurs expériences respectives, les vingt-cinq invités ont témoigné, chacun leur tour, de la diversité des actions menées un peu partout sur le territoire.",
+    "content": "**Qu’est-ce qu’une résidence photographique ? Quelle place ce mode de création occupe-t-il aujourd’hui en France ? Documenter le territoire, quelle photographie pour quels enjeux ? Quelles expériences pour les photographes ?**\n\nA l’invitation de Philippe Guionie, ce colloque national inauguré au Musée des Abattoirs à Toulouse le 10 octobre 2015, se propose de répondre à ces questions. Réunis pour la première fois, directeurs artistiques, éditeurs, photographes et journalistes témoignent et croisent leurs expériences respectives tel un état des lieux de la résidence photographique en France et le portrait en filigrane des actions, des territoires concernés et de leurs habitants. Parmi les invité.e.s : Israel Ariño, Fred Boucher, François Cheval, Rémi Coignet, Patrick Delat, Pascal Dolémieux, Fany Dupêchez, Gilles Favier, Philippe Guionie, Elisabeth Hebert, Mat Jacob, Olivia Marsaud, Brigitte Patient, Fabienne Pavia, Rita Scaglia, Jérôme Sother,… \n\nCet ouvrage inédit, partie prenante de la collection « Colloque national » aux éditions Filigranes, est le récit intégral des échanges des 19 invité.e.s du colloque daté du 10 octobre 2015 qui a vu aussi le lancement de la Résidence 1+2 à Toulouse.",
     "savoirplus": [
       {
         "linktexte": "COLLOQUE 2016"
@@ -32,7 +32,7 @@
     ]
   },
   "seo": {
-    "descriptionseo": "Ce livre recueil le témoignage de photographes et de directeurs de résidences : Israel Ariño, Fred Boucher, François Cheval, Rémi Coignet, Patrick Delat, Chantal Delmont, Pascal Dolémieux, Fany Dupêchez, Gilles Favier, Philippe Guionie, Elisabeth Hebert, Mat Jacob, Ida Jakobs, Olivia Marsaud, Brigitte Patient, Fabienne Pavia, Rita Scaglia, Jérôme Mother.",
+    "descriptionseo": "Qu’est-ce qu’une résidence photographique ? Quelle place ce mode de création occupe-t-il aujourd’hui en France ? Documenter le territoire, quelle photographie pour quels enjeux ? Quelles expériences pour les photographes ?",
     "thumbnail": "/images/uploads/colloque-gallerie.png"
   }
 }
