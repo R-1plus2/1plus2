@@ -4,14 +4,14 @@
   "soustitre": "Lea Patrix",
   "date": "2016/01/28",
   "body": {
-    "description": "### Editions Filigranes\n**AUTEURE :** Lea Patrix\n\n**TEXTES :** Dominique ROUX,  \n_enseignant, critique et historien de la photographie._\n\nFormat : 220 X 305 mm  \nLangues : Français / Anglais  \nPrix : 27,00 €  \nTirage : 500 exemplaires  \nISBN : 978-2-35046-406-0\n",
+    "description": "### Editions Filigranes\n**AUTEURE :** Lea Patrix\\\n**TEXTES :** Lea Patrix \n\nFormat : 220 X 305 mm  \nLangues : Français / Anglais  \nPrix : 27,00 €  \nTirage : 500 exemplaires  \nISBN : 978-2-35046-406-0\n",
     "commander": [
       {
         "linktexte": "COMMANDER",
         "linklien": "https://www.filigranes.com/livre/12/"
       }
     ],
-    "content": "`La Résidence 1+2 et les Éditions Filigranes co-produisent chaque année un coffret comportant les trois ouvrages des photographes en résidence. Cette édition, inédite dans son concept, est présentée en deux langues (français & anglais) et structurée au sein d’une Collection «Toulouse».`",
+    "content": "Lea Patrix pose un regard sensible, rêveur et revendicatif sur le fait d’avoir 20 ans à travers sa rencontre fondatrice avec Léna, étudiante et mannequin, devenue le personnage principal de sa résidence et de son questionnement récurrent sur la liberté.\n",
     "savoirplus": [
       {
         "linktexte": "RÉSIDENCE 2016"
@@ -35,7 +35,7 @@
     ]
   },
   "seo": {
-    "descriptionseo": "#",
+    "descriptionseo": "Lea Patrix pose un regard sensible, rêveur et revendicatif sur le fait d’avoir 20 ans à travers sa rencontre fondatrice avec Léna, étudiante et mannequin, devenue le personnage principal de sa résidence et de son questionnement récurrent sur la liberté.",
     "thumbnail": "/images/uploads/coffret-2016-galerie4.jpg"
   }
 }
