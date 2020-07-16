@@ -262,6 +262,13 @@ main {
     z-index: 1;
     background: #fff;
 }
+.page-article-factory,
+.page-article-film,
+.page-article-colloques,
+.page-article-horslesmurs,
+.page-article-editions{
+    display: inline-block;
+}
 	.small-article {
 	    position: relative;
 	    display: inline-block;
