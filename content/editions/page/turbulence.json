@@ -4,14 +4,14 @@
   "soustitre": "Alice Lévêque",
   "date": "2016/01/29",
   "body": {
-    "description": "### Editions Filigranes\n**AUTEURE :** Alice Lévêque\n\n**TEXTES :** Dominique ROUX,  \n_enseignant, critique et historien de la photographie._\n\nFormat : 220 X 305 mm  \nLangues : Français / Anglais  \nPrix : 27,00 €  \nTirage : 500 exemplaires  \nISBN : 978-2-35046-406-0\n",
+    "description": "### Editions Filigranes\n\n**AUTEURE :** Alice Lévêque**\\\nTEXTES :** Alice Lévêque\n\nFormat : 220 X 305 mm\\\nLangues : Français / Anglais\\\nPrix : 27,00 €\\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-406-0",
     "commander": [
       {
         "linktexte": "COMMANDER",
         "linklien": "https://www.filigranes.com/livre/12/"
       }
     ],
-    "content": "**De la lumière à l’obscurité de la nuit, « Turbulence » définit un état, une sensation, qui remontent par le ventre pour être recraché, extériorisé.**\n\nLa journée je marche, sans itinéraires, en me laissant happer par les décors de cette ville singulière.\\\nLorsque l’attraction se crée, je m’arrête et je prends le temps de voir, de comprendre pourquoi. L’espace plein ne m’intéresse pas; ce qui me pique surgi d’un détail. Je me focalise alors sur une curieuse pointe de couleur, la matière d’un mur, le feuillage d’un arbre…Je photographie ce qui m’attire avec mon instantané. L’état vaporeux de mon esprit se fige sur ces films qui peinent à tout dévoiler eux aussi. J’aime ce moment de latence, d’attente : ça marche, ça n’marche pas.\\\nJe reprends ma route, une danse qui s’arrête puis reprend au fur et à mesure des rencontres avec ces lieux qui me séduisent.\\\nLa nuit je reviens sur mes traces, accompagnée d’un jeune oiseau aperçu au détour d’une rue, notre rencontre s’étant poursuivie à la terrasse d’un café Toulousain.\n\nQuelques jours plus tard nous nous retrouvons. Tout commence lorsque l’espace endormi s’éveille à nouveau ; ré éclairé, il dévoile juste ce qu’il faut.\\\nNous discutons quelques minutes, avant de débuter cette danse commune aux airs de transe. L’oiseau affublé de son costume, survient timidement.\\\nLes premières gesticulations encore chétives laissent apparaître l’oiseau déployé se transformant peu à peu. Nous y sommes désormais, il est incontrôlable, tourbillonnaire. Plus rien ne l’arrête, son comportement est imprévisible. Il se laisse guider par le poids des fluides qui circule et l’amène à onduler tout en oubliant son image et celle qui se figera à l’intérieur de mon appareil.  \n\nTurbulence est une histoire de rencontres, d’instinct, de lâché prise. Côtoyer l’inconscient, le sensoriel pour en extirper sans manipulation, sa propre vérité.\n\n`La Résidence 1+2 et les Éditions Filigranes co-produisent chaque année un coffret comportant les trois ouvrages des photographes en résidence. Cette édition, inédite dans son concept, est présentée en deux langues (français & anglais) et structurée au sein d’une Collection «Toulouse».`",
+    "content": "Dans la série « Turbulence », Alice Lévêque propose une histoire de rencontres, d’instincts et de lâcher prise où il s’agit de côtoyer l’inconscient, le sensoriel pour en extirper sans manipulation, sa propre vérité.",
     "savoirplus": [
       {
         "linktexte": "RÉSIDENCE 2016"
@@ -39,7 +39,7 @@
     ]
   },
   "seo": {
-    "descriptionseo": "De la lumière à l’obscurité de la nuit, « Turbulence » définit un état, une sensation, qui remontent par le ventre pour être recraché, extériorisé.",
+    "descriptionseo": "Dans la série « Turbulence », Alice Lévêque propose une histoire de rencontres, d’instincts et de lâcher prise où il s’agit de côtoyer l’inconscient, le sensoriel pour en extirper sans manipulation, sa propre vérité.",
     "thumbnail": "/images/uploads/leveque-couv.png"
   }
 }
