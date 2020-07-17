@@ -1,0 +1,33 @@
+{
+  "cover": "/images/uploads/couv-holloway.jpg",
+  "title": "Past Obscurity",
+  "soustitre": "Matilda Holloway",
+  "date": "2020/07/17",
+  "body": {
+    "description": "### Editions Filigranes\n\n**AUTEUR.E :** Matilda Holloway\\\n**TEXTES :** Fabien Ribery\n\nFormat : 175 X 250 mm\\\nLangues : Français / Anglais\\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-490-9",
+    "commander": [
+      {
+        "linktexte": "COMMANDER",
+        "linklien": "https://www.filigranes.com/livre/12-elegies/"
+      }
+    ],
+    "content": "Une curieuse aura entoure l’idée du laboratoire. Entre hypothèses, mesures, observations, expériences et découvertes, le laboratoire scientifique retient un formidable potentiel d’imaginaire, incarne une place forte de la connaissance. La dimension structurante des savoirs qui s’y modèlent est fascinante ; ils orientent notre conception du monde et notre rapport à celui-ci, tout en conservant un versant mystérieux, hors de portée pour beaucoup d’entre nous. De là l’idée d’un ensemble de portraits, à la fois fantasmés et factuels, de laboratoires de recherche à Toulouse et dans sa région. M’orientant dans les dédales de ce milieu à partir d’un second questionnement – celui du renouveau des modes de perception au temps de l’anthropocène – c’est vers des laboratoires ayant pour « thème » un ou plusieurs des cinq éléments naturels (l’air, le feu, l’eau, la terre et l’éther) que je me suis tournée. Ainsi, j’ai été accueillie par l’Institut de recherche en astrophysique et planétologie, Géosciences environnement Toulouse, la Station d’écologie théorique et expérimentale, le Laboratoire plasma et conversion d’energie, le Centre d’élaboration de matériaux et d’études structurales et Calligée, une entreprise spécialisée dans les sciences et techniques géologiques. De ces visites émerge actuellement une série de photographies argentiques en noir et blanc, des prises de vue effectuées dans les différentes plate-formes expérimentales que j’ai pu visiter. Lieux de passage et d’archivage, raccordements et détails d’installations techniques, murs et plafonds… Quelques silhouettes. Les rencontres, elles, donnent lieu à des entretiens spécifiques à chaque interlocuteur suivant sa recherche actuelle, sa posture, les types d’expériences menées, le vocabulaire propre à son domaine de spécialisation... elles seront assemblées dans une bande sonore.",
+    "savoirplus": [
+      {
+        "linktexte": "COFFRET 2019",
+        "linklien": "#"
+      }
+    ]
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/coffret2019-05.jpg"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "Une curieuse aura entoure l’idée du laboratoire. Entre hypothèses, mesures, observations, expériences et découvertes, le laboratoire scientifique retient un formidable potentiel d’imaginaire, incarne une place forte de la connaissance. La dimension structurante des savoirs qui s’y modèlent est fascinante ; ils orientent notre conception du monde et notre rapport à celui-ci, tout en conservant un versant mystérieux, hors de portée pour beaucoup d’entre nous. De là l’idée d’un ensemble de portraits, à la fois fantasmés et factuels, de laboratoires de recherche à Toulouse et dans sa région. ",
+    "thumbnail": "/images/uploads/coffret2019-05.jpg"
+  }
+}
