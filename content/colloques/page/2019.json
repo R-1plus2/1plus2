@@ -1,5 +1,5 @@
 {
-  "cover": "/images/uploads/affiche2019-web.jpg",
+  "cover": "/images/uploads/colloque-affiche2019.jpg",
   "title": "COLLOQUES 2019",
   "soustitre": "Photographie & Sciences",
   "horaires": "SAMEDI 12 OCTOBRE",
@@ -61,21 +61,45 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/2018film-1.jpg",
-        "alt": "Image 1"
+        "image": "/images/uploads/residence1-2_2019_colloque©lucas-bernard.jpg",
+        "alt": "©Lucas Bernard"
       },
       {
-        "image": "/images/uploads/2018film-5.jpg",
-        "alt": "Image 2"
+        "image": "/images/uploads/résidence1-2_colloque_©lucas-bernard_14.jpg",
+        "alt": "©Lucas Bernard"
       },
       {
-        "image": "/images/uploads/2018film-2.jpg",
-        "alt": "Image 3"
+        "image": "/images/uploads/résidence1-2_colloque_©lucas-bernard_34.jpg",
+        "alt": "©Lucas Bernard"
+      },
+      {
+        "image": "/images/uploads/résidence1-2_colloque_©lucas-bernard_57.jpg",
+        "alt": "©Lucas Bernard"
+      },
+      {
+        "image": "/images/uploads/résidence1-2_colloque_©lucas-bernard_41.jpg",
+        "alt": "©Lucas Bernard"
+      },
+      {
+        "image": "/images/uploads/résidence1-2_colloque_©lucas-bernard_73.jpg",
+        "alt": "©Lucas Bernard"
+      },
+      {
+        "image": "/images/uploads/résidence1-2_colloque_©lucas-bernard_79.jpg",
+        "alt": "©Lucas Bernard"
+      },
+      {
+        "image": "/images/uploads/résidence1-2_colloque_©lucas-bernard_86.jpg",
+        "alt": "©Lucas Bernard"
+      },
+      {
+        "image": "/images/uploads/résidence1-2_colloque_©lucas-bernard_97.jpg",
+        "alt": "©Lucas Bernard"
       }
     ]
   },
   "seo": {
-    "descriptionseo": "Description SEO",
-    "thumbnail": "/images/uploads/affiche2019-web.jpg"
+    "descriptionseo": "COLLOQUE 1+2 2019, samedi 12 octobre 2019 au Théâtre de la Cité, 8h30 > 18h. Tables rondes, projections, signatures, rencontres.",
+    "thumbnail": "/images/uploads/colloque-affiche2019.jpg"
   }
 }
