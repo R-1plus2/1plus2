@@ -4,14 +4,14 @@
   "soustitre": "Coffret 2018",
   "date": "2018/01/01",
   "body": {
-    "description": "### Editions Filigranes\n**AUTEUR.E.S :** SMITH, Camille Carbonaro, Prune Phi\n\n**TEXTES :** Dominique ROUX,  \n_enseignant, critique et historien de la photographie._\n\nFormat : 175 X 250 mm  \nLangues : Français / Anglais  \nPrix : 25,00 €  \nTirage : 500 exemplaires  \nISBN : 978-2-35046-457-2 \n",
+    "description": "### Editions Filigranes\n\n**AUTEUR.E.S :** SMITH, Camille Carbonaro, Prune Phi\n\n**TEXTES :** Dominique ROUX,\\\n_enseignant, critique et historien de la photographie._\n\nFormat : 175 X 250 mm\\\nLangues : Français / Anglais\\\nPrix : 25,00 €\\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-457-2",
     "commander": [
       {
         "linktexte": "COMMANDER",
         "linklien": "https://www.filigranes.com/livre/12-lorigine-manquante/"
       }
     ],
-    "content": "### Chaque année, la Résidence 1+2 co-produit avec les éditions Filigranes, un coffret de trois ouvrages dédiés aux trois photographes de l’année. L’Origine manquante est le titre du coffret 2018, avec les ouvrages de SMITH, Camille Carbonaro & Prune Phi.\n\nPour cette troisième édition, la quête de l’origine relie les travaux des trois artistes résident.e.s : SMITH, Camille Carbonaro et Prune Phi. Sous la forme d’une enquête photographique, le trio explorent la part introuvable de leur identité, localisée dans le cosmos, les migrations italiennes ou la diaspora vietnamienne. C’est ce que nous retrouvons dans leur ouvrage respectif dont le coffret est intitulé “L’Origine manquante”.\n\n**« Astroblème »** (SMITH)\\\n**Appelez-moi Victoria** (Camille Carbonaro)\\\n**Appel manqué** (Prune Phi)\n\n`La Résidence 1+2 et les Éditions Filigranes co-produisent chaque année un coffret comportant les trois ouvrages des photographes en résidence. Cette édition, inédite dans son concept, est présentée en deux langues (français & anglais) et structurée au sein d’une Collection «Toulouse».`",
+    "content": "**\\#07 «Astroblème»** (SMITH)\\\n**\\#08 «Appelez-moi Victoria»** (Camille Carbonaro)\\\n**\\#09 « Appel Manqué »** (Prune Phi)\n\nPour cette troisième édition, la quête de l’origine relie les travaux des trois artistes résident.e.s : SMITH, Camille Carbonaro et Prune Phi. Sous la forme d’une enquête photographique, le trio explore la part introuvable de leur identité, localisée dans le cosmos, les migrations italiennes ou la diaspora vietnamienne. Leurs réponses respectives à la fois visuelles et textuelles composent la quintessence de ce coffret intitulé L’Origine manquante.",
     "savoirplus": [
       {
         "linktexte": "RÉSIDENCE 2018",
@@ -28,17 +28,27 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/coffret-2018-couv.png",
-        "alt": "L'Origine Manquante – Coffret 2018 - Editions Filigranes / 1+2"
+        "image": "/images/uploads/origine-01.jpg"
       },
       {
-        "image": "/images/uploads/coffret-2018-galerie1.jpg",
-        "alt": "L'Origine Manquante – Coffret 2018 - Editions Filigranes / 1+2"
+        "image": "/images/uploads/origine-02.jpg"
+      },
+      {
+        "image": "/images/uploads/origine-03.jpg"
+      },
+      {
+        "image": "/images/uploads/origine-04.jpg"
+      },
+      {
+        "image": "/images/uploads/origine-05.jpg"
+      },
+      {
+        "image": "/images/uploads/origine-06.jpg"
       }
     ]
   },
   "seo": {
-    "descriptionseo": "Chaque année, la Résidence 1+2 co-produit avec les éditions Filigranes, un coffret de trois ouvrages dédiés aux trois photographes de l’année. L’Origine manquante est le titre du coffret 2018, avec les ouvrages de SMITH, Camille Carbonaro & Prune Phi.\n\n",
-    "thumbnail": "/images/uploads/coffret-2018-galerie1.jpg"
+    "descriptionseo": "Pour cette troisième édition, la quête de l’origine relie les travaux des trois artistes résident.e.s : SMITH, Camille Carbonaro et Prune Phi. Sous la forme d’une enquête photographique, le trio explore la part introuvable de leur identité, localisée dans le cosmos, les migrations italiennes ou la diaspora vietnamienne. Leurs réponses respectives à la fois visuelles et textuelles composent la quintessence de ce coffret intitulé L’Origine manquante.\n",
+    "thumbnail": "/images/uploads/origine-01.jpg"
   }
 }
