@@ -1,0 +1,42 @@
+{
+  "cover": "/images/uploads/cofreet-2019-couvgrid.jpg",
+  "title": "Elegies",
+  "soustitre": "Coffret 20149",
+  "date": "2020/07/17",
+  "body": {
+    "description": "### Editions Filigranes\n\n**AUTEUR.E.S :** Matthieu Gafsou, Matilda Holloway, Manon Lanjouère\n\nFormat : 200x250 mm\\\n Langues : Français/Anglais    \nPrix : 25,00 € \\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-490-9",
+    "commander": [
+      {
+        "linktexte": "COMMANDER",
+        "linklien": "https://www.filigranes.com/livre/12-elegies/"
+      }
+    ],
+    "content": "**\\#10 «Solastalgie»** (Matthieu Gafsou)\\\n**\\#11 «Past Obscurity»** (Matilda Holloway)\\\n**\\#12 «La mécanique céleste»** (Manon Lanjouère)\n\nPour cette quatrième édition, nos trois photographes en résidence s’inscrivent pleinement dans une dynamique pluridisciplinaire explorant de nouveaux espaces de créations. Au croisement des sciences de l’environnement et sciences humaines (Matthieu Gafsou), des sciences de la représentation et sciences naturelles (Matilda Holloway), et des sciences aéronautiques et propulsions aérodynamiques (Manon Lanjouère), leurs esthétiques protéiformes ont en partage une approche métaphorique aux accents élégiaques de notre époque et de ses dramaturgies contemporaines. Chaque photographe nous en propose une poétique lyrique aux sonorités multiples : si Matthieu Gafsou et Matilda Holloway définissent les contours fluctuants d’une plainte douloureuse, Manon Lanjouère tutoie la mélancolie des étoiles."
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/coffret2019-00.jpg"
+      },
+      {
+        "image": "/images/uploads/coffret2019-01.jpg"
+      },
+      {
+        "image": "/images/uploads/coffret2019-02.jpg"
+      },
+      {
+        "image": "/images/uploads/coffret2019-04.jpg"
+      },
+      {
+        "image": "/images/uploads/coffret2019-05.jpg"
+      },
+      {
+        "image": "/images/uploads/coffret2019-06.jpg"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "Pour cette quatrième édition, nos trois photographes en résidence s’inscrivent pleinement dans une dynamique pluridisciplinaire explorant de nouveaux espaces de créations. Au croisement des sciences de l’environnement et sciences humaines (Matthieu Gafsou), des sciences de la représentation et sciences naturelles (Matilda Holloway), et des sciences aéronautiques et propulsions aérodynamiques (Manon Lanjouère), leurs esthétiques protéiformes ont en partage une approche métaphorique aux accents élégiaques de notre époque et de ses dramaturgies contemporaines. Chaque photographe nous en propose une poétique lyrique aux sonorités multiples : si Matthieu Gafsou et Matilda Holloway définissent les contours fluctuants d’une plainte douloureuse, Manon Lanjouère tutoie la mélancolie des étoiles.  ",
+    "thumbnail": "/images/uploads/coffret2019-00.jpg"
+  }
+}
