@@ -11,7 +11,7 @@
         "linklien": "https://www.filigranes.com/livre/12-traversees/"
       }
     ],
-    "content": "**Carnet de Vol est le fruit d’une résidence artistique à Toulouse (résidence 1+2 de janvier - février 2017 avec Leslie Moquin et Israel Ariño).**\n\nCette série photographique jette un regard sur le patrimoine matériel et immatériel de l'aviation postale à Toulouse. À l'aide d'archives, registres, cartes, témoignages, mais aussi d'oeuvres littéraires, j'ai démarré un itinéraire personnel et subjectif. Il en ressort un carnet de route sur les traces de l'aviation postale Toulousaine, au départ de Toulouse jusqu'à la frontière Espagnole et jalonné par les \"Phares de l'aeropostale\" qui un temps guidaient les pilotes lors de leurs trajets de nuit.\n\nDe cette résidence émerge un travail qui confronte le réel et l'imaginaire de ce patrimoine historique.\n\n`La Résidence 1+2 et les Éditions Filigranes co-produisent chaque année un coffret comportant les trois ouvrages des photographes en résidence. Cette édition, inédite dans son concept, est présentée en deux langues (français & anglais) et structurée au sein d’une Collection «Toulouse».`",
+    "content": "Carnet de Vol jette un regard sur le patrimoine matériel et immatériel de l’aviation postale à Toulouse. À l’aide d’archives, registres, cartes, témoignages, mais aussi d’oeuvres littéraires, Christian Sanna un itinéraire à la fois personnel et subjectif. Il en ressort un carnet de route inédit sur les traces de l’aviation postale toulousaine, de Toulouse jusqu’à la frontière Espagnole, jalonnées par les “phares de l’Aéropostale”. De cette série émerge un corpus qui confronte le réel et l’imaginaire de ce patrimoine historique.",
     "savoirplus": [
       {
         "linktexte": "RESIDENCE 2017",
@@ -19,7 +19,7 @@
       },
       {
         "linktexte": "COFFRET 2017",
-        "linklien": "https://1plus2.netlify.com/editions/traversées/"
+        "linklien": "https://www.1plus2.fr/editions/traversées/"
       }
     ],
     "link": [
@@ -36,33 +36,12 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/sanna-couv.jpg",
-        "alt": "Carnet de Vol, Couverture © Christian Sanna / Résidence 1+2 2017"
-      },
-      {
-        "image": "/images/uploads/sanna-0.jpg",
-        "alt": "Carnet de Vol © Christian Sanna / Résidence 1+2 2017"
-      },
-      {
-        "image": "/images/uploads/sanna-1.jpg",
-        "alt": "Carnet de Vol © Christian Sanna / Résidence 1+2 2017"
-      },
-      {
-        "image": "/images/uploads/sanna-2.jpg",
-        "alt": "Carnet de Vol © Christian Sanna / Résidence 1+2 2017"
-      },
-      {
-        "image": "/images/uploads/sanna-3.jpg",
-        "alt": "Carnet de Vol © Christian Sanna / Résidence 1+2 2017"
-      },
-      {
-        "image": "/images/uploads/sanna-4.jpg",
-        "alt": "Carnet de Vol © Christian Sanna / Résidence 1+2 2017"
+        "image": "/images/uploads/traversee-04.jpg"
       }
     ]
   },
   "seo": {
-    "descriptionseo": "Cette série photographique jette un regard sur le patrimoine matériel et immatériel de l'aviation postale à Toulouse. À l'aide d'archives, registres, cartes, témoignages, mais aussi d'oeuvres littéraires, j'ai démarré un itinéraire personnel et subjectif. Il en ressort un carnet de route sur les traces de l'aviation postale Toulousaine, au départ de Toulouse jusqu'à la frontière Espagnole et jalonné par les \"Phares de l'aeropostale\" qui un temps guidaient les pilotes lors de leurs trajets de nuit.",
-    "thumbnail": "/images/uploads/sanna-couv.jpg"
+    "descriptionseo": "Carnet de Vol jette un regard sur le patrimoine matériel et immatériel de l’aviation postale à Toulouse. À l’aide d’archives, registres, cartes, témoignages, mais aussi d’oeuvres littéraires, Christian Sanna un itinéraire à la fois personnel et subjectif. Il en ressort un carnet de route inédit sur les traces de l’aviation postale toulousaine, de Toulouse jusqu’à la frontière Espagnole, jalonnées par les “phares de l’Aéropostale”. De cette série émerge un corpus qui confronte le réel et l’imaginaire de ce patrimoine historique.",
+    "thumbnail": "/images/uploads/traversee-04.jpg"
   }
 }
