@@ -11,7 +11,7 @@
         "linklien": "https://www.filigranes.com/livre/12-lorigine-manquante/"
       }
     ],
-    "content": "**La quête identitaire de Prune Phi l’amène à faire dialoguer les témoignages de la troisième génération franco-vietnamienne installée à Toulouse, face au savoir des scientifiques sur la transmission de la mémoire, son oubli, voire son déni. Sa démarche se construit sur la ré-appropriation d’histoires familiales pour tenter de révéler les marques mnésiques laissées par les ancêtres participant à l’invention de soi.**\n\n`La Résidence 1+2 et les Éditions Filigranes co-produisent chaque année un coffret comportant les trois ouvrages des photographes en résidence. Cette édition, inédite dans son concept, est présentée en deux langues (français & anglais) et structurée au sein d’une Collection «Toulouse».`",
+    "content": "La quête identitaire de Prune Phi l’amène à faire dialoguer les témoignages de la troisième génération franco-vietnamienne installée à Toulouse, face au savoir des scientifiques sur la transmission de la mémoire, son oubli, voire son déni. Sa démarche se construit sur la ré-appropriation d’histoires familiales pour tenter de révéler les marques mnésiques laissées par les ancêtres participant à l’invention de soi.\n\n**Extraits du texte de Dominique Roux :** Lors d’un voyage en Californie, elle a pu constater que la mémoire du pays d’origine était vécue différemment d’un côté et de l’autre de l’Atlantique mais aussi que la nouvelle génération ne s’intéressait pas de la même manière à la culture de leurs parents lorsqu’il s’agissait de perpétuer les traditions, les croyances ou conserver la langue. C’est donc ce lien mémoriel à la fois transcontinental et transgénérationnel qu’elle interroge dans son travail en questionnant à Toulouse des neurologues et des psychiatres pour comprendre comment la mémoire sensorielle et gestuelle pouvait passer d’une génération à une autre. Elle aborde avec eux les notions de souvenirs conscients mais aussi inconscients, vrais ou faux, les symptômes post traumatiques, dénis de mémoire, mémoire défaillante, susceptibles de faire obstacle, d’obturer ou de révéler les traces d’une culture familiale…",
     "savoirplus": [
       {
         "linktexte": "RESIDENCE 2018",
@@ -19,7 +19,7 @@
       },
       {
         "linktexte": "COFFRET 2018",
-        "linklien": "#"
+        "linklien": "https://www.1plus2.fr/editions/l-origine-manquante/"
       }
     ],
     "link": [
@@ -35,33 +35,12 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/phi-couv.jpg",
-        "alt": "Appel Manqué, Couverture © Prune Phi / Résidence 1+2"
-      },
-      {
-        "image": "/images/uploads/phi-1.jpg",
-        "alt": "Appel Manqué © Prune Phi / Résidence 1+2"
-      },
-      {
-        "image": "/images/uploads/phi-2.jpg",
-        "alt": "Appel Manqué © Prune Phi / Résidence 1+2"
-      },
-      {
-        "image": "/images/uploads/phi-3.jpg",
-        "alt": "Appel Manqué © Prune Phi / Résidence 1+2"
-      },
-      {
-        "image": "/images/uploads/phi-4.jpg",
-        "alt": "Appel Manqué © Prune Phi / Résidence 1+2"
-      },
-      {
-        "image": "/images/uploads/phi-5.jpg",
-        "alt": "Appel Manqué © Prune Phi / Résidence 1+2"
+        "image": "/images/uploads/origine-05.jpg"
       }
     ]
   },
   "seo": {
     "descriptionseo": "La quête identitaire de Prune Phi l’amène à faire dialoguer les témoignages de la troisième génération franco-vietnamienne installée à Toulouse, face au savoir des scientifiques sur la transmission de la mémoire, son oubli, voire son déni. Sa démarche se construit sur la ré-appropriation d’histoires familiales pour tenter de révéler les marques mnésiques laissées par les ancêtres participant à l’invention de soi.",
-    "thumbnail": "/images/uploads/phi-4.jpg"
+    "thumbnail": "/images/uploads/origine-05.jpg"
   }
 }
