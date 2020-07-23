@@ -2,7 +2,6 @@
   <main class="page-article-photographe">
     <div class="left-side">
         <div class="diapo">
-            <img class="cover-photographe" :src="cover" :alt="title">
             <div v-for="i in galeries.images" class="image">
               <img class="selected" :src="i.image" :alt="i.alt">
             </div>
