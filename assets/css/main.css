@@ -508,8 +508,8 @@ main {
     font-size: 18px;
     padding: 15px;
     margin: 0 15px 15px;
-    border: 10px solid var(--color-3);
-    color: var(--color-3);
+    border: 10px solid red;
+    color: red;
 }
 .intro p {
     margin: 0;
