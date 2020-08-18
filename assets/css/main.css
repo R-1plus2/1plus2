@@ -512,7 +512,7 @@ main {
     color: var(--color-3);
 }
 .page-editions .intro,
-.page-films .intro{
+.page-film .intro{
     border: 10px solid red;
     color: red;
 }
