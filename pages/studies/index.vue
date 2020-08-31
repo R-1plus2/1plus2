@@ -15,7 +15,7 @@
     </div>
     <div class="grid">
          <article v-for="i in galeries.images" class="small-article">
-            <div class="article-padding">
+            <div class="article-padding image">
                 <img class="cover" :src="i.image">
             </div>
         </article>
