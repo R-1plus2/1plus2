@@ -1,6 +1,6 @@
 {
   "name": "Piks-L",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Template par Piks-L pour 1+2",
   "author": "IAMSAILOR - ZYMETH - PUXIAN",
   "private": true,
@@ -17,6 +17,7 @@
     "@nuxtjs/sitemap": "^1.2.0",
     "jquery": "^3.4.1",
     "nuxt": "^1.4.5",
+    "v-owl-carousel": "^1.0.8",
     "vue-markdown": "^2.2.4",
     "vueisotope": "3.1.2"
   },
