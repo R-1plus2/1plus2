@@ -14,11 +14,11 @@
         pour un partage des savoirs vers tous les publics. </p>
     </div>
     <div class="grid">
-        <div class="diapo">
-            <div v-for="i in galeries.images" class="image">
-              <img class="selected" :src="i.image" :alt="i.alt">
+         <article v-for="i in galeries.images" class="small-article">
+            <div class="article-padding">
+                <img class="cover" :src="i.image">
             </div>
-        </div>
+        </article>        
     </div>
   </main>
 </template>
