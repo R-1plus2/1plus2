@@ -1,10 +1,19 @@
 {
-  "cover": "",
+  "cover": "/images/uploads/©Résidence1+2_2018_01.jpg",
   "galeries": {
-    "images": []
+    "images": [
+      {
+        "image": "/images/uploads/©Anais-Ondet_2018_01.jpg",
+        "alt": "©Anais-Ondet"
+      },
+      {
+        "image": "/images/uploads/©Anais-Ondet_2018_02.jpg",
+        "alt": "©Anais-Ondet"
+      }
+    ]
   },
   "seo": {
     "descriptionseo": "« Les analphabètes de demain sont ceux qui ne sauront pas lire une image » écrivait Moholy-Nagy en 1920. Fort de cette maxime, la Résidence 1+2 développe depuis sa création en 2015 des actions de pratiques artistiques, de médiation et d’éducation à l’image autour de la photographie en milieux scolaires (écoles élémentaires, collèges et lycées) et universitaires. A ce titre, la Résidence 1+2 participe chaque année à plusieurs dispositifs éducatifs (Passeport pour l’art, Parcours laïque et  citoyen (PLC) et met en place parallèlement un cycle de visites commentées de ses expositions, par une équipe de professionnel.les. en médiation, à destination de tous les publics.",
-    "thumbnail": ""
+    "thumbnail": "/images/uploads/©Résidence1+2_2018_01.jpg"
   }
 }
