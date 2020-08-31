@@ -68,7 +68,7 @@ export default {
           });
       },
       titre(){
-          var modif = 'FACTORY';
+          var modif = 'STUDIES';
           $('.page-title').html( modif );
       },
       ea() {
