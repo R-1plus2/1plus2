@@ -1,17 +1,13 @@
 <template>
   <main class="page-studies">
     <div class="intro">
-        <p> 	Le « <b>1+2 Factory</b> » est un dispositif de résidences photographiques en institutions, 
-        territoires et/ou entreprises. Sur une période donnée, un ou une photographe propose son regard d’auteur 
-        en créant une oeuvre inédite sur l’entité concernée en revisitant son histoire, son territoire, ses modes opératoires, 
-        sa production, ses savoirs-faire. Le fruit de ce travail est présenté à l’automne suivant dans un lieu muséal 
-        à Toulouse ou sur le territoire de la métropole toulousaine, lors d’une exposition 
-        collective regroupant les « <b>1+2 Factory</b> » de l’année. L’ensemble des « <b>1+2 Factory</b> » est aussi présenté 
-        au «  <b>Colloque national - Photographie & Sciences</b> » durant lesquels photographes, scientifiques, entreprises, 
-        institutions, journalistes, grand public sont invité.es à s’exprimer sur ce temps de création et échanger 
-        avec différents publics. Le programme « <b>1+2 Factory</b> » a pour ambition de créer un réseau d’entreprises et 
-        d’institutions sensibles à l’art. Il constitue également une pépinière de photographes aux écritures différentes 
-        pour un partage des savoirs vers tous les publics. </p>
+        <p> 	<em>« Les analphabètes de demain sont ceux qui ne sauront pas lire une image »</em> écrivait Moholy-Nagy en 1920. 
+        Fort de cette maxime, la <b>Résidence 1+2</b> développe depuis sa création en 2015 des actions de pratiques artistiques, 
+        de médiation et d’éducation à l’image autour de la photographie en milieux scolaires (écoles élémentaires, collèges et lycées) 
+        et universitaires. A ce titre, la Résidence 1+2 participe chaque année à plusieurs dispositifs éducatifs (Passeport pour l’art, 
+        Parcours laïque et  citoyen (PLC) et met en place parallèlement un cycle de visites commentées de ses expositions, 
+        par une équipe de professionnel.les. en médiation, à destination de tous les publics.
+</p>
     </div>
     <div class="grid">
          <article v-for="i in galeries.images" class="small-article">
