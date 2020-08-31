@@ -5,7 +5,8 @@
         <a target="_blank" href="https://twitter.com/residence1plus2"><i class="fab fa-twitter"></i></a>
         <a target="_blank" href="https://www.instagram.com/residence1plus2/"><i class="fab fa-instagram"></i></a>
     </div>
-    <div class="copyright">      
+    <div class="copyright"> 
+      <p>WEBSITE BY <a target="_blank" href="https://www.piks-l.fr/">PIKS-L.FR</a></p>     
       <p>© www.1plus2.fr - Tous droits réservés</p>
     </div>
   </footer>
