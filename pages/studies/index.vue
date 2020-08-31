@@ -14,6 +14,7 @@
         pour un partage des savoirs vers tous les publics. </p>
     </div>
     <div class="grid">
+    
       <article  v-for="f in studies"  class="small-article">
         <nuxt-link class="article-padding" :to="f._path+'/'">
             <img class="cover" :src="f.cover">
@@ -36,8 +37,17 @@
   // export
 export default {
     layout: 'default',
-    components: { VueLazyload },
+    components: { VueMarkdown, VueLazyload, VueLazyload },
     transition: { name: 'intro', mode: 'out-in' },
+    async asyncData({ params }) {
+      let page = await import('~/content/studies/page/lol.json');
+      return page;
+    },
+    data() {
+      return {
+        slideIndex: 1
+      }
+    },
     head() {
       return {
         title: 'STUDIES | 1+2 – Photographie & Sciences',
@@ -49,17 +59,6 @@ export default {
         ]
       }
     },
-    data() {
-      const context = require.context('~/content/studies/page/', false, /\.json$/);
-      const studies = context.keys().map(key => ({
-        ...context(key),
-        _path: `/studies/${key.replace('.json', '').replace('./', '')}`
-      }));
-      return {
-        studies,
-        grid: null
-      };
-    },
   mounted() {
       $("body").removeClass('red-page yellow-page');
       $("body").addClass('blue-page');
@@ -67,33 +66,58 @@ export default {
       this.ea();
       this.annee();
   },
-  destroyed() {
-  },
   methods: {
-      annee(){
-          $('.date').each( function( ) {
-             var modif = $(this).html().substr(0, 4);
-             $(this).html(modif);
-          });
-      },
-      titre(){
-          var modif = 'STUDIES';
-          $('.page-title').html( modif );
-      },
-      ea() {
-        var grid = new Isotope(".grid", {
-          itemSelector: ".small-article",
-          getSortData : {
-           date : function ($elem) {
-            return $($elem).find('.content').attr('data-date');
-           }
-          },
-          sortBy : 'date',
-          sortAscending : false
-        });        
-        $(grid.filteredItems[0].element).addClass('big');
-        setTimeout(function(){grid.layout(); }, 100);
-      }
-  }
+        annee(){
+            $('.date').each( function( ) {
+               var modif = $(this).html().substr(0, 4);
+               $(this).html(modif);
+            });
+        },
+        diapo() {
+            var count=0;
+            var slideIndex = 1;
+            console.log(slideIndex);
+            $('.image').each( function( ) {
+                count += 1;
+                $(this).find( "img" ).attr('data-slide', count);
+            });
+            $('.close-modal').on( 'click', function() {
+                $("#myModal").css('display','none');
+            });
+            $('.image').on( 'click', function() {
+                $("#myModal").css('display','block');
+                slideIndex = $(this).find( "img" ).attr("data-slide");
+                showSlides(slideIndex);
+            });
+            $('.prev').on( 'click', function() {
+                showSlides(slideIndex -= 1);
+            });
+            $('.next').on( 'click', function() {
+                showSlides(slideIndex += 1);
+            });
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("selected");
+              var captionText = document.getElementById("caption");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              slides[slideIndex-1].style.display = "block";
+              captionText.innerHTML = dots[slideIndex-1].alt;
+            }
+        },
+        titre(){
+            var modif = '<a href="/studies/" >STUDIES</a>';
+            $('.page-title').html( modif );
+        },
+        markdownEdit(){
+            $('.main-description img').each( function( ) {
+                $(this).unwrap();
+            });
+        }
+    }
 }
 </script>
