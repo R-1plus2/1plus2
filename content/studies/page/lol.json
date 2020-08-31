@@ -1,21 +1,10 @@
 {
-  "cover": "/images/uploads/1.jpg",
+  "cover": "",
   "galeries": {
-    "images": [
-      {
-        "image": "/images/uploads/10.jpg",
-        "alt": "Image 1",
-        "link": "#1"
-      },
-      {
-        "image": "/images/uploads/11.jpg",
-        "alt": "image 2",
-        "link": "#2"
-      }
-    ]
+    "images": []
   },
   "seo": {
-    "descriptionseo": "Je suis la description de la page ",
-    "thumbnail": "/images/uploads/2018film-1.jpg"
+    "descriptionseo": "« Les analphabètes de demain sont ceux qui ne sauront pas lire une image » écrivait Moholy-Nagy en 1920. Fort de cette maxime, la Résidence 1+2 développe depuis sa création en 2015 des actions de pratiques artistiques, de médiation et d’éducation à l’image autour de la photographie en milieux scolaires (écoles élémentaires, collèges et lycées) et universitaires. A ce titre, la Résidence 1+2 participe chaque année à plusieurs dispositifs éducatifs (Passeport pour l’art, Parcours laïque et  citoyen (PLC) et met en place parallèlement un cycle de visites commentées de ses expositions, par une équipe de professionnel.les. en médiation, à destination de tous les publics.",
+    "thumbnail": ""
   }
 }
