@@ -18,7 +18,20 @@
             <div class="article-padding">
                 <img class="cover" :src="i.image">
             </div>
-        </article>        
+        </article>
+        <div id="myModal" class="modal">
+            <span class="close-modal cursor">&times;</span>
+            <div class="modal-content">
+              <div v-for="i in galeries.images" class="mySlides">
+                  <img :src="i.image" :alt="i.alt">
+              </div>
+              <a class="prev">&#10094;</a>
+              <a class="next">&#10095;</a>
+            </div>
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+        </div>
     </div>
   </main>
 </template>
