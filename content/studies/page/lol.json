@@ -1,5 +1,21 @@
 {
-  "title": "je suis le titre",
-  "soustitre": "qsdqd",
-  "date": "2020/07/29"
+  "cover": "/images/uploads/1.jpg",
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/10.jpg",
+        "alt": "Image 1",
+        "link": "#1"
+      },
+      {
+        "image": "/images/uploads/11.jpg",
+        "alt": "image 2",
+        "link": "#2"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "Je suis la description de la page ",
+    "thumbnail": "/images/uploads/2018film-1.jpg"
+  }
 }
