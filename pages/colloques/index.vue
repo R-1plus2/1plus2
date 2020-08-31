@@ -67,7 +67,7 @@ export default {
            }
           },
           sortBy : 'date',
-          sortAscending : false
+          sortAscending : true
         });
         $(grid.filteredItems[0].element).addClass('big');
         setTimeout(function(){grid.layout(); }, 100);
