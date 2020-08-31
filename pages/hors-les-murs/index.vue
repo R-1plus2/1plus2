@@ -1,11 +1,8 @@
 <template>
   <main class="page-horslesmurs">
     <div class="intro">
-        <p> La <b>Résidence 1+2 Factory</b> est une résidence artistique en entreprises ou en institutions, partenaires ou non du programme de la <b>Résidence 1+2
-          «Photographie &#38; Sciences»</b>. Sur une période donnée, un ou une photographe propose un regard d’auteur inédit sur la structure concernée en revisitant
-          son histoire, ses modes opératoires, sa production, ses savoirs-faire. Celle-ci apparaît alors, comme un soutien actif de la création photographique,
-          renforçant son ancrage local, régional ou national et s’ouvrant à d’autres publics. La Résidence 1+2 a pour ambition de créer une pépinière de jeunes
-          photographes et un réseau d’entreprises et institutions, sensibles aux expressions artistiques.</p>
+        <p> 	Depuis 2017, le dispositif <b> 1+2 Hors les murs </b> est un dispositif de résidences photographiques sur des territoires bien définis, 
+        à l’échelle d’une commune ou d’une vallée, en Haute-Garonne (Castelnau d’Estrétefonds,…) ou en Occitanie.</p>
     </div>
     <div class="grid">
       <article  v-for="h in horslesmurs"  class="small-article">
