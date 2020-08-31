@@ -430,3 +430,89 @@ collections:
         fields:
           - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
           - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
+  - name: "studies"
+    label: "📷 Studies"
+    folder: "content/studies/page"
+    create: false
+    slug: "{{slug}}"
+    format: 'json'
+    fields:
+      - {label: "Image de couverture", name: "cover", widget: "image", required: false}
+      - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
+      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
+      - label: "Article"
+        name: "body"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Article", name: "content", widget: "markdown", required: false}
+          - label: "Liens"
+            name: "link"
+            widget: "list"
+            required: false
+            fields:
+              - { label: Texte, name: linktexte, widget: string }
+              - { label: Lien, name: linklien, widget: string }
+      - label: "Galeries"
+        name: "galeries"
+        widget: "object"
+        required: false
+        fields:
+          - label: "Images"
+            name: "images"
+            widget: "list"
+            required: false
+            fields:
+              - { label: image, name: image, widget: image }
+              - { label: alt, name: alt, widget: string }
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
+          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
+  - name: "partenaires"
+    label: "📷 Partenaires"
+    folder: "content/partenaires/page"
+    create: false
+    slug: "{{slug}}"
+    format: 'json'
+    fields:
+      - {label: "Image de couverture", name: "cover", widget: "image", required: false}
+      - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
+      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
+      - label: "Article"
+        name: "body"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Article", name: "content", widget: "markdown", required: false}
+          - label: "Liens"
+            name: "link"
+            widget: "list"
+            required: false
+            fields:
+              - { label: Texte, name: linktexte, widget: string }
+              - { label: Lien, name: linklien, widget: string }
+      - label: "Galeries"
+        name: "galeries"
+        widget: "object"
+        required: false
+        fields:
+          - label: "Images"
+            name: "images"
+            widget: "list"
+            required: false
+            fields:
+              - { label: image, name: image, widget: image }
+              - { label: alt, name: alt, widget: string }
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
+          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
