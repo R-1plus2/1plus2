@@ -4,7 +4,7 @@
           <img class="cover" :src="cover"/>
       </div>
       <div class="container">
-          <h2>EDITIONS <b class="date">{{ date }}</b></h2>
+         
           <h3 class="title-article">{{ title }}</h3>
           <p class="description-article">{{ soustitre }}</p>
           <div class="edito">
