@@ -12,7 +12,7 @@
     <div class="grid">
          <article v-for="i in galeries.images" class="small-article">
             <div class="article-padding image">
-                <img class="cover" :src="i.image">
+                <img class="cover2" :src="i.image">
             </div>
         </article>
         <div id="myModal" class="modal">
