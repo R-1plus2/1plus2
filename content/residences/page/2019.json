@@ -4,14 +4,14 @@
   "parrain": {
     "name": "SYLVESTRE MAURICE",
     "article": "**Né en 1966, Sylvestre Maurice est astrophysicien à l’Institut de recherche en astrophysique et planétologie (_IRAP, CNRS/UT3 - Paul Sabatier/CNES_), astronome à l’[Observatoire Midi-Pyrénées](http://www3.obs-mip.fr/omp/).**\n\nIl est planétologue, spécialiste de l’exploration du système solaire. Sylvestre Maurice a participé à de nombreuses missions d’exploration du Système solaire de l’Agence spatiale européenne et de la NASA. Il a ainsi étudié l’environnement de plasma et le champ magnétique de Saturne dans le cadre de la mission Cassini. Dans le même temps, il s’est intéressé à la composition chimique des surfaces planétaires, en commençant par la surface lunaire dans le cadre de la mission Lunar Prospector. Il a contribué, avec des collaborateurs américains, à la découverte de glace d’eau aux pôles de la Lune (1998) par spectroscopie neutron. Embarquant ce type d’instrument, la même équipe a découvert de l’eau à l’équateur de Mars (2004) grâce à la mission Mars Odyssey, et de la glace d’eau aux pôles de Mercure (2011) grâce à la mission Messenger. À partir de 2005, il imagine et coordonne avec son collègue Roger Wiens du Los Alamos National Laboratory la construction de l’instrument ChemCam à bord du rover Curiosity de la NASA. Cet instrument fournit les premières données françaises à la surface de Mars en 2012 et permet, avec les autres instruments de la mission, de démontrer l’habitabilité passée de Mars. Il coordonne aussi avec Fernando Rull de l’université de Valladolid le développement de l’instrument Raman sur le rover martien ExoMars de l’ESA qui devrait analyser la composition minéralogique des échantillons prélevés par la foreuse du rover, sous la surface de Mars jusqu’à 2 m de profondeur, pour identifier – si cela se présentait – des traces d’une vie passée sur Mars. Le rover ExoMars de l’ESA sera lancé en 2020. En 2014, il présente avec Roger Wiens une version améliorée de ChemCam pour le prochain rover de la NASA, Mars 2020. Sélectionné par la NASA sous le nom de SuperCam, cet instrument reprendra l’analyse chimique de ChemCam, et embarque de nouvelles voies de mesure Raman et infrarouge pour la composition minérale de Mars. La mission Mars 2020 a pour but de déterminer si la vie s’est développée à la surface de Mars et de préparer un ensemble d’échantillons qui seront rapportés sur Terre dans le cadre de futures missions martiennes, appelées missions de retour d’échantillons. La mission Mars 2020 décollera en juillet 2020.",
-    "img": "/images/uploads/influx-accueil-top.jpg"
+    "img": "/images/uploads/2018film-5.jpg"
   },
-  "cover": "/images/uploads/influx-accueil-top.jpg",
+  "cover": "/images/uploads/mattieu-gafsou-1.jpg",
   "soustitre": "Mathieu Gafsou, Matilda Holloway & Manon Lanjouère",
-  "title": "RESIDENCES 2019",
+  "title": "RESIDENCE 2019",
   "seo": {
     "descriptionseo": "Mathieu Gafsou, Matilda Holloway & Manon Lanjouère",
-    "thumbnail": "/images/uploads/affiche2019-web.jpg"
+    "thumbnail": "/images/uploads/photographe-gafsou-01.jpg"
   },
   "phot": [
     {
@@ -28,9 +28,9 @@
     }
   ],
   "bloc": {
-    "bloc1": "### EXPOSITION\n\n### 22 NOV > 31 DEC 2019\n\n## **QUAI DES SAVOIR**\n\n39 Allée Jules Guesde\n31000 Toulouse\n\n[VOIR PLUS](#)",
-    "bloc2": "### EXPOSITION\n\n### 22 NOV > 31 DEC 2019\n\n## **QUAI DES SAVOIR**\n\n39 Allée Jules Guesde\n31000 Toulouse\n\n[VOIR PLUS](#)",
-    "bloc3": "### EXPOSITION\n\n### 22 NOV > 31 DEC 2019\n\n## **QUAI DES SAVOIR**\n\n39 Allée Jules Guesde\n31000 Toulouse\n\n[VOIR PLUS](#)",
-    "bloc4": "### EXPOSITION\n\n### 22 NOV > 31 DEC 2019\n\n## **QUAI DES SAVOIR**\n\n39 Allée Jules Guesde\n31000 Toulouse\n\n[VOIR PLUS](#)"
+    "bloc1": "### EXPOSITION\n\n### 17 OCT > 17 NOV 2019\n\n## **Chapelle des Cordeliers**\n\n13 rue des Lois\n31000 Toulouse\n\n[VOIR PLUS](https://www.1plus2.fr/expositions/r%C3%A9sidence-2019/)",
+    "bloc2": "### COLLOQUE\n\n### 12 OCT \n\n## **théâtre de la Cité**\n\n1 rue Pierre Bodis\n31000 Toulouse\n\n[VOIR PLUS](https://www.1plus2.fr/colloques/2019/)",
+    "bloc3": "### FILM DE CRÉATION\n\n### TROIS IRIS\n\n## **UN FILM DE PAULINE BROULIS\n**\n\n26 MIN\n\n[VOIR PLUS](https://www.1plus2.fr/films/trois-iris/)",
+    "bloc4": "### EDITION COFFRET\n\n### ELEGIES\n\n## **Editions Filigranes**\n\n3 OUVRAGES\n\n[VOIR PLUS](https://www.1plus2.fr/editions/elegies/)"
   }
 }
