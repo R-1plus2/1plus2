@@ -302,7 +302,7 @@ main {
             width:auto;
 				}
 			.cover2 {
-				    max-width: 100%;
+				    max-width: none;
 				    position: absolute;
 				    top: 50%;
 				    left: 50%;
