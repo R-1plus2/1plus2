@@ -29,7 +29,7 @@
           
       </div>
       <div class="parrain">
-          <h3>PARRAIN <b class="date">{{ date }}</b></h3>
+          
           <div class="parrain-image">
               <img :src="parrain.img"/>
           </div>
