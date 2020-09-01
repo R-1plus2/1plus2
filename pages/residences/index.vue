@@ -3,7 +3,7 @@
     <div class="grid">
         <article v-for="r in residence" class="small-article">
             <nuxt-link class="article-padding" :to="r._path+'/'">
-                <img class="cover" :src="r.cover">
+                <img class="cover2" :src="r.cover">
                 <div class="content" :data-date="r.date">
                     <h3 class="title-article">{{ r.title }}</h3>
                     <hr>
