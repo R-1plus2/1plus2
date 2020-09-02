@@ -101,7 +101,8 @@
         }
       },
       titre(){
-          var modif = '<a href="/studies/" >STUDIES</a>';
+          
+          var modif = 'STUDIES';
           $('.page-title').html( modif );
       }
     }
