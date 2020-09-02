@@ -16,13 +16,18 @@
   "galeries": {
     "images": [
       {
+        "image": "/images/uploads/hlm-adrien-basse-cathalinat_01-visuel-principal-.jpg",
+        "alt": "© Adrien Basse-Cathalinat"
+      },
+      {
         "image": "/images/uploads/hlm-adrien-basse-cathalinat_02.jpg",
         "alt": "© Adrien Basse-Cathalinat"
       },
       {
         "image": "/images/uploads/hlm-adrien-basse-cathalinat_03.jpg",
         "alt": "© Adrien Basse-Cathalinat"
-      }
+      },
+      {}
     ]
   },
   "seo": {
