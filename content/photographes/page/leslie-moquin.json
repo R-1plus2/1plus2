@@ -1,0 +1,27 @@
+{
+  "cover": "/images/uploads/moquin-portrait.jpg",
+  "title": "LESLIE MOQUIN",
+  "soustitre": "QUI SÈME LE VENT",
+  "date": "2017/01/31",
+  "body": {
+    "content": "« Qui sème le vent » associe documents d’archives scientifiques (issues de Météo France et de l’Institut de mécanique des fluides de Banlève) et archives inventées, faits divers et histoires à dormir debout, images trouvées et images fabriquées. Pour nous restituer le légendaire vent d’autan, Leslie Moquin propose une recherche chimérique, étayée par de véritables expériences, en quête du vent mauvais.\n",
+    "link": [
+      {
+        "linktexte": "Leslie Moquin",
+        "linklien": "https://lesliemoquin.com/"
+      }
+    ]
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/moquin-visuelp.jpg",
+        "alt": "© Leslie Moquin / Qui Sème le Vent / Résidence 1+2 #2017"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "« Qui sème le vent » associe documents d’archives scientifiques (issues de Météo France et de l’Institut de mécanique des fluides de Banlève) et archives inventées, faits divers et histoires à dormir debout, images trouvées et images fabriquées. Pour nous restituer le légendaire vent d’autan, Leslie Moquin propose une recherche chimérique, étayée par de véritables expériences, en quête du vent mauvais.\n",
+    "thumbnail": "/images/uploads/moquin-portrait.jpg"
+  }
+}
