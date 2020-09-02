@@ -4,14 +4,14 @@
         <p> 	
 	Comprendre et agir face aux enjeux du monde contemporain, c’est aussi interpeler chaque citoyen et construire avec lui de nouvelles réflexions
   pour de nouvelles pratiques. Chaque année, un week-end inaugural ouvert à tous les publics est organisé avec plusieurs temps forts dont le 
-  <b>colloque national « Photographie & Sciences »</b> où photographes, scientifiques et citoyens échangent lors de plusieurs tables-rondes 
+  <b>colloque national « Photographie &amp; Sciences »</b> où photographes, scientifiques et citoyens échangent lors de plusieurs tables-rondes 
   thématiques et interactives. 
 </p>
     </div>
     <div class="grid">
       <article v-for="c in colloques" class="small-article">
           <nuxt-link class="article-padding" :to="c._path+'/'">
-              <img class="cover" :src="c.cover">
+              <img class="cover2" :src="c.cover">
               <div class="content" :data-date="c.date">
                   <h3 class="title-article">{{ c.title }}</h3>
                   <hr>
