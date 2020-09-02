@@ -1344,10 +1344,13 @@ main {
 }
 .copyright {
     display: inline-block;
-    padding: 0 15px;
+    padding: 25px 15px;
     float:right;
 }
 .copyright p {
     margin: 0;
-    line-height: 100px;
+    line-height: 25px;
+}
+.copyright p a{
+    color:#000;
 }
