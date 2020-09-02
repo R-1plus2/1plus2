@@ -1355,3 +1355,7 @@ main {
     color:#000;
     text-decoration: none;
 }
+
+.page-studies .small-article {
+    float: none;
+}
