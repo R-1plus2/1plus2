@@ -59,7 +59,8 @@
       }
     },
     mounted() {
-      $("body").removeClass('red-page yellow-page blue-page');
+      $("body").removeClass('blue-page yellow-page');
+      $("body").addClass('red-page');
       this.diapo();
       this.titre();
     },
