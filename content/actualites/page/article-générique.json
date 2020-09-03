@@ -1,25 +1,15 @@
 {
-  "descriptionseo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis fermentum lectus, vitae tempus risus aliquam at. Integer ante mi, placerat ac nunc vitae, placerat facilisis nibh. Phasellus quam risus, aliquam in sem ut, consequat scelerisque elit. Praesent sit amet malesuada erat, quis pretium metus. Nam sodales tellus et arcu ultricies, non aliquam magna sagittis. Aenean vel elit ultrices lacus placerat posuere. Mauris ultrices justo id mauris egestas, id tincidunt purus pulvinar. ",
-  "thumbnail": "/images/uploads/influx-accueil-top.jpg",
-  "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis fermentum lectus, vitae tempus risus aliquam at. Integer ante mi, placerat ac nunc vitae, placerat facilisis nibh. Phasellus quam risus, aliquam in sem ut, consequat scelerisque elit. Praesent sit amet malesuada erat, quis pretium metus. Nam sodales tellus et arcu ultricies, non aliquam magna sagittis. Aenean vel elit ultrices lacus placerat posuere. Mauris ultrices justo id mauris egestas, id tincidunt purus pulvinar.",
-  "relative": [
-    {
-      "relart": "Appel à projets 2020"
-    }
-  ],
-  "date": "2019/08/05",
-  "soustitre": "Sous titre générique",
-  "title": "Article générique",
-  "description": "Donec at luctus felis, quis luctus nisl. Curabitur tincidunt, urna non vehicula facilisis, lectus nisi volutpat augue, eu porttitor tortor libero vitae libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis non mi porta, pulvinar eros in, hendrerit mi. Integer sollicitudin rhoncus mollis. Nunc ac tortor vitae lacus pellentesque aliquet. Praesent elit ex, mattis ut lorem eu, maximus lobortis dolor. Aliquam lectus quam, pharetra et maximus suscipit, hendrerit eu purus. Suspendisse arcu purus, euismod vitae nibh nec, facilisis bibendum lectus. Sed quis quam justo. Nulla vitae lectus in risus mattis hendrerit eu nec quam. Vivamus et est tortor. Maecenas vel finibus purus. Suspendisse mi eros, ornare gravida pretium quis, ullamcorper vel nibh. Maecenas id mattis velit, sed varius urna. Fusce aliquam dolor ac aliquet pulvinar.\n\nCurabitur et mauris ex. Aliquam aliquam porta mi, et ullamcorper metus mattis id. Cras aliquam iaculis convallis. Nulla tincidunt ex pharetra, tristique ex at, pellentesque lorem. Maecenas consectetur finibus cursus. Maecenas commodo, ante in pretium suscipit, neque arcu laoreet magna, ut venenatis quam tellus sollicitudin nunc. Vivamus eget rhoncus risus, eu gravida nulla. Maecenas quis bibendum lectus.",
+  "descriptionseo": "APPEL À PROJETS 2021\nPOUR 2 JEUNES PHOTOGRAPHES\nRésidence de création «Photographie & Sciences»\ndu 1er mars au 30 avril 2021 à Toulouse",
+  "thumbnail": "/images/uploads/our-story.png",
+  "intro": "## APPEL À PROJETS POUR 2 JEUNES PHOTOGRAPHES\n\n### Résidence de création «Photographie & Sciences»\n**du 1er mars au 30 avril 2021 à Toulouse**\n\n\n",
+  "relative": [],
+  "date": "2020/08/05",
+  "soustitre": "Résidence de création «Photographie & Sciences»",
+  "title": "APPEL À PROJETS 2021",
+  "description": "La Résidence 1+2 «Photographie & Sciences» est un programme culturel ancré à Toulouse associant la photographie et les sciences. Chaque année, la Résidence 1+2 rassemble trois photographes (1 photographe de renom + 2 photographes émergent.es) pour une résidence de deux mois. Durant ce temps, les photographes vivent ensemble et créent une oeuvre personnelle et inédite. Le trio est soutenu dans ses recherches par des institutions scientifiques et des chercheur.es basé.es à Toulouse et en Occitanie. \n\n**Date limite de réception des dossiers : vendredi 25 septembre à 19h**\n\n**Jury final (entretien de 45 minutes en public à Toulouse) : dimanche 11 octobre**\n",
   "catt": [
     {
-      "cat": "sciences"
-    },
-    {
-      "cat": "photographies"
-    },
-    {
-      "cat": "résidences"
+      "cat": "Résidence "
     }
   ]
 }
