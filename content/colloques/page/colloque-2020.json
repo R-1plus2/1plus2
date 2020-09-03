@@ -1,0 +1,85 @@
+{
+  "cover": "/images/uploads/photographe-lhuisset-01.jpg",
+  "title": "COLLOQUE 2020",
+  "soustitre": "Photographie & Sciences",
+  "horaires": "SAMEDI 10 OCTOBRE",
+  "body": {
+    "description": "**08h30 à 18h00 au Muséum d'Histoire Naturelle**  \n35 allées Jules-Guesde - Toulouse  \n[www.museum.toulouse.fr](https://www.museum.toulouse.fr)",
+    "accordeon": [
+      {
+        "horaire": "8h30 > 11h00",
+        "titre": "PRÉSENTATION DE L’ÉDITION 2020",
+        "article": [
+          {
+            "horaire": "8h30 > 10h",
+            "information": "**RÉVEIL CRÉATIF** Ouverture du colloque avec la marraine 2020 **Catherine Jeandel**, océanologue, géochimiste et directrice de recherche au CNRS - Laboratoire d’études en géophysique et océanographie spatiales (LEGOS, OMP - CNRS/Université Paul Sabatier).\n"
+          },
+          {
+            "horaire": "10h > 10h15",
+            "information": "Discours inauguraux par **Francis Duranthon**, directeur du Muséum d’Histoire Naturelle de Toulouse Métropole et directeur des Musées de la Ville de Toulouse, **Pierre  Esplugas-Labatut**, conseiller municipal délégué à la Mairie de Toulouse en charge de la photographie, et **Philippe Guionie**, directeur de la Résidence 1+2."
+          },
+          {
+            "horaire": "10h15 > 11h",
+            "information": "**Projection du film de création 2020. Réalisatrice : Pauline Broulis.**  \nProjection suivie d’une discussion avec la réalisatrice et **Géraldine Durand-Dosdat**, responsable de l’animation de la filière OCCITANIE FILMS à Toulouse.\n"
+          }
+        ]
+      },
+      {
+        "horaire": "11h00 > 12h45",
+        "titre": "PHOTOGRAPHIE & ANTHROPOCÈNE ",
+        "article": [
+          {
+            "horaire": "11h00 > 12h00",
+            "information": "**Table-ronde modérée par Andreina De Bei**, rédactrice en chef adjointe, directrice photo du magazine « Sciences et Avenir ». \n\nIntervenant.es : \n- **Émeric Lhuisset**, lauréat de la Résidence 1+2, 2020,\n- **Catherine Jeandel**, océanologue, géochimiste et directrice de recherche au CNRS. \n"
+          },
+          {
+            "horaire": "12h15 > 12h45",
+            "information": "**Signature du coffret (3 ouvrages) paru aux Éditions Filigranes** - textes : **Fabien Ribery**, par les photographes 2020 **Émeric Lhuisset, Coline Jourdan et Lucía Peluffo** avec **Patrick Le Bescont**, directeur des Éditions Filigranes, en partenariat avec le festival Lumières sur le Quai.\n\nChapiteau du festival Lumière sur le Quai - Esplanade des frères Marty - Toulouse\n(face à l’entrée du jardin des plantes et de la rue Ozenne)\n"
+          }
+        ]
+      },
+      {
+        "horaire": "14h00 > 15h00",
+        "titre": "SCIENCES & PHOTOGRAPHIE ÉMERGENTE ",
+        "article": [
+          {
+            "horaire": "14h00 > 15h00",
+            "information": "**Table ronde modérée par Anaïs Viand**, rédactrice en chef web de Fisheye magazine.\n\nIntervenant.es :\n- **Coline Jourdan**, lauréate de la Résidence 1+2, 2020,\n- **Jérôme Viers**, enseignant chercheur en géosciences au laboratoire Géosciences environnement Toulouse (GET, CNRS, université Toulouse III Paul Sabatier, IRD, CNES, BRGM),\n- **Lucía Peluffo**, lauréate de la Résidence 1+2, 2020,\n- **Pierre-Emmanuel Gleizes**, directeur du Laboratoire de biologie moléculaire eucaryote - centre de biologie intégrative (CNRS/UPS).\n"
+          }
+        ]
+      },
+      {
+        "horaire": "15h00 > 17h30",
+        "titre": "PROGRAMME « 1+2 FACTORY » 2020",
+        "article": [
+          {
+            "horaire": "15h00 > 17h30",
+            "information": "Présentation du programme par **Philippe Guionie**. Modération : **Dominique Roux**, enseignant, critique et historien de la photographie et **Jean-François Haït**, journaliste scientifique indépendant. \nIntervenant.es :\n\n- **Myriem Karim**, lauréate de la Résidence 1+2 Factory #4 2020,\n- **Mathieu Orth**, conservateur - Nature En Occitanie, Confluence Garonne-Ariège,\n- **Maxime Matthys**, lauréat de la Résidence 1+2 Factory #5 2020,\n- **Tim Van de Cruys**, chercheur CNRS, Institut de recherche en informatique de Toulouse\n(IRIT – CNRS/Toulouse INP/Universités Toulouse 1 Capitole/Toulouse Jean Jaurès/Toulouse III Paul Sabatier).\n- **Alexandra Serrano** et **Simon Pochet**, lauréat.es de la Résidence 1+2 Factory #7 2020,\n- **Sébastien Marzin**, directeur du musée de l’Aurignacien La Préhistoire en Haute-Garonne à Aurignac, \n- **Lars E. Anderson**, doctorant, \n- **Mathieu Lejay**, membre associé, Laboratoire Travaux de recherches archéologiques sur les cultures, les espaces et les sociétés (TRACES – CNRS/Université Toulouse Jean Jaurès/ Ministère de la culture).\n"
+          }
+        ]
+      },
+      {
+        "horaire": "17h30 > 18h00",
+        "titre": "PRÉSENTATION DE L’ÉDITION 2021",
+        "article": [
+          {
+            "horaire": "17h30 > 18h00",
+            "information": "Présentation du ou de la photographe de renom 2021 par **Émeric Lhuisset** et **Philippe Guionie**.\nPrésentation des marraines « Photographie » et « Sciences » 2021.\nPrésentation du festival partenaire « Lumières sur le Quai ».\n"
+          }
+        ]
+      }
+    ]
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/photographe-lhuisset-01.jpg",
+        "alt": "© Émeric Lhuisset / Résidence 1+2 #2020"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "COLLOQUE 2020\n08h30 à 18h00 au Muséum d'Histoire Naturelle - 35 allées Jules-Guesde - Toulouse",
+    "thumbnail": "/images/uploads/photographe-lhuisset-01.jpg"
+  }
+}
