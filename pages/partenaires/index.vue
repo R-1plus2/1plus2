@@ -1,23 +1,17 @@
 <template>
-  <main class="page-article-expositions">
+  <main class="page-partenaires">
     <div class="left-side">
         <div class="diapo">
-            <div v-for="i in galeries.images" class="image">
-              <img class="selected" :src="i.image" :alt="i.alt">
+            <div v-for="i in prograsso.images" class="image">
+              <a :href="i.link"><img class="selected" :src="i.image" :alt="i.alt"></a>
             </div>
         </div>
     </div>
     <div class="right-side">
-        <small class="date">{{ horaires }}</small>
         <h3 class="title-article">{{ title }}</h3>
         <p class="description-article">{{ soustitre }}</p>
         <div class="content">
-            <vue-markdown class="main-description">{{ body.description }}</vue-markdown>
-            <vue-markdown class="main-content">{{ body.content }}</vue-markdown>
-            <p class="read-more">POUR EN SAVOIR PLUS</p>
-            <a target="_blank" :href="body.readmore.readlien" class="link">{{ body.readmore.readtexte}}</a>
-            <p class="no-margin">LIENS &#62;</p>
-            <a target="_blank" v-for="i in body.link" :href="i.linklien" class="more-link">{{ i.linktexte}}</a>
+            <vue-markdown class="main-description">{{ content }}</vue-markdown>
         </div>
 
     </div>
