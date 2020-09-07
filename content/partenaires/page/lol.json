@@ -61,7 +61,47 @@
     ]
   },
   "institutionnels": {
-    "images": []
+    "images": [
+      {
+        "image": "/images/uploads/ut3.jpg",
+        "alt": "Université Paul Sabatier"
+      },
+      {
+        "image": "/images/uploads/logo-saif.jpg",
+        "alt": "La Saif"
+      },
+      {
+        "image": "/images/uploads/ot-carre-png.jpg"
+      },
+      {
+        "image": "/images/uploads/tisseo-collectivites.jpg",
+        "alt": "Tisséo"
+      },
+      {
+        "image": "/images/uploads/ina_p314_10cm.jpg",
+        "alt": "INA"
+      },
+      {
+        "image": "/images/uploads/fondationadg-logo-grand.jpg",
+        "alt": "Fondation Antoine de Galbert"
+      },
+      {
+        "image": "/images/uploads/logo_casden_2010_q.jpg",
+        "alt": "Casden"
+      },
+      {
+        "image": "/images/uploads/banque-pop.jpg",
+        "alt": "Banque Populaire Occitane"
+      },
+      {
+        "image": "/images/uploads/etpa_logo-1.jpg",
+        "alt": "Etpa"
+      },
+      {
+        "image": "/images/uploads/louis-lumiere.jpg",
+        "alt": "Louis Lumière"
+      }
+    ]
   },
   "soustitre": "Découvrez nos partenaires 2020",
   "title": "Nos partenaires",
