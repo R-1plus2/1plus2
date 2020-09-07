@@ -86,7 +86,6 @@
     mounted() {
       $("body").removeClass('blue-page yellow-page');
       $("body").addClass('red-page');
-      this.diapo();
       this.titre();
     },
     methods: {
