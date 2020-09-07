@@ -7,25 +7,25 @@
               <a :href="i.link"><img class="selected" :src="i.image" :alt="i.alt"></a>
             </div>
         </div>
-        <div class="grid">
+        <div class="diapo">
             <h3>PARTENAIRES INSTITUTIONNELS ET PRIVÉS</h3>
             <div v-for="i in institutionnels.images" class="image">
               <a :href="i.link"><img class="selected" :src="i.image" :alt="i.alt"></a>
             </div>
         </div>
-        <div class="grid">
+        <div class="diapo">
             <h3>PARTENAIRES SCIENTIFIQUES</h3>
             <div v-for="i in scientifiques.images" class="image">
               <a :href="i.link"><img class="selected" :src="i.image" :alt="i.alt"></a>
             </div>
         </div>
-        <div class="grid">
+        <div class="diapo">
             <h3>LIEUX ASSOCIÉS</h3>
             <div v-for="i in lieuxasso.images" class="image">
               <a :href="i.link"><img class="selected" :src="i.image" :alt="i.alt"></a>
             </div>
         </div>
-        <div class="grid">
+        <div class="diapo">
             <h3>PROGRAMMES ASSOCIÉS</h3>
             <div v-for="i in prograsso.images" class="image">
               <a :href="i.link"><img class="selected" :src="i.image" :alt="i.alt"></a>
