@@ -1362,3 +1362,12 @@ main {
 .left-side .diapo h3 {
     font-size: 24px;
 }
+.page-partenaires .left-side {
+    width: 60%;
+}
+.page-partenaires .right-side {
+    width: calc(40% - 100px);
+}
+.page-partenaires .image {
+    width: calc(25% - 30px);
+}
