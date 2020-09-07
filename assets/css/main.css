@@ -524,8 +524,7 @@ main {
     border: 10px solid var(--color-3);
     color: var(--color-3);
 }
-.page-editions .intro,
-.page-film .intro{
+.red-page .intro{
     border: 10px solid red;
     color: red;
 }
