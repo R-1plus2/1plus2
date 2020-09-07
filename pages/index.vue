@@ -1,7 +1,7 @@
 <template>
   <main class="page-index">
   
-      <article v-for="i in fact" class="small-article">
+      <article v-for="i in fact" class="small-article facto-home">
           <a class="article-padding factory-lien" :href="i.facto">
               <img class="cover" :src="i.photoo"/>
               <div class="content factory-image">
