@@ -56,6 +56,7 @@ export default {
     },
   mounted() {
       $("body").removeClass('red-page yellow-page blue-page');
+      $("body").addClass('red-page');
       this.titre();
       this.ea();
   },
@@ -77,7 +78,6 @@ export default {
           sortBy : 'date',
           sortAscending : true
         });
-        $(grid.filteredItems[0].element).addClass('big');
         setTimeout(function(){grid.layout(); }, 100);
         
       }
