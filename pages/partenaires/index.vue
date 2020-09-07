@@ -1,7 +1,7 @@
 <template>
   <main class="page-partenaires">
     <div class="left-side">
-        <div class="grid">
+        <div class="diapo">
             <h3>PARTENAIRES OFFICIELS</h3>
             <div v-for="i in officiels.images" class="image">
               <a :href="i.link"><img class="selected" :src="i.image" :alt="i.alt"></a>
