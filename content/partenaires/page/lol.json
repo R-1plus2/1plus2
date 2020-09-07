@@ -20,9 +20,33 @@
   "officiels": {
     "images": [
       {
-        "image": "/images/uploads/Carbonaro_60x80_encadré_DIGI-COLD-PRESS-330_1.jpg",
-        "alt": "Nom",
-        "link": "#"
+        "image": "/images/uploads/mairie-de-toulouse.jpg",
+        "alt": "Mairie de Toulouse",
+        "link": ""
+      },
+      {
+        "image": "/images/uploads/pref_region_occitanie_rvb.jpg",
+        "alt": "DRAC"
+      },
+      {
+        "image": "/images/uploads/bloc-logos-regional-fds-final.jpg",
+        "alt": "Fête de la Science"
+      },
+      {
+        "image": "/images/uploads/cd31-logo-rvb.jpg",
+        "alt": "Conseil Départemental de la Haute-Garonne"
+      },
+      {
+        "image": "/images/uploads/insitutufrançais.jpg",
+        "alt": "Institut Français"
+      },
+      {
+        "image": "/images/uploads/cnrs.jpg",
+        "alt": "CNRS"
+      },
+      {
+        "image": "/images/uploads/universite-federale.jpg",
+        "alt": "Université Fédérale"
       }
     ]
   },
@@ -37,13 +61,7 @@
     ]
   },
   "institutionnels": {
-    "images": [
-      {
-        "image": "/images/uploads/1.jpg",
-        "alt": "Nom",
-        "link": "#"
-      }
-    ]
+    "images": []
   },
   "soustitre": "Découvrez nos partenaires 2020",
   "title": "Nos partenaires",
