@@ -1,14 +1,15 @@
 <template>
   <main class="page-index">
-      <div class="articles-content">
-          <h3 class="factory-title">FACTORY</h3>
-          <a v-for="i in fact" :href="i.facto" class="factory-lien">
-            <div class="factory-image">
-                <img :src="i.photoo"/>
-            </div>
-            <p class="factory-nom">{{ i.facto}}</p>
+  
+      <article v-for="i in fact" class="small-article">
+          <a class="article-padding factory-lien" :href="i.facto">
+              <img class="cover" :src="i.photoo"/>
+              <div class="content factory-image">
+                  <h3 class="title-article factory-nom">{{ i.facto}}</h3>
+              </div>
           </a>
-      </div>
+      </article>
+      
   </main>
 </template>
 <script>
