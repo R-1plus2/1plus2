@@ -48,6 +48,7 @@ export default {
     },
   mounted() {
       $("body").removeClass('red-page yellow-page blue-page');
+      $("body").addClass('red-page');
       this.titre();
       this.ea();
       this.annee();  
