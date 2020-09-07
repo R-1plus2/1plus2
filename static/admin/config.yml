@@ -548,3 +548,34 @@ collections:
               - { label: image, name: image, widget: image }
               - { label: alt, name: alt, widget: string }
               - { label: link, name: link, widget: string }
+  - name: "accueil"
+    label: "📓 Accueil"
+    folder: "content/accueil/page"
+    create: true
+    slug: "{{slug}}"
+    format: 'json'
+    fields:
+      - {label: "Image de couverture", name: "cover", widget: "image", required: false}
+      - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
+      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
+      - {label: "Edito", name: "edito", widget: "markdown", required: false}
+      - label: "Factory"
+        name: "fact"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Factory"
+            name: "facto"
+            widget: "relation"
+            collection: "factory"
+            searchFields: ["title"]
+            valueField: "title"
+            displayFields: ["title"]
+          - {label: "Photo du Factory", name: "photoo", widget: "image", required: false}
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        fields:
+          - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
+          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
