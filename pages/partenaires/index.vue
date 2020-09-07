@@ -71,25 +71,24 @@
     },
     head() {
       return {
-        title: '1+2 – Photographie & Sciences | ' +this.title,
+        title: 'PARTENAIRES | 1+2 – Photographie & Sciences',
         meta: [
-          { hid: 'description', name: 'description', content: `${this.seo.descriptionseo}` },
-          { 'property': 'og:title', 'content': `${this.title}`, 'vmid': 'og:titre' },
-          { 'property': 'og:description', 'content': `${this.seo.descriptionseo}` },
-          { 'property': 'og:image', 'content': `${this.seo.thumbnail}`, 'vmid': 'og:image' }
+          { hid: 'description', name: 'description', content: `1+2 est un programme de création artistique à vocation européenne, ancré à Toulouse, associant la photographie et les sciences.` },
+          { 'property': 'og:title', 'content': `PARTENAIRES | 1+2 – Photographie & Sciences`, 'vmid': 'og:titre' },
+          { 'property': 'og:description', 'content': `1+2 est un programme de création artistique à vocation européenne, ancré à Toulouse, associant la photographie et les sciences.` },
+          { 'property': 'og:image', 'content': ``, 'vmid': 'og:image' }
         ]
       }
     },
-    updated() {},
-    beforeMount() {},
-    destroyed() {},
     mounted() {
-      $("body").removeClass('red-page yellow-page blue-page');
+      $("body").removeClass('blue-page yellow-page');
+      $("body").addClass('red-page');
+      this.diapo();
       this.titre();
     },
     methods: {
       titre(){
-          var modif = '<a href="/partenaires/" >PARTENAIRES</a>';
+          var modif = 'PARTENAIRES';
           $('.page-title').html( modif );
       }
     }
