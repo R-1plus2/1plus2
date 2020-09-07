@@ -1,0 +1,17 @@
+{
+  "cover": "/images/uploads/affiche2019-web.jpg",
+  "title": "Accueil",
+  "soustitre": "Photographie & Sciences",
+  "date": "2020/09/07",
+  "edito": "iore c patouf",
+  "fact": [
+    {
+      "facto": "MAXIME MATTHYS",
+      "photoo": "/images/uploads/factory5-1.jpg"
+    }
+  ],
+  "seo": {
+    "descriptionseo": "je suis le seo",
+    "thumbnail": "/images/uploads/colloque-affiche2019.jpg"
+  }
+}
