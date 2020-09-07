@@ -1,6 +1,6 @@
 <template>
   <div class="menu">
-      <div class="black-line"><div class="close">Navigation</div></div>
+      <div class="black-line"><div class="close">FERMER</div></div>
       <nav>
           <ul class="nav">
             <li><nuxt-link to="/actualites/" class="menu-link">ACTUALITES</nuxt-link></li>
