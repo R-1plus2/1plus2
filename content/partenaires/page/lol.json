@@ -11,9 +11,40 @@
   "scientifiques": {
     "images": [
       {
-        "image": "/images/uploads/1.jpg",
-        "alt": "Nom",
-        "link": "#"
+        "image": "/images/uploads/clinique-pasteur-logo-sans-fond.jpg",
+        "alt": "Clinique Pasteur"
+      },
+      {
+        "image": "/images/uploads/citeespace-vertical.jpg",
+        "alt": "Cité de l'Espace"
+      },
+      {
+        "image": "/images/uploads/logo-sap.jpg",
+        "alt": "SAP"
+      },
+      {
+        "image": "/images/uploads/logo-veclong.01.jpg",
+        "alt": "Science Animation"
+      },
+      {
+        "image": "/images/uploads/gmp-logo-toulouse.jpg",
+        "alt": "IUT Occitanie"
+      },
+      {
+        "image": "/images/uploads/roselab-logo-rose.jpg",
+        "alt": "Roselab"
+      },
+      {
+        "image": "/images/uploads/logos_get.jpg",
+        "alt": "GET"
+      },
+      {
+        "image": "/images/uploads/irit.jpg",
+        "alt": "IRIT"
+      },
+      {
+        "image": "/images/uploads/omp_logo_cmyk.jpg",
+        "alt": "Observatoire Midi-Pyrénées"
       }
     ]
   },
