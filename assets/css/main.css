@@ -1359,3 +1359,6 @@ main {
 .page-studies .small-article {
     float: none;
 }
+.left-side h3 {
+    font-size: 24px;
+}
