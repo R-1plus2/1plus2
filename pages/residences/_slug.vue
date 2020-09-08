@@ -70,6 +70,7 @@
     destroyed() {},
     mounted() {
       $("body").removeClass('red-page yellow-page blue-page');
+      $("body").addClass('red-page');
       this.diapo();
       this.titre();
       this.annee();
