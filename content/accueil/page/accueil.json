@@ -1,15 +1,57 @@
 {
-  "cover": "/images/uploads/affiche2019-web.jpg",
-  "title": "Accueil",
-  "soustitre": "Photographie & Sciences",
-  "date": "2020/09/07",
-  "edito": "iore c patouf",
+  "film": [
+    {
+      "films": "TROIS IRIS",
+      "photoo": "/images/uploads/broulis-carre.jpg"
+    }
+  ],
+  "edito": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque urna nec leo porta, eget rhoncus libero feugiat. Suspendisse et metus ut ex condimentum mattis. Nunc ultricies arcu in pharetra laoreet. Pellentesque pulvinar ex sit amet risus pretium consectetur. Etiam facilisis vehicula tellus, eget efficitur sapien. Ut nunc dui, molestie vitae vestibulum nec, lobortis eu sapien. Curabitur molestie vel elit in sodales. Nunc varius molestie est. Mauris a enim fringilla, dictum justo sit amet, pulvinar dui. Nullam sollicitudin neque enim, non tincidunt erat rutrum in. Curabitur porttitor porta nisi. Mauris tempor ornare nisl, id iaculis eros egestas hendrerit. Pellentesque mollis nisl a tortor hendrerit lacinia. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin tincidunt arcu et tellus luctus, non dignissim tellus porta. ",
+  "hors": [
+    {
+      "horsl": "FATOUMATA TIOYE COULIBALY",
+      "photoo": "/images/uploads/fatoumata-couv.jpg"
+    }
+  ],
+  "resi": [
+    {
+      "resid": "RÉSIDENCE 2020",
+      "photoo": "/images/uploads/photographe-lhuisset-01.jpg"
+    }
+  ],
+  "edit": [
+    {
+      "editi": "Elegies",
+      "photoo": "/images/uploads/cofreet-2019-couvgrid.jpg"
+    }
+  ],
   "fact": [
     {
       "facto": "MAXIME MATTHYS",
       "photoo": "/images/uploads/factory5-1.jpg"
     }
   ],
+  "coll": [
+    {
+      "collo": "COLLOQUE 2020",
+      "photoo": "/images/uploads/photographe-lhuisset-01.jpg"
+    }
+  ],
+  "date": "2020/09/07",
+  "stud": [
+    {
+      "studi": "Studies",
+      "photoo": "/images/uploads/©Anais-Ondet_2018_01.jpg"
+    }
+  ],
+  "expo": [
+    {
+      "expos": "RÉSIDENCE 2020",
+      "photoo": "/images/uploads/1.jpg"
+    }
+  ],
+  "cover": "/images/uploads/affiche2019-web.jpg",
+  "soustitre": "Photographie & Sciences",
+  "title": "Accueil",
   "seo": {
     "descriptionseo": "je suis le seo",
     "thumbnail": "/images/uploads/colloque-affiche2019.jpg"
