@@ -55,7 +55,7 @@
     transition: { name: 'intro', mode: 'out-in' },
     components: { VueMarkdown},
     async asyncData({ params }) {
-      let page = await import('~/content/partenaires/page/lol.json');
+      let page = await import('~/content/partenaires/page/partenaires.json');
       return page;
     },
     data() {
