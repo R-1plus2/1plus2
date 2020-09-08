@@ -516,8 +516,20 @@ main {
     transition: all .3s ease;
 }
 .more-link:hover {
+    color: #000;
+    background: gray;
+}
+.red-page .more-link:hover {
     color: #fff;
     background: red;
+}
+.blue-page .more-link:hover {
+    color: #fff;
+    background: var(--color-3);
+}
+.yellow-page .more-link:hover {
+    color: #000;
+    background: var(--color-2);
 }
 
 .intro {
