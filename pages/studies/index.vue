@@ -39,7 +39,7 @@
     transition: { name: 'intro', mode: 'out-in' },
     components: { VueMarkdown},
     async asyncData() {
-      let page = await import('~/content/studies/page/lol.json');
+      let page = await import('~/content/studies/page/studies.json');
       return page;
     },
     data() {
