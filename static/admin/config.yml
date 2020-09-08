@@ -5,6 +5,40 @@ media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 display_url: https://1plus2.netlify.app/
 collections:
+  - name: "accueil"
+    label: "📝 Accueil"
+    folder: "content/accueil/page"
+    create: true
+    slug: "{{slug}}"
+    format: 'json'
+    fields:
+      - {label: "Image de couverture", name: "cover", widget: "image", required: false}
+      - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
+      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
+      - {label: "Edito", name: "edito", widget: "markdown", required: false}
+      - label: "Factory"
+        name: "fact"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Factory"
+            name: "facto"
+            widget: "relation"
+            collection: "factory"
+            searchFields: ["title"]
+            valueField: "title"
+            displayFields: ["title"]
+          - {label: "Photo du Factory", name: "photoo", widget: "image", required: false}
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        fields:
+          - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
+          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
+  - name: "sep0"
+    label: "--------"
+    folder: "content/"                  
   - name: "actualites"
     label: "📰 Actualités"
     folder: "content/actualites/page"
@@ -42,7 +76,7 @@ collections:
             collection: "actualites"
             searchFields: ["title"]
             valueField: "title"
-            displayFields: ["title"]
+            displayFields: ["title"]        
   - name: "categorie"
     label: "🔖 Catégories"
     folder: "content/categorie/page"
@@ -50,56 +84,13 @@ collections:
     slug: "{{slug}}"
     format: 'json'
     fields:
-      - {label: "Nom", name: "title", widget: "string", tagname: "h1", required: true}
-  - name: "photographes"
-    label: "📷 Photographes"
-    folder: "content/photographes/page"
-    create: true
-    slug: "{{slug}}"
-    format: 'json'
-    fields:
-      - {label: "Image de couverture", name: "cover", widget: "image", required: false}
-      - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
-      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
-      - label: "Article"
-        name: "body"
-        widget: "object"
-        required: false
-        fields:
-          - {label: "Article", name: "content", widget: "markdown", required: false}
-          - label: "Liens"
-            name: "link"
-            widget: "list"
-            required: false
-            fields:
-              - { label: Texte, name: linktexte, widget: string }
-              - { label: Lien, name: linklien, widget: string }
-      - label: "Galeries"
-        name: "galeries"
-        widget: "object"
-        required: false
-        fields:
-          - label: "Images"
-            name: "images"
-            widget: "list"
-            required: false
-            fields:
-              - { label: image, name: image, widget: image }
-              - { label: alt, name: alt, widget: string }
-      - label: "SEO"
-        name: "seo"
-        widget: "object"
-        required: false
-        fields:
-          - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
-          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
+      - {label: "Nom", name: "title", widget: "string", tagname: "h1", required: true}        
   - name: "sep1"
     label: "--------"
-    folder: "content/"
-  - name: "films"
-    label: "📕 Films"
-    folder: "content/films/page"
+    folder: "content/"                  
+  - name: "residences"
+    label: "📕 Résidences"
+    folder: "content/residences/page"
     create: true
     slug: "{{slug}}"
     format: 'json'
@@ -108,37 +99,37 @@ collections:
       - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
       - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
-      - label: "Article"
-        name: "body"
-        widget: "object"
+      - {label: "Edito", name: "edito", widget: "markdown", required: false}
+      - label: "Photographes"
+        name: "phot"
+        widget: "list"
+        required: false
         fields:
-          - {label: "Intro", name: "description", widget: "markdown", required: false}
-          - {label: "Article", name: "content", widget: "markdown", required: false}
-          - label: "En savoir plus"
-            name: "readmore"
-            widget: "object"
-            fields:
-              - { label: Texte, name: readtexte, widget: string }
-              - { label: Lien, name: readlien, widget: string }
-          - label: "Liens"
-            name: "link"
-            widget: "list"
-            required: false
-            fields:
-              - { label: Texte, name: linktexte, widget: string }
-              - { label: Lien, name: linklien, widget: string }
-      - label: "Galeries"
-        name: "galeries"
+          - label: "Photographe"
+            name: "photo"
+            widget: "relation"
+            collection: "photographes"
+            searchFields: ["title"]
+            valueField: "title"
+            displayFields: ["title"]
+          - {label: "Photo du photographe", name: "photoo", widget: "image", required: false}
+      - label: "Bloc texte"
+        name: "bloc"
         widget: "object"
+        required: false
         fields:
-          - {label: "Iframe", name: "iframe", widget: "markdown", required: false}
-          - label: "Images"
-            name: "images"
-            widget: "list"
-            required: false
-            fields:
-              - { label: image, name: image, widget: image }
-              - { label: alt, name: alt, widget: string }
+          - {label: "Bloc texte 1", name: "bloc1", widget: "markdown", required: false}
+          - {label: "Bloc texte 2", name: "bloc2", widget: "markdown", required: false}
+          - {label: "Bloc texte 3", name: "bloc3", widget: "markdown", required: false}
+          - {label: "Bloc texte 4", name: "bloc4", widget: "markdown", required: false}
+      - label: "Bloc parrain"
+        name: "parrain"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Nom", name: "name", widget: "string", required: false}
+          - {label: "Article", name: "article", widget: "markdown", required: false}
+          - {label: "Image", name: "img", widget: "image", required: false}
       - label: "SEO"
         name: "seo"
         widget: "object"
@@ -186,7 +177,140 @@ collections:
         widget: "object"
         fields:
           - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
+          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}          
+  - name: "horslesmurs"
+    label: "📒 Hors Les Murs"
+    folder: "content/hors-les-murs/page"
+    create: true
+    slug: "{{slug}}"
+    format: 'json'
+    fields:
+      - {label: "Image de couverture", name: "cover", widget: "image", required: false}
+      - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
+      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
+      - label: "Article"
+        name: "body"
+        widget: "object"
+        fields:
+          - {label: "Intro", name: "description", widget: "markdown", required: false}
+          - {label: "Article", name: "content", widget: "markdown", required: false}
+          - {label: "Informations", name: "readmore", widget: "markdown", required: false}
+          - label: "Liens"
+            name: "link"
+            widget: "list"
+            required: false
+            fields:
+              - { label: Texte, name: linktexte, widget: string }
+              - { label: Lien, name: linklien, widget: string }
+      - label: "Galeries"
+        name: "galeries"
+        widget: "object"
+        fields:
+          - label: "Images"
+            name: "images"
+            widget: "list"
+            required: false
+            fields:
+              - { label: image, name: image, widget: image }
+              - { label: alt, name: alt, widget: string }
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        fields:
+          - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
           - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
+  - name: "photographes"
+    label: "📷 Photographes"
+    folder: "content/photographes/page"
+    create: true
+    slug: "{{slug}}"
+    format: 'json'
+    fields:
+      - {label: "Image de couverture", name: "cover", widget: "image", required: false}
+      - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
+      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
+      - label: "Article"
+        name: "body"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Article", name: "content", widget: "markdown", required: false}
+          - label: "Liens"
+            name: "link"
+            widget: "list"
+            required: false
+            fields:
+              - { label: Texte, name: linktexte, widget: string }
+              - { label: Lien, name: linklien, widget: string }
+      - label: "Galeries"
+        name: "galeries"
+        widget: "object"
+        required: false
+        fields:
+          - label: "Images"
+            name: "images"
+            widget: "list"
+            required: false
+            fields:
+              - { label: image, name: image, widget: image }
+              - { label: alt, name: alt, widget: string }
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
+          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}              
+  - name: "expositions"
+    label: "📓 Expositions"
+    folder: "content/expositions/page"
+    create: true
+    slug: "{{slug}}"
+    format: 'json'
+    fields:
+      - {label: "Image de couverture", name: "cover", widget: "image", required: false}
+      - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
+      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
+      - {label: "Horaires", name: "horaires", widget: "string", required: false}
+      - label: "Article"
+        name: "body"
+        widget: "object"
+        fields:
+          - {label: "Intro", name: "description", widget: "markdown", required: false}
+          - {label: "Article", name: "content", widget: "markdown", required: false}
+          - label: "En savoir plus"
+            name: "readmore"
+            widget: "object"
+            fields:
+              - { label: Texte, name: readtexte, widget: string }
+              - { label: Lien, name: readlien, widget: string }
+          - label: "Liens"
+            name: "link"
+            widget: "list"
+            required: false
+            fields:
+              - { label: Texte, name: linktexte, widget: string }
+              - { label: Lien, name: linklien, widget: string }
+      - label: "Galeries"
+        name: "galeries"
+        widget: "object"
+        fields:
+          - label: "Images"
+            name: "images"
+            widget: "list"
+            required: false
+            fields:
+              - { label: image, name: image, widget: image }
+              - { label: alt, name: alt, widget: string }
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        fields:
+          - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
+          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}          
   - name: "editions"
     label: "📕 Editions"
     folder: "content/editions/page"
@@ -241,10 +365,10 @@ collections:
         widget: "object"
         fields:
           - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
-          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
-  - name: "horslesmurs"
-    label: "📒 Hors Les Murs"
-    folder: "content/hors-les-murs/page"
+          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}        
+  - name: "films"
+    label: "📕 Films"
+    folder: "content/films/page"
     create: true
     slug: "{{slug}}"
     format: 'json'
@@ -253,49 +377,6 @@ collections:
       - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
       - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
-      - label: "Article"
-        name: "body"
-        widget: "object"
-        fields:
-          - {label: "Intro", name: "description", widget: "markdown", required: false}
-          - {label: "Article", name: "content", widget: "markdown", required: false}
-          - {label: "Informations", name: "readmore", widget: "markdown", required: false}
-          - label: "Liens"
-            name: "link"
-            widget: "list"
-            required: false
-            fields:
-              - { label: Texte, name: linktexte, widget: string }
-              - { label: Lien, name: linklien, widget: string }
-      - label: "Galeries"
-        name: "galeries"
-        widget: "object"
-        fields:
-          - label: "Images"
-            name: "images"
-            widget: "list"
-            required: false
-            fields:
-              - { label: image, name: image, widget: image }
-              - { label: alt, name: alt, widget: string }
-      - label: "SEO"
-        name: "seo"
-        widget: "object"
-        fields:
-          - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
-          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
-  - name: "expositions"
-    label: "📓 Expositions"
-    folder: "content/expositions/page"
-    create: true
-    slug: "{{slug}}"
-    format: 'json'
-    fields:
-      - {label: "Image de couverture", name: "cover", widget: "image", required: false}
-      - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
-      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
-      - {label: "Horaires", name: "horaires", widget: "string", required: false}
       - label: "Article"
         name: "body"
         widget: "object"
@@ -319,6 +400,7 @@ collections:
         name: "galeries"
         widget: "object"
         fields:
+          - {label: "Iframe", name: "iframe", widget: "markdown", required: false}
           - label: "Images"
             name: "images"
             widget: "list"
@@ -331,105 +413,54 @@ collections:
         widget: "object"
         fields:
           - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
-          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
+          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}      
   - name: "colloques"
-    label: "📕 Colloques"
-    folder: "content/colloques/page"
-    create: true
-    slug: "{{slug}}"
-    format: 'json'
-    fields:
-      - {label: "Image de couverture", name: "cover", widget: "image", required: false}
-      - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
-      - {label: "Horaires", name: "horaires", widget: "string", required: false}
-      - label: "Article"
-        name: "body"
-        widget: "object"
-        fields:
-          - {label: "Intro", name: "description", widget: "markdown", required: false}
-          - label: "Accordeon"
-            name: "accordeon"
-            widget: "list"
-            required: false
+            label: "📕 Colloques"
+            folder: "content/colloques/page"
+            create: true
+            slug: "{{slug}}"
+            format: 'json'
             fields:
-              - { label: Horaire, name: horaire, widget: string }
-              - { label: Titre, name: titre, widget: string }
+              - {label: "Image de couverture", name: "cover", widget: "image", required: false}
+              - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
+              - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
+              - {label: "Horaires", name: "horaires", widget: "string", required: false}
               - label: "Article"
-                name: "article"
-                widget: "list"
-                required: false
+                name: "body"
+                widget: "object"
                 fields:
-                  - { label: Horaire, name: horaire, widget: string }
-                  - { label: Information, name: information, widget: markdown }
-      - label: "Galeries"
-        name: "galeries"
-        widget: "object"
-        fields:
-          - label: "Images"
-            name: "images"
-            widget: "list"
-            required: false
-            fields:
-              - { label: image, name: image, widget: image }
-              - { label: alt, name: alt, widget: string }
-      - label: "SEO"
-        name: "seo"
-        widget: "object"
-        fields:
-          - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
-          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
-  - name: "sep2"
-    label: "--------"
-    folder: "content/"
-  - name: "residences"
-    label: "📓 Résidences"
-    folder: "content/residences/page"
-    create: true
-    slug: "{{slug}}"
-    format: 'json'
-    fields:
-      - {label: "Image de couverture", name: "cover", widget: "image", required: false}
-      - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
-      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
-      - {label: "Edito", name: "edito", widget: "markdown", required: false}
-      - label: "Photographes"
-        name: "phot"
-        widget: "list"
-        required: false
-        fields:
-          - label: "Photographe"
-            name: "photo"
-            widget: "relation"
-            collection: "photographes"
-            searchFields: ["title"]
-            valueField: "title"
-            displayFields: ["title"]
-          - {label: "Photo du photographe", name: "photoo", widget: "image", required: false}
-      - label: "Bloc texte"
-        name: "bloc"
-        widget: "object"
-        required: false
-        fields:
-          - {label: "Bloc texte 1", name: "bloc1", widget: "markdown", required: false}
-          - {label: "Bloc texte 2", name: "bloc2", widget: "markdown", required: false}
-          - {label: "Bloc texte 3", name: "bloc3", widget: "markdown", required: false}
-          - {label: "Bloc texte 4", name: "bloc4", widget: "markdown", required: false}
-      - label: "Bloc parrain"
-        name: "parrain"
-        widget: "object"
-        required: false
-        fields:
-          - {label: "Nom", name: "name", widget: "string", required: false}
-          - {label: "Article", name: "article", widget: "markdown", required: false}
-          - {label: "Image", name: "img", widget: "image", required: false}
-      - label: "SEO"
-        name: "seo"
-        widget: "object"
-        fields:
-          - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
-          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
+                  - {label: "Intro", name: "description", widget: "markdown", required: false}
+                  - label: "Accordeon"
+                    name: "accordeon"
+                    widget: "list"
+                    required: false
+                    fields:
+                      - { label: Horaire, name: horaire, widget: string }
+                      - { label: Titre, name: titre, widget: string }
+                      - label: "Article"
+                        name: "article"
+                        widget: "list"
+                        required: false
+                        fields:
+                          - { label: Horaire, name: horaire, widget: string }
+                          - { label: Information, name: information, widget: markdown }
+              - label: "Galeries"
+                name: "galeries"
+                widget: "object"
+                fields:
+                  - label: "Images"
+                    name: "images"
+                    widget: "list"
+                    required: false
+                    fields:
+                      - { label: image, name: image, widget: image }
+                      - { label: alt, name: alt, widget: string }
+              - label: "SEO"
+                name: "seo"
+                widget: "object"
+                fields:
+                  - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
+                  - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
   - name: "studies"
     label: "📷 Studies"
     folder: "content/studies/page"
@@ -457,125 +488,97 @@ collections:
         required: false
         fields:
           - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
-          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
+          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}        
+  - name: "sep2"
+    label: "--------"
+    folder: "content/"
   - name: "partenaires"
-    label: "📷 Partenaires"
-    folder: "content/partenaires/page"
-    create: false
-    slug: "{{slug}}"
-    format: 'json'
-    fields:
-      - {label: "Image de couverture", name: "cover", widget: "image", required: false}
-      - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
-      - {label: "Article", name: "content", widget: "markdown", required: false}
-      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
-      - label: "Officiels"
-        name: "officiels"
-        widget: "object"
-        required: false
+        label: "📝 Partenaires"
+        folder: "content/partenaires/page"
+        create: false
+        slug: "{{slug}}"
+        format: 'json'
         fields:
-          - label: "Images"
-            name: "images"
-            widget: "list"
+          - {label: "Image de couverture", name: "cover", widget: "image", required: false}
+          - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
+          - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
+          - {label: "Article", name: "content", widget: "markdown", required: false}
+          - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
+          - label: "Officiels"
+            name: "officiels"
+            widget: "object"
             required: false
             fields:
-              - { label: image, name: image, widget: image }
-              - { label: alt, name: alt, widget: string }
-              - { label: link, name: link, widget: string }
-      - label: "Institutionnels"
-        name: "institutionnels"
-        widget: "object"
-        required: false
-        fields:
-          - label: "Images"
-            name: "images"
-            widget: "list"
+              - label: "Images"
+                name: "images"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: image, name: image, widget: image }
+                  - { label: alt, name: alt, widget: string }
+                  - { label: link, name: link, widget: string }
+          - label: "Institutionnels"
+            name: "institutionnels"
+            widget: "object"
             required: false
             fields:
-              - { label: image, name: image, widget: image }
-              - { label: alt, name: alt, widget: string }
-              - { label: link, name: link, widget: string }
-      - label: "Scientifiques"
-        name: "scientifiques"
-        widget: "object"
-        required: false
-        fields:
-          - label: "Images"
-            name: "images"
-            widget: "list"
+              - label: "Images"
+                name: "images"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: image, name: image, widget: image }
+                  - { label: alt, name: alt, widget: string }
+                  - { label: link, name: link, widget: string }
+          - label: "Scientifiques"
+            name: "scientifiques"
+            widget: "object"
             required: false
             fields:
-              - { label: image, name: image, widget: image }
-              - { label: alt, name: alt, widget: string }
-              - { label: link, name: link, widget: string }
-      - label: "Lieuxasso"
-        name: "lieuxasso"
-        widget: "object"
-        required: false
-        fields:
-          - label: "Images"
-            name: "images"
-            widget: "list"
+              - label: "Images"
+                name: "images"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: image, name: image, widget: image }
+                  - { label: alt, name: alt, widget: string }
+                  - { label: link, name: link, widget: string }
+          - label: "Lieuxasso"
+            name: "lieuxasso"
+            widget: "object"
             required: false
             fields:
-              - { label: image, name: image, widget: image }
-              - { label: alt, name: alt, widget: string }
-              - { label: link, name: link, widget: string }
-      - label: "Prograsso"
-        name: "prograsso"
-        widget: "object"
-        required: false
-        fields:
-          - label: "Images"
-            name: "images"
-            widget: "list"
+              - label: "Images"
+                name: "images"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: image, name: image, widget: image }
+                  - { label: alt, name: alt, widget: string }
+                  - { label: link, name: link, widget: string }
+          - label: "Prograsso"
+            name: "prograsso"
+            widget: "object"
             required: false
             fields:
-              - { label: image, name: image, widget: image }
-              - { label: alt, name: alt, widget: string }
-              - { label: link, name: link, widget: string }
-      - label: "Medias"
-        name: "medias"
-        widget: "object"
-        required: false
-        fields:
-          - label: "Images"
-            name: "images"
-            widget: "list"
+              - label: "Images"
+                name: "images"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: image, name: image, widget: image }
+                  - { label: alt, name: alt, widget: string }
+                  - { label: link, name: link, widget: string }
+          - label: "Medias"
+            name: "medias"
+            widget: "object"
             required: false
             fields:
-              - { label: image, name: image, widget: image }
-              - { label: alt, name: alt, widget: string }
-              - { label: link, name: link, widget: string }
-  - name: "accueil"
-    label: "📓 Accueil"
-    folder: "content/accueil/page"
-    create: true
-    slug: "{{slug}}"
-    format: 'json'
-    fields:
-      - {label: "Image de couverture", name: "cover", widget: "image", required: false}
-      - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
-      - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
-      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
-      - {label: "Edito", name: "edito", widget: "markdown", required: false}
-      - label: "Factory"
-        name: "fact"
-        widget: "list"
-        required: false
-        fields:
-          - label: "Factory"
-            name: "facto"
-            widget: "relation"
-            collection: "factory"
-            searchFields: ["title"]
-            valueField: "title"
-            displayFields: ["title"]
-          - {label: "Photo du Factory", name: "photoo", widget: "image", required: false}
-      - label: "SEO"
-        name: "seo"
-        widget: "object"
-        fields:
-          - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
-          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
+              - label: "Images"
+                name: "images"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: image, name: image, widget: image }
+                  - { label: alt, name: alt, widget: string }
+                  - { label: link, name: link, widget: string }    
