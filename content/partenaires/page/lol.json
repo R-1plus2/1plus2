@@ -187,9 +187,35 @@
   "lieuxasso": {
     "images": [
       {
-        "image": "/images/uploads/11.jpg",
-        "alt": "Nom",
-        "link": "#"
+        "image": "/images/uploads/logomuseumpantone.jpg",
+        "alt": "Muséum"
+      },
+      {
+        "image": "/images/uploads/logo-couleur-cmjn-bellegarde.jpg",
+        "alt": "Centre Culturel Bellegarde"
+      },
+      {
+        "image": "/images/uploads/ct_logo_horiz_noir-cyan_cmjn.jpg",
+        "alt": "La Cinémathèque de Toulouse"
+      },
+      {
+        "image": "/images/uploads/logo-grand-obl.jpg"
+      },
+      {
+        "image": "/images/uploads/logo_scpo_cmjn.jpg",
+        "alt": "Sciences Po Toulouse"
+      },
+      {
+        "image": "/images/uploads/isdat-logo-ba.jpg",
+        "alt": "ISDAT"
+      },
+      {
+        "image": "/images/uploads/quai.jpg",
+        "alt": "Quai des Savoirs"
+      },
+      {
+        "image": "/images/uploads/logo_belin_2013_rvb.jpg",
+        "alt": "Belin Immobilier"
       }
     ]
   }
