@@ -524,7 +524,7 @@ main {
     background: red;
 }
 .blue-page .more-link:hover {
-    color: #fff;
+    color: #fff !important;
     background: var(--color-3);
 }
 .yellow-page .more-link:hover {
