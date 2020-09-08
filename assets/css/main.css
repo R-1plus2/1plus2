@@ -1385,3 +1385,9 @@ main {
 .page-partenaires .image {
     width: calc(25% - 30px);
 }
+.page-partenaires .diapo a {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
