@@ -99,6 +99,7 @@
           }
           slides[slideIndex-1].style.display = "block";
           captionText.innerHTML = dots[slideIndex-1].alt;
+          console.log(dots[slideIndex-1].alt);
         }
       },
       titre(){
