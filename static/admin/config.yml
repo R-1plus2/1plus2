@@ -30,6 +30,97 @@ collections:
             valueField: "title"
             displayFields: ["title"]
           - {label: "Photo du Factory", name: "photoo", widget: "image", required: false}
+      - label: "Residence"
+        name: "resi"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Residence"
+            name: "resid"
+            widget: "relation"
+            collection: "residences"
+            searchFields: ["title"]
+            valueField: "title"
+            displayFields: ["title"]
+          - {label: "Photo de la Residence", name: "photoo", widget: "image", required: false}
+      - label: "Film"
+        name: "film"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Film"
+            name: "films"
+            widget: "relation"
+            collection: "films"
+            searchFields: ["title"]
+            valueField: "title"
+            displayFields: ["title"]
+          - {label: "Photo du Film", name: "photoo", widget: "image", required: false}   
+      - label: "Exposition"
+        name: "expo"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Exposition"
+            name: "expos"
+            widget: "relation"
+            collection: "expositions"
+            searchFields: ["title"]
+            valueField: "title"
+            displayFields: ["title"]
+          - {label: "Photo du Film", name: "photoo", widget: "image", required: false}        
+      - label: "Edition"
+        name: "edit"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Edition"
+            name: "editi"
+            widget: "relation"
+            collection: "editions"
+            searchFields: ["title"]
+            valueField: "title"
+            displayFields: ["title"]
+          - {label: "Photo de Edition", name: "photoo", widget: "image", required: false}
+      - label: "Horslesmurs"
+        name: "hors"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Horslesmurs"
+            name: "horsl"
+            widget: "relation"
+            collection: "horslesmurs"
+            searchFields: ["title"]
+            valueField: "title"
+            displayFields: ["title"]
+          - {label: "Photo du Hors les murs", name: "photoo", widget: "image", required: false}          
+      - label: "Colloque"
+        name: "coll"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Colloque"
+            name: "collo"
+            widget: "relation"
+            collection: "colloques"
+            searchFields: ["title"]
+            valueField: "title"
+            displayFields: ["title"]
+          - {label: "Photo de la Colloque", name: "photoo", widget: "image", required: false}          
+      - label: "Studies"
+        name: "stud"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Studies"
+            name: "studi"
+            widget: "relation"
+            collection: "studies"
+            searchFields: ["title"]
+            valueField: "title"
+            displayFields: ["title"]
+          - {label: "Photo du Studies", name: "photoo", widget: "image", required: false}          
       - label: "SEO"
         name: "seo"
         widget: "object"
@@ -468,6 +559,7 @@ collections:
     slug: "{{slug}}"
     format: 'json'
     fields:
+      - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Image de couverture", name: "cover", widget: "image", required: false}
       - label: "Galeries"
         name: "galeries"
@@ -582,3 +674,16 @@ collections:
               - { label: image, name: image, widget: image }
               - { label: alt, name: alt, widget: string }
               - { label: link, name: link, widget: string }    
+  - name: "contacts"
+    label: "📝 Info - Contacts"
+    folder: "content/contact/page"
+    create: false
+    slug: "{{slug}}"
+    format: 'json'
+    fields:
+      - {label: "Image de couverture", name: "cover", widget: "image", required: false}
+      - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
+      - {label: "Article", name: "content", widget: "markdown", required: false}
+      - {label: "Contact", name: "contact", widget: "markdown", required: false}
+      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}   
