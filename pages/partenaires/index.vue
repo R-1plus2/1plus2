@@ -6,15 +6,6 @@
             <div v-for="i in officiels.images" class="image">
               <a :href="i.link"><img class="selected" :src="i.image" :alt="i.alt"></a>
             </div>
-            <div v-for="i in officiels.images" class="image">
-              <a :href="i.link"><img class="selected" :src="i.image" :alt="i.alt"></a>
-            </div>
-            <div v-for="i in officiels.images" class="image">
-              <a :href="i.link"><img class="selected" :src="i.image" :alt="i.alt"></a>
-            </div>
-            <div v-for="i in officiels.images" class="image">
-              <a :href="i.link"><img class="selected" :src="i.image" :alt="i.alt"></a>
-            </div>
         </div>
         <div class="diapo">
             <h3>PARTENAIRES INSTITUTIONNELS ET PRIVÉS</h3>
