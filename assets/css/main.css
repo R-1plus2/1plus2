@@ -508,6 +508,12 @@ main {
     background: var(--color-3);
     border-color: #fff;
 }
+.red-page .link:hover {
+    background: red;
+}
+.blue-page .link:hover {
+    background: var(--color-3);
+}
 .more-link {
     position: relative;
     padding: 5px 10px;
