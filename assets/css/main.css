@@ -126,9 +126,12 @@ header.open {
         text-transform: uppercase;
     }
         .page-title a {
-            color: var(--color-1);
+            color: gray;
             transition:all .5s ease;
             text-decoration:none;
+        }
+        .red-page .page-title a {
+            color: var(--color-1);
         }
         .yellow-page .page-title a {
             color: var(--color-2);
