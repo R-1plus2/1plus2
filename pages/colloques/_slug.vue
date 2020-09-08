@@ -81,6 +81,7 @@
     destroyed() {},
     mounted() {
       $("body").removeClass('red-page yellow-page blue-page');
+      $("body").addClass('red-page');
       this.diapo();
       this.titre();
       document.querySelectorAll('.accordeon').forEach(el => el.addEventListener('click', e => {
