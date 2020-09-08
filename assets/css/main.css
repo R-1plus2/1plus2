@@ -505,7 +505,7 @@ main {
 }
 .link:hover {
     color: #fff;
-    background: var(--color-3);
+    background: gray;
     border-color: #fff;
 }
 .red-page .link:hover {
