@@ -415,52 +415,52 @@ collections:
           - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
           - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}      
   - name: "colloques"
-            label: "📕 Colloques"
-            folder: "content/colloques/page"
-            create: true
-            slug: "{{slug}}"
-            format: 'json'
+    label: "📕 Colloques"
+    folder: "content/colloques/page"
+    create: true
+    slug: "{{slug}}"
+    format: 'json'
+    fields:
+      - {label: "Image de couverture", name: "cover", widget: "image", required: false}
+      - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
+      - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
+      - {label: "Horaires", name: "horaires", widget: "string", required: false}
+      - label: "Article"
+        name: "body"
+        widget: "object"
+        fields:
+          - {label: "Intro", name: "description", widget: "markdown", required: false}
+          - label: "Accordeon"
+            name: "accordeon"
+            widget: "list"
+            required: false
             fields:
-              - {label: "Image de couverture", name: "cover", widget: "image", required: false}
-              - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
-              - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
-              - {label: "Horaires", name: "horaires", widget: "string", required: false}
+              - { label: Horaire, name: horaire, widget: string }
+              - { label: Titre, name: titre, widget: string }
               - label: "Article"
-                name: "body"
-                widget: "object"
+                name: "article"
+                widget: "list"
+                required: false
                 fields:
-                  - {label: "Intro", name: "description", widget: "markdown", required: false}
-                  - label: "Accordeon"
-                    name: "accordeon"
-                    widget: "list"
-                    required: false
-                    fields:
-                      - { label: Horaire, name: horaire, widget: string }
-                      - { label: Titre, name: titre, widget: string }
-                      - label: "Article"
-                        name: "article"
-                        widget: "list"
-                        required: false
-                        fields:
-                          - { label: Horaire, name: horaire, widget: string }
-                          - { label: Information, name: information, widget: markdown }
-              - label: "Galeries"
-                name: "galeries"
-                widget: "object"
-                fields:
-                  - label: "Images"
-                    name: "images"
-                    widget: "list"
-                    required: false
-                    fields:
-                      - { label: image, name: image, widget: image }
-                      - { label: alt, name: alt, widget: string }
-              - label: "SEO"
-                name: "seo"
-                widget: "object"
-                fields:
-                  - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
-                  - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
+                  - { label: Horaire, name: horaire, widget: string }
+                  - { label: Information, name: information, widget: markdown }
+      - label: "Galeries"
+        name: "galeries"
+        widget: "object"
+        fields:
+          - label: "Images"
+            name: "images"
+            widget: "list"
+            required: false
+            fields:
+              - { label: image, name: image, widget: image }
+              - { label: alt, name: alt, widget: string }
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        fields:
+          - {label: "Description SEO", name: "descriptionseo", widget: "text", required: false}
+          - {label: "Miniature SEO", name: "thumbnail", widget: "image", required: false}
   - name: "studies"
     label: "📷 Studies"
     folder: "content/studies/page"
