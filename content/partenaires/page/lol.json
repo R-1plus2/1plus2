@@ -110,9 +110,20 @@
   "medias": {
     "images": [
       {
-        "image": "/images/uploads/2018film-3.jpg",
-        "alt": "Nom",
-        "link": "#"
+        "image": "/images/uploads/logo-sca-2013.jpg",
+        "alt": "Sciences & Avenir"
+      },
+      {
+        "image": "/images/uploads/fisheye.jpg",
+        "alt": "Fisheye"
+      },
+      {
+        "image": "/images/uploads/campus.jpg",
+        "alt": "Radio Campus"
+      },
+      {
+        "image": "/images/uploads/logo-9lives.jpg",
+        "alt": "9 Lives"
       }
     ]
   },
