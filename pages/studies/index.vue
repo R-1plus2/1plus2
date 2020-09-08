@@ -84,12 +84,20 @@
             console.log(slideIndex);
         });
         $('.prev').on( 'click', function() {
+            console.log('before prev click :');
+            console.log(slideIndex);
+        
             showSlides(slideIndex -= 1);
+            
             console.log('prev click :');
             console.log(slideIndex);
         });
         $('.next').on( 'click', function() {
+            console.log('before next click :');
+            console.log(slideIndex);
+        
             showSlides(slideIndex += 1);
+            
             console.log('next click :');
             console.log(slideIndex);
         });
