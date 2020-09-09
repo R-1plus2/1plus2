@@ -65,19 +65,21 @@
     mounted() {
       $("body").removeClass('red-page yellow-page blue-page');
       this.titre();
+      this.lien();
     },
     destroyed() {
     },
     methods: {
-            titre(){
-                var modif = '<a href="/" >ACCUEIL</a>';
-                $('.page-title').html( modif );
-            }
- 
+        titre(){
+            var modif = '<a href="/" >ACCUEIL</a>';
+            $('.page-title').html( modif );
+        }
+        lien(){
+            console.log("test");
             $('.factory-lien').each( function( ) {
                  var modif = $(this).find('.factory-nom').html();
-                 var NewStr = modif.toLowerCase().replace(/\s/g, "-");
                  console.log(modif);
+                 var NewStr = modif.toLowerCase().replace(/\s/g, "-");                 
                  console.log(NewStr);
                  $(this).attr("href", "/factory/"+NewStr );
             });
@@ -102,6 +104,7 @@
                  console.log(NewStr);
                  $(this).attr("href", "/residences/"+NewStr );
             });
+        }
         
     }
   }
