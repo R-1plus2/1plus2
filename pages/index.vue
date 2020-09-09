@@ -78,30 +78,22 @@
             console.log("test");
             $('.factory-lien').each( function( ) {
                  var modif = $(this).find('.factory-nom').html();
-                 console.log(modif);
                  var NewStr = modif.toLowerCase().replace(/\s/g, "-");                 
-                 console.log(NewStr);
                  $(this).attr("href", "/factory/"+NewStr );
             });
             $('.exposition-lien').each( function( ) {
                  var modif = $(this).find('.exposition-nom').html();
                  var NewStr = modif.toLowerCase().replace(/\s/g, "-");
-                 console.log(modif);
-                 console.log(NewStr);
                  $(this).attr("href", "/expositions/"+NewStr );
             });
             $('.film-lien').each( function( ) {
                  var modif = $(this).find('.film-nom').html();
                  var NewStr = modif.toLowerCase().replace(/\s/g, "-");
-                 console.log(modif);
-                 console.log(NewStr);
                  $(this).attr("href", "/films/"+NewStr );
             });
             $('.residence-lien').each( function( ) {
                  var modif = $(this).find('.residence-nom').html();
                  var NewStr = modif.toLowerCase().replace(/\s/g, "-");
-                 console.log(modif);
-                 console.log(NewStr);
                  $(this).attr("href", "/residences/"+NewStr );
             });
         }
