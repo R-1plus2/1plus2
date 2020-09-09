@@ -71,7 +71,7 @@
     },
     methods: {
         titre(){
-            var modif = '<a href="/" >ACCUEIL</a>';
+            var modif = 'ACCUEIL';
             $('.page-title').html( modif );
         },
         lien(){
