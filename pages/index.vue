@@ -69,7 +69,6 @@
     destroyed() {
     },
     methods: {
-        titre(){
             titre(){
                 var modif = '<a href="/" >ACCUEIL</a>';
                 $('.page-title').html( modif );
@@ -103,7 +102,7 @@
                  console.log(NewStr);
                  $(this).attr("href", "/residences/"+NewStr );
             });
-        }
+        
     }
   }
 </script>
