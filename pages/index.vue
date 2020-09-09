@@ -73,7 +73,7 @@
         titre(){
             var modif = '<a href="/" >ACCUEIL</a>';
             $('.page-title').html( modif );
-        }
+        },
         lien(){
             console.log("test");
             $('.factory-lien').each( function( ) {
