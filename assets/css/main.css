@@ -1445,3 +1445,9 @@ main {
 .page-index .horslesmurs-image {
   background: #ffde00;
 }
+.page-index .color-gray {
+  color: gray !important;
+}
+.page-index .exposition-image {
+  background: gray;
+}
