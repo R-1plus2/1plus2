@@ -1430,3 +1430,18 @@ main {
 .page-index .factory-image {
   background: #1c20e3;
 }
+.page-index .color-red {
+  color: red !important;
+}
+.page-index .residence-image, 
+.page-index .film-image, 
+.page-index .colloque-image, 
+.page-index .edition-image, {
+  background: red;
+}
+.page-index .color-yellow {
+  color: #ffde00 !important;
+}
+.page-index .horslesmurs-image {
+  background: #ffde00;
+}
