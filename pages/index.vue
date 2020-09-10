@@ -34,7 +34,7 @@
                 </div>
             </a>
         </article>
-        <a class="read-more" href="/factory/">VOIR LES FILMS</a>
+        <a class="read-more" href="/films/">VOIR LES FILMS</a>
     </div> 
     <div class="colx4">
         <h3>EXPOSITIONS</h3>
@@ -46,7 +46,7 @@
                 </div>
             </a>
         </article>
-        <a class="read-more" href="/factory/">VOIR LES EXPOSITIONS</a>
+        <a class="read-more" href="/expositions/">VOIR LES EXPOSITIONS</a>
     </div> 
     
   </main>
