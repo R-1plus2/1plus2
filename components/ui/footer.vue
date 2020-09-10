@@ -6,7 +6,7 @@
         <a target="_blank" href="https://www.instagram.com/residence1plus2/"><i class="fab fa-instagram"></i></a>
     </div>
     <div class="copyright"> 
-      <p>WEBSITE BY <a target="_blank" href="https://www.piks-l.fr/">PIKS-L.FR</a></p>     
+      <p>WEBSITE BY <a target="_blank" href="https://www.piks-l.fr/">PIKS-L.FR</a> & <a target="_blank" href="https://www.iamsailor.com/">IAMSAILOR</a></p>     
       <p>© www.1plus2.fr - Tous droits réservés</p>
     </div>
   </footer>
