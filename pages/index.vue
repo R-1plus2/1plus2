@@ -1,5 +1,6 @@
 <template>
   <main class="page-index">
+    <div class="intro"><p>{{ intro }}</p></div>
     <div class="colx4">
         <h3 class="color-blue">FACTORY</h3>
         <article v-for="i in fact" class="small-article facto-home">
