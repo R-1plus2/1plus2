@@ -1375,12 +1375,17 @@ main {
     color:#000;
     text-decoration: none;
 }
-
+.page-studies .intro {
+    border-color: #e9e9e9;
+    color: gray;
+}
 .page-studies .small-article {
     float: none;
 }
 .left-side .diapo h3 {
-    font-size: 24px;
+    font-size: 26px;
+    text-align: center;
+    color: red;
 }
 .page-partenaires .left-side {
     width: 60%;
@@ -1455,4 +1460,8 @@ main {
 }
 .page-index .x2 {
     margin-top: 50px;
+}
+.page-index .intro {
+    border-color: #e9e9e9;
+    color: gray;
 }
