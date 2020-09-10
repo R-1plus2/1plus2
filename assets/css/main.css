@@ -1453,3 +1453,6 @@ main {
 .page-index .exposition-image, .page-index .studie-image {
   background: gray;
 }
+.page-index .x2 {
+    margin-top: 50px;
+}
