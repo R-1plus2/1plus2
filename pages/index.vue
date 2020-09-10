@@ -15,7 +15,7 @@
     <div class="colx4">
         <h3>RESIDENCE</h3>
         <article v-for="i in resi" class="small-article residence-home">
-            <a class="article-padding residence-lien" :href="i.resid">
+            <a class="article-padding residence-lien color-red" :href="i.resid">
                 <img class="cover" :src="i.photoo"/>
                 <div class="content residence-image">
                     <h3 class="title-article residence-nom">{{ i.resid}}</h3>
@@ -27,7 +27,7 @@
     <div class="colx4">
         <h3>FILM</h3>
         <article v-for="i in film" class="small-article film-home">
-            <a class="article-padding film-lien" :href="i.films">
+            <a class="article-padding film-lien color-red" :href="i.films">
                 <img class="cover" :src="i.photoo"/>
                 <div class="content film-image">
                     <h3 class="title-article film-nom">{{ i.films}}</h3>
@@ -39,7 +39,7 @@
     <div class="colx4">
         <h3>EXPOSITIONS</h3>
         <article v-for="i in expo" class="small-article exposition-home">
-            <a class="article-padding exposition-lien" :href="i.expos">
+            <a class="article-padding exposition-lien color-gray" :href="i.expos">
                 <img class="cover" :src="i.photoo"/>
                 <div class="content exposition-image">
                     <h3 class="title-article exposition-nom">{{ i.expos}}</h3>
