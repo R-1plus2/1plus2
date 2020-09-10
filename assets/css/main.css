@@ -1400,7 +1400,9 @@ main {
 .page-partenaires .diapo .image{
     background:#fff; 
 }
-
+.page-index {
+    display: inline-block;
+}
 .page-index h3 {
   font-size: 26px;
   text-align: center;
