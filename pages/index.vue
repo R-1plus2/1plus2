@@ -1,9 +1,9 @@
 <template>
   <main class="page-index">
     <div class="colx4">
-        <h3>FACTORY</h3>
+        <h3 class="color-blue">FACTORY</h3>
         <article v-for="i in fact" class="small-article facto-home">
-            <a class="article-padding factory-lien" :href="i.facto">
+            <a class="article-padding factory-lien color-blue" :href="i.facto">
                 <img class="cover" :src="i.photoo"/>
                 <div class="content factory-image">
                     <h3 class="title-article factory-nom">{{ i.facto}}</h3>
