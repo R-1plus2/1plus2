@@ -1,6 +1,6 @@
 <template>
   <main class="page-index">
-    <div class="intro"><p>{{ intro }}</p></div>
+    <div class="intro"><p>{{ edito }}</p></div>
   
     <div class="colx4">
         <article v-for="i in coll" class="small-article colloque-home">
