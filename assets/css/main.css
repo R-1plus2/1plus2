@@ -1423,6 +1423,10 @@ main {
 }
 .page-index .read-more:hover {
   color: black;
-  text-decoration: underline;
-  text-decoration-color: red;
+}
+.page-index .color-blue {
+  color: #1c20e3 !important;
+}
+.page-index .factory-image {
+  background: #1c20e3;
 }
