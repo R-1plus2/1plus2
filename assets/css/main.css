@@ -1410,3 +1410,19 @@ main {
   width: 25%;
   float: left;
 }
+.page-index .small-article {
+  width: 100%;
+}
+.page-index .read-more {
+  width: 100%;
+  display: table-caption;
+  font-size: 16px;
+  text-align: center;
+  color: gray;
+  text-decoration: none;
+}
+.page-index .read-more:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
