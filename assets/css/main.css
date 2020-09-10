@@ -1450,6 +1450,6 @@ main {
 .page-index .color-gray {
   color: gray !important;
 }
-.page-index .exposition-image {
+.page-index .exposition-image, .page-index .studie-image {
   background: gray;
 }
