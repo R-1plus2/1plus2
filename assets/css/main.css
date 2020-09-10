@@ -1381,6 +1381,7 @@ main {
 }
 .page-studies .small-article {
     float: none;
+    cursor: zoom-in; 
 }
 .left-side .diapo h3 {
     font-size: 26px;
@@ -1467,4 +1468,7 @@ main {
 }
 .page-expositions .content, .page-photographe .content {
     background: gray;
+}
+.diapo .image{ 
+  cursor: zoom-in; 
 }
