@@ -1400,3 +1400,13 @@ main {
 .page-partenaires .diapo .image{
     background:#fff; 
 }
+
+.page-index h3 {
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.page-index .colx4 {
+  width: 25%;
+  float: left;
+}
