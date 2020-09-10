@@ -13,7 +13,7 @@
         <a class="read-more" href="/factory/">VOIR LES FACTORY</a>
     </div>
     <div class="colx4">
-        <h3>RESIDENCE</h3>
+        <h3 class="color-red">RESIDENCE</h3>
         <article v-for="i in resi" class="small-article residence-home">
             <a class="article-padding residence-lien color-red" :href="i.resid">
                 <img class="cover" :src="i.photoo"/>
@@ -25,7 +25,7 @@
         <a class="read-more" href="/residences/">VOIR LES RESIDENCES</a>
     </div> 
     <div class="colx4">
-        <h3>FILM</h3>
+        <h3 class="color-red">FILM</h3>
         <article v-for="i in film" class="small-article film-home">
             <a class="article-padding film-lien color-red" :href="i.films">
                 <img class="cover" :src="i.photoo"/>
@@ -37,7 +37,7 @@
         <a class="read-more" href="/films/">VOIR LES FILMS</a>
     </div> 
     <div class="colx4">
-        <h3>EXPOSITIONS</h3>
+        <h3 class="color-gray">EXPOSITIONS</h3>
         <article v-for="i in expo" class="small-article exposition-home">
             <a class="article-padding exposition-lien color-gray" :href="i.expos">
                 <img class="cover" :src="i.photoo"/>
