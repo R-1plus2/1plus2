@@ -62,7 +62,7 @@
         <h3 class="color-blue">FACTORY</h3>
         <a class="read-more" href="/factory/">VOIR LES FACTORY</a>
     </div> 
-    <div class="colx4">
+    <div class="colx4 x2">
         <article v-for="i in expo" class="small-article exposition-home">
             <a class="article-padding exposition-lien color-gray" :href="i.expos">
                 <img class="cover" :src="i.photoo"/>
@@ -74,7 +74,7 @@
         <h3 class="color-gray">EXPOSITION</h3>
         <a class="read-more" href="/expositions/">VOIR LES EXPOSITIONS</a>
     </div>   
-    <div class="colx4">
+    <div class="colx4 x2">
         <article v-for="i in stud" class="small-article studie-home">
             <a class="article-padding studie-lien color-gray" :href="i.studi">
                 <img class="cover" :src="i.photoo"/>
@@ -86,7 +86,7 @@
         <h3 class="color-gray">STUDIES</h3>
         <a class="read-more" href="/studies/">VOIR LES STUDIES</a>
     </div>  
-    <div class="colx4">
+    <div class="colx4 x2">
         <article v-for="i in hors" class="small-article horslesmurs-home">
             <a class="article-padding horslesmurs-lien color-yellow" :href="i.horsl">
                 <img class="cover" :src="i.photoo"/>
