@@ -63,7 +63,6 @@
         <a class="read-more" href="/factory/">VOIR LES FACTORY</a>
     </div> 
     <div class="colx4">
-        <h3 class="color-gray">EXPOSITION</h3>
         <article v-for="i in expo" class="small-article exposition-home">
             <a class="article-padding exposition-lien color-gray" :href="i.expos">
                 <img class="cover" :src="i.photoo"/>
@@ -72,6 +71,7 @@
                 </div>
             </a>
         </article>
+        <h3 class="color-gray">EXPOSITION</h3>
         <a class="read-more" href="/expositions/">VOIR LES EXPOSITIONS</a>
     </div>   
     <div class="colx4">
