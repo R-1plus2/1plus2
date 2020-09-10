@@ -37,7 +37,7 @@
         <a class="read-more" href="/films/">VOIR LES FILMS</a>
     </div> 
     <div class="colx4">
-        <h3 class="color-gray">EXPOSITIONS</h3>
+        <h3 class="color-gray">EXPOSITION</h3>
         <article v-for="i in expo" class="small-article exposition-home">
             <a class="article-padding exposition-lien color-gray" :href="i.expos">
                 <img class="cover" :src="i.photoo"/>
@@ -47,8 +47,55 @@
             </a>
         </article>
         <a class="read-more" href="/expositions/">VOIR LES EXPOSITIONS</a>
+    </div>   
+    <div class="colx4">
+        <h3 class="color-red">COLLOQUE</h3>
+        <article v-for="i in coll" class="small-article colloque-home">
+            <a class="article-padding colloque-lien color-red" :href="i.collo">
+                <img class="cover" :src="i.photoo"/>
+                <div class="content colloque-image">
+                    <h3 class="title-article colloque-nom">{{ i.collo}}</h3>
+                </div>
+            </a>
+        </article>
+        <a class="read-more" href="/colloques/">VOIR LES COLLOQUES</a>
+    </div>
+    <div class="colx4">
+        <h3 class="color-gray">STUDIES</h3>
+        <article v-for="i in stud" class="small-article studie-home">
+            <a class="article-padding studie-lien color-gray" :href="i.studi">
+                <img class="cover" :src="i.photoo"/>
+                <div class="content studie-image">
+                    <h3 class="title-article studie-nom">{{ i.studi}}</h3>
+                </div>
+            </a>
+        </article>
+        <a class="read-more" href="/studies/">VOIR LES STUDIES</a>
     </div> 
-    
+    <div class="colx4">
+        <h3 class="color-red">EDITION</h3>
+        <article v-for="i in edit" class="small-article edition-home">
+            <a class="article-padding edition-lien color-red" :href="i.editi">
+                <img class="cover" :src="i.photoo"/>
+                <div class="content edition-image">
+                    <h3 class="title-article edition-nom">{{ i.editi}}</h3>
+                </div>
+            </a>
+        </article>
+        <a class="read-more" href="/editions/">VOIR LES EDITIONS</a>
+    </div> 
+    <div class="colx4">
+        <h3 class="color-yellow">HORS LES MURS</h3>
+        <article v-for="i in hors" class="small-article horslesmurs-home">
+            <a class="article-padding horslesmurs-lien color-yellow" :href="i.horsl">
+                <img class="cover" :src="i.photoo"/>
+                <div class="content horslesmurs-image">
+                    <h3 class="title-article horslesmurs-nom">{{ i.horsl}}</h3>
+                </div>
+            </a>
+        </article>
+        <a class="read-more" href="/hors-les-murs/">VOIR LES HORS LES MURS</a>
+    </div>     
   </main>
 </template>
 <script>
@@ -75,7 +122,7 @@
             $('.page-title').html( modif );
         },
         lien(){
-            console.log("test");
+            console.log("WEBSITE BY PIKS-L.FR");
             $('.factory-lien').each( function( ) {
                  var modif = $(this).find('.factory-nom').html();
                  var NewStr = modif.toLowerCase().replace(/\s/g, "-");                 
@@ -96,8 +143,22 @@
                  var NewStr = modif.toLowerCase().replace(/\s/g, "-");
                  $(this).attr("href", "/residences/"+NewStr );
             });
+            $('.edition-lien').each( function( ) {
+                 var modif = $(this).find('.edition-nom').html();
+                 var NewStr = modif.toLowerCase().replace(/\s/g, "-");
+                 $(this).attr("href", "/editions/"+NewStr );
+            });
+            $('.horslesmurs-lien').each( function( ) {
+                 var modif = $(this).find('.horslesmurs-nom').html();
+                 var NewStr = modif.toLowerCase().replace(/\s/g, "-");
+                 $(this).attr("href", "/hors-les-murs/"+NewStr );
+            });
+            $('.colloque-lien').each( function( ) {
+                 var modif = $(this).find('.colloque-nom').html();
+                 var NewStr = modif.toLowerCase().replace(/\s/g, "-");
+                 $(this).attr("href", "/colloques/"+NewStr );
+            });
         }
-        
     }
   }
 </script>
