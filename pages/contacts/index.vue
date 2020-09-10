@@ -1,5 +1,5 @@
 <template>
-  <main class="page-partenaires">
+  <main class="page-contacts">
     <div class="left-side">
         <h3 class="title-article">{{ soustitre }}</h3>
         <div class="content">
@@ -47,7 +47,7 @@
     },
     methods: {
       titre(){
-          var modif = 'INFOS - CONTACTS';
+          var modif = 'CONTACTS';
           $('.page-title').html( modif );
       }
     }
