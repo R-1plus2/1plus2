@@ -302,6 +302,9 @@
       padding: 0;
       float: none;
   }
+  .page-partenaires .left-side {
+      width: 100%;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 959px) {
