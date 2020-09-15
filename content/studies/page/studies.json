@@ -5,50 +5,46 @@
     "images": [
       {
         "image": "/images/uploads/©Anais-Ondet_2018_01.jpg",
-        "alt": "©Anais Ondet, 2018."
+        "alt": "© Anais Ondet, 2018."
       },
       {
         "image": "/images/uploads/©Anais-Ondet_2018_02.jpg",
-        "alt": "©Anais Ondet, 2018."
+        "alt": "© Anais Ondet, 2018."
       },
       {
         "image": "/images/uploads/©Anais-Ondet_2018_03.jpg",
-        "alt": "©Anais Ondet, 2018. "
+        "alt": "© Anais Ondet, 2018. "
       },
       {
         "image": "/images/uploads/©Philippe-Guionie_2017_27.jpg",
-        "alt": "©Philippe Guionie, 2017. "
+        "alt": "© Philippe Guionie, 2017. "
       },
       {
         "image": "/images/uploads/©Résidence1+2_2018_01.jpg",
-        "alt": "©Résidence 1+2, 2018."
+        "alt": "© Résidence 1+2, 2018."
       },
       {
         "image": "/images/uploads/©Résidence1+2_2018_03.jpg",
-        "alt": "©Résidence 1+2, 2018."
+        "alt": "© Résidence 1+2, 2018."
       },
       {
         "image": "/images/uploads/©Résidence1+2_2020_04.jpg",
-        "alt": "©Résidence 1+2, 2020."
+        "alt": "© Résidence 1+2, 2020."
       },
       {
         "image": "/images/uploads/©Romain-Peli_2016_01.jpg",
-        "alt": "©Romain Peli, 2016."
+        "alt": "© Romain Peli, 2016."
       },
       {
         "image": "/images/uploads/©Romain-Peli_2016_03.jpg",
-        "alt": "©Romain Peli, 2016."
+        "alt": "© Romain Peli, 2016."
       },
       {
         "image": "/images/uploads/©Romain-Peli_2016_07.jpg",
-        "alt": "©Romain Peli, 2016. "
+        "alt": "© Romain Peli, 2016. "
       },
       {
         "image": "/images/uploads/©Romain-Peli_2016_04.jpg",
-        "alt": "©Romain Peli, 2016."
-      },
-      {
-        "image": "/images/uploads/©Romain-Peli_2016_05.jpg",
         "alt": "© Romain Peli, 2016."
       },
       {
@@ -56,8 +52,36 @@
         "alt": "© Romain Peli, 2016."
       },
       {
-        "image": "/images/uploads/©Romain-Peli_2016_08.jpg",
-        "alt": "©Romain Peli, 2016."
+        "image": "/images/uploads/©résidence1-2_2018_04.gif",
+        "alt": "© Résidence 1+2, 2018."
+      },
+      {
+        "image": "/images/uploads/©résidence1-2_2018_06.gif",
+        "alt": "© Résidence 1+2, 2018. "
+      },
+      {
+        "image": "/images/uploads/©résidence1-2_2019_01.gif",
+        "alt": "© Résidence 1+2, 2019. "
+      },
+      {
+        "image": "/images/uploads/©résidence1-2_2019_02.gif",
+        "alt": "© Résidence 1+2, 2019. "
+      },
+      {
+        "image": "/images/uploads/©résidence1-2_2019_04.gif",
+        "alt": "© Résidence 1+2, 2019. "
+      },
+      {
+        "image": "/images/uploads/©résidence1-2_2019_05.gif",
+        "alt": "© Résidence 1+2, 2019. "
+      },
+      {
+        "image": "/images/uploads/©résidence1-2_2020_01.gif",
+        "alt": "© Résidence 1+2, 2020. "
+      },
+      {
+        "image": "/images/uploads/©résidence1-2_2020_03.gif",
+        "alt": "© Résidence 1+2, 2020. "
       }
     ]
   },
