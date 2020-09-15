@@ -1,0 +1,31 @@
+{
+  "title": "RÉSIDENCE 2018",
+  "soustitre": "Toulouse - Galerie Barrès ",
+  "date": "2018/10/13",
+  "horaires": "13 OCT > 30 NOV 2018",
+  "body": {
+    "description": "### SMITH, CAMILLE CARBONARO, PRUNE PHI\n\n### `VENISSAGE LE À` \n\n`En présence de SMITH, Camille CARBONARO, Prune PHI et de` \n\nGalerie Barrès-Rivet \n1 place Sainte Scarbes - Toulouse\n",
+    "content": "#",
+    "readmore": {
+      "readtexte": "RÉSIDENCE 2018"
+    },
+    "link": [
+      {
+        "linktexte": "Galerie Jean-Paul Barrès",
+        "linklien": "http://www.galeriejeanpaulbarres.com/"
+      }
+    ]
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/expo_affiche_2018.jpg",
+        "alt": "Affiche Exposition Résidence 1+2 2018"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "Exposition de SMITH, Camille CARBONARO et de Prune PHI à la Galerie Jean-Paul Barrès à Toulouse. \nExposition du 13 octobre au 30 novembre 2018. ",
+    "thumbnail": "/images/uploads/expo_affiche_2018.jpg"
+  }
+}
