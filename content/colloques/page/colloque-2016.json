@@ -1,4 +1,5 @@
 {
+  "cover": "/images/uploads/colloque_affiche_2016.gif",
   "title": "COLLOQUE 2016",
   "soustitre": "Photographie et Sciences ",
   "horaires": "SAMEDI 5 NOVEMBRE ",
@@ -74,11 +75,12 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/colloque-affiche2019.jpg"
+        "image": "/images/uploads/colloque_affiche_2016.gif"
       }
     ]
   },
   "seo": {
-    "descriptionseo": "COLLOQUE 2016\n8h30 à 18h30 à l'auditorium du Musée des Abattoirs - 76 allées Charles de Fitte - Toulouse"
+    "descriptionseo": "COLLOQUE 2016\n8h30 à 18h30 à l'auditorium du Musée des Abattoirs - 76 allées Charles de Fitte - Toulouse",
+    "thumbnail": "/images/uploads/colloque_affiche_2016.gif"
   }
 }
