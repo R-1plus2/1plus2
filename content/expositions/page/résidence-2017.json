@@ -1,0 +1,32 @@
+{
+  "cover": "/images/uploads/affiche_exposition_2017.jpg",
+  "title": "RÉSIDENCE 2017",
+  "soustitre": "Toulouse - Musée Paul Dupuy ",
+  "date": "2017/10/13",
+  "horaires": "13 OCT > 19 NOV 2017",
+  "body": {
+    "description": "### ISRAEL ARIÑO, LESLI MOQUIN & CHIRSTIAN SANNA\n\n### `VERNISSAGE À`\n\n`En présence de `\n\nMusée Paul Dupuy \n13 rue de la Pleau - Toulouse",
+    "content": "#",
+    "readmore": {
+      "readtexte": "RÉSIDENCE 2017"
+    },
+    "link": [
+      {
+        "linktexte": "Musée Paul Dupuy ",
+        "linklien": "https://www.ampdupuy.fr/"
+      }
+    ]
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/affiche_exposition_2017.jpg",
+        "alt": "Affiche Exposition Résidence 1+2 2017"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "Exposition de Israel Ariño, Lesli Moquin et Christian Sanna au musée Paul Dupuy.\nEXPOSITION du 13 octobre au 19 novembre 2017. ",
+    "thumbnail": "/images/uploads/affiche_exposition_2017.jpg"
+  }
+}
