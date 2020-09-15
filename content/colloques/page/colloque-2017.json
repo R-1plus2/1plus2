@@ -1,4 +1,5 @@
 {
+  "cover": "/images/uploads/affiche_colloque_2017.gif",
   "title": "COLLOQUE 2017",
   "soustitre": "Photographie et Sciences ",
   "horaires": "SAMEDI 14 OCTOBRE 2017",
@@ -83,11 +84,12 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/affiche_colloque_2017.jpg"
+        "image": "/images/uploads/affiche_colloque_2017.gif"
       }
     ]
   },
   "seo": {
-    "descriptionseo": "COLLOQUE 2017\n8h30 à 18h30 à l'auditorium du Musée des Abattoirs - 76 allées Charles de Fitte - Toulouse"
+    "descriptionseo": "COLLOQUE 2017\n8h30 à 18h30 à l'auditorium du Musée des Abattoirs - 76 allées Charles de Fitte - Toulouse",
+    "thumbnail": "/images/uploads/affiche_colloque_2017.gif"
   }
 }
