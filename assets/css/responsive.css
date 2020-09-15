@@ -305,6 +305,9 @@
   .page-partenaires .left-side {
       width: 100%;
   }
+  .page-contacts .right-side {
+      float: none;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 959px) {
@@ -534,6 +537,9 @@
   }
   .page-partenaires .image {
       width: calc(25% - 30px);
+  }
+  .page-contacts .right-side {
+      float: none;
   }
 }
 
