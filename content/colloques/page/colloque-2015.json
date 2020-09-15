@@ -1,4 +1,5 @@
 {
+  "cover": "/images/uploads/affiche_colloque_2015.gif",
   "title": "COLLOQUE 2015",
   "soustitre": "Photographie et Sciences ",
   "horaires": "SAMEDI 12 OCTOBRE 2015",
@@ -68,11 +69,12 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/colloque-affiche2019.jpg"
+        "image": "/images/uploads/affiche_colloque_2015.gif"
       }
     ]
   },
   "seo": {
-    "descriptionseo": "COLLOQUE 2015\n8h30 à 18h à l'auditorium du Musée des Abattoirs - 76 allées Charles de Fitte - Toulouse"
+    "descriptionseo": "COLLOQUE 2015\n8h30 à 18h à l'auditorium du Musée des Abattoirs - 76 allées Charles de Fitte - Toulouse",
+    "thumbnail": "/images/uploads/affiche_colloque_2015.gif"
   }
 }
