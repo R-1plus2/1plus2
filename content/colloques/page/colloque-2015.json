@@ -1,0 +1,78 @@
+{
+  "title": "COLLOQUE 2015",
+  "soustitre": "Photographie et Sciences ",
+  "horaires": "SAMEDI 12 OCTOBRE 2015",
+  "body": {
+    "description": "**08h30 à 18h30 à l'auditorium du Musée des Abattoirs**  \n76 allées Charles de Fitte - Toulouse  \n[lesabattoirs.org](https://www.lesabattoirs.org/)",
+    "accordeon": [
+      {
+        "horaire": "8h30 > 9h30",
+        "titre": "OUVERTURE DES PORTES ",
+        "article": [
+          {
+            "horaire": "8h50",
+            "information": "**Introduction par Philippe Guionie**, directeur de la Résidence 1+2, organisateur du colloque. "
+          },
+          {
+            "horaire": "9h > 9h30",
+            "information": "**VOIR LA RÉSIDENCE\r**\nUne sélection d’archives télévisuelles issues des collections régionales de\r l’Ina. \nProjection présentée par **Chantal Delmont** (responsable documentaire, délégation\r\nIna Pyrénées, Toulouse). Partenariat 1+2 / Ina Pyrénées."
+          }
+        ]
+      },
+      {
+        "horaire": "9h30 > 15h",
+        "titre": "PENSER ET CONSTRUIRE LA RÉSIDENCE ",
+        "article": [
+          {
+            "information": "Documenter le territoire, quelle photographie pour quels enjeux ?\r\nNeuf directeurs artistiques témoignent et confrontent leurs expériences respectives.\r\nProjections, conférences, débats."
+          },
+          {
+            "horaire": "9h30 > 12h30",
+            "information": "**Première table ronde : les résidences « historiques »\r**\n\n- **Fred Boucher** (Diaphane, Beauvais)\r\n- **François Cheval** (Musée Nicéphore Nièpce, Chalon-sur-Saône)\r\n- **Patrick Delat** (Villa Pérochon, Niort)\r\n- **Gilles Favier** (ImageSingulières, Sète)\r\n- **Jérôme Sother** (GwinZegal, Guingamp)"
+          },
+          {
+            "horaire": "14h > 15h",
+            "information": "**Seconde table ronde : l’émergence de nouvelles résidences sur le territoire**\n\n\rModération : **Brigitte Patient**, journaliste, productrice de l’émission « Regardez voir »\r consacrée à la photographie sur France Inter.\n- **Pascal Dolémieux** & **Rita Scaglia** (Fotograficasa, Corse)\r\n- **Fany Dupêchez** (Vichy)\r\n- **Elisabeth Hebert** (L’Oeil urbain, Corbeil-Essonnes)\r\n"
+          }
+        ]
+      },
+      {
+        "horaire": "15h > 16h",
+        "titre": "VIVRE LA RÉSIDENCE ",
+        "article": [
+          {
+            "information": "_**Quelles expériences pour les photographes ?\r**_\n\nModérations : **Rémi Coignet** (rédacteur en chef de la revue The Eyes) et **Olivia Marsaud**\r (journaliste, critique, commissaire)\n\nTrois photographes témoignent :\r\n- **Mat Jacob** (Tendance Floue, Paris)\r\n- **Ida Jakobs** (Toulouse)\r\n- **Israel Ariño** (Galerie Vu’, Barcelone)\r\n"
+          }
+        ]
+      },
+      {
+        "horaire": "16h15 > 17h15",
+        "titre": "ÉDITER LA RÉSIDENCE ",
+        "article": [
+          {
+            "information": "Deux éditeurs partagent et confrontent leurs expériences :\r\n- **Fabienne Pavia** (Éditions Le Bec en l’air, Marseille)\r\n- **Fred Boucher** (Editions Diaphane, Beauvais)\r\n\nModérations : **Rémi Coignet** (rédacteur en chef de la revue The Eyes) et **Olivia Marsaud**\r (journaliste, critique, commissaire)."
+          }
+        ]
+      },
+      {
+        "horaire": "17h15 > 18h30",
+        "titre": "LANCEMENT OFFICIEL DE LA RÉSIDENCE 1+1",
+        "article": [
+          {
+            "information": "**En présence des partenaires et des trois photographes choisis pour l’édition\r\n2016.** \n\n_**Clôture du colloque**_"
+          }
+        ]
+      }
+    ]
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/colloque-affiche2019.jpg"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "COLLOQUE 2015\n8h30 à 18h à l'auditorium du Musée des Abattoirs - 76 allées Charles de Fitte - Toulouse"
+  }
+}
