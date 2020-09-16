@@ -805,9 +805,9 @@ main {
     position: fixed;
     z-index: 101;
     padding: 50px 0;
-    left: 0;
+    left: 200px;
     top: 0;
-    width: 100%;
+    width: calc(100% - 200px);
     height: calc(100% - 100px);
     overflow: auto;
     background-color: #e9e9e9;
@@ -887,7 +887,7 @@ main {
     position: fixed;
     bottom: 15px;
     width: 60%;
-    left: 50%;
+    left: calc(50% + 100px);
     transform: translateX(-50%);
 }
 #caption {
