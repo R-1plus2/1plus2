@@ -747,7 +747,7 @@ main {
 
 /* page actu slug */
 .page-article-actu .article-slug {
-    width: calc(70% - 150px);
+    width: calc(100% - 150px);
     position: relative;
     overflow: hidden;
     display: inline-block;
@@ -755,11 +755,12 @@ main {
     font-size: initial;
 }
 .page-article-actu .sidebar {
-    width: 30%;
-    float: right;
+    width: calc(100% - 150px);
+    float: none;
     position: relative;
     display: inline-block;
     font-size: initial;
+    padding: 0 100px 0 50px;
 }
 .page-article-actu .title-article {
     font-size: 3em;
@@ -792,7 +793,11 @@ main {
     text-align: justify;
     margin-bottom: 50px;
 }
-
+.article-slug img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 /* Lightbox */
 .modal {
