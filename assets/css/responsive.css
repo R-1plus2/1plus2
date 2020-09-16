@@ -315,6 +315,13 @@
   .page-article-actu .title-article {
       font-size: 2em;
   }
+  .modal {
+      width: 100%;
+      left: 0;
+  }
+  .caption-container {
+      left: 50%;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 959px) {
@@ -554,6 +561,13 @@
   }
   .page-article-actu .title-article {
       font-size: 2em;
+  }
+  .modal {
+      width: calc(100% - 100px);
+      left: 100px;
+  }
+  .caption-container {
+      left: calc(50% + 50px);
   }
 }
 
