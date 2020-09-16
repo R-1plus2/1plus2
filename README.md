@@ -1,1 +1,1 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9701f426-b059-477e-bd3c-e9b8d38b5ea8/deploy-status)](https://app.netlify.com/sites/1plus2/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9061e954-b74d-4c24-9df3-3e8ee40ac743/deploy-status)](https://app.netlify.com/sites/piksl-1plus2/deploys)
