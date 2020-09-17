@@ -1,5 +1,11 @@
 <template>
   <main class="page-residence">
+    <div class="intro">
+        <p> La Résidence 1+2 «Photographie & Sciences» est un programme culturel ancré à Toulouse associant la photographie et les sciences. Chaque année,la Résidence 
+        1+2 rassemble trois photographes (1 photographe de renom + 2 photographes émergent.es) pour une résidence de deux mois. Durant ce temps, les photographes 
+        vivent ensemble et créent une oeuvre personnelle et inédite. Le trio est soutenu dans ses recherches par des institutions scientifiques et des chercheur.e.s
+        basé.e.s à Toulouse et en Occitanie. </p>
+    </div> 
     <div class="grid">
         <article v-for="r in residence" class="small-article">
             <nuxt-link class="article-padding" :to="r._path+'/'">
