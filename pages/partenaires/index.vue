@@ -2,6 +2,12 @@
   <main class="page-partenaires">
     <div class="left-side">
         <div class="diapo">
+            <h3>LABELS</h3>
+            <div v-for="i in label.images" class="image">
+              <a :href="i.link"><img class="selected" :src="i.image" :alt="i.alt"></a>
+            </div>
+        </div>
+        <div class="diapo">
             <h3>PARTENAIRES OFFICIELS</h3>
             <div v-for="i in officiels.images" class="image">
               <a :href="i.link"><img class="selected" :src="i.image" :alt="i.alt"></a>
