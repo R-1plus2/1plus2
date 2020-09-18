@@ -1,7 +1,6 @@
 <template>
   <main class="page-index">
     <div class="intro"><p>{{ edito }}</p></div>
-    
     <div class="colx4">
         <article v-for="i in resi" class="small-article residence-home">
             <a class="article-padding residence-lien color-red" :href="i.resid">
