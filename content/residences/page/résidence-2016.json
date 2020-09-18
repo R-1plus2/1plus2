@@ -15,13 +15,16 @@
   },
   "phot": [
     {
-      "photo": "ALICE LÉVÊQUE"
+      "photo": "DIANA LUI",
+      "photoo": "/images/uploads/diana_lui_visuel_principal.jpg"
     },
     {
-      "photo": "DIANA LUI"
+      "photo": "ALICE LEVÊQUE",
+      "photoo": "/images/uploads/leveque_stix-nebulosa-2.jpg"
     },
     {
-      "photo": "LÉA PATRIX"
+      "photo": "LÉA PATRIX",
+      "photoo": "/images/uploads/patrix_04.jpg"
     }
   ],
   "bloc": {
