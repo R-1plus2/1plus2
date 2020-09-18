@@ -15,19 +15,24 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/diana_lui_visuel_principal.jpg"
+        "image": "/images/uploads/diana_lui_visuel_principal.jpg",
+        "alt": "© Diana Lui / Les étoiles de Diana / Résidence 1+2 #2016"
       },
       {
-        "image": "/images/uploads/diana_lui3.jpg"
+        "image": "/images/uploads/diana_lui3.jpg",
+        "alt": "© Diana Lui / Les étoiles de Diana / Résidence 1+2 #2016"
       },
       {
-        "image": "/images/uploads/diana_lui2.jpg"
+        "image": "/images/uploads/diana_lui2.jpg",
+        "alt": "© Diana Lui / Les étoiles de Diana / Résidence 1+2 #2016"
       },
       {
-        "image": "/images/uploads/diana_lui.jpg"
+        "image": "/images/uploads/diana_lui.jpg",
+        "alt": "© Diana Lui / Les étoiles de Diana / Résidence 1+2 #2016"
       },
       {
-        "image": "/images/uploads/diana_lui1.jpg"
+        "image": "/images/uploads/diana_lui1.jpg",
+        "alt": "© Diana Lui / Les étoiles de Diana / Résidence 1+2 #2016"
       }
     ]
   },
