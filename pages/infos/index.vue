@@ -22,7 +22,7 @@
     transition: { name: 'intro', mode: 'out-in' },
     components: { VueMarkdown},
     async asyncData({ params }) {
-      let page = await import('~/content/contact/page/contact.json');
+      let page = await import('~/content/infos/page/informations.json');
       return page;
     },
     data() {
@@ -32,10 +32,10 @@
     },
     head() {
       return {
-        title: 'INFOS ET CONTACTS | 1+2 – Photographie & Sciences',
+        title: 'INFOS | 1+2 – Photographie & Sciences',
         meta: [
           { hid: 'description', name: 'description', content: `1+2 est un programme de création artistique à vocation européenne, ancré à Toulouse, associant la photographie et les sciences.` },
-          { 'property': 'og:title', 'content': `INFOS ET CONTACTS | 1+2 – Photographie & Sciences`, 'vmid': 'og:titre' },
+          { 'property': 'og:title', 'content': `INFOS | 1+2 – Photographie & Sciences`, 'vmid': 'og:titre' },
           { 'property': 'og:description', 'content': `1+2 est un programme de création artistique à vocation européenne, ancré à Toulouse, associant la photographie et les sciences.` },
           { 'property': 'og:image', 'content': ``, 'vmid': 'og:image' }
         ]
@@ -47,7 +47,7 @@
     },
     methods: {
       titre(){
-          var modif = 'CONTACTS';
+          var modif = 'INFOS';
           $('.page-title').html( modif );
       }
     }
