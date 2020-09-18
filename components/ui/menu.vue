@@ -14,7 +14,8 @@
             <li><nuxt-link to="/colloques/" class="color-red menu-link">COLLOQUES</nuxt-link></li>  
             <li><nuxt-link to="/studies/" class="menu-link">STUDIES</nuxt-link></li>
             <li><nuxt-link to="/partenaires/" class="menu-link">PARTENAIRES</nuxt-link></li>
-            <li><nuxt-link to="/contacts/" class="menu-link">INFOS - CONTACTS</nuxt-link></li>
+            <li><nuxt-link to="/infos/" class="menu-link">INFOS</nuxt-link></li>
+            <li><nuxt-link to="/contacts/" class="menu-link">CONTACTS</nuxt-link></li>
           </ul>
       </nav>
   </div>
