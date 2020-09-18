@@ -127,6 +127,15 @@
       }
     ]
   },
+  "label": {
+    "images": [
+      {
+        "image": "/images/uploads/campus.jpg",
+        "alt": "Campus",
+        "link": ""
+      }
+    ]
+  },
   "institutionnels": {
     "images": [
       {
