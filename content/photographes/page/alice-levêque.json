@@ -7,7 +7,7 @@
     "content": "Née en 1993, Alice Lévêque découvre très tôt la photographie qui s’impose comme le médium de prédilection lui permettant de révéler sa sensibilité construite au fil de ses voyages de jeunesse entre Europe et Afrique. Lauréate du Grand Prix de l’Ecole de Photographie et de Game Design (ETPA) en 2015 à Toulouse, elle est l’un des talents émergents de la photographie française. Sensible à l’univers de la mode, adepte de la couleur et de la lumière continue, Alice dialogue avec les matières, les déséquilibres du corps et le mouvement, autant de thèmes récurrents dans son processus créatif. Ses séries « Petite » et « C’est beau une ville la nuit » sont exposées en 2015 au festival ManifestO à Toulouse.\r\n\r\nDans la série « Turbulence », Alice Lévêque propose une histoire de rencontres, d’instincts et de lâcher prise où il s’agit de côtoyer l’inconscient, le sensoriel pour en extirper sans manipulation, sa propre vérité.\r\n",
     "link": [
       {
-        "linktexte": "SITE INTERNET",
+        "linktexte": "Site internet",
         "linklien": "http://www.aliceleveque.com/"
       }
     ]
@@ -15,19 +15,24 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/leveque_stix-nebulosa-2.jpg"
+        "image": "/images/uploads/leveque_stix-nebulosa-2.jpg",
+        "alt": "© Alice Levêque / Turbulence / Résidence 1+2 #2016"
       },
       {
-        "image": "/images/uploads/levêque_bubo-bubo-2.jpg"
+        "image": "/images/uploads/levêque_bubo-bubo-2.jpg",
+        "alt": "© Alice Levêque / Turbulence / Résidence 1+2 #2016"
       },
       {
-        "image": "/images/uploads/levêque_botaurus-stellaris-1.jpg"
+        "image": "/images/uploads/levêque_botaurus-stellaris-1.jpg",
+        "alt": "© Alice Levêque / Turbulence / Résidence 1+2 #2016"
       },
       {
-        "image": "/images/uploads/levêque_paysage.jpg"
+        "image": "/images/uploads/levêque_paysage.jpg",
+        "alt": "© Alice Levêque / Turbulence / Résidence 1+2 #2016"
       },
       {
-        "image": "/images/uploads/levêque_43.59155-1.jpg"
+        "image": "/images/uploads/levêque_43.59155-1.jpg",
+        "alt": "© Alice Levêque / Turbulence / Résidence 1+2 #2016"
       }
     ]
   },
