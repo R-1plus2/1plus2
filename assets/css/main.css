@@ -755,11 +755,11 @@ main {
 }
 .page-article-actu .sidebar {
     width: calc(40% - 150px);
-    float: none;
+    float: right;
     position: relative;
     display: inline-block;
-    font-size: initial;
-    padding: 0 100px 0 50px;
+    font-size: medium;
+    padding: 0 50px 0 100px;
 }
 .page-article-actu .title-article {
     font-size: 3em;
