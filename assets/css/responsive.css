@@ -311,6 +311,7 @@
   .page-article-actu .article-slug, .page-article-actu .sidebar {
       padding: 0;
       width: 100%;
+      float: none;
   }
   .page-article-actu .title-article {
       font-size: 2em;
@@ -558,6 +559,7 @@
   .page-article-actu .article-slug, .page-article-actu .sidebar {
       padding: 0;
       width: 100%;
+      float: none;
   }
   .page-article-actu .title-article {
       font-size: 2em;
@@ -693,6 +695,7 @@
   .page-article-actu .article-slug, .page-article-actu .sidebar {
       padding: 0;
       width: 100%;
+      float: none;
   }
 }
 
