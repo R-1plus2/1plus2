@@ -15,19 +15,24 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/bellenger-factory-2018-05.jpg"
+        "image": "/images/uploads/bellenger-factory-2018-05.jpg",
+        "alt": "© Hélène Bellenger, Right Color, Résidence 1+2 Factory #1, 2018"
       },
       {
-        "image": "/images/uploads/sans-titre-midnight-blue-2018.jpg"
+        "image": "/images/uploads/sans-titre-midnight-blue-2018.jpg",
+        "alt": "© Hélène Bellenger, Right Color, Résidence 1+2 Factory #1, 2018"
       },
       {
-        "image": "/images/uploads/bellenger-factory-2018.jpg"
+        "image": "/images/uploads/bellenger-factory-2018.jpg",
+        "alt": "© Hélène Bellenger, Right Color, Résidence 1+2 Factory #1, 2018"
       },
       {
-        "image": "/images/uploads/untilted-royal-blue-_bd.jpg"
+        "image": "/images/uploads/untilted-royal-blue-_bd.jpg",
+        "alt": "© Hélène Bellenger, Right Color, Résidence 1+2 Factory #1, 2018"
       },
       {
-        "image": "/images/uploads/bellenger-factory-2018-02.jpg"
+        "image": "/images/uploads/bellenger-factory-2018-02.jpg",
+        "alt": "© Hélène Bellenger, Right Color, Résidence 1+2 Factory #1, 2018"
       }
     ]
   },
