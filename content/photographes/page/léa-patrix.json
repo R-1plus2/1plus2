@@ -8,11 +8,21 @@
   },
   "galeries": {
     "images": [
-      {},
-      {},
-      {},
-      {},
-      {}
+      {
+        "image": "/images/uploads/patrix_visuel-principal.jpg"
+      },
+      {
+        "image": "/images/uploads/patrix_04.jpg"
+      },
+      {
+        "image": "/images/uploads/patrix_l1050669.jpg"
+      },
+      {
+        "image": "/images/uploads/patrix_l1050844.jpg"
+      },
+      {
+        "image": "/images/uploads/patrix_l1080221bis.jpg"
+      }
     ]
   },
   "seo": {
