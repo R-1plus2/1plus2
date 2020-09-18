@@ -9,19 +9,24 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/patrix_visuel-principal.jpg"
+        "image": "/images/uploads/patrix_visuel-principal.jpg",
+        "alt": "© Léa Patrix / Léa + Léna / Résidence 1+2 #2016"
       },
       {
-        "image": "/images/uploads/patrix_04.jpg"
+        "image": "/images/uploads/patrix_04.jpg",
+        "alt": "© Léa Patrix / Léa + Léna / Résidence 1+2 #2016"
       },
       {
-        "image": "/images/uploads/patrix_l1050669.jpg"
+        "image": "/images/uploads/patrix_l1050669.jpg",
+        "alt": "© Léa Patrix / Léa + Léna / Résidence 1+2 #2016"
       },
       {
-        "image": "/images/uploads/patrix_l1050844.jpg"
+        "image": "/images/uploads/patrix_l1050844.jpg",
+        "alt": "© Léa Patrix / Léa + Léna / Résidence 1+2 #2016"
       },
       {
-        "image": "/images/uploads/patrix_l1080221bis.jpg"
+        "image": "/images/uploads/patrix_l1080221bis.jpg",
+        "alt": "© Léa Patrix / Léa + Léna / Résidence 1+2 #2016"
       }
     ]
   },
