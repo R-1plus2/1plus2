@@ -1,13 +1,14 @@
 <template>
   <main class="page-contacts">
     <div class="left-side">
+            <h3 class="title-article">{{ title }}</h3>
+
         <h3 class="title-article">{{ soustitre }}</h3>
         <div class="content">
             <vue-markdown class="main-description">{{ content }}</vue-markdown>
         </div>
     </div>
     <div class="right-side">
-        <h3 class="title-article">{{ title }}</h3>
         <div class="content">
             <vue-markdown class="main-description">{{ contact }}</vue-markdown>
         </div>
