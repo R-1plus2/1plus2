@@ -674,6 +674,19 @@ collections:
               - { label: image, name: image, widget: image }
               - { label: alt, name: alt, widget: string }
               - { label: link, name: link, widget: string }    
+      - label: "Label"
+        name: "label"
+        widget: "object"
+        required: false
+        fields:
+          - label: "Images"
+            name: "images"
+            widget: "list"
+            required: false
+            fields:
+              - { label: image, name: image, widget: image }
+              - { label: alt, name: alt, widget: string }
+              - { label: link, name: link, widget: string } 
   - name: "contacts"
     label: "📝 Info - Contacts"
     folder: "content/contact/page"
