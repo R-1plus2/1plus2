@@ -130,9 +130,13 @@
   "label": {
     "images": [
       {
-        "image": "/images/uploads/campus.jpg",
-        "alt": "Campus",
+        "image": "/images/uploads/label2.jpg",
+        "alt": "Saison Toulouse",
         "link": ""
+      },
+      {
+        "image": "/images/uploads/fete-de-la-science.jpg",
+        "alt": "Fête de la Science"
       }
     ]
   },
