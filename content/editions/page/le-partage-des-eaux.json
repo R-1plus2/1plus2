@@ -1,5 +1,5 @@
 {
-  "cover": "/images/uploads/arino-couv.jpg",
+  "cover": "/images/uploads/arino_cover_page-0001.jpg",
   "title": "Le Partage des Eaux",
   "soustitre": "Israel Ariño",
   "date": "2017/01/30",
@@ -36,7 +36,7 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/arino-couv.jpg",
+        "image": "/images/uploads/arino_cover_page-0001.jpg",
         "alt": "© Israel Ariño, couverture de l'ouvrage \"Le partage des eaux\", coffret Traversé[e]s, 2017"
       },
       {
@@ -59,6 +59,6 @@
   },
   "seo": {
     "descriptionseo": "En utilisant la chambre photographique associée à la technique ancienne du collodion humide, Israel Ariño propose un regard poétique et distancié sur les territoires de l’eau du lac de Saint Férreol à Toulouse le long du Canal du Midi et de la Garonne.",
-    "thumbnail": "/images/uploads/arino-couv.jpg"
+    "thumbnail": "/images/uploads/arino_cover_page-0001.jpg"
   }
 }
