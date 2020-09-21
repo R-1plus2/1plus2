@@ -4,7 +4,7 @@
   "soustitre": "Manon Lanjouère",
   "date": "2019/07/15",
   "body": {
-    "description": "### Editions Filigranes\n\n**AUTEUR.E :** Manon Lanjouère\\\n**TEXTES :** Fabien Ribery\n\nFormat : 175 X 250 mm\\\nLangues : Français / Anglais\\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-490-9",
+    "description": "### Éditions Filigranes\n\n**AUTEUR.E :** Manon Lanjouère\\\n**TEXTES :** Fabien Ribery\n\nFormat : 175 X 250 mm\\\nLangues : Français / Anglais\\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-490-9",
     "commander": [
       {
         "linktexte": "COMMANDER",
@@ -15,19 +15,42 @@
     "savoirplus": [
       {
         "linktexte": "COFFRET 2019",
-        "linklien": "#"
+        "linklien": "https://www.1plus2.fr/editions/elegies/"
+      }
+    ],
+    "link": [
+      {
+        "linktexte": "RÉSIDENCE 2019",
+        "linklien": "https://www.1plus2.fr/residences/r%C3%A9sidence-2019/"
       }
     ]
   },
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/coffret2019-06.jpg"
+        "image": "/images/uploads/couv-lanjouere.jpg",
+        "alt": "© Manon Lanjouère, couverture de l'ouvrage \"La mécanique céleste\", coffret Élégies, 2019"
+      },
+      {
+        "image": "/images/uploads/manon_print-page-001.jpg",
+        "alt": "© Manon Lanjouère, extrait de l'ouvrage \"La mécanique céleste\", coffret Élégies, 2019"
+      },
+      {
+        "image": "/images/uploads/manon_print-page-002.jpg",
+        "alt": "© Manon Lanjouère, extrait de l'ouvrage \"La mécanique céleste\", coffret Élégies, 2019"
+      },
+      {
+        "image": "/images/uploads/manon_print-page-003.jpg",
+        "alt": "© Manon Lanjouère, extrait de l'ouvrage \"La mécanique céleste\", coffret Élégies, 2019"
+      },
+      {
+        "image": "/images/uploads/manon_print-page-004.jpg",
+        "alt": "© Manon Lanjouère, extrait de l'ouvrage \"La mécanique céleste\", coffret Élégies, 2019"
       }
     ]
   },
   "seo": {
     "descriptionseo": "De tout temps, l’homme observa la voûte céleste. Toujours présentes au-dessus de sa tête, les planètes et les étoiles ont stimulé l’imagination de l’homme, suscité en lui le désir de les atteindre. Rapidement, il rêva la nuit qu’il « avait trouvé le secret de s’affranchir des lois de la pesanteur, de manière que son corps étant devenu indifférent à monter ou descendre, il pouvait faire l’un ou l’autre avec une facilité égale et d’après sa volonté » nous raconte Brillat-Savarin.",
-    "thumbnail": "/images/uploads/coffret2019-06.jpg"
+    "thumbnail": "/images/uploads/couv-lanjouere.jpg"
   }
 }
