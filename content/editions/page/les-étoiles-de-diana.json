@@ -4,7 +4,7 @@
   "soustitre": "Diana Lui",
   "date": "2016/01/30",
   "body": {
-    "description": "### Editions Filigranes\n\n**AUTEURE :** Diana Lui\\\n**TEXTES :** Diana Lui\n\nFormat : 220 X 305 mm\\\nLangues : Français / Anglais\\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-406-0",
+    "description": "### Éditions Filigranes\n\n**AUTEURE :** Diana Lui\\\n**TEXTES :** Diana Lui\n\nFormat : 220 X 305 mm\\\nLangues : Français / Anglais\\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-406-0",
     "commander": [
       {
         "linktexte": "COMMANDER",
@@ -14,7 +14,8 @@
     "content": "La question du déracinement est au centre de la création artistique de Diana Lui. À l’invitation de la Résidence 1+2 à Toulouse, elle réalise sa première résidence photographique en France revisitant, avec un regard d’auteur assumé et poétique, plusieurs patrimoines toulousains : humain, architectural et surtout scientifique.\n\n**Diana Lui**\n\n_J’ai quitté mon pays natal, la Malaisie, à l’âge de quatorze ans et depuis plus de trente ans, je parcours le monde en quête de mon identité et de mes origines. De ce fait, la question du déracinement est au centre de ma création artistique. Je fais partie d’une génération hybride où l’appartenance à un lieu géographique n’a plus d’importance. C’est la conséquence d’une vie mouvementée et nomade. Je suis devenue réceptive aux spécificités des peuples, cultures, régimes politiques et économiques, climats, nourritures, langues et même des choses plus subtiles comme des courants de pensées, espoirs, désespoirs, peurs, rêves… Devenir une artiste, c’est être à la fois archéologue, exploratrice et psychologue._\n\n_« Où suis-je ? » et « Qui suis-je ? », deux interrogations récurrentes chez l’Homme dans son désir obsessionnel de connaître l’origine de son existence. Les Toulousains font partie de ces alchimistes et chercheurs qui ne cessent de déchiffrer depuis le Moyen Âge le mystère du ciel et des éléments constitutifs : la terre, l’eau, l’air et le feu. Dès le premier jour, j’ai ressenti une énergie tellurique émanant des galets et des briques en terre cuite de cette ville fascinante, à la fois ancrée dans la terre, mais les yeux en permanence tournés vers le ciel. C’est ma toute première résidence photographique en France. Mes dix-huit ans de vie dans ce pays ne m’avaient pas préparée à la rencontre avec une ville d’une telle force. Mon pèlerinage quotidien dans le centre historique de Toulouse commence par un café dans le jardin des antiques au Musée Saint-Raymond. Entourée par les oliviers, les acanthes, les vignes, les palmiers et les fleurs méditerranéennes, je me retrouve transportée à l’époque romaine. Un jeu d’ombre et de lumière dessine son empreinte dentelée sur mes mains et mon journal intime. Je suis hypnotisée par la danse mystérieuse des feuilles bercées par le vent. Je me dirige vers la crypte de la basilique Saint-Sernin, l’un de mes lieux préférés. Dans la crypte voûtée, le silence et le calme m’envahissent comme si j’étais immergée sous l’eau. Je me recueille pendant plusieurs minutes, une sensation de force tranquille envahit mon être. Certaines croyances attribuent à ce site une géobiologie puissante avec une cheminée cosmotellurique, un générateur d’énergie. J’aime me perdre dans les marchés de Toulouse. Ils sont les battements de coeur d’une ville_",
     "savoirplus": [
       {
-        "linktexte": "RÉSIDENCE 2016"
+        "linktexte": "RÉSIDENCE 2016",
+        "linklien": "https://www.1plus2.fr/residences/r%C3%A9sidence-2016/"
       },
       {
         "linktexte": "COFFRET 2016",
@@ -27,7 +28,7 @@
         "linklien": "https://www.99medusas.com/"
       },
       {
-        "linktexte": "Editions Filigranes",
+        "linktexte": "Éditions Filigranes",
         "linklien": "https://www.filigranes.com/livre/12/"
       }
     ]
@@ -35,12 +36,29 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/coffret-2016-galerie2.jpg"
+        "image": "/images/uploads/dianalui-couv.png",
+        "alt": "© Diana Lui, couverture de l'ouvrage \"Les étoiles de Diana\", coffret Le goût des étoiles, 2016"
+      },
+      {
+        "image": "/images/uploads/diana_lui_def-1.jpg",
+        "alt": "© Diana Lui, extrait de l'ouvrage \"Les étoiles de Diana\", coffret Le goût des étoiles, 2016"
+      },
+      {
+        "image": "/images/uploads/diana_lui_def-2.jpg",
+        "alt": "© Diana Lui, extrait de l'ouvrage \"Les étoiles de Diana\", coffret Le goût des étoiles, 2016"
+      },
+      {
+        "image": "/images/uploads/diana_lui_def-3.jpg",
+        "alt": "© Diana Lui, extrait de l'ouvrage \"Les étoiles de Diana\", coffret Le goût des étoiles, 2016"
+      },
+      {
+        "image": "/images/uploads/diana_lui_def-4.jpg",
+        "alt": "© Diana Lui, extrait de l'ouvrage \"Les étoiles de Diana\", coffret Le goût des étoiles, 2016"
       }
     ]
   },
   "seo": {
     "descriptionseo": "La question du déracinement est au centre de la création artistique de Diana Lui. À l’invitation de la Résidence 1+2 à Toulouse, elle réalise sa première résidence photographique en France revisitant, avec un regard d’auteur assumé et poétique, plusieurs patrimoines toulousains : humain, architectural et surtout scientifique.",
-    "thumbnail": "/images/uploads/coffret-2016-galerie2.jpg"
+    "thumbnail": "/images/uploads/dianalui-couv.png"
   }
 }
