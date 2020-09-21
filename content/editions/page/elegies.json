@@ -1,10 +1,10 @@
 {
   "cover": "/images/uploads/cofreet-2019-couvgrid.jpg",
-  "title": "Elegies",
+  "title": "Élégies",
   "soustitre": "Coffret 2019",
   "date": "2019/07/26",
   "body": {
-    "description": "### Editions Filigranes\n\n**AUTEUR.E.S :** Matthieu Gafsou, Matilda Holloway, Manon Lanjouère  \n**TEXTES :** Fabien Ribery\n\nFormat : 200x250 mm  \n Langues : Français/Anglais  \nPrix : 25,00 €     \nTirage : 500 exemplaires  \nISBN : 978-2-35046-490-9",
+    "description": "### Éditions Filigranes\n\n**AUTEUR.E.S :** Matthieu Gafsou, Matilda Holloway, Manon Lanjouère\\\n**TEXTES :** Fabien Ribery\n\nFormat : 200x250 mm\\\n Langues : Français/Anglais\\\nPrix : 25,00 € \\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-490-9",
     "commander": [
       {
         "linktexte": "COMMANDER",
@@ -14,7 +14,8 @@
     "content": "**\\#10 «Solastalgie»** (Matthieu Gafsou)\\\n**\\#11 «Past Obscurity»** (Matilda Holloway)\\\n**\\#12 «La mécanique céleste»** (Manon Lanjouère)\n\nPour cette quatrième édition, nos trois photographes en résidence s’inscrivent pleinement dans une dynamique pluridisciplinaire explorant de nouveaux espaces de créations. Au croisement des sciences de l’environnement et sciences humaines (Matthieu Gafsou), des sciences de la représentation et sciences naturelles (Matilda Holloway), et des sciences aéronautiques et propulsions aérodynamiques (Manon Lanjouère), leurs esthétiques protéiformes ont en partage une approche métaphorique aux accents élégiaques de notre époque et de ses dramaturgies contemporaines. Chaque photographe nous en propose une poétique lyrique aux sonorités multiples : si Matthieu Gafsou et Matilda Holloway définissent les contours fluctuants d’une plainte douloureuse, Manon Lanjouère tutoie la mélancolie des étoiles.  \n\n**Extraits des textes de Fabien Ribery**\n\n**Matthieu Gafsou**\n\n_Il fut un temps où l’on pouvait encore alerter sur la détresse de l’absence de détresse. Nous sommes aujourd’hui au-delà, dans un temps où la fin rejoint l’origine, un temps de crise interminable, systémique, à ce point majeure qu’elle en redéfinit tous les paramètres de nos vies…_\n\n**Matilda Holloway**\n\n_L’étrangeté des signes posés sur la rétine photographique de l’artiste forme toute l’héraldique des savants, terra incognita pour les néophytes appelés au déchiffrement. Témoin vagabonde des antres de recherche, Matilda Holloway cherche à créer de nouveaux nouages, à agrandir le champ de perception et de pensée en un ensemble d’oeuvres construites comme des déclosions, des élargissements, des possibilités d’être autrement, dans le vertige du risque poétique…_\n\n**Manon Lanjouère**\n\n_Je vois Manon Lanjouère comme un territoire ouvert, une puissance interrogative, et la volonté de ne surtout pas clore les questions. Sa démarche est heuristique, qui trouve en tâtonnant, et s’invente funambule sur la ligne d’horizon, dans le bricolage du composite. Dans la nuit de l’espace, il n’y a plus de borne, c’est une plongée verticale dans le vide, le néant, l’amniotique infini…_",
     "savoirplus": [
       {
-        "linktexte": "RESIDENCE 2019"
+        "linktexte": "RÉSIDENCE 2019",
+        "linklien": "https://www.1plus2.fr/residences/r%C3%A9sidence-2019/"
       }
     ],
     "link": [
@@ -27,22 +28,40 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/coffret2019-00.jpg"
+        "image": "/images/uploads/coffret2019-00.jpg",
+        "alt": "© Résidence1+2, couverture du coffret Élégies, 2019"
       },
       {
-        "image": "/images/uploads/coffret2019-01.jpg"
+        "image": "/images/uploads/coffret2019-01.jpg",
+        "alt": "© Résidence1+2, couverture du coffret Élégies, 2019"
       },
       {
-        "image": "/images/uploads/coffret2019-02.jpg"
+        "image": "/images/uploads/coffret2019-02.jpg",
+        "alt": "© Résidence1+2, coffret Élégies, 2019"
       },
       {
-        "image": "/images/uploads/coffret2019-04.jpg"
+        "image": "/images/uploads/coffret2019-04.jpg",
+        "alt": "© Résidence1+2, coffret Élégies, 2019"
       },
       {
-        "image": "/images/uploads/coffret2019-05.jpg"
+        "image": "/images/uploads/coffret2019-05.jpg",
+        "alt": "© Résidence1+2, coffret Élégies, 2019"
       },
       {
-        "image": "/images/uploads/coffret2019-06.jpg"
+        "image": "/images/uploads/coffret2019-06.jpg",
+        "alt": "© Résidence1+2, coffret Élégies, 2019"
+      },
+      {
+        "image": "/images/uploads/matthieu_web1.jpg",
+        "alt": "© Matthieu Gafsou, extrait de l'ouvrage \"Solastalgie\", coffret Élégies 2019"
+      },
+      {
+        "image": "/images/uploads/matilda-holloway_print-page-001.jpg",
+        "alt": "© Matilda Holloway, extrait de l'ouvrage \"Past Obscurity\", coffret Élégies, 2019"
+      },
+      {
+        "image": "/images/uploads/manon_print-page-001.jpg",
+        "alt": " © Manon Lanjouère, extrait de l'ouvrage \"La mécanique céleste\", coffret Élégies, 2019"
       }
     ]
   },
