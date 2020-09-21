@@ -20,26 +20,32 @@
     ],
     "link": [
       {
-        "linktexte": "RESIDENCE 2019"
+        "linktexte": "RÉSIDENCE 2019",
+        "linklien": "https://www.1plus2.fr/residences/r%C3%A9sidence-2019/"
       }
     ]
   },
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/couv-gafsou.jpg"
+        "image": "/images/uploads/couv-gafsou.jpg",
+        "alt": "© Matthieu Gafsou, couverture du livre \"Solastalgie\", 2019 "
       },
       {
-        "image": "/images/uploads/matthieu_web1.jpg"
+        "image": "/images/uploads/matthieu_web1.jpg",
+        "alt": "© Matthieu Gafsou, extrait du livre \"Solastalgie\", 2019 "
       },
       {
-        "image": "/images/uploads/matthieu_web2.jpg"
+        "image": "/images/uploads/matthieu_web2.jpg",
+        "alt": "© Matthieu Gafsou, extrait du livre \"Solastalgie\", 2019 "
       },
       {
-        "image": "/images/uploads/matthieu_web3.jpg"
+        "image": "/images/uploads/matthieu_web3.jpg",
+        "alt": "© Matthieu Gafsou, extrait du livre \"Solastalgie\", 2019 "
       },
       {
-        "image": "/images/uploads/matthieu_web4.jpg"
+        "image": "/images/uploads/matthieu_web4.jpg",
+        "alt": "© Matthieu Gafsou, extrait du livre \"Solastalgie\", 2019 "
       }
     ]
   },
