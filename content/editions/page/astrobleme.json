@@ -4,7 +4,7 @@
   "soustitre": "SMITH",
   "date": "2018/01/01",
   "body": {
-    "description": "### Editions Filigranes\n\n**AUTEUR.E :** SMITH\n\n**TEXTES :** Lucien Raphmaj,\\\n_écrivain._\n\nFormat : 175 X 250 mm\\\nLangues : Français / Anglais\\\nPrix : 25,00 €\\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-457-2",
+    "description": "### Éditions Filigranes\n\n**AUTEUR.E :** SMITH\n\n**TEXTES :** Lucien Raphmaj,\\\n_écrivain._\n\nFormat : 175 X 250 mm\\\nLangues : Français / Anglais\\\nPrix : 25,00 €\\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-457-2",
     "commander": [
       {
         "linktexte": "COMMANDER",
@@ -14,7 +14,8 @@
     "content": "Pensé depuis sa genèse avec l’astrophysicien Jean-Philippe Uzan, le projet Désidération explore les liens qui unissent l’humanité à son origine stellaire. Comment peut-on définir, observer, et nous ré-approprier la dimension cosmique de notre généalogie ? Il s’agit de mettre en lumière les zones de jonction entre la recherche artistique et la recherche scientifique, en créant de nouvelles formes à même de modifier notre rapport à la conception de nos origines, et notre nostalgie des étoiles.\n\nDans le cadre de la Résidence 1+2, SMITH a réalisé Astroblème, îlot poétique, photographique et vidéo de ce nouveau projet-archipel. Réalisé avec le concours de partenaires du domaine spatial implantés à Toulouse et sa métropole ainsi qu’en Occitanie (la Cité de l’Espace, l’IRAP, le Pic du Midi de Bigorre, les Museums de Toulouse et Montauban), en collaboration avec l’écrivain Lucien Raphmaj et le compositeur Noé Cuellar, «Astroblème» (mot composé de ástron (« astre ») et de blêma (« coup »), qui désigne l’ensemble des traces laissées par l’impact d’une météorite ou d’un astéroïde sur Terre) réunit textes, images et musique au sein d’un micro space opéra épique. Relatant les péripéties croisées d’un astronaute, interprété par Heriman Avy, et d’une météorite martienne, NWA 10170, en transit entre deux mondes, ce space-opera dessine les contours d’une humanité en dialogue avec son origine cosmique.",
     "savoirplus": [
       {
-        "linktexte": "RESIDENCE 2018"
+        "linktexte": "RÉSIDENCE 2018",
+        "linklien": "https://www.1plus2.fr/residences/r%C3%A9sidence-2018/"
       },
       {
         "linktexte": "COFFRET 2018",
@@ -35,12 +36,29 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/origine-04.jpg"
+        "image": "/images/uploads/smith-couv.jpg",
+        "alt": "© SMITH, couverture de l'ouvrage \"Astroblème\", coffret L'Origine manquante, 2018"
+      },
+      {
+        "image": "/images/uploads/smith-astrobleme-def-page-001.jpg",
+        "alt": "© SMITH, extrait de l'ouvrage \"Astroblème\", coffret L'Origine manquante, 2018"
+      },
+      {
+        "image": "/images/uploads/smith-astrobleme-def-page-002.jpg",
+        "alt": "© SMITH, extrait de l'ouvrage \"Astroblème\", coffret L'Origine manquante, 2018"
+      },
+      {
+        "image": "/images/uploads/smith-astrobleme-def-page-003.jpg",
+        "alt": "© SMITH, extrait de l'ouvrage \"Astroblème\", coffret L'Origine manquante, 2018"
+      },
+      {
+        "image": "/images/uploads/smith-astrobleme-def-page-004.jpg",
+        "alt": "© SMITH, extrait de l'ouvrage \"Astroblème\", coffret L'Origine manquante, 2018"
       }
     ]
   },
   "seo": {
     "descriptionseo": "Pensé depuis sa genèse avec l’astrophysicien Jean-Philippe Uzan, le projet Désidération explore les liens qui unissent l’humanité à son origine stellaire. Comment peut-on définir, observer, et nous ré-approprier la dimension cosmique de notre généalogie ? Il s’agit de mettre en lumière les zones de jonction entre la recherche artistique et la recherche scientifique, en créant de nouvelles formes à même de modifier notre rapport à la conception de nos origines, et notre nostalgie des étoiles.",
-    "thumbnail": "/images/uploads/origine-04.jpg"
+    "thumbnail": "/images/uploads/smith-couv.jpg"
   }
 }
