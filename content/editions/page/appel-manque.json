@@ -35,24 +35,29 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/phi-couv.jpg"
+        "image": "/images/uploads/phi-couv.jpg",
+        "alt": "© Prune Phi, couverture de l'ouvrage \"Appel manqué\", coffret l'Origine manquante, 2019"
       },
       {
-        "image": "/images/uploads/prune_filigranes_vf-page-001.jpg"
+        "image": "/images/uploads/prune_filigranes_vf-page-001.jpg",
+        "alt": "© Prune Phi, extrait de l'ouvrage \"Appel manqué\", coffret l'Origine manquante, 2019"
       },
       {
-        "image": "/images/uploads/prune_filigranes_vf-page-002.jpg"
+        "image": "/images/uploads/prune_filigranes_vf-page-002.jpg",
+        "alt": "© Prune Phi, extrait de l'ouvrage \"Appel manqué\", coffret l'Origine manquante, 2019"
       },
       {
-        "image": "/images/uploads/prune_filigranes_vf-page-003.jpg"
+        "image": "/images/uploads/prune_filigranes_vf-page-003.jpg",
+        "alt": "© Prune Phi, extrait de l'ouvrage \"Appel manqué\", coffret l'Origine manquante, 2019"
       },
       {
-        "image": "/images/uploads/prune_filigranes_vf-page-004.jpg"
+        "image": "/images/uploads/prune_filigranes_vf-page-004.jpg",
+        "alt": "© Prune Phi, extrait de l'ouvrage \"Appel manqué\", coffret l'Origine manquante, 2019"
       }
     ]
   },
   "seo": {
     "descriptionseo": "La quête identitaire de Prune Phi l’amène à faire dialoguer les témoignages de la troisième génération franco-vietnamienne installée à Toulouse, face au savoir des scientifiques sur la transmission de la mémoire, son oubli, voire son déni. Sa démarche se construit sur la ré-appropriation d’histoires familiales pour tenter de révéler les marques mnésiques laissées par les ancêtres participant à l’invention de soi.",
-    "thumbnail": "/images/uploads/origine-05.jpg"
+    "thumbnail": "/images/uploads/phi-couv.jpg"
   }
 }
