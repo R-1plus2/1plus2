@@ -11,7 +11,7 @@
             </a>
         </article>
         <h3 class="color-red">RESIDENCE</h3>
-        <a class="read-more" href="/residences/">VOIR LES RESIDENCES</a>
+        <a class="read-more" href="/residences/">[+]</a>
     </div> 
     <div class="colx4">
         <article v-for="i in fact" class="small-article facto-home">
@@ -23,7 +23,7 @@
             </a>
         </article>
         <h3 class="color-blue">FACTORY</h3>
-        <a class="read-more" href="/factory/">VOIR LES FACTORY</a>
+        <a class="read-more" href="/factory/">[+]</a>
     </div>   
     <div class="colx4">
         <article v-for="i in hors" class="small-article horslesmurs-home">
@@ -35,7 +35,7 @@
             </a>
         </article>
         <h3 class="color-yellow">HORS LES MURS</h3>
-        <a class="read-more" href="/hors-les-murs/">VOIR LES HORS LES MURS</a>
+        <a class="read-more" href="/hors-les-murs/">[+]</a>
     </div>
     <div class="colx4">
         <article v-for="i in expo" class="small-article exposition-home">
@@ -47,7 +47,7 @@
             </a>
         </article>
         <h3 class="color-gray">EXPOSITION</h3>
-        <a class="read-more" href="/expositions/">VOIR LES EXPOSITIONS</a>
+        <a class="read-more" href="/expositions/">[+]</a>
     </div> 
     
     <div class="colx4 x2">
@@ -60,7 +60,7 @@
             </a>
         </article>
         <h3 class="color-red">EDITION</h3>
-        <a class="read-more" href="/editions/">VOIR LES EDITIONS</a>
+        <a class="read-more" href="/editions/">[+]</a>
     </div>
     <div class="colx4 x2">
         <article v-for="i in film" class="small-article film-home">
@@ -72,7 +72,7 @@
             </a>
         </article>
         <h3 class="color-red">FILM</h3>
-        <a class="read-more" href="/films/">VOIR LES FILMS</a>
+        <a class="read-more" href="/films/">[+]</a>
     </div> 
     <div class="colx4 x2">
         <article v-for="i in coll" class="small-article colloque-home">
@@ -84,7 +84,7 @@
             </a>
         </article>
         <h3 class="color-red">COLLOQUE</h3>
-        <a class="read-more" href="/colloques/">VOIR LES COLLOQUES</a>
+        <a class="read-more" href="/colloques/">[+]</a>
     </div>  
     <div class="colx4 x2">
         <article v-for="i in stud" class="small-article studie-home">
@@ -96,7 +96,7 @@
             </a>
         </article>
         <h3 class="color-gray">STUDIES</h3>
-        <a class="read-more" href="/studies/">VOIR LES STUDIES</a>
+        <a class="read-more" href="/studies/">[+]</a>
     </div>  
      
   </main>
