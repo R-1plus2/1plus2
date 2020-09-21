@@ -4,7 +4,7 @@
   "soustitre": "Coffret 2016",
   "date": "2016/01/31",
   "body": {
-    "description": "### Editions Filigranes\n\n**AUTEUR.E.S :** Diana Lui, Alice Lévêque, Lea Patrix\n\nFormat : 200/250 mm  \n Langues : Français/Anglais  \nPrix : 27,00 €   \nTirage : 500 exemplaires  \nISBN : 978-2-35046-406-0  ",
+    "description": "### Éditions Filigranes\n\n**AUTEUR.E.S :** Diana Lui, Alice Lévêque, Lea Patrix\n\nFormat : 200/250 mm\\\n Langues : Français/Anglais\\\nPrix : 27,00 € \\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-406-0",
     "commander": [
       {
         "linktexte": "COMMANDER",
@@ -14,12 +14,13 @@
     "content": "**\\#01 «Les étoiles de Diana»** (Diana Lui)\\\n**\\#02 «Turbulence»** (Alice Lévêque)\\\n**\\#03 «Lea + Lena»** (Lea Patrix)\n\nLa première résidence des trois photographes lauréats Diana Lui (Malaisie), Alice Lévêque (France), Lea Patrix (Belgique) a lieu en janvier/février 2016 à Toulouse. Sur le principe de la collection, trois ouvrages distincts réunis dans une boîte unique présentent la production de chaque résident. La question du déracinement est au centre de la création artistique de Diana Lui. \n\nÀ l’invitation de la Résidence 1+2 à Toulouse, elle réalise sa première résidence photographique en France revisitant, avec un regard d’auteur assumé et poétique, plusieurs patrimoines toulousains : humain, architectural et surtout scientifique. Dans la série « Turbulence », Alice Lévêque propose une histoire de rencontres, d’instincts et de lâcher prise où il s’agit de côtoyer l’inconscient, le sensoriel pour en extirper sans manipulation, sa propre vérité. Quant à Lea Patrix, elle pose un regard sensible, rêveur et revendicatif sur le fait d’avoir 20 ans à travers sa rencontre fondatrice avec Léna, étudiante et mannequin, devenue le personnage principal de sa résidence et de son questionnement récurrent sur la liberté.",
     "savoirplus": [
       {
-        "linktexte": "RÉSIDENCE 2016"
+        "linktexte": "RÉSIDENCE 2016",
+        "linklien": "https://www.1plus2.fr/residences/r%C3%A9sidence-2016/"
       }
     ],
     "link": [
       {
-        "linktexte": "Editions Filigranes",
+        "linktexte": "Éditions Filigranes",
         "linklien": "http://www.filigranes.com"
       }
     ]
@@ -27,22 +28,40 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/couv-coffret-2016.png"
+        "image": "/images/uploads/couv-coffret-2016.png",
+        "alt": "© Résidence 1+2, coffret Le Goût des étoiles, 2016"
       },
       {
-        "image": "/images/uploads/coffret-2016-galerie5.jpg"
+        "image": "/images/uploads/coffret-2016-galerie5.jpg",
+        "alt": "© Résidence 1+2, coffret Le Goût des étoiles, 2016"
       },
       {
-        "image": "/images/uploads/coffret-2016-galerie1.jpg"
+        "image": "/images/uploads/coffret-2016-galerie1.jpg",
+        "alt": "© Résidence 1+2, coffret Le Goût des étoiles, 2016"
       },
       {
-        "image": "/images/uploads/coffret-2016-galerie2.jpg"
+        "image": "/images/uploads/coffret-2016-galerie2.jpg",
+        "alt": "© Diana Lui, couverture de l'ouvrage \"Les étoiles de Diana\", coffret Le goût des étoiles, 2016"
       },
       {
-        "image": "/images/uploads/coffret-2016-galerie3.jpg"
+        "image": "/images/uploads/coffret-2016-galerie3.jpg",
+        "alt": "© Alice Lévêque, couverture de l'ouvrage \"Turbulence\", coffret Le goût des étoiles, 2016"
       },
       {
-        "image": "/images/uploads/coffret-2016-galerie4.jpg"
+        "image": "/images/uploads/coffret-2016-galerie4.jpg",
+        "alt": "© Léa Patrix, couverture de l'ouvrage \"Léa + Léna\", coffret Le goût des étoiles, 2016"
+      },
+      {
+        "image": "/images/uploads/diana_lui_def-1.jpg",
+        "alt": "© Diana Lui, extrait de l'ouvrage \"Les étoiles de Diana\", coffret Le goût des étoiles, 2016"
+      },
+      {
+        "image": "/images/uploads/1-2_alice_leveque_def-1.jpg",
+        "alt": "© Alice Lévêque, extrait de l'ouvrage \"Turbulence\", coffret Le goût des étoiles, 2016"
+      },
+      {
+        "image": "/images/uploads/maquette-lea_def-1.jpg",
+        "alt": "© Léa Patrix, extrait de l'ouvrage \"Léa + Léna\", coffret Le goût des étoiles, 2016"
       }
     ]
   },
