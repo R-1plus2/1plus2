@@ -4,7 +4,7 @@
   "soustitre": "Leslie Moquin",
   "date": "2017/01/29",
   "body": {
-    "description": "### Editions Filigranes\n\n**AUTEURE :** Leslie Moquin\n\n**TEXTES :** Dominique ROUX,\\\n_enseignant, critique et historien de la photographie._\n\nFormat : 175 X 250 mm\\\nLangues : Français / Anglais\\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-433-6",
+    "description": "### Éditions Filigranes\n\n**AUTEURE :** Leslie Moquin\n\n**TEXTES :** Dominique ROUX,\\\n_enseignant, critique et historien de la photographie._\n\nFormat : 175 X 250 mm\\\nLangues : Français / Anglais\\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-433-6",
     "commander": [
       {
         "linktexte": "COMMANDER",
@@ -13,6 +13,10 @@
     ],
     "content": "Qui sème le vent associe documents d’archives scientifiques (issues de Météo France et de l’Institut de mécanique des fluides de Banlève) et archives inventées, faits divers et histoires à dormir debout, images trouvées et images fabriquées. Pour nous restituer le légendaire vent d’autan, Leslie Moquin propose une recherche chimérique, étayée par de véritables expériences, en quête du vent mauvais.\n\n**Extraits du texte de Dominique Roux**\n\n_Il y aurait donc des « bons vents », de ceux que l’on souhaite au voyageur qui vous quitte pour prendre la route ou la mer ; des vents doux et portants, Zéphyrs et Alizés, qui vous poussent à bonne allure vers votre destination, et des « vents mauvais » dont la force sur l’échelle de Beaufort et la direction contrarient votre navigation et peuvent être à l’origine de tempêtes, de naufrages et autres catastrophes. Très présents dans la mythologie, ils suscitent crainte ou respect : dans la légende mésopotamienne, c’est un de ces vents appelé « Imhullu » qu’utilisa Marduk pour combattre et venir à bout de la divinité Tiamat ; dans l’Odyssée d’Homère, ils sont offerts par Éole à Ulysse enfermés dans un sac, qui une fois ouvert empêchent le héros pendant dix ans de rejoindre son île d’Ithaque. Or c’est un de ces vents mauvais qui souffle certains jours sur Toulouse et qui a pour nom l’Autan. Avec ce vent terrible « à décorner les boeufs » l’air devient vite tiède et fiévreux et d’aucuns disent qu’il fait « crier les fous » de l’Hôpital psychiatrique Marchant. Un vent qui tape sur les nerfs et quand il souffle la ville est sous tension ; il y a comme de l’électricité dans l’air et ces jours-là « même les mémés aiment la castagne… ». D’ailleurs certains statisticiens ont pu constater sous son influence une recrudescence des accidents, des violences domestiques, et il aurait même une incidence sur le nombre d’accouchements prématurés… Précisons que, comme dans le domaine de la magie, il faut distinguer un « Autan blanc » associé au beau temps et un « Autan noir » porteur de précipitations. C’est ce vent là que Leslie Moquin a décidé d’affronter photographiquement et d’étudier dans le cadre de sa participation à la Résidence 1+2. Mais comment rendre visible ce phénomène autrement qu’au travers de ses effets ?_",
     "savoirplus": [
+      {
+        "linktexte": "RÉSIDENCE 2017",
+        "linklien": "https://www.1plus2.fr/residences/r%C3%A9sidence-2017/"
+      },
       {
         "linktexte": "COFFRET 2017",
         "linklien": "https://www.1plus2.fr/editions/traversées/"
@@ -24,7 +28,7 @@
         "linklien": "http://www.lesliemoquin.com/"
       },
       {
-        "linktexte": "Editions Filigranes",
+        "linktexte": "Éditions Filigranes",
         "linklien": "https://www.filigranes.com"
       }
     ]
@@ -32,12 +36,29 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/traversee-05.jpg"
+        "image": "/images/uploads/moquin-couv.jpg",
+        "alt": "© Leslie Moquin, couverture de l'ouvrage \"Qui sème le vent\", coffret Traversé[e]s, 2017"
+      },
+      {
+        "image": "/images/uploads/leslie_moquin_final-1.jpg",
+        "alt": "© Leslie Moquin, extrait de l'ouvrage \"Qui sème le vent\", coffret Traversé[e]s, 2017"
+      },
+      {
+        "image": "/images/uploads/leslie_moquin_final-2.jpg",
+        "alt": "© Leslie Moquin, extrait de l'ouvrage \"Qui sème le vent\", coffret Traversé[e]s, 2017"
+      },
+      {
+        "image": "/images/uploads/leslie_moquin_final-3.jpg",
+        "alt": "© Leslie Moquin, extrait de l'ouvrage \"Qui sème le vent\", coffret Traversé[e]s, 2017"
+      },
+      {
+        "image": "/images/uploads/leslie_moquin_final-4.jpg",
+        "alt": "© Leslie Moquin, extrait de l'ouvrage \"Qui sème le vent\", coffret Traversé[e]s, 2017"
       }
     ]
   },
   "seo": {
     "descriptionseo": "Qui sème le vent associe documents d’archives scientifiques (issues de Météo France et de l’Institut de mécanique des fluides de Banlève) et archives inventées, faits divers et histoires à dormir debout, images trouvées et images fabriquées. Pour nous restituer le légendaire vent d’autan, Leslie Moquin propose une recherche chimérique, étayée par de véritables expériences, en quête du vent mauvais.",
-    "thumbnail": "/images/uploads/traversee-05.jpg"
+    "thumbnail": "/images/uploads/moquin-couv.jpg"
   }
 }
