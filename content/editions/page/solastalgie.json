@@ -20,19 +20,31 @@
     ],
     "link": [
       {
-        "linktexte": ""
+        "linktexte": "RESIDENCE 2019"
       }
     ]
   },
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/coffret2019-04.jpg"
+        "image": "/images/uploads/couv-gafsou.jpg"
+      },
+      {
+        "image": "/images/uploads/matthieu_web1.jpg"
+      },
+      {
+        "image": "/images/uploads/matthieu_web2.jpg"
+      },
+      {
+        "image": "/images/uploads/matthieu_web3.jpg"
+      },
+      {
+        "image": "/images/uploads/matthieu_web4.jpg"
       }
     ]
   },
   "seo": {
     "descriptionseo": "Le futur est devenu un horizon inquiétant. C’est le point de départ de ce projet : la transformation qui s’est opérée dans ma relation au monde, l’effritement d’une vision d’avenir sereine, l’apparition de l’angoisse non plus comme révélateur de mes failles intimes mais de la menace qui pèse sur «l’extime» : le territoire, le monde, ce qui m’entoure et me semblait immuable ... ",
-    "thumbnail": "/images/uploads/coffret2019-04.jpg"
+    "thumbnail": "/images/uploads/couv-gafsou.jpg"
   }
 }
