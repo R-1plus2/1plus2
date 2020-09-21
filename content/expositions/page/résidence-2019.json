@@ -8,7 +8,8 @@
     "description": "### MATTHIEU GAFSOU, MATILDA HOLLOWAY & MANON LAJOUÈRE\n\n### `VERNISSAGE MERCREDI 16 OCTOBRE À 18H`\n\n`En présence de Matthieu GAFSOU, Matilda HOLLOWAY, Manon LANJOUÈRE, CITIZEN JiF (réalisateur du film de création de 26 minutes) et de Sylvestre MAURICE, parrain de l’édition 2019`\n\nChapelle des Cordeliers\\\n13 rue des Lois, Toulouse\\\n_Metro Capitole_",
     "content": "#",
     "readmore": {
-      "readtexte": "RÉSIDENCE 2019"
+      "readtexte": "RÉSIDENCE 2019",
+      "readlien": "https://www.1plus2.fr/residences/r%C3%A9sidence-2019/"
     },
     "link": [
       {
@@ -21,19 +22,19 @@
     "images": [
       {
         "image": "/images/uploads/affiche2019-web.jpg",
-        "alt": "Affiche Exposition Résidence 1+2 2019"
+        "alt": "Affiche 2019 © Matthieu Gafsou, Solastalgie, Résidence 1+2 #2019"
       },
       {
         "image": "/images/uploads/gafsou1.jpg",
-        "alt": "© Matthieu Gafsou / Résidence 1+2 2019"
+        "alt": "© Matthieu Gafsou, Solastalgie, Résidence 1+2 #2019"
       },
       {
         "image": "/images/uploads/holloway1.jpg",
-        "alt": "© Matilda Holloway / Résidence 1+2 2019"
+        "alt": "© Matilda Holloway,  Past Obscurity, Résidence 1+2 #2019"
       },
       {
         "image": "/images/uploads/lanjouere1.jpg",
-        "alt": "© Manon lanjouère / Résidence 1+2 2019"
+        "alt": "© Manon lanjouère, La mécanique céleste, Résidence 1+2 #2019"
       }
     ]
   },
