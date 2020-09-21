@@ -4,7 +4,7 @@
   "soustitre": "Colloque National",
   "date": "2016/01/26",
   "body": {
-    "description": "### Editions Filigranes\n\nFormat : 125 X 160 mm\\\nLangue : Français\\\nPrix : 17€\\\nTirage : 500 exemplaires\nISBN : 978-2-35046-392-6",
+    "description": "### Éditions Filigranes\n\nFormat : 125 X 160 mm\\\nLangue : Français\\\nPrix : 17€\\\nTirage : 500 exemplaires\nISBN : 978-2-35046-392-6",
     "commander": [
       {
         "linktexte": "COMMANDER",
@@ -14,12 +14,13 @@
     "content": "**Qu’est-ce qu’une résidence photographique ? Quelle place ce mode de création occupe-t-il aujourd’hui en France ? Documenter le territoire, quelle photographie pour quels enjeux ? Quelles expériences pour les photographes ?**\n\nA l’invitation de Philippe Guionie, ce colloque national inauguré au Musée des Abattoirs à Toulouse le 10 octobre 2015, se propose de répondre à ces questions. Réunis pour la première fois, directeurs artistiques, éditeurs, photographes et journalistes témoignent et croisent leurs expériences respectives tel un état des lieux de la résidence photographique en France et le portrait en filigrane des actions, des territoires concernés et de leurs habitants. Parmi les invité.e.s : Israel Ariño, Fred Boucher, François Cheval, Rémi Coignet, Patrick Delat, Pascal Dolémieux, Fany Dupêchez, Gilles Favier, Philippe Guionie, Elisabeth Hebert, Mat Jacob, Olivia Marsaud, Brigitte Patient, Fabienne Pavia, Rita Scaglia, Jérôme Sother,… \n\nCet ouvrage inédit, partie prenante de la collection « Colloque national » aux éditions Filigranes, est le récit intégral des échanges des 19 invité.e.s du colloque daté du 10 octobre 2015 qui a vu aussi le lancement de la Résidence 1+2 à Toulouse.",
     "savoirplus": [
       {
-        "linktexte": "COLLOQUE 2016"
+        "linktexte": "COLLOQUE 2016",
+        "linklien": "https://www.1plus2.fr/colloques/colloque-2016/"
       }
     ],
     "link": [
       {
-        "linktexte": "Editions Filigranes",
+        "linktexte": "Éditions Filigranes",
         "linklien": "http://www.filigranes.com"
       }
     ]
