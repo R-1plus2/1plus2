@@ -4,7 +4,7 @@
   "soustitre": "Alice Lévêque",
   "date": "2016/01/29",
   "body": {
-    "description": "### Editions Filigranes\n\n**AUTEURE :** Alice Lévêque\\\n**TEXTES :** Alice Lévêque\n\nFormat : 220 X 305 mm\\\nLangues : Français / Anglais\\\nPrix : 27,00 €\\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-406-0",
+    "description": "### Éditions Filigranes\n\n**AUTEURE :** Alice Lévêque\\\n**TEXTES :** Alice Lévêque\n\nFormat : 220 X 305 mm\\\nLangues : Français / Anglais\\\nPrix : 27,00 €\\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-406-0",
     "commander": [
       {
         "linktexte": "COMMANDER",
@@ -14,7 +14,8 @@
     "content": "Dans la série « Turbulence », Alice Lévêque propose une histoire de rencontres, d’instincts et de lâcher prise où il s’agit de côtoyer l’inconscient, le sensoriel pour en extirper sans manipulation, sa propre vérité.\n\n**Alice Lévêque**\n\n_De la lumière à l’obscurité de la nuit, « Turbulence » investit un état, une sensation, qui remontent par le ventre pour être recraché, extériorisé. La journée, je marche, sans itinéraires, en me laissant happer par les décors de cette ville singulière. Lorsque l’attraction se crée, je m’arrête et je prends le temps de voir, de comprendre pourquoi. L’espace plein ne m’intéresse pas ; ce qui me pique surgi d’un détail. Je me focalise alors sur une curieuse pointe de couleur, la matière d’un mur, le feuillage d’un arbre… Je photographie ce qui m’attire avec mon instantané. L’état vaporeux de mon esprit se fige sur ces films qui peinent à tout dévoiler eux aussi. J’aime ce moment de latence, d’attente : ça marche, ça ne marche pas. Je reprends ma route, une danse qui s’arrête puis reprend au fur et à mesure des rencontres avec ces lieux qui me séduisent. La nuit je reviens sur mes traces, accompagnée d’un jeune oiseau aperçu au détour d’une rue, notre rencontre s’étant poursuivie à la terrasse d’un café Toulousain. Quelques jours plus tard nous nous retrouvons. Tout commence lorsque l’espace endormi s’éveille à nouveau ; ré éclairé, il dévoile juste ce qu’il faut. Nous discutons quelques minutes, avant de débuter cette danse commune aux airs de transe. L’oiseau affublé de son costume survient timidement. Les premières gesticulations encore chétives laissent apparaître l’oiseau déployé se transformant peu à peu. Nous y sommes désormais, il est incontrôlable, tourbillonnaire. Plus rien ne l’arrête, son comportement est imprévisible. Il se laisse guider par le poids des fluides qui circulent et l’amène à onduler tout en oubliant son image et celle qui se figera à l’intérieur de mon appareil. Turbulence est une histoire de rencontres, d’instincts, de lâcher prise. Côtoyer l’inconscient, le sensoriel pour en extirper sans manipulation, sa propre vérité._",
     "savoirplus": [
       {
-        "linktexte": "RÉSIDENCE 2016"
+        "linktexte": "RÉSIDENCE 2016",
+        "linklien": "https://www.1plus2.fr/residences/r%C3%A9sidence-2016/"
       },
       {
         "linktexte": "COFFRET 2016",
@@ -27,7 +28,7 @@
         "linklien": "https://aliceleveque.com"
       },
       {
-        "linktexte": "Editions Filigranes",
+        "linktexte": "Éditions Filigranes",
         "linklien": "https://www.filigranes.com/livre/12/"
       }
     ]
@@ -35,7 +36,24 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/coffret-2016-galerie3.jpg"
+        "image": "/images/uploads/leveque-couv.png",
+        "alt": "© Alice Lévêque, couverture de l'ouvrage \"Turbulence\", coffret Le goût des étoiles, 2016"
+      },
+      {
+        "image": "/images/uploads/1-2_alice_leveque_def-1.jpg",
+        "alt": "© Alice Lévêque, extrait de l'ouvrage \"Turbulence\", coffret Le goût des étoiles, 2016"
+      },
+      {
+        "image": "/images/uploads/1-2_alice_leveque_def-2.jpg",
+        "alt": "© Alice Lévêque, extrait de l'ouvrage \"Turbulence\", coffret Le goût des étoiles, 2016"
+      },
+      {
+        "image": "/images/uploads/1-2_alice_leveque_def-3.jpg",
+        "alt": "© Alice Lévêque, extrait de l'ouvrage \"Turbulence\", coffret Le goût des étoiles, 2016"
+      },
+      {
+        "image": "/images/uploads/1-2_alice_leveque_def-4.jpg",
+        "alt": "© Alice Lévêque, extrait de l'ouvrage \"Turbulence\", coffret Le goût des étoiles, 2016"
       }
     ]
   },
