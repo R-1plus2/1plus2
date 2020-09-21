@@ -10,7 +10,7 @@
                 </div>
             </a>
         </article>
-        <h3 class="color-red">RESIDENCE</h3>
+        <h3 class="color-red">RÉSIDENCE</h3>
         <a class="read-more" href="/residences/">[+]</a>
     </div> 
     <div class="colx4">
@@ -59,7 +59,7 @@
                 </div>
             </a>
         </article>
-        <h3 class="color-red">EDITION</h3>
+        <h3 class="color-red">ÉDITION</h3>
         <a class="read-more" href="/editions/">[+]</a>
     </div>
     <div class="colx4 x2">
