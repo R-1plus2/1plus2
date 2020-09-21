@@ -8,7 +8,8 @@
     "description": "### ISRAEL ARIÑO, LESLI MOQUIN & CHIRSTIAN SANNA\n\n### `EXPOSITION DU 13 OCTOBRE AU 19 NOVEMBRE 2017`\n\n\nMusée Paul Dupuy \n13 rue de la Pleau - Toulouse",
     "content": "#",
     "readmore": {
-      "readtexte": "RÉSIDENCE 2017"
+      "readtexte": "RÉSIDENCE 2017",
+      "readlien": "https://www.1plus2.fr/residences/r%C3%A9sidence-2017/"
     },
     "link": [
       {
@@ -21,7 +22,7 @@
     "images": [
       {
         "image": "/images/uploads/affiche_exposition_2017.jpg",
-        "alt": "Affiche Exposition Résidence 1+2 2017"
+        "alt": "Affiche 2017 © Israel Ariño, Le Partages des Eaux, Résidence 1+2 #2017"
       }
     ]
   },
