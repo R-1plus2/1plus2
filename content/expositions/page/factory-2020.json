@@ -7,10 +7,15 @@
   "body": {
     "description": "### MAXIME MATTHYS\n\n### `VERNISSAGE MERCREDI 16 SEPTEMBRE 2020`\nen présence du photographe.\n\n`[Un]Innovation`\n\nCentre Culturel Bellegarde\\\n17 Rue Bellegarde, Toulouse\\\n_Metro Capitole_\n\nHoraires / ouvert du lundi au vendredi : de 9h à 12h30 et de 13h30 à 18h\nSamedi : de 9h à 13h et de 14h à 17h",
     "readmore": {
-      "readtexte": "En savoir plus",
-      "readlien": "#"
+      "readtexte": "FACTORY #5 ",
+      "readlien": "https://www.1plus2.fr/factory/maxime-matthys/"
     },
-    "link": []
+    "link": [
+      {
+        "linktexte": "Maxime Matthys",
+        "linklien": "https://www.maximematthys.com/"
+      }
+    ]
   },
   "galeries": {
     "images": [
@@ -20,7 +25,7 @@
     ]
   },
   "seo": {
-    "descriptionseo": "Je suis une description seo",
+    "descriptionseo": "Face à l’ampleur de la crise écologique et pour pallier au risque d’effondrement de notre civilisation, l’innovation technologique semblerait être la panacée. Dans le cadre du programme « 1+2 Factory » de la Résidence 1+2, et en partenariat avec le CNRS Occitanie Ouest et l’institut de recherche en informatique de Toulouse (IRIT), Maxime Matthys s’est attaché à déconstruire cette croyance, en produisant plusieurs œuvres qui interrogent notre rapport à la technologie et qui proposent une vision dystopique des futurs phénomènes résultants de son utilisation massive. \nExposition est présentée au centre culture Bellegarde à Toulouse du 16 septembre au 24 octobre 2020.",
     "thumbnail": "/images/uploads/r1-2factory_2020_matthys_affiche_sans-logo.jpg"
   }
 }
