@@ -33,7 +33,7 @@
     },
     head() {
       return {
-        title: 'INFOS | 1+2 – Photographie & Sciences',
+        title: 'À PROPOS | 1+2 – Photographie & Sciences',
         meta: [
           { hid: 'description', name: 'description', content: `1+2 est un programme de création artistique à vocation européenne, ancré à Toulouse, associant la photographie et les sciences.` },
           { 'property': 'og:title', 'content': `INFOS | 1+2 – Photographie & Sciences`, 'vmid': 'og:titre' },
