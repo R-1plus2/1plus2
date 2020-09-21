@@ -4,7 +4,7 @@
   "soustitre": "Camille Carbonaro",
   "date": "2018/01/01",
   "body": {
-    "description": "### Editions Filigranes\n**AUTEUR.E :** Camille Carbonaro\n\n**TEXTES :** Dominique ROUX,  \n_enseignant, critique et historien de la photographie._\n\nFormat : 175 X 250 mm  \nLangues : Français / Anglais  \nTirage : 500 exemplaires  \nISBN : 978-2-35046-457-2 ",
+    "description": "### Éditions Filigranes\n\n**AUTEUR.E :** Camille Carbonaro\n\n**TEXTES :** Dominique ROUX,\\\n_enseignant, critique et historien de la photographie._\n\nFormat : 175 X 250 mm\\\nLangues : Français / Anglais\\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-457-2",
     "commander": [
       {
         "linktexte": "COMMANDER",
@@ -14,8 +14,8 @@
     "content": "La série de Camille Carbonaro est une archéologie visuelle qui explore les notions de mémoire, de généalogie et d’exil : un questionnement lié aux conséquences de l’immigration et de l’intégration italiennes en France.\n\n**Extraits du texte de Dominique Roux**\n\n_Pourquoi avoir (dé)laissé ses racines à la frontière ?» s’insurge Camille Carbonaro à l’adresse de ses ancêtres, provoquant ce manque d’air italien dont l’absence, «La Part manquante», la mine de l’intérieur et qu’elle nomme «névrose mémorielle». Alors elle cherche et fouille en s’appuyant sur les quelques traces de sa propre histoire mais se nourrissant aussi, sous forme d’enquêtes, de celles d’autres immigrés, ses semblables, ses frères. Quête psychique mais aussi mystique donnant lieu à différents rituels, photographiques ou performatifs, auxquels elle se livre et dont elle assume, entre fiction et réalité, croyance, doute et poésie, la part de conduite magique…_",
     "savoirplus": [
       {
-        "linktexte": "RESIDENCE 2018",
-        "linklien": "#"
+        "linktexte": "RÉSIDENCE 2018",
+        "linklien": "https://www.1plus2.fr/residences/r%C3%A9sidence-2018/"
       },
       {
         "linktexte": "COFFRET 2018",
@@ -28,7 +28,7 @@
         "linklien": "https://camillecarbonaro.com/"
       },
       {
-        "linktexte": "Editions Filigranes",
+        "linktexte": "Éditions Filigranes",
         "linklien": "http://www.filigranes.com"
       }
     ]
@@ -36,12 +36,29 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/origine-06.jpg"
+        "image": "/images/uploads/carbonaro-couv.jpg",
+        "alt": "© Camille Carbonaro, couverture de l'ouvrage \"Appelez-moi Victoria\", coffret L'Origine du monde, 2019"
+      },
+      {
+        "image": "/images/uploads/maquette_camille_page-0001.jpg",
+        "alt": "© Camille Carbonaro, extrait de l'ouvrage \"Appelez-moi Victoria\", coffret L'Origine du monde, 2019"
+      },
+      {
+        "image": "/images/uploads/maquette_camille_page-0002.jpg",
+        "alt": "© Camille Carbonaro, extrait de l'ouvrage \"Appelez-moi Victoria\", coffret L'Origine du monde, 2019"
+      },
+      {
+        "image": "/images/uploads/maquette_camille_page-0003.jpg",
+        "alt": "© Camille Carbonaro, extrait de l'ouvrage \"Appelez-moi Victoria\", coffret L'Origine du monde, 2019"
+      },
+      {
+        "image": "/images/uploads/maquette_camille_page-0004.jpg",
+        "alt": "© Camille Carbonaro, extrait de l'ouvrage \"Appelez-moi Victoria\", coffret L'Origine du monde, 2019"
       }
     ]
   },
   "seo": {
     "descriptionseo": "Le projet de Camille Carbonaro est une archéologie visuelle qui explore les notions de mémoire, de généalogie et d’exil : un questionnement lié aux conséquences de l’immigration et de l’intégration italiennes en France.",
-    "thumbnail": "/images/uploads/origine-06.jpg"
+    "thumbnail": "/images/uploads/carbonaro-couv.jpg"
   }
 }
