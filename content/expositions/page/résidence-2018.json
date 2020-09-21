@@ -8,7 +8,8 @@
     "description": "### SMITH, CAMILLE CARBONARO, PRUNE PHI\n\n### `EXPOSITION du 13 OCTOBRE AU 30 NOVEMBRE 2018` \n\nGalerie Barrès-Rivet \n1 place Sainte Scarbes - Toulouse\n",
     "content": "#",
     "readmore": {
-      "readtexte": "RÉSIDENCE 2018"
+      "readtexte": "RÉSIDENCE 2018",
+      "readlien": "https://www.1plus2.fr/expositions/r%C3%A9sidence-2018/"
     },
     "link": [
       {
@@ -21,7 +22,7 @@
     "images": [
       {
         "image": "/images/uploads/expo_affiche_2018.jpg",
-        "alt": "Affiche Exposition Résidence 1+2 2018"
+        "alt": "Affiche 2018 © SMITH, Astroblème, Résidence 1+2 #2018"
       }
     ]
   },
