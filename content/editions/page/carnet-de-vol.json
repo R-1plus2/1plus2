@@ -4,7 +4,7 @@
   "soustitre": "Christian Sanna",
   "date": "2017/01/28",
   "body": {
-    "description": "### Editions Filigranes\n\n**AUTEUR :** Christian Sanna\n\n**TEXTES :** Dominique ROUX,\\\n_enseignant, critique et historien de la photographie._\n\nFormat : 175 X 250 mm\\\nLangues : Français / Anglais\\\nPrix : 25,00 €\\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-433-6",
+    "description": "### Éditions Filigranes\n\n**AUTEUR :** Christian Sanna\n\n**TEXTES :** Dominique ROUX,\\\n_enseignant, critique et historien de la photographie._\n\nFormat : 175 X 250 mm\\\nLangues : Français / Anglais\\\nPrix : 25,00 €\\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-433-6",
     "commander": [
       {
         "linktexte": "COMMANDER",
@@ -14,8 +14,8 @@
     "content": "Carnet de Vol jette un regard sur le patrimoine matériel et immatériel de l’aviation postale à Toulouse. À l’aide d’archives, registres, cartes, témoignages, mais aussi d’oeuvres littéraires, Christian Sanna un itinéraire à la fois personnel et subjectif. Il en ressort un carnet de route inédit sur les traces de l’aviation postale toulousaine, de Toulouse jusqu’à la frontière Espagnole, jalonnées par les “phares de l’Aéropostale”. De cette série émerge un corpus qui confronte le réel et l’imaginaire de ce patrimoine historique.\n\n**Extraits du texte de Dominique Roux**\n\n_Pragmatique, Christian Sanna a commencé par se plonger de longues heures dans les archives municipales de Toulouse : photographies du fonds Latécoère, des lettres, des cartes, des registres, des carnets de vols, des témoignages de passionnés de l’Aéropostale… Tout un matériau dont il s’est imbibé, qu’il a laissé travailler en lui et reproduit par fragments. Puis il est allé « traîner » du côté de l’aérodrome de Montaudran, imaginant les départs de ces petits avions, les Breguet, les Salmson, les Laté, les Potez… dont la légèreté, l’exiguïté et l’absence de cabine obligeaient les pilotes, leurs précieux sacs postaux coincés entre les jambes, à affronter de jour comme de nuit les dures conditions climatiques et météorologiques. Et puis bien sûr ce fameux Hôtel du Grand Balcon, proche de la Place du Capitole dont certaines chambres ont été conservées en l’état et dont il photographia le fameux numéro 32, celle de Saint-Exupéry. Mais Christian Sanna n’a pas voulu s’en tenir aux traces toulousaines de cette épopée, car il est avant tout un photographe voyageur qui ne peut concevoir l’acte photographique en dehors d’une forme personnelle de confrontation entre la réalité et son imaginaire. Tel Mercure, ce dieu du voyage « aux sandales ailées », il a suivi par la route entre Toulouse et la frontière du Perthus la ligne empruntée par les pilotes de l’Aéropostale, en quête de ces phares qui, en l’absence d’instruments de navigation sophistiqués, guidaient leurs vols. Un véritable road movie doublé d’un jeu de piste pour retrouver ces balises et ces transformateurs, de village en village et photographier vestiges et empreintes laissés dans le paysage._",
     "savoirplus": [
       {
-        "linktexte": "RESIDENCE 2017",
-        "linklien": "#"
+        "linktexte": "RÉSIDENCE 2017",
+        "linklien": "https://www.1plus2.fr/residences/r%C3%A9sidence-2017/"
       },
       {
         "linktexte": "COFFRET 2017",
@@ -28,7 +28,7 @@
         "linklien": "https://www.christiansanna.com/"
       },
       {
-        "linktexte": "Editions Filigranes",
+        "linktexte": "Éditions Filigranes",
         "linklien": "http://www.filigranes.com"
       }
     ]
@@ -36,12 +36,29 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/traversee-04.jpg"
+        "image": "/images/uploads/sanna-couv.jpg",
+        "alt": "© Christian Sanna, couverture de l'ouvrage \"Carnet de vol\", coffret Traversé[e]s, 2017"
+      },
+      {
+        "image": "/images/uploads/christian_sanna_-1.jpg",
+        "alt": "© Christian Sanna, extrait de l'ouvrage \"Carnet de vol\", coffret Traversé[e]s, 2017"
+      },
+      {
+        "image": "/images/uploads/christian_sanna_-2.jpg",
+        "alt": "© Christian Sanna, extrait de l'ouvrage \"Carnet de vol\", coffret Traversé[e]s, 2017"
+      },
+      {
+        "image": "/images/uploads/christian_sanna_-3.jpg",
+        "alt": "© Christian Sanna, extrait de l'ouvrage \"Carnet de vol\", coffret Traversé[e]s, 2017"
+      },
+      {
+        "image": "/images/uploads/christian_sanna_-4.jpg",
+        "alt": "© Christian Sanna, extrait de l'ouvrage \"Carnet de vol\", coffret Traversé[e]s, 2017"
       }
     ]
   },
   "seo": {
     "descriptionseo": "Carnet de Vol jette un regard sur le patrimoine matériel et immatériel de l’aviation postale à Toulouse. À l’aide d’archives, registres, cartes, témoignages, mais aussi d’oeuvres littéraires, Christian Sanna un itinéraire à la fois personnel et subjectif. Il en ressort un carnet de route inédit sur les traces de l’aviation postale toulousaine, de Toulouse jusqu’à la frontière Espagnole, jalonnées par les “phares de l’Aéropostale”. De cette série émerge un corpus qui confronte le réel et l’imaginaire de ce patrimoine historique.",
-    "thumbnail": "/images/uploads/traversee-04.jpg"
+    "thumbnail": "/images/uploads/sanna-couv.jpg"
   }
 }
