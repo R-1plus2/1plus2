@@ -5,8 +5,8 @@
   "date": "2020/09/03",
   "horaires": "10 OCT > 1 NOV 2020",
   "body": {
-    "description": "### EMERIC LHUISSET, LUCIA PELUFFO & COLINE JOURDAN\n\n### `VERNISSAGE VENDREDI 9 OCTOBRE de 18h30 à 21h`\n\n`En présence de Émeric LHUISSET, Coline JOURDAN, Lucía PELUFFO\ret Pauline BROULIS, réalisatrice du film de création (format 26’)\ret de Catherine JEANDEL, marraine de l’édition 2020`\n",
-    "content": "Chapelle des Cordeliers\\\n13 rue des Lois, Toulouse\\\n_Metro Capitole_\n\nHoraires : du mercredi au samedi de 14h à 19h.\rOuverture exceptionnelle dimanche 1er novembre de 14h à 19h\rCOLLOQUE ANNUEL",
+    "description": "### ÉMERIC LHUISSET, LUCIA PELUFFO & COLINE JOURDAN\n\n### `VERNISSAGE VENDREDI 9 OCTOBRE de 18h30 à 21h`\n\n`En présence de Émeric LHUISSET, Coline JOURDAN, Lucía PELUFFO\ret Pauline BROULIS, réalisatrice du film de création (format 26’)\ret de Catherine JEANDEL, marraine de l’édition 2020`\n",
+    "content": "Chapelle des Cordeliers\\\n13 rue des Lois, Toulouse\\\n_Metro Capitole_\n\nHoraires : du mercredi au samedi de 14h à 19h.\rOuverture exceptionnelle dimanche 1er novembre de 14h à 19h\r\\\nCOLLOQUE ANNUEL",
     "readmore": {
       "readtexte": "EN SAVOIR PLUS",
       "readlien": "#"
@@ -16,24 +16,24 @@
     "images": [
       {
         "image": "/images/uploads/r1-2_2020_affiche_sans-logo-light.jpg",
-        "alt": "Affiche 2020 © Emeric Lhuisset"
+        "alt": "Affiche 2020 © Émeric Lhuisset, Résidence 1+2 #2020"
       },
       {
         "image": "/images/uploads/photographe-lhuisset-02.jpg",
-        "alt": "© Emeric Lhuisset / Résidence 1+2 #2020"
+        "alt": "© Emeric Lhuisset, Résidence 1+2 #2020"
       },
       {
         "image": "/images/uploads/photographe-peluffo-01.jpg",
-        "alt": "© Lucia Peluffo / Résidence 1+2 #2020"
+        "alt": "© Lucía Peluffo, Résidence 1+2 #2020"
       },
       {
         "image": "/images/uploads/photographe-jourdan-01.jpg",
-        "alt": "© Coline Jourdan / Résidence 1+2 #2020"
+        "alt": "© Coline Jourdan, Résidence 1+2 #2020"
       }
     ]
   },
   "seo": {
-    "descriptionseo": "EMERIC LHUISSET, LUCIA PELUFFO & COLINE JOURDAN\nVERNISSAGE VENDREDI 9 OCTOBRE de 18h30 à 21h\nEn présence de Émeric LHUISSET, Coline JOURDAN, Lucía PELUFFO et Pauline BROULIS, réalisatrice du film de création (format 26’) et de Catherine JEANDEL, marraine de l’édition 2020",
+    "descriptionseo": "ÉMERIC LHUISSET, LUCIA PELUFFO & COLINE JOURDAN\nVERNISSAGE VENDREDI 9 OCTOBRE de 18h30 à 21h\nEn présence de Émeric LHUISSET, Coline JOURDAN, Lucía PELUFFO et Pauline BROULIS, réalisatrice du film de création (format 26’) et de Catherine JEANDEL, marraine de l’édition 2020",
     "thumbnail": "/images/uploads/r1-2_2020_affiche_sans-logo-light.jpg"
   }
 }
