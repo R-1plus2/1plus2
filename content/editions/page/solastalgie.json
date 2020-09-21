@@ -22,7 +22,16 @@
         "linklien": "https://www.1plus2.fr/residences/r%C3%A9sidence-2019/"
       }
     ],
-    "link": []
+    "link": [
+      {
+        "linktexte": "Matthieu Gafsou",
+        "linklien": "http://www.gafsou.ch/"
+      },
+      {
+        "linktexte": "Éditions Filigranes ",
+        "linklien": "http://www.filigranes.com"
+      }
+    ]
   },
   "galeries": {
     "images": [
