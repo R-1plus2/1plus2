@@ -22,7 +22,16 @@
         "linklien": "https://www.1plus2.fr/residences/r%C3%A9sidence-2019/"
       }
     ],
-    "link": []
+    "link": [
+      {
+        "linktexte": "Manon Lanjouère",
+        "linklien": "https://manonlanjouere.com/"
+      },
+      {
+        "linktexte": "Éditions Filigranes",
+        "linklien": "https://www.filigranes.com/"
+      }
+    ]
   },
   "galeries": {
     "images": [
