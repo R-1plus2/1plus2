@@ -4,7 +4,7 @@
   "soustitre": "Matilda Holloway",
   "date": "2019/07/17",
   "body": {
-    "description": "### Editions Filigranes\n\n**AUTEUR.E :** Matilda Holloway\\\n**TEXTES :** Fabien Ribery\n\nFormat : 175 X 250 mm\\\nLangues : Français / Anglais\\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-490-9",
+    "description": "### Éditions Filigranes\n\n**AUTEUR.E :** Matilda Holloway\\\n**TEXTES :** Fabien Ribery\n\nFormat : 175 X 250 mm\\\nLangues : Français / Anglais\\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-490-9",
     "commander": [
       {
         "linktexte": "COMMANDER",
@@ -15,19 +15,42 @@
     "savoirplus": [
       {
         "linktexte": "COFFRET 2019",
-        "linklien": "#"
+        "linklien": "https://www.1plus2.fr/editions/elegies/"
+      }
+    ],
+    "link": [
+      {
+        "linktexte": "RÉSIDENCE 2019",
+        "linklien": "https://www.1plus2.fr/residences/r%C3%A9sidence-2019/"
       }
     ]
   },
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/coffret2019-05.jpg"
+        "image": "/images/uploads/couv-holloway.jpg",
+        "alt": "© Matilda Holloway, couverture de l'ouvrage \"Past Obscurity\", coffret Élégies, 2019"
+      },
+      {
+        "image": "/images/uploads/matilda-holloway_print-page-001.jpg",
+        "alt": "© Matilda Holloway, extrait de l'ouvrage \"Past Obscurity\", coffret Élégies, 2019"
+      },
+      {
+        "image": "/images/uploads/matilda-holloway_print-page-002.jpg",
+        "alt": "© Matilda Holloway, extrait de l'ouvrage \"Past Obscurity\", coffret Élégies, 2019"
+      },
+      {
+        "image": "/images/uploads/matilda-holloway_print-page-003.jpg",
+        "alt": "© Matilda Holloway, extrait de l'ouvrage \"Past Obscurity\", coffret Élégies, 2019"
+      },
+      {
+        "image": "/images/uploads/matilda-holloway_print-page-004.jpg",
+        "alt": "© Matilda Holloway, extrait de l'ouvrage \"Past Obscurity\", coffret Élégies, 2019"
       }
     ]
   },
   "seo": {
     "descriptionseo": "Une curieuse aura entoure l’idée du laboratoire. Entre hypothèses, mesures, observations, expériences et découvertes, le laboratoire scientifique retient un formidable potentiel d’imaginaire, incarne une place forte de la connaissance. La dimension structurante des savoirs qui s’y modèlent est fascinante ; ils orientent notre conception du monde et notre rapport à celui-ci, tout en conservant un versant mystérieux, hors de portée pour beaucoup d’entre nous. ",
-    "thumbnail": "/images/uploads/coffret2019-05.jpg"
+    "thumbnail": "/images/uploads/couv-holloway.jpg"
   }
 }
