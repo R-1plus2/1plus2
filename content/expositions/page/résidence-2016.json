@@ -8,7 +8,8 @@
     "description": "### ALICE LÉVÊQUE, DIANA LUI & LÉA PATRIX\n\n### `EXPOSITION DU 04 NOVEMBRE AU 27 NOVEMBRE 2016`\n\nMusée des Abattoirs\\\n76 allées Charles de Fitte - Toulouse",
     "content": "#",
     "readmore": {
-      "readtexte": "RÉSIDENCE 2016"
+      "readtexte": "RÉSIDENCE 2016",
+      "readlien": "https://www.1plus2.fr/residences/r%C3%A9sidence-2016/"
     },
     "link": [
       {
@@ -21,7 +22,7 @@
     "images": [
       {
         "image": "/images/uploads/affiche_expo_2016_web.jpg",
-        "alt": "Affiche Exposition Résidence 1+2 2016"
+        "alt": "Affiche 2016 © Diana Lui, Les étoiles de Diana, Résidence 1+2 #2016"
       }
     ]
   },
