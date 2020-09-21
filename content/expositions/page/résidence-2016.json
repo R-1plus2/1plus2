@@ -5,7 +5,7 @@
   "date": "2016/11/04",
   "horaires": "04 NOV > 27 NOV 2016",
   "body": {
-    "description": "### ALICE LÉVÊQUE, DIANA LUI & LÉA PATRIX\n\n### `EXPOSITION DU 04 NOVEMBRE AU 27 NOVEMBRE 2016`\n\nMusée des Abattoirs\\\n76 allées Charles de Fitte - Toulouse",
+    "description": "### ALICE LÉVÊQUE, DIANA LUI & LÉA PATRIX\n\n### `EXPOSITION DU 04 NOVEMBRE AU 27 NOVEMBRE 2016`\n\nLes Abattoirs, musée - FRAC Occitanie Toulouse\\\n76 allées Charles de Fitte - Toulouse",
     "content": "#",
     "readmore": {
       "readtexte": "RÉSIDENCE 2016",
@@ -23,11 +23,27 @@
       {
         "image": "/images/uploads/affiche_expo_2016_web.jpg",
         "alt": "Affiche 2016 © Diana Lui, Les étoiles de Diana, Résidence 1+2 #2016"
+      },
+      {
+        "image": "/images/uploads/résidence-1-2_expo-diana-lui-abattoirs©romain-peli_02.jpg",
+        "alt": "© Romain Péli, Vue de l'exposition \"Les étoiles de Diana\" par Diana Lui, les Abattoirs, Musée - FRAC Occitanie Toulouse, 2016"
+      },
+      {
+        "image": "/images/uploads/résidence-1-2_expo-abattoirs2016_005.jpg",
+        "alt": "© Résidence 1+2, Vue de l'exposition \"Les étoiles de Diana\" par Diana Lui, les Abattoirs, Musée - FRAC Occitanie Toulouse, 2016"
+      },
+      {
+        "image": "/images/uploads/résidence-1-2_expo-abattoirs2016_008.jpg",
+        "alt": "© Résidence 1+2, Vue de l'exposition \"Turbulence\" par Alice Lévêque, les Abattoirs, Musée - FRAC Occitanie Toulouse, 2016"
+      },
+      {
+        "image": "/images/uploads/résidence-1-2_expo-abattoirs2016_010.jpg",
+        "alt": "© Résidence 1+2, Vue de l'exposition \"Léa + Léna\" par Léa Patrix, les Abattoirs, Musée - FRAC Occitanie Toulouse, 2016"
       }
     ]
   },
   "seo": {
-    "descriptionseo": "Exposition d'Alice Lévêque, Diana Lui & Léa Patrix au Musée des Abattoirs à Toulouse. \nEXPOSITION du 04 au 27 novembre 2016. ",
+    "descriptionseo": "Exposition d'Alice Lévêque, Diana Lui & Léa Patrix au Abattoirs, Musée - FRAC Occitanie Toulouse. \nEXPOSITION du 04 au 27 novembre 2016. ",
     "thumbnail": "/images/uploads/affiche_expo_2016_web.jpg"
   }
 }
