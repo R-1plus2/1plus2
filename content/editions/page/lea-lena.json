@@ -1,10 +1,10 @@
 {
   "cover": "/images/uploads/patrix-couv.png",
-  "title": "Lea + Lena",
-  "soustitre": "Lea Patrix",
+  "title": "Léa + Léna",
+  "soustitre": "Léa Patrix",
   "date": "2016/01/28",
   "body": {
-    "description": "### Editions Filigranes\n**AUTEURE :** Lea Patrix\\\n**TEXTES :** Lea Patrix \n\nFormat : 220 X 305 mm  \nLangues : Français / Anglais  \nPrix : 27,00 €  \nTirage : 500 exemplaires  \nISBN : 978-2-35046-406-0\n",
+    "description": "### Éditions Filigranes\n\n### **AUTEURE :** Léa Patrix\\\n**TEXTES :** Léa Patrix \n\nFormat : 220 X 305 mm\\\nLangues : Français / Anglais\\\nPrix : 27,00 €\\\nTirage : 500 exemplaires\\\nISBN : 978-2-35046-406-0",
     "commander": [
       {
         "linktexte": "COMMANDER",
@@ -14,7 +14,8 @@
     "content": "Lea Patrix pose un regard sensible, rêveur et revendicatif sur le fait d’avoir 20 ans à travers sa rencontre fondatrice avec Léna, étudiante et mannequin, devenue le personnage principal de sa résidence et de son questionnement récurrent sur la liberté.\n\n**Lea Patrix**\n\n_Je l’ai vécue comme l’un de ces livres qu’on aime tant et qu’on choisit de relire quand on a plus rien sous la main. La peur de commencer à lire et la tristesse d’en lire les derniers mots. Léna, mon personnage ,principal, sa vie, mais aussi la mienne. L’histoire de ce mois où j’ai pu bousculer ses habitudes et celles de ses colocataires. C’est toujours difficile de représenter véritablement la vie d’une personne en si peu de temps. Il faut appréhender la rencontre, le temps d’adaptation et puis enfin le rapprochement, les liens qui se créent. Je n’ai pas eu le temps d’avoir peur. On s’est tout de suite bien entendue, c’était spontané. J’ai eu l’impression d’être pleinement acceptée pour ce que je suis, d’être en harmonie avec son environnement. Pleins de petits traits de caractère que j’avais l’impression d’avoir déjà connus. Comme si on avait la même façon de réagir à la vie, la Léna pétillante comme la Léna grise. Tous ces liens noués m’ont permis d’être transparente, d’effacer l’appareil que je portais au cou en permanence. Et toutes ces étapes constituent bien le fameux +. Le mélange entre sa vie et ma présence. On aimait bien parler pour ne rien dire, des discussions drôles sans queue ni tête, tout comme on aimait bien ne rien dire du tout. Et ce sont ces moments-là de silence sans gêne qui étaient les plus éloquents. Nous sommes très différentes mais très similaires aussi, comme si nous avions le même fonctionnement. La même notice d’utilisation. Je n’avais aucun mal à comprendre quand quelque chose l’énervait et que c’était le moment de fermer ma gueule, de m’occuper de mon coté. Une personnalité pleine de facettes qui peut dégager de la lumière comme de l’ombre. Léna au visage doux, aux traits si délicats qu’ils ont l’air d’avoir été dessinés à l’aquarelle. Et surtout un rire rassurant, naturel._",
     "savoirplus": [
       {
-        "linktexte": "RÉSIDENCE 2016"
+        "linktexte": "RÉSIDENCE 2016",
+        "linklien": "https://www.1plus2.fr/residences/r%C3%A9sidence-2016/"
       },
       {
         "linktexte": "COFFRET 2016",
@@ -23,7 +24,7 @@
     ],
     "link": [
       {
-        "linktexte": "Editions Filigranes",
+        "linktexte": "Éditions Filigranes",
         "linklien": "https://www.filigranes.com/livre/12/"
       }
     ]
@@ -31,12 +32,29 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/coffret-2016-galerie4.jpg"
+        "image": "/images/uploads/patrix-couv.png",
+        "alt": "© Léa Patrix, couverture de l'ouvrage \"Léa + Léna\", coffret Le goût des étoiles, 2016"
+      },
+      {
+        "image": "/images/uploads/maquette-lea_def-1.jpg",
+        "alt": "© Léa Patrix, extrait de l'ouvrage \"Léa + Léna\", coffret Le goût des étoiles, 2016"
+      },
+      {
+        "image": "/images/uploads/maquette-lea_def-2.jpg",
+        "alt": "© Léa Patrix, extrait de l'ouvrage \"Léa + Léna\", coffret Le goût des étoiles, 2016"
+      },
+      {
+        "image": "/images/uploads/maquette-lea_def-3.jpg",
+        "alt": "© Léa Patrix, extrait de l'ouvrage \"Léa + Léna\", coffret Le goût des étoiles, 2016"
+      },
+      {
+        "image": "/images/uploads/maquette-lea_def-4.jpg",
+        "alt": "© Léa Patrix, extrait de l'ouvrage \"Léa + Léna\", coffret Le goût des étoiles, 2016"
       }
     ]
   },
   "seo": {
     "descriptionseo": "Lea Patrix pose un regard sensible, rêveur et revendicatif sur le fait d’avoir 20 ans à travers sa rencontre fondatrice avec Léna, étudiante et mannequin, devenue le personnage principal de sa résidence et de son questionnement récurrent sur la liberté.",
-    "thumbnail": "/images/uploads/coffret-2016-galerie4.jpg"
+    "thumbnail": "/images/uploads/patrix-couv.png"
   }
 }
