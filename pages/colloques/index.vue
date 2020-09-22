@@ -76,7 +76,7 @@ export default {
            }
           },
           sortBy : 'date',
-          sortAscending : true
+          sortAscending : false
         });
         setTimeout(function(){grid.layout(); }, 100);
         
