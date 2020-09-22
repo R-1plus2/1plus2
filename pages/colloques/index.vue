@@ -8,7 +8,7 @@
   thématiques et interactives. 
 </p>
     </div>
-    <div class="grid">
+    <div class="grid">  
       <article v-for="c in colloques" class="small-article">
           <nuxt-link class="article-padding" :to="c._path+'/'">
               <img class="cover2" :src="c.cover">
