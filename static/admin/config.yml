@@ -3,7 +3,7 @@ backend:
   branch: master
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
-display_url: https://1plus2.netlify.app/
+display_url: https://1plus2.fr/
 collections:
   - name: "accueil"
     label: "📝 Accueil"
@@ -516,6 +516,7 @@ collections:
       - {label: "Titre", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Sous titre", name: "soustitre", widget: "string", required: false}
       - {label: "Horaires", name: "horaires", widget: "string", required: false}
+      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY/MM/DD", required: true}
       - label: "Article"
         name: "body"
         widget: "object"
