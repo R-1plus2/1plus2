@@ -630,7 +630,7 @@ main {
     width: 25%;
     overflow: hidden;
     font-size: initial;
-    float: left;
+    float: none;
 		background:transparent;
 		transition:background .3s ease, transform 0s ease !important;
     background: #fff;
