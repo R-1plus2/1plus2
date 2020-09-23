@@ -81,7 +81,7 @@ export default {
           sortBy : 'date',
           sortAscending : false
         });
-        $(grid.filteredItems[0].element).addClass('big-article');
+        $(grid.filteredItems[0].element).addClass('big');
         setTimeout(function(){grid.layout(); }, 100);
      }
   }
