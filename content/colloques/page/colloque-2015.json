@@ -5,7 +5,7 @@
   "horaires": "SAMEDI 12 OCTOBRE ",
   "date": "2015/10/12",
   "body": {
-    "description": "**08h30 à 18h30 à l'auditorium du Musée des Abattoirs**  \n76 allées Charles de Fitte - Toulouse  \n[lesabattoirs.org](https://www.lesabattoirs.org/)",
+    "description": "**08h30 à 18h30 à l'auditorium des Abattoirs, Musée - FRAC Occitanie Toulouse**  \n76 allées Charles de Fitte - Toulouse  \n[lesabattoirs.org](https://www.lesabattoirs.org/)",
     "accordeon": [
       {
         "horaire": "8h30 > 9h30",
@@ -75,7 +75,7 @@
     ]
   },
   "seo": {
-    "descriptionseo": "COLLOQUE 2015\n8h30 à 18h à l'auditorium du Musée des Abattoirs - 76 allées Charles de Fitte - Toulouse",
+    "descriptionseo": "COLLOQUE 2015\n8h30 à 18h à l'auditorium des Abattoirs, Musée - FRAC Occitanie Toulouse - 76 allées Charles de Fitte - Toulouse",
     "thumbnail": "/images/uploads/affiche_colloque_2015.gif"
   }
 }
