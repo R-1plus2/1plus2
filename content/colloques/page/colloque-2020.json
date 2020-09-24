@@ -74,13 +74,13 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/photographe-lhuisset-01.jpg",
-        "alt": "© Émeric Lhuisset / Résidence 1+2 #2020"
+        "image": "/images/uploads/affiche_colloque_2020.jpg",
+        "alt": "Affiche Colloque 2020 © Résidence 1+2, Émeric Lhuisset, Résidence 1+2 #2020"
       }
     ]
   },
   "seo": {
     "descriptionseo": "COLLOQUE 2020\n08h30 à 18h00 au Muséum d'Histoire Naturelle - 35 allées Jules Guesde - Toulouse",
-    "thumbnail": "/images/uploads/photographe-lhuisset-01.jpg"
+    "thumbnail": "/images/uploads/affiche_colloque_2020.jpg"
   }
 }
