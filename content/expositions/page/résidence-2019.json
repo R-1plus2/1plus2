@@ -1,5 +1,5 @@
 {
-  "cover": "/images/uploads/affiche2019-web.jpg",
+  "cover": "/images/uploads/affiche_expo_2019_web.jpg",
   "title": "RÉSIDENCE 2019",
   "soustitre": "Toulouse – Chapelle des Cordeliers",
   "date": "2019/10/17",
@@ -21,7 +21,7 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/affiche2019-web.jpg",
+        "image": "/images/uploads/affiche_expo_2019_web.jpg",
         "alt": "Affiche 2019 © Matthieu Gafsou, Solastalgie, Résidence 1+2 #2019"
       },
       {
@@ -44,6 +44,6 @@
   },
   "seo": {
     "descriptionseo": "Exposition de Matthieu Gafsou, Matilda Holloway & Manon Lanjouère dans la Chapelle des Cordeliers à Toulouse. VERNISSAGE MERCREDI 16 OCTOBRE À 18H",
-    "thumbnail": "/images/uploads/affiche2019-web.jpg"
+    "thumbnail": "/images/uploads/affiche_expo_2019_web.jpg"
   }
 }
