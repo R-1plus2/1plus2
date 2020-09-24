@@ -22,29 +22,31 @@
     "images": [
       {
         "image": "/images/uploads/affiche_exposition_2017.jpg",
-        "alt": "Affiche 2017 © Israel Ariño, Le Partages des Eaux, Résidence 1+2 #2017"
+        "alt": "Affiche 2017 © Israel Ariño, Le Partages des Eaux, Résidence 1+2 #2017."
       },
       {
         "image": "/images/uploads/©philippe-guionie_résidence1-2_expo-musée-paul-dupuy_109.jpg",
-        "alt": "© Philippe Guionie, Vue de l'exposition \"Traversé[e]s\", Musée Paul Dupuy, 2017"
+        "alt": "© Philippe Guionie, Vue de l'exposition \"Traversé[e]s\", Musée Paul Dupuy, 2017."
       },
       {
         "image": "/images/uploads/©philippe-guionie_résidence1-2_expo-musée-paul-dupuy_85.jpg",
-        "alt": "© Philippe Guionie, Vue de l'exposition \"Le partage des eaux\" par Israel Ariño, Musée Paul Dupuy, 2017"
+        "alt": "© Philippe Guionie, Vue de l'exposition \"Le partage des eaux\" par Israel Ariño, Musée Paul Dupuy, 2017."
       },
       {
         "image": "/images/uploads/©philippe-guionie_résidence1-2_expo-musée-paul-dupuy_33.jpg",
-        "alt": "© Philippe Guionie, Vue de l'exposition \"Qui sème le vent\" par Lesli Moquin, Musée Paul Dupuy, 2017"
+        "alt": "© Philippe Guionie, Vue de l'exposition \"Qui sème le vent\" par Lesli Moquin, Musée Paul Dupuy, 2017."
       },
       {
         "image": "/images/uploads/©philippe-guionie_résidence1-2_expo-musée-paul-dupuy_44.jpg",
-        "alt": "© Philippe Guionie, Vue de l'exposition \"Carnet de vol\" par Christian Sanna, Musée Paul Dupuy, 2017"
+        "alt": "© Philippe Guionie, Vue de l'exposition \"Carnet de vol\" par Christian Sanna, Musée Paul Dupuy, 2017."
       },
       {
-        "image": "/images/uploads/©philippe-guionie_résidence1-2_expo-musée-paul-dupuy_75.jpg"
+        "image": "/images/uploads/©philippe-guionie_résidence1-2_expo-musée-paul-dupuy_75.jpg",
+        "alt": "© Philippe Guionie, Vue de l'exposition \"Carnet de vol\" par Christian Sanna, Musée Paul Dupuy, 2017."
       },
       {
-        "image": "/images/uploads/©philippe-guionie_résidence1-2_expo-musée-paul-dupuy_05.jpg"
+        "image": "/images/uploads/©philippe-guionie_résidence1-2_expo-musée-paul-dupuy_05.jpg",
+        "alt": "© Philippe Guionie, Vue de l'exposition \"Carnet de vol\" par Christian Sanna, Musée Paul Dupuy, 2017."
       }
     ]
   },
