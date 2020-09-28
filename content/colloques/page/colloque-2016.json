@@ -9,7 +9,7 @@
     "accordeon": [
       {
         "horaire": "8h30",
-        "titre": "OUVERTURE DES PORTES",
+        "titre": "Accueil et projection ",
         "article": [
           {
             "horaire": "8h50",
@@ -17,7 +17,7 @@
           },
           {
             "horaire": "9h < 10h",
-            "information": "**PROJECTION DU FILM DE LA RÉSIDENCE 1+2, #2016**\r\\\n*« Diana, Alice et Lea »*, film documentaire de 26 minutes\r\\\n\nProjection suivie d’une discussion avec **Marjorie Calle** (réalisatrice), **Augustin Charnet** (auteur de\r\nla musique du film) et les trois photographes lauréates (**Diana Lui**, **Alice Lévêque**, **Lea Patrix**).\r\n\nModération : **Dominique Roux**, historien de la photographie, responsable du Centre de documentation\r du Château d’Eau et enseignant à l’ETPA."
+            "information": "**PROJECTION DU FILM DE LA RÉSIDENCE 1+2, #2016**\n\\\n_« Diana, Alice et Lea »_, film documentaire de 26 minutes.\n\nProjection suivie d’une discussion avec **Marjorie Calle** (réalisatrice), **Augustin Charnet** (auteur de\nla musique du film) et les trois photographes lauréates (**Diana Lui**, **Alice Lévêque**, **Lea Patrix**).\n\nModération : **Dominique Roux**, historien de la photographie, responsable du Centre de documentation du Château d’Eau et enseignant à l’ETPA."
           }
         ]
       },
@@ -27,11 +27,11 @@
         "article": [
           {
             "horaire": "10h30 > 12h",
-            "information": "**Projections, rencontres, débats.\r**\\\nEn partenariat avec **Fisheye magazine**\r\n\nModération : **Eric Karsenty**, rédacteur en chef de Fisheye magazine\r.\n\nIntervant.e.s:\n- **Diana Lui**, photographe lauréate de la Résidence 1+2, #2016.\r\n- **Israel Ariño**, photographe\r\n- **Philippe Grollier**, photographe\r\n- **Arno Brignon**, photographe"
+            "information": "**Projections, rencontres, débats.\n**\\\nEn partenariat avec **Fisheye magazine**\n\nModération : **Eric Karsenty**, rédacteur en chef de Fisheye magazine.\n\nIntervant.e.s:\n\n* **Diana Lui**, photographe lauréate de la Résidence 1+2, #2016.\n* **Israel Ariño**, photographe\n* **Philippe Grollier**, photographe\n* **Arno Brignon**, photographe"
           },
           {
             "horaire": "12h > 12h30",
-            "information": "**Rencontre avec chaque photographe de la Résidence 1+2, #2016\r** dans son espace d’exposition"
+            "information": "**Rencontre avec chaque photographe de la Résidence 1+2, #2016 **dans son espace d’exposition."
           }
         ]
       },
@@ -40,7 +40,7 @@
         "titre": "PROGRAMMES ASSOCIÉS À LA RÉSIDENCE 1+2",
         "article": [
           {
-            "information": "**Projections, rencontres, débats.\r**\\\n\nModération : **Dominique Roux**, historien de la photographie, responsable du Centre de documentation\r du Château d’Eau et enseignant à l’ETPA.\r\n\n- La Villa Pérochon (Niort)\r\n- Fotograficasa (Corse)\r\n- Manifesto (Toulouse)\r\n- Circulations (Paris)"
+            "information": "**Projections, rencontres, débats.**\n\nModération : **Dominique Roux**, historien de la photographie, responsable du Centre de documentation du Château d’Eau et enseignant à l’ETPA.\n\n* La Villa Pérochon (Niort)\n* Fotograficasa (Corse)\n* Manifesto (Toulouse)\n* Circulations (Paris)"
           }
         ]
       },
@@ -49,13 +49,13 @@
         "titre": "PHOTOGRAPHIE, PATRIMOINE ET ASTRONOMIE ",
         "article": [
           {
-            "information": "**Projections, rencontres, débats.**\\\r\n\nModération : **Jean-François Haït**, journaliste scientifique.\r\n\n**Projections d’une sélection d’archives télévisuelles de l’Ina**, présentées par **Yves Gaillard** (responsable documentaire, délégation\r Ina Pyrénées, Toulouse). Partenariat 1+2 / Ina Pyrénées."
+            "information": "**Projections, rencontres, débats.**\\\n\nModération : **Jean-François Haït**, journaliste scientifique.\n\n**Projections d’une sélection d’archives télévisuelles de l’Ina**, présentées par **Yves Gaillard** (responsable documentaire, délégation Ina Pyrénées, Toulouse). Partenariat 1+2 / Ina Pyrénées."
           },
           {
-            "information": "**Table ronde autour de la Carte du ciel à Toulouse\r**\n\n- **Évelyne Ugaglia**, conservateur en chef du patrimoine, directrice du Musée Saint-Raymond,\r\nMusée des Antiques de Toulouse et conservatrice de la basilique Saint-Sernin\r\n- **Jean-Noël Pérolle**, vice-président de la Société d’Astronomie Populaire (SAP)\r\n- **Emmanuel Davoust**, spécialiste du patrimoine de l’Observatoire Midi-Pyrénées\r\n- **Pierre Gastou**, chef du service iconothèque et numérisation des archives\r\n- **Diana Lui**, photographe lauréate de la Résidence 1+2, #2016."
+            "information": "**Table ronde autour de la Carte du ciel à Toulouse\n**\n\n* **Évelyne Ugaglia**, conservateur en chef du patrimoine, directrice du Musée Saint-Raymond,\n  Musée des Antiques de Toulouse et conservatrice de la basilique Saint-Sernin\n* **Jean-Noël Pérolle**, vice-président de la Société d’Astronomie Populaire (SAP)\n* **Emmanuel Davoust**, spécialiste du patrimoine de l’Observatoire Midi-Pyrénées\n* **Pierre Gastou**, chef du service iconothèque et numérisation des archives\n* **Diana Lui**, photographe lauréate de la Résidence 1+2, #2016."
           },
           {
-            "information": "**Table ronde autour du robot Curiosity et la planète Mars\r**\n- **Sylvestre Maurice**, astrophysicien à l’Institut de Recherche en Astrophysique et Planétologie,\r\nAstronome (IRAP), planétologue, spécialiste de l’exploration du système solaire\r\n- **Diana Lui**, photographe\r\n- **William Rapin**, doctorant à l’université Paul Sabatier (thèse sur l’hydratation de la surface de\r Mars par le rover Curiosity)"
+            "information": "**Table ronde autour du robot Curiosity et la planète Mars\n**\n\n* **Sylvestre Maurice**, astrophysicien à l’Institut de Recherche en Astrophysique et Planétologie,\n  Astronome (IRAP), planétologue, spécialiste de l’exploration du système solaire\n* **Diana Lui**, photographe\n* **William Rapin**, doctorant à l’université Paul Sabatier (thèse sur l’hydratation de la surface de\n  Mars par le rover Curiosity)"
           }
         ]
       },
