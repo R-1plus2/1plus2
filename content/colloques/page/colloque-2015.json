@@ -9,7 +9,7 @@
     "accordeon": [
       {
         "horaire": "8h30 > 9h30",
-        "titre": "OUVERTURE DES PORTES ",
+        "titre": "Accueil et projection",
         "article": [
           {
             "horaire": "8h50",
@@ -17,7 +17,7 @@
           },
           {
             "horaire": "9h > 9h30",
-            "information": "**VOIR LA RÉSIDENCE\r**\nUne sélection d’archives télévisuelles issues des collections régionales de\r l’Ina. \nProjection présentée par **Chantal Delmont** (responsable documentaire, délégation\r\nIna Pyrénées, Toulouse). Partenariat 1+2 / Ina Pyrénées."
+            "information": "**VOIR LA RÉSIDENCE\n**\nUne sélection d’archives télévisuelles issues des collections régionales de l’Ina. \nProjection présentée par **Chantal Delmont** (responsable documentaire, délégation\nIna Pyrénées, Toulouse). Partenariat 1+2 / Ina Pyrénées."
           }
         ]
       },
@@ -26,11 +26,11 @@
         "titre": "PENSER ET CONSTRUIRE LA RÉSIDENCE ",
         "article": [
           {
-            "information": "Documenter le territoire, quelle photographie pour quels enjeux ?\r\nNeuf directeurs artistiques témoignent et confrontent leurs expériences respectives.\r\nProjections, conférences, débats."
+            "information": "**Documenter le territoire, quelle photographie pour quels enjeux ?**\n_Projections, conférences, débats._"
           },
           {
             "horaire": "9h30 > 12h30",
-            "information": "**Première table ronde : les résidences « historiques »\r**\n\n- **Fred Boucher** (Diaphane, Beauvais)\r\n- **François Cheval** (Musée Nicéphore Nièpce, Chalon-sur-Saône)\r\n- **Patrick Delat** (Villa Pérochon, Niort)\r\n- **Gilles Favier** (ImageSingulières, Sète)\r\n- **Jérôme Sother** (GwinZegal, Guingamp)"
+            "information": "**Première table ronde : les résidences « historiques »\n**\n\n* **Fred Boucher** (Diaphane, Beauvais)\n* **François Cheval** (Musée Nicéphore Nièpce, Chalon-sur-Saône)\n* **Patrick Delat** (Villa Pérochon, Niort)\n* **Gilles Favier** (ImageSingulières, Sète)\n* **Jérôme Sother** (GwinZegal, Guingamp)"
           },
           {
             "horaire": "14h > 15h",
@@ -43,7 +43,7 @@
         "titre": "VIVRE LA RÉSIDENCE ",
         "article": [
           {
-            "information": "_**Quelles expériences pour les photographes ?\r**_\n\nModérations : **Rémi Coignet** (rédacteur en chef de la revue The Eyes) et **Olivia Marsaud**\r (journaliste, critique, commissaire)\n\nTrois photographes témoignent :\r\n- **Mat Jacob** (Tendance Floue, Paris)\r\n- **Ida Jakobs** (Toulouse)\r\n- **Israel Ariño** (Galerie Vu’, Barcelone)\r\n"
+            "information": "_**Quelles expériences pour les photographes ?\n**_\n\nModérations : **Rémi Coignet** (rédacteur en chef de la revue The Eyes) et **Olivia Marsaud** (journaliste, critique, commissaire)\n\nTrois photographes témoignent :\n\n* **Mat Jacob** (Tendance Floue, Paris)\n* **Ida Jakobs** (Toulouse)\n* **Israel Ariño** (Galerie Vu’, Barcelone)"
           }
         ]
       },
@@ -52,7 +52,7 @@
         "titre": "ÉDITER LA RÉSIDENCE ",
         "article": [
           {
-            "information": "Deux éditeurs partagent et confrontent leurs expériences :\r\n- **Fabienne Pavia** (Éditions Le Bec en l’air, Marseille)\r\n- **Fred Boucher** (Editions Diaphane, Beauvais)\r\n\nModérations : **Rémi Coignet** (rédacteur en chef de la revue The Eyes) et **Olivia Marsaud**\r (journaliste, critique, commissaire)."
+            "information": "Deux éditeurs partagent et confrontent leurs expériences :\n\n* **Fabienne Pavia** (Éditions Le Bec en l’air, Marseille)\n* **Fred Boucher** (Editions Diaphane, Beauvais)\n\nModérations : **Rémi Coignet** (rédacteur en chef de la revue The Eyes) et **Olivia Marsaud **(journaliste, critique, commissaire)."
           }
         ]
       },
@@ -61,7 +61,7 @@
         "titre": "LANCEMENT OFFICIEL DE LA RÉSIDENCE 1+2",
         "article": [
           {
-            "information": "**En présence des partenaires et des trois photographes choisis pour l’édition\r\n2016.** \n\n_**Clôture du colloque**_"
+            "information": "**En présence des partenaires et des trois photographes choisis pour l’édition 2016.** \n\n**_Clôture du colloque_**"
           }
         ]
       }
