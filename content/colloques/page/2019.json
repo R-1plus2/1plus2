@@ -39,7 +39,7 @@
           },
           {
             "horaire": "12H00 > 12H30",
-            "information": "Signature du coffret (3 ouvrages, paru aux Éditions Filigranes - textes : Fabien Ribery),\rpar les photographes 2019 Matthieu Gafsou, Matilda Holloway et Manon Lanjouère avec\rPatrick Le Bescont, directeur des Éditions Filigranes."
+            "information": "**Signature du coffret** (3 ouvrages, paru aux Éditions Filigranes - textes :** Fabien Ribery**),\npar les photographes 2019 **Matthieu Gafsou, Matilda Holloway et Manon Lanjouère** avec\n**Patrick Le Bescont**, directeur des Éditions Filigranes."
           }
         ]
       },
@@ -49,7 +49,7 @@
         "article": [
           {
             "horaire": "14H00 > 16h00",
-            "information": "Table ronde modérée par **Eric Karsenty**, rédacteur en chef de Fisheye magazine. \n\n**Programme associé invité : LE FESTIVAL CIRCULATION(S).** Festival de la jeune photographie européenne. Carte blanche donnée pour une projection de jeunes photographes ayant été exposés au festival et dont les travaux sont en lien avec les sciences. Présentation par Emmanuelle Halkin, membre de la direction artistique du festival\n\nIntervenant.e.s :\n**Sylvestre Maurice**, parrain 2019,\n\n**Matilda Holloway**, lauréate de la Résidence 1+2, 2019,\n\n**Cécile Marcelot**, ingénieure d’études CNRS, Centre d’élaboration de matériaux et d’études structurales\n(CEMES – CNRS),\n\n**Manon Lanjouère**, lauréate de la Résidence 1+2, 2019,\n\n**Laurent Joly**, professeur, chef du département Aérodynamique, énergétique et propulsion\nde l’ISAE-SUPAERO.\nQUESTIONS DU PUBLIC"
+            "information": "Table ronde modérée par **Eric Karsenty**, rédacteur en chef de Fisheye magazine. \n\n**Programme associé invité : LE FESTIVAL CIRCULATION(S).** Festival de la jeune photographie européenne. Carte blanche donnée pour une projection de jeunes photographes ayant été exposés au festival et dont les travaux sont en lien avec les sciences. Présentation par Emmanuelle Halkin, membre de la direction artistique du festival\n\nIntervenant.e.s :\n\n* **Sylvestre Maurice**, parrain 2019,\n* **Matilda Holloway**, lauréate de la Résidence 1+2, 2019,\n* **Cécile Marcelot**, ingénieure d’études CNRS, Centre d’élaboration de matériaux et d’études structurales\n  (CEMES – CNRS),\n* **Manon Lanjouère**, lauréate de la Résidence 1+2, 2019,\n* **Laurent Joly**, professeur, chef du département Aérodynamique, énergétique et propulsion\n  de l’ISAE-SUPAERO.\n  QUESTIONS DU PUBLIC"
           }
         ]
       },
@@ -59,7 +59,7 @@
         "article": [
           {
             "horaire": "16H00 > 17H00",
-            "information": "**RÉSIDENCE 1+2 FACTORY À LA CONFLUENCE GARONNE-ARIÈGE (RÉSERVE NATURELLE).\r**\n\nPrésentation du programme par Philippe Guionie. \n\nModération : **Dominique Roux**, enseignant, critique et\rhistorien de la photographie et **Jean-François Haït**, journaliste scientifique indépendant. \n\nIntervenant.e.s :\r\n\n**Adrien-Basse Cathalinat**, lauréat de la Résidence 1+2 Factory 2019,\r\n\n**Mathieu Orth**, conservateur - Nature En Occitanie, Confluence Garonne-Ariège, \n\n**Cloé Harent**, lauréate de la Résidence 1+2 Factory 2019,\n\n**Sabine Monties**, responsable d’exploitation de l’aéroport de Toulouse Francazal, EDEIS\n\n**Fatoumata Tioye Coulibaly**, lauréate de la Résidence 1+2 Hors les murs 2019,\r\n\n**Lydie Gaches**, maire adjointe en charge de la culture et de la communication (Castelnau\rd’Estrétefonds)."
+            "information": "**RÉSIDENCE 1+2 FACTORY À LA CONFLUENCE GARONNE-ARIÈGE (RÉSERVE NATURELLE).\n**\n\nPrésentation du programme par Philippe Guionie. \n\nModération : **Dominique Roux**, enseignant, critique et\nhistorien de la photographie et **Jean-François Haït**, journaliste scientifique indépendant. \n\nIntervenant.e.s :\n\n* **Adrien-Basse Cathalinat**, lauréat de la Résidence 1+2 Factory 2019,\n* **Mathieu Orth**, conservateur - Nature En Occitanie, Confluence Garonne-Ariège, \n* **Cloé Harent**, lauréate de la Résidence 1+2 Factory 2019,\n* **Sabine Monties**, responsable d’exploitation de l’aéroport de Toulouse Francazal, EDEIS\n* **Fatoumata Tioye Coulibaly**, lauréate de la Résidence 1+2 Hors les murs 2019,\n* **Lydie Gaches**, maire adjointe en charge de la culture et de la communication (Castelnau\n  d’Estrétefonds)."
           }
         ]
       },
@@ -68,7 +68,7 @@
         "titre": "PRÉSENTATION DE L’ÉDITION 2020 & CLÔTURE",
         "article": [
           {
-            "information": "Présentation de la marraine ou du parrain 2020 par **Sylvestre Maurice**, parrain 2019.\r \n\nProjection d’archives télévisuelles de l’INA, présentée par **Hélène Bettembourg**, déléguée régionale,\rdélégation INA Pyrénées, Toulouse.\n\nPrésentation du photographe de renom 2020, **Emeric Lhuisset** par Matthieu Gafsou, photographe de \rrenom 2019 et **Philippe Guionie**\n\n**CLÔTURE DU COLLOQUE.**"
+            "information": "Présentation de la marraine ou du parrain 2020 par **Sylvestre Maurice**, parrain 2019.\n\nProjection d’archives télévisuelles de l’INA, présentée par **Hélène Bettembourg**, déléguée régionale,\ndélégation INA Pyrénées, Toulouse.\n\nPrésentation du photographe de renom 2020, **Emeric Lhuisset** par **Matthieu Gafsou**, photographe de \nrenom 2019 et **Philippe Guionie**\n\n**CLÔTURE DU COLLOQUE.**"
           }
         ]
       }
@@ -81,14 +81,6 @@
         "alt": ""
       },
       {
-        "image": "/images/uploads/résidence1-2_colloque_©lucas-bernard_14.jpg",
-        "alt": "©Lucas Bernard"
-      },
-      {
-        "image": "/images/uploads/résidence1-2_colloque_©lucas-bernard_34.jpg",
-        "alt": "©Lucas Bernard"
-      },
-      {
         "image": "/images/uploads/résidence1-2_colloque_©lucas-bernard_57.jpg",
         "alt": "©Lucas Bernard"
       },
@@ -98,14 +90,6 @@
       },
       {
         "image": "/images/uploads/résidence1-2_colloque_©lucas-bernard_73.jpg",
-        "alt": "©Lucas Bernard"
-      },
-      {
-        "image": "/images/uploads/résidence1-2_colloque_©lucas-bernard_79.jpg",
-        "alt": "©Lucas Bernard"
-      },
-      {
-        "image": "/images/uploads/résidence1-2_colloque_©lucas-bernard_86.jpg",
         "alt": "©Lucas Bernard"
       },
       {
