@@ -22,7 +22,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: '1+2 est un programme de création artistique à vocation européenne, ancré à Toulouse, associant la photographie et les sciences.' },
       { 'property': 'og:title', 'content': '1+2 – Photographie & Sciences', 'vmid': 'og:title' },
       { 'property': 'og:description', 'content': '1+2 est un programme de création artistique à vocation européenne, ancré à Toulouse, associant la photographie et les sciences.' },
-      { 'property': 'og:image', 'content': 'images/uploads/link_share.jpg', 'vmid': 'og:image' }
+      { 'property': 'og:image', 'content': 'images/uploads/logof.jpeg', 'vmid': 'og:image' }
     ],
     link: [
       { rel: 'shortcut icon', href: '/favicon.jpg' },
