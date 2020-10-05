@@ -28,7 +28,8 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/coffret_2020_web.jpg"
+        "image": "/images/uploads/coffret_2020_web.jpg",
+        "alt": "© Résidence1+2, coffret Artefacts, 2020."
       },
       {
         "image": "/images/uploads/emeric-couv_web.jpg",
@@ -43,13 +44,16 @@
         "alt": "© Résidence1+2, couverture de l'ouvrage \"Une tentative d'équilibre\", coffret Artefacts, 2020."
       },
       {
-        "image": "/images/uploads/emeric-ouvrage_1.jpg"
+        "image": "/images/uploads/emeric-ouvrage_1.jpg",
+        "alt": "© Émeric Lhuisset, extrait de l'ouvrage \"Le bruit du silence\", coffret Artefacts, 2020."
       },
       {
-        "image": "/images/uploads/coline-ouvrage_1.jpg"
+        "image": "/images/uploads/coline-ouvrage_1.jpg",
+        "alt": "© Coline Jourdan, extrait de l'ouvrage \"Soulever la poussière\", coffret Artefacts, 2020."
       },
       {
-        "image": "/images/uploads/lucia-ouvrage_1.jpg"
+        "image": "/images/uploads/lucia-ouvrage_1.jpg",
+        "alt": "© Lucía Peluffo, extrait de l'ouvrage \"Une tentative d'équilibre\", coffret Artefacts, 2020."
       }
     ]
   },
