@@ -1,0 +1,47 @@
+{
+  "cover": "/images/uploads/emeric-couv_web.jpg",
+  "title": "Le Bruit du Silence",
+  "soustitre": "Émeric Lhuisset",
+  "date": "2020/10/05",
+  "body": {
+    "description": "**AUTEUR:** Émeric Lhuisset\r\n**TEXTES:** Fabien Ribery\n\nFormat: 175 X 250 mm\r\\\nLangues: Français / Anglais\r\\\nTirage: 500 exemplaires\r\\\nISBN: 978-2-35046-520-3\n\n",
+    "commander": [
+      {
+        "linktexte": "COMMANDER",
+        "linklien": "https://www.filigranes.com/livre/12-artefactes/"
+      }
+    ],
+    "content": "**Émeric Lhuisset\r**\n\r\n_Après avoir développé un long travail sur les guerres de l’eau en Iraq et en relation avec son approche géopolitique, Émeric Lhuisset s’est intéressé à l’écologie politique et à la notion d’anthropocène.\r\n« Dans ces luttes contre le réchauffement climatique, nous n’avons plus de nationalité, nous agissons pour le bien commun, parce que nous sommes tous citoyens du monde ».\r\nAllant du local au global, il partira du site de la plus importante catastrophe écologique en France qu’a été AZF et tentera progressivement de construire une iconographie (photographies et vidéos) autour d’un drapeau, comme objet symbole. Un symbole qui est à la fois celui de la planète mais aussi celui de chaque chose autour de nous. Un symbole d’une appartenance, d’une identité commune, celle à un même monde, la terre._\r\n\n**Extraits des textes de Fabien Ribery\r**\n\n_Time is out joint, écrivait dans Hamlet William Shakespeare. Le temps est désaccordé, désarrimé, désajointé, désoeuvré, désorienté. Plus que jamais, l’avenir est incertain, entre catastrophe écosystémique diagnostiqué comme nouvelle disparition des espèces sur une planète Terre rendu exsangue par les ravages de l’extractivisme et du consumérisme de masse (anthropocène), et invention d’une pensée collective inédite, à la hauteur d’un effondrement perçu par chacun._",
+    "savoirplus": [
+      {
+        "linktexte": "COFFRET 2020",
+        "linklien": "https://www.1plus2.fr/editions/artefacts/"
+      },
+      {
+        "linktexte": "RÉSIDENCE 2020",
+        "linklien": "https://www.1plus2.fr/residences/r%C3%A9sidence-2020/"
+      }
+    ],
+    "link": [
+      {
+        "linktexte": "Émeric Lhuisset",
+        "linklien": "http://www.emericlhuisset.com/"
+      },
+      {
+        "linktexte": "Éditions Filigranes",
+        "linklien": "https://www.filigranes.com/"
+      }
+    ]
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/emeric-couv_web.jpg"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "Le Bruit du Silence\nSous titre: Émeric Lhuisset\n2020/10/05\nAUTEUR: Émeric Lhuisset TEXTES: Fabien Ribery\n\nFormat: 175 X 250 mm\nLangues: Français / Anglais\nTirage: 500 exemplaires\nISBN: 978-2-35046-520-3",
+    "thumbnail": "/images/uploads/emeric-couv_web.jpg"
+  }
+}
