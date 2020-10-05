@@ -36,7 +36,24 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/emeric-couv_web.jpg"
+        "image": "/images/uploads/emeric-couv_web.jpg",
+        "alt": "© Émeric Lhuisset, couverture de l'ouvrage \"Le bruit du silence\", coffret Artefacts, 2020."
+      },
+      {
+        "image": "/images/uploads/emeric-1.jpg",
+        "alt": "© Émeric Lhuisset, extrait de l'ouvrage \"Le bruit du silence\", coffret Artefacts, 2020."
+      },
+      {
+        "image": "/images/uploads/emeric-2.jpg",
+        "alt": "© Émeric Lhuisset, extrait de l'ouvrage \"Le bruit du silence\", coffret Artefacts, 2020."
+      },
+      {
+        "image": "/images/uploads/emeric-3.jpg",
+        "alt": "© Émeric Lhuisset, extrait de l'ouvrage \"Le bruit du silence\", coffret Artefacts, 2020."
+      },
+      {
+        "image": "/images/uploads/emeric-4.jpg",
+        "alt": "© Émeric Lhuisset, extrait de l'ouvrage \"Le bruit du silence\", coffret Artefacts, 2020."
       }
     ]
   },
