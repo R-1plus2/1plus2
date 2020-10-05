@@ -36,7 +36,24 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/lucia_couv_web.jpg"
+        "image": "/images/uploads/lucia_couv_web.jpg",
+        "alt": "© Lucía Peluffo, couverture de l'ouvrage \"Une tentative d'équilibre\", coffret Artefacts, 2020."
+      },
+      {
+        "image": "/images/uploads/lucía-1.jpg",
+        "alt": "© Lucía Peluffo, extrait de l'ouvrage \"Une tentative d'équilibre\", coffret Artefacts, 2020."
+      },
+      {
+        "image": "/images/uploads/lucía-2.jpg",
+        "alt": "© Lucía Peluffo, extrait de l'ouvrage \"Une tentative d'équilibre\", coffret Artefacts, 2020."
+      },
+      {
+        "image": "/images/uploads/lucía-3.jpg",
+        "alt": "© Lucía Peluffo, extrait de l'ouvrage \"Une tentative d'équilibre\", coffret Artefacts, 2020."
+      },
+      {
+        "image": "/images/uploads/lucía-4.jpg",
+        "alt": "© Lucía Peluffo, extrait de l'ouvrage \"Une tentative d'équilibre\", coffret Artefacts, 2020."
       }
     ]
   },
