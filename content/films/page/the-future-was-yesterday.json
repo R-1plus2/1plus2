@@ -21,15 +21,16 @@
     "iframe": "<iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/UTJ9QqXFc3I\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
     "images": [
       {
-        "image": "/images/uploads/citizen-jif_sans-bord-blanc.jpg"
+        "image": "/images/uploads/citizen-jif_sans-bord-blanc.jpg",
+        "alt": "Autoportrait © Citizen Jif"
       },
       {
         "image": "/images/uploads/film_2019_01.jpg",
-        "alt": "Extrait du film Futur was yesterday © Residence 1+2 "
+        "alt": "Extrait du film The Future Was Yesterday © Residence 1+2 "
       },
       {
         "image": "/images/uploads/film_2019_05.jpg",
-        "alt": "Extrait du film Futur was yesterday © Residence 1+2 "
+        "alt": "Extrait du film The Future Was Yesterday © Residence 1+2 "
       }
     ]
   },
