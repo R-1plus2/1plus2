@@ -1,0 +1,47 @@
+{
+  "cover": "/images/uploads/coline_couv_web.jpg",
+  "title": "Soulever la poussière",
+  "soustitre": "Coline Jourdan ",
+  "date": "2020/07/15",
+  "body": {
+    "description": "### Édition Filigranes \r\n \r\n**AUTEURE:** Coline Jourdan\\\r\n**TEXTES:** Fabien Ribery\r\n\r\nFormat: 175 X 250 mm\r\\\nLangues: Français / Anglais\r\\\nTirage: 500 exemplaires\r\\\nISBN: 978-2-35046-520-3",
+    "commander": [
+      {
+        "linktexte": "COMMANDER",
+        "linklien": "https://www.filigranes.com/livre/12-artefactes/"
+      }
+    ],
+    "content": "**Coline Jourdan**\r\n\r\n_Lors de sa résidence, Coline Jourdan questionne les rapports subversifs de l’Homme avec son environnement. Les mécanismes de révélation de la photographie, issus de réactions chimiques, sont particulièrement toxiques pour l’environnement. Cependant, parmi ces procédés, l’anthotypie se démarque par l’absence de produit chimique dans son processus. Utilisant les végétaux, l’anthotypie permet la création d’une image non-toxique mais éphémère, qui disparaît à chaque regard. À travers une approche expérimentale de la photographie mêlée à la recherche des sciences du vivant, Coline souhaite questionner la fragilité du paysage dont la disparition est au cœur de l’actualité.\r_\n\r\n**Extraits des textes de Fabien Ribery\r**\n\n_On peut marcher longtemps dans le paysage, s’enchanter d’un cours d’eau, pique-niquer dans la clairière d’un bois, sans se rendre compte que l’endroit, comme beaucoup d’autres désormais, est devenu invivable, qu’il est maléficié. Ce sont des lieux de scandales sanitaires invisibles, fruits pourris de l’exploitation industrielle de la terre et de l’inconséquence humaine. En lui faisant rendre gorge, en lui extorquant sa matière, en la profanant sans aucune conscience de son unité fondamentale, nous lui imposons une détresse bientôt transmise aux promeneurs insouciants se trouvant dans le périmètre de son démembrement._ \r\n",
+    "savoirplus": [
+      {
+        "linktexte": "COFFRET 2020",
+        "linklien": "https://www.1plus2.fr/editions/artefacts/"
+      },
+      {
+        "linktexte": "RÉSIDENCE 2020",
+        "linklien": "https://www.1plus2.fr/residences/r%C3%A9sidence-2020/"
+      }
+    ],
+    "link": [
+      {
+        "linktexte": "Coline Jourdan ",
+        "linklien": "https://www.colinejourdan.com/"
+      },
+      {
+        "linktexte": "Éditions Filigranes ",
+        "linklien": "http://www.filigranes.com"
+      }
+    ]
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/coline_couv_web.jpg"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "Soulever la poussière\nColine Jourdan\n\nÉdition Filigranes\nAUTEURE: Coline Jourdan \nTEXTES: Fabien Ribery\n\nFormat: 175 X 250 mm\nLangues: Français / Anglais\nTirage: 500 exemplaires\nISBN: 978-2-35046-520-3",
+    "thumbnail": "/images/uploads/coline_couv_web.jpg"
+  }
+}
