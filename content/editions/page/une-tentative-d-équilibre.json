@@ -1,0 +1,47 @@
+{
+  "cover": "/images/uploads/lucia_couv_web.jpg",
+  "title": "Une Tentative d'Équilibre",
+  "soustitre": "Lucía Peluffo",
+  "date": "2020/07/17",
+  "body": {
+    "description": "### Édition Filigranes \r\n\n**AUTEURE:** Lucía Peluffo\\\r\n**TEXTES:** Fabien Ribery\r\n\n\r\n\nFormat: 175 X 250 mm\r\\\nLangues: Français / Anglais\r\\\nTirage: 500 exemplaires\r\\\nISBN: 978-2-35046-520-3",
+    "commander": [
+      {
+        "linktexte": "COMMANDER",
+        "linklien": "https://www.filigranes.com/livre/12-artefactes/"
+      }
+    ],
+    "content": "\\*\\*Lucía Peluffo\r\\*\\*\n\n\\_Si dans l’imagerie médicale on tente de trouver l’origine de la douleur qu’on cherche à diagnostiquer, Lucía, elle, cherche à interroger des images qui explorent les causes, les blessures psychiques, les anomalies pour pouvoir entamer une possible cicatrisation. Dans les laboratoires médicaux, la manière de représenter le corps tend vers la construction du concept d’objectivité. Dans le cadre de la Résidence 1+2, et avec l’aide de laboratoires scientifiques, Lucía va chercher à développer une autre forme de représentation, celle d’un langage médical proche d’un langage artistique. En faisant dialoguer le corps physique (le sien) avec l’idée du “corps photographique” et en créant la carte d’un territoire de douleurs, reliant les causes aux effets, la photographe argentine questionnera les protagonistes sur l’observation et l’interprétation d’une image, en mettant l’accent sur la réaction aux anomalies.\r\\_\n\n\r\n\n\\*\\*Extraits des textes de Fabien Ribery\\*\\*\r\n\n_“Ce que l’homme a de plus de profond, c’est la peau” écrivait Paul Valéry dans une formule aussi définitive que paradoxale. \r\n\nParce que la peau n’est pas que frontière, sorte d’interface neutre entre les espaces du dehors et ceux du dedans, mais parce qu’elle est langage fondamental, expression, écriture. On cherche souvent l’âme dans quelque région éthérée de l’être, mais il se pourrait bien qu’elle soit simplement là, tout près de nous, contre nous, en nous, dans la peau que nous pinçons pour nous assurer que nous ne rêvons pas, dans les cellules de notre corps.\r_",
+    "savoirplus": [
+      {
+        "linktexte": "COFFRET 2020",
+        "linklien": "https://www.1plus2.fr/editions/artefacts/"
+      },
+      {
+        "linktexte": "RÉSIDENCE 2020 ",
+        "linklien": "https://www.1plus2.fr/residences/r%C3%A9sidence-2020/"
+      }
+    ],
+    "link": [
+      {
+        "linktexte": "Lucía Peluffo",
+        "linklien": "https://www.lulupeluffo.com/"
+      },
+      {
+        "linktexte": "Éditions Filigranes",
+        "linklien": "https://www.filigranes.com/"
+      }
+    ]
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/lucia_couv_web.jpg"
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "Une Tentative d'Équilibre\nSous titre: Lucía Peluffo\n\nÉdition Filigranes\nAUTEURE: Lucía Peluffo\nTEXTES: Fabien Ribery\n\nFormat: 175 X 250 mm\nLangues: Français / Anglais\nTirage: 500 exemplaires\nISBN: 978-2-35046-520-3",
+    "thumbnail": "/images/uploads/lucia_couv_web.jpg"
+  }
+}
