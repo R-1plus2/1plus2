@@ -36,7 +36,24 @@
   "galeries": {
     "images": [
       {
-        "image": "/images/uploads/coline_couv_web.jpg"
+        "image": "/images/uploads/coline_couv_web.jpg",
+        "alt": "© Coline Jourdan, couverture de l'ouvrage \"Soulever la poussière\", coffret Artefacts, 2020."
+      },
+      {
+        "image": "/images/uploads/coline-1.jpg",
+        "alt": "© Coline Jourdan, extrait de l'ouvrage \"Soulever la poussière\", coffret Artefacts, 2020."
+      },
+      {
+        "image": "/images/uploads/coline-2.jpg",
+        "alt": "© Coline Jourdan, extrait de l'ouvrage \"Soulever la poussière\", coffret Artefacts, 2020."
+      },
+      {
+        "image": "/images/uploads/coline-3.jpg",
+        "alt": "© Coline Jourdan, extrait de l'ouvrage \"Soulever la poussière\", coffret Artefacts, 2020."
+      },
+      {
+        "image": "/images/uploads/coline-4.jpg",
+        "alt": "© Coline Jourdan, extrait de l'ouvrage \"Soulever la poussière\", coffret Artefacts, 2020."
       }
     ]
   },
