@@ -29,6 +29,18 @@
     "images": [
       {
         "image": "/images/uploads/coffret_2020_web.jpg"
+      },
+      {
+        "image": "/images/uploads/emeric-couv_web.jpg",
+        "alt": "© Résidence1+2, couverture de l'ouvrage \"Le bruit du silence\", coffret Artefacts, 2020."
+      },
+      {
+        "image": "/images/uploads/coline_couv_web.jpg",
+        "alt": "© Résidence1+2, couverture de l'ouvrage \"Soulever la poussière\", coffret Artefacts, 2020."
+      },
+      {
+        "image": "/images/uploads/lucia_couv_web.jpg",
+        "alt": "© Résidence1+2, couverture de l'ouvrage \"Une tentative d'équilibre\", coffret Artefacts, 2020."
       }
     ]
   },
