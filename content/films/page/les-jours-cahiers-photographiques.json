@@ -10,31 +10,30 @@
       "readtexte": "RÉSIDENCE 2017",
       "readlien": "https://www.1plus2.fr/residences/r%C3%A9sidence-2017/"
     },
-    "link": [
-      {
-        "linktexte": "Clémentine Carrié",
-        "linklien": "http://www.clementinecarrie.com"
-      }
-    ]
+    "link": []
   },
   "galeries": {
     "iframe": "<iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/83EkKzi8Np4\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
     "images": [
       {
         "image": "/images/uploads/clémentine-carrié©israel-ariño.jpg",
-        "alt": "Portrait de Clémentine Carrié © Israel Ariño, 2017"
+        "alt": "Le portrait de Clémentine Carrié © Israel Ariño, 2017."
       },
       {
-        "image": "/images/uploads/film_2017_03.jpg",
-        "alt": "Extrait du film Les Jours - Cahiers Photographiques © Clémentine Carrié, 2017"
+        "image": "/images/uploads/carrie_web.jpg",
+        "alt": "Extrait du film Les Jours - Cahiers Photographiques © Clémentine Carrié, 2017."
       },
       {
-        "image": "/images/uploads/film-2017-galerie1.jpg",
-        "alt": "Extrait du film Les Jours - Cahiers Photographiques © Clémentine Carrié, 2017"
+        "image": "/images/uploads/carrie_web2.jpg",
+        "alt": "Extrait du film Les Jours - Cahiers Photographiques © Clémentine Carrié, 2017."
       },
       {
-        "image": "/images/uploads/film-lesjours.jpg",
-        "alt": "Extrait du film Les Jours - Cahiers Photographiques © Clémentine Carrié, 2017"
+        "image": "/images/uploads/carrie_web3.jpg",
+        "alt": "Extrait du film Les Jours - Cahiers Photographiques © Clémentine Carrié, 2017."
+      },
+      {
+        "image": "/images/uploads/carrie_web4.jpg",
+        "alt": "Extrait du film Les Jours - Cahiers Photographiques © Clémentine Carrié, 2017."
       }
     ]
   },
