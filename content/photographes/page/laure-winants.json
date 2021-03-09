@@ -21,11 +21,14 @@
       {
         "image": "/images/uploads/laurewinantsweb.jpg",
         "alt": "© Alexandra Colmenares"
+      },
+      {
+        "image": "/images/uploads/cwb_web.jpg"
       }
     ]
   },
   "seo": {
-    "descriptionseo": "Née à Spa (Belgique) en 1991, Laure Winants obtient son\n BA et MA en communication visuelle à l’IHECS Academy\n (Bruxelles) en 2016. Elle se spécialise en arts visuels aux\n Beaux-Arts de Belo Horizonte UFMG au Brésil, et complète\n sa pratique en Belgique, en rentrant à la KASK Koninklijke\n Academie voor Schone Kunsten à Gent (2017-2018).",
+    "descriptionseo": "Née à Spa (Belgique) en 1991, Laure Winants obtient son BA et MA en communication visuelle à l’IHECS Academy (Bruxelles) en 2016. Elle se spécialise en arts visuels aux Beaux-Arts de Belo Horizonte UFMG au Brésil, et complète sa pratique en Belgique, en rentrant à la KASK Koninklijke Academie voor Schone Kunsten à Gent (2017-2018).",
     "thumbnail": "/images/uploads/laurewinantsweb.jpg"
   }
 }
