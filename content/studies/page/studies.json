@@ -1,8 +1,24 @@
 {
   "title": "Studies",
-  "cover": "/images/uploads/©Résidence1+2_2018_01.jpg",
+  "cover": "/images/uploads/_dsf3138web.jpg",
   "galeries": {
     "images": [
+      {
+        "image": "/images/uploads/_dsf3138web.jpg",
+        "alt": "Passeport pour l’art Mairie de Toulouse, école Lakanal. © Résidence 1+2, 2021."
+      },
+      {
+        "image": "/images/uploads/_dsf2012web.jpg",
+        "alt": "Passeport pour l’art Mairie de Toulouse, école Lakanal. © Résidence 1+2, 2021."
+      },
+      {
+        "image": "/images/uploads/_dsf2099web.jpg",
+        "alt": "Passeport pour l’art Mairie de Toulouse, école Lakanal. © Résidence 1+2, 2021."
+      },
+      {
+        "image": "/images/uploads/_dsf2122web.jpg",
+        "alt": "Passeport pour l’art Mairie de Toulouse, école Lakanal. © Résidence 1+2, 2021."
+      },
       {
         "image": "/images/uploads/©Anais-Ondet_2018_01.jpg",
         "alt": "Séance de médiation à la galerie Barrès, octobre 2018. © Anais Ondet, 2018.",
@@ -84,22 +100,6 @@
       {
         "image": "/images/uploads/©résidence1-2_2020_03.gif",
         "alt": "Passeport pour l’art Mairie de Toulouse, école Jean Jaurès © Résidence 1+2, 2020."
-      },
-      {
-        "image": "/images/uploads/_dsf2012web.jpg",
-        "alt": "Passeport pour l’art Mairie de Toulouse, école Lakanal. © Résidence 1+2, 2021."
-      },
-      {
-        "image": "/images/uploads/_dsf2099web.jpg",
-        "alt": "Passeport pour l’art Mairie de Toulouse, école Lakanal. © Résidence 1+2, 2021."
-      },
-      {
-        "image": "/images/uploads/_dsf3138web.jpg",
-        "alt": "Passeport pour l’art Mairie de Toulouse, école Lakanal. © Résidence 1+2, 2021."
-      },
-      {
-        "image": "/images/uploads/_dsf2122web.jpg",
-        "alt": "Passeport pour l’art Mairie de Toulouse, école Lakanal. © Résidence 1+2, 2021."
       }
     ]
   },
