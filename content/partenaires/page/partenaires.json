@@ -2,13 +2,6 @@
   "prograsso": {
     "images": [
       {
-        "image": "/images/uploads/niort.jpg",
-        "alt": "Niort"
-      },
-      {
-        "image": "/images/uploads/treilles.jpg"
-      },
-      {
         "image": "/images/uploads/manifesto_logo_noir.jpg",
         "alt": "Manifesto"
       },
@@ -29,7 +22,8 @@
         "alt": "Capech"
       },
       {
-        "image": "/images/uploads/reveilcreatif.jpg"
+        "image": "/images/uploads/logo_caplweb.jpg",
+        "alt": "Centre d'art et de photographie de Lectoure"
       }
     ]
   },
