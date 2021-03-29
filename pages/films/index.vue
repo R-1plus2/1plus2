@@ -1,7 +1,7 @@
 <template>
   <main class="page-film">
    <div class="intro">
-        <p> 		À chaque édition, la <b>Résidence 1+2</b> invite un.e réalisateur.trice et produit un film de format 26’. 
+        <p> 		À chaque édition, la <b>Résidence 1+2</b> invite un.e cinéaste et produit un film de format 26’. 
         Ce film de création est une «carte blanche» dont le fil rouge est la vie au sein de la Résidence 1+2. 
         Alternant approche documentaire ou fictionnel, il donne à voir les trajectoires convergentes de nos résidents, leurs travaux de recherches, 
         leurs productions, questionnements ou doutes, leur complicité… Grâce à ce support filmique inédit, les spectateurs.trices entrent dans l’intimité du processus de création artistique des deux mois de résidence à Toulouse. Chaque court-métrage est partie prenante de la collection de films de la Résidence 1+2. Il est présenté en ouverture du « Colloque national – Photographie & Sciences » (mi-octobre) puis lors d’un cycle de projections commentées à la Cinémathèque de Toulouse ou lors de festivals de cinéma.
