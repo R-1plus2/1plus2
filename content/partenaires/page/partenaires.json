@@ -91,16 +91,16 @@
         "alt": "CNRS"
       },
       {
-        "image": "/images/uploads/universite-federale.jpg",
-        "alt": "Université Fédérale"
-      },
-      {
         "image": "/images/uploads/wbi_logo_black_officielfr_web_petit.png",
         "alt": "Wallonie-Bruxelles international"
       },
       {
         "image": "/images/uploads/logo-2020.png",
         "alt": "Centre Wallonie-Bruxelles"
+      },
+      {
+        "image": "/images/uploads/universite-federale.jpg",
+        "alt": "Université Fédérale"
       }
     ]
   },
