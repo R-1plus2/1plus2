@@ -1,0 +1,44 @@
+{
+  "cover": "/images/uploads/mlweb_contrebandier.jpg",
+  "title": "MARINE LANIER",
+  "soustitre": "HORS LES MURS #5",
+  "date": "2021/05/11",
+  "body": {
+    "description": "## HORS LES MURS #5 «LES CONTREBANDIERS»\n\n**Engagées dans une réflexion sur la coopération, la mutualisation des moyens, la complémentarité des compétences et savoir-faire, plusieurs structures culturelles de la région Occitanie s'associent (la Résidence 1+2 à Toulouse, le Centre d'art et photographie de Lectoure, Traverse à Bagnères de Bigorre, Le Bus - espace culturel mobile, l’Agence de Développement de l’Economie Culturelle du Couserans et la Communauté de Communes Couserans-Pyrénées) et accompagnent en 2021 et 2022 la photographe Marine Lanier lors de ses différents séjours en Occitanie pour la suite de la série « les contrebandiers ».**\n\nMarine Lanier a réalisé un premier corpus d’images dans les Alpes et le Vercors dans le cadre de la commande photographique nationale du Ministère de la Culture \"Flux, une société en mouvement\", conduite par le Centre national des arts plastiques, en partenariat avec le CRP/ Centre régional de la photographie Hauts-de-France et Diaphane, pôle photographique en Hauts-de-France et avec le soutien du jardin du Lautaret et du département écologie de l’Université de Grenoble. C’est dans les Pyrénées qu’elle souhaite continuer ce projet au long cours « les contrebandiers », une fable documentaire incarnée par des personnages atypiques en immersion dans une nature intemporelle.",
+    "content": "_© L’Ermite, 2020, extrait de la série Les Contrebandiers, 2020._\r\n\n_Les Contrebandiers, “Flux, une société en mouvement”, commande photographique nationale du Ministère de la Culture conduite par le Centre national des arts plastiques, en partenariat avec le CRP/ Centre régional de la photographie Hauts-de-France et Diaphane, pôle photographique en Hauts-de-France. Édité aux éditions Poursuite, accompagné d‘un texte d‘Étienne Hatt, présenté au Quadrilatère à Beauvais durant les Photaumnales. Ce projet a également été réalisé avec le soutien du jardin du Lautaret et du département écologie de l’Université de Grenoble dans le cadre d’une résidence avec l’écrivain américain Dan O’Brien._",
+    "link": [
+      {
+        "linktexte": "Marine Lanier",
+        "linklien": "http://www.marinelanier.com/"
+      },
+      {
+        "linktexte": "Centre d’art et de Photographie de Lectoure",
+        "linklien": "http://centre-photo-lectoure.fr/"
+      },
+      {
+        "linktexte": "Traverse",
+        "linklien": "http://traversiens.com/"
+      },
+      {
+        "linktexte": "Le Bus - espace culturel",
+        "linklien": "http://www.lebus-espaceculturel.com/"
+      },
+      {
+        "linktexte": "Communauté des communes Couserans Pyrénées",
+        "linklien": "https://couserans-pyrenees.fr/poleculture/"
+      }
+    ]
+  },
+  "galeries": {
+    "images": [
+      {
+        "image": "/images/uploads/mlweb_contrebandier.jpg",
+        "alt": "© L’Ermite, 2020, extrait de la série Les Contrebandiers, 2020."
+      }
+    ]
+  },
+  "seo": {
+    "descriptionseo": "Engagées dans une réflexion sur la coopération, la mutualisation des moyens, la complémentarité des compétences et savoir-faire, plusieurs structures culturelles de la région Occitanie s'associent (la Résidence 1+2 à Toulouse, le Centre d'art et photographie de Lectoure, Traverse à Bagnères de Bigorre, Le Bus - espace culturel mobile, l’Agence de Développement de l’Economie Culturelle du Couserans et la Communauté de Communes Couserans-Pyrénées) et accompagnent en 2021 et 2022 la photographe Marine Lanier lors de ses différents séjours en Occitanie pour la suite de la série « les contrebandiers ».",
+    "thumbnail": "/images/uploads/mlweb_contrebandier.jpg"
+  }
+}
